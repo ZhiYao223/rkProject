@@ -1,0 +1,3 @@
+[submodule "libmodbus"]
+	path = libmodbus
+	url = https://github.com/ZhiYao223/libmodbus.git
