@@ -26,6 +26,7 @@
 #include "../ui/ui.h"
 #include "../ui/screens.h"
 #include "../ui/vars.h"
+#include "../ui/actions.h"
 #include "gpio.h"
 
 /*********************
@@ -172,7 +173,7 @@ int main(int argc, char **argv)
   /*Initialize the HAL (display, input devices, tick) for LVGL*/
   hal_init(1024, 768); //1024 和 768 是屏幕的宽度和高度，单位是像素。
 
-  //  只有当 LVGL 配置为不使用操作系统（裸机环境）时，下面的代码才会被编译进来。
+  // 只有当 LVGL 配置为不使用操作系统（裸机环境）时，下面的代码才会被编译进来。
   #if LV_USE_OS == LV_OS_NONE
 
   // lv_demo_widgets();
@@ -233,10 +234,11 @@ int main(int argc, char **argv)
   lv_label_set_text(objects.label_motor_stop, "电机停止时间：");
 
   // Auto Take is DISABLED
-  //lv_obj_set_style_bg_color(objects.btn_mark_took, lv_palette_main(LV_PALETTE_RED), LV_PART_MAIN | LV_STATE_DEFAULT);
+  lv_obj_set_style_bg_color(objects.btn_mark_took, lv_palette_main(LV_PALETTE_RED), LV_PART_MAIN | LV_STATE_DEFAULT);
 
-  load_configs();
+  load_configs(); 
   init_main_label();
+  action_save_setting_func(NULL);
 
   ACES::GPIO::GetInstance().Init();
   ACES::GPIO::GetInstance().SetMotorPower(ACES::MotoPowerState::OFF);
@@ -251,7 +253,6 @@ int main(int argc, char **argv)
     ui_tick();
     usleep(5 * 1000);
   }
-
 
   for(auto i = _g_styles.begin(); i != _g_styles.end(); i++){
     lv_style_reset(*i);

@@ -314,6 +314,7 @@ CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/widgets/win/lv_win.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/widgets/win/lv_win_private.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../main/src/gpio.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../main/src/main.cpp
+CMakeFiles/main.dir/main/src/main.cpp.o: ../main/ui/actions.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../main/ui/eez-flow.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../main/ui/screens.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../main/ui/ui.h

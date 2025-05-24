@@ -2512,14 +2512,6 @@ lv_tileview.h
 lv_win.h
 ../lvgl/src/widgets/win/lv_win.h
 
-/home/zhiyao/rkProject/samplemotor/main/src/gpio.cpp
-chrono
--
-thread
--
-gpio.h
-/home/zhiyao/rkProject/samplemotor/main/src/gpio.h
-
 /home/zhiyao/rkProject/samplemotor/main/src/gpio.h
 gpiod.h
 -
@@ -2561,8 +2553,14 @@ chrono
 /home/zhiyao/rkProject/samplemotor/main/ui/screens.h
 ../ui/vars.h
 /home/zhiyao/rkProject/samplemotor/main/ui/vars.h
+../ui/actions.h
+/home/zhiyao/rkProject/samplemotor/main/ui/actions.h
 gpio.h
 /home/zhiyao/rkProject/samplemotor/main/src/gpio.h
+
+/home/zhiyao/rkProject/samplemotor/main/ui/actions.h
+lvgl/lvgl.h
+-
 
 /home/zhiyao/rkProject/samplemotor/main/ui/eez-flow.h
 lvgl/lvgl.h

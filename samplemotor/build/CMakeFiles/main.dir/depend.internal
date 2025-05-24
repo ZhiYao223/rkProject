@@ -315,6 +315,7 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/widgets/win/lv_win_private.h
  /home/zhiyao/rkProject/samplemotor/main/src/gpio.h
  /home/zhiyao/rkProject/samplemotor/main/src/main.cpp
+ /home/zhiyao/rkProject/samplemotor/main/ui/actions.h
  /home/zhiyao/rkProject/samplemotor/main/ui/eez-flow.h
  /home/zhiyao/rkProject/samplemotor/main/ui/screens.h
  /home/zhiyao/rkProject/samplemotor/main/ui/ui.h
