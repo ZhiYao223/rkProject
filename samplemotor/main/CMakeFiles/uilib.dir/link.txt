@@ -1,0 +1,2 @@
+/usr/bin/ar qc libuilib.a  CMakeFiles/uilib.dir/ui/actions.cpp.o CMakeFiles/uilib.dir/ui/eez-flow.cpp.o CMakeFiles/uilib.dir/ui/images.c.o CMakeFiles/uilib.dir/ui/screens.c.o CMakeFiles/uilib.dir/ui/styles.c.o CMakeFiles/uilib.dir/ui/ui.c.o CMakeFiles/uilib.dir/ui/vars.cpp.o
+/usr/bin/ranlib libuilib.a
