@@ -1,6 +1,6 @@
-[submodule "libmodbus"]
-	path = libmodbus
-	url = https://github.com/stephane/libmodbus.git
 [submodule "lv_port_pc_vscode"]
 	path = lv_port_pc_vscode
 	url = https://github.com/ZhiYao223/lv_port_pc_vscode.git
+[submodule "libmodbus"]
+	path = libmodbus
+	url = https://github.com/stephane/libmodbus.git
