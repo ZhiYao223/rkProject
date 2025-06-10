@@ -7,9 +7,6 @@
 [submodule "samplemotor/eez_rk3566"]
 	path = samplemotor/eez_rk3566
 	url = https://github.com/chikab1/eez_rk3566.git
-# [submodule "samplemotor/FreeRTOS"]
-# 	path = samplemotor/FreeRTOS
-# 	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
 [submodule "samplemotor/FreeRTOS"]
 	path = samplemotor/FreeRTOS
 	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
