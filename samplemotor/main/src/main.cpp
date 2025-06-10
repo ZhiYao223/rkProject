@@ -22,6 +22,7 @@
 #include <memory>
 #include <thread>
 #include <chrono>
+#include <SDL2/SDL.h>
 
 #include "../ui/ui.h"
 #include "../ui/screens.h"
@@ -178,7 +179,30 @@ int main(int argc, char **argv)
 
   // lv_demo_widgets();
   ui_init();
+#if 0
+  lv_obj_add_style(objects.label_btn_left1, style28, 0);
+  lv_label_set_text(objects.label_btn_left1, "环境");
 
+  lv_obj_add_style(objects.label_btn_left2, style28, 0);
+  lv_label_set_text(objects.label_btn_left2, "温度");
+
+  lv_obj_add_style(objects.label_btn_left3, style28, 0);
+  lv_label_set_text(objects.label_btn_left3, "湿度");
+
+  lv_obj_add_style(objects.label_btn_left4, style28, 0);
+  lv_label_set_text(objects.label_btn_left4, "气压");
+
+  lv_obj_add_style(objects.label_manual_take_time_cw, style28, 0);
+  lv_label_set_text(objects.label_manual_take_time_cw, "手动取灰(正转)");
+
+  lv_obj_add_style(objects.label_btn_mark_take_cw, style28, 0);
+  lv_label_set_text(objects.label_btn_mark_take_cw, "自动取灰");
+
+  lv_obj_add_style(objects.label_btn_save_setting, style28, 0);
+  lv_label_set_text(objects.label_btn_save_setting, "保存配置");
+
+#endif
+#if 0
   lv_obj_add_style(objects.main_label, style56, 0);
   lv_label_set_text(objects.main_label, "电机停止状态(RK3566控制)");
 
@@ -236,10 +260,10 @@ int main(int argc, char **argv)
   // Auto Take is DISABLED
   lv_obj_set_style_bg_color(objects.btn_mark_took, lv_palette_main(LV_PALETTE_RED), LV_PART_MAIN | LV_STATE_DEFAULT);
 
-  load_configs(); 
+  load_configs();
   init_main_label();
   action_save_setting_func(NULL);
-
+#endif
   ACES::GPIO::GetInstance().Init();
   ACES::GPIO::GetInstance().SetMotorPower(ACES::MotoPowerState::OFF);
 
@@ -256,7 +280,7 @@ int main(int argc, char **argv)
 
   for(auto i = _g_styles.begin(); i != _g_styles.end(); i++){
     lv_style_reset(*i);
-    delete *i;
+    //delete *i;
   }
 
   for(auto i = _g_fonts.begin(); i != _g_fonts.end(); i++){
@@ -285,10 +309,14 @@ int main(int argc, char **argv)
  */
 static lv_display_t * hal_init(int32_t w, int32_t h)
 {
+  //设置 SDL 窗口为“非全屏 + 有边框 + 允许被窗口管理器控制”
+  SDL_SetHint(SDL_HINT_VIDEO_X11_NET_WM_BYPASS_COMPOSITOR, "0");
+  SDL_SetHint(SDL_HINT_VIDEO_ALLOW_SCREENSAVER, "1");
+
   // 创建一个默认的输入组，用于键盘/鼠标聚焦管理
   lv_group_set_default(lv_group_create());
   // 使用 SDL 创建一个 LVGL 显示窗口，分辨率为 w * h, 1024 * 768
-  lv_display_t * disp = lv_sdl_window_create(w, h);
+  lv_display_t * disp = lv_sdl_window_create(w, h);   //  创建 LVGL 显示窗口（此时是窗口模式，而不是霸屏）
   // 创建鼠标输入设备
   lv_indev_t * mouse = lv_sdl_mouse_create();
   // 将鼠标设备绑定到默认输入组
@@ -315,5 +343,6 @@ static lv_display_t * hal_init(int32_t w, int32_t h)
   lv_indev_set_display(kb, disp);
   lv_indev_set_group(kb, lv_group_get_default());
   // 返回显示器对象
+
   return disp;
 }

@@ -7,12 +7,11 @@
 extern "C" {
 #endif
 
-extern void action_save_setting_func(lv_event_t * e);
-extern void action_manual_take(lv_event_t * e);
-extern void action_took_mark(lv_event_t * e);
-extern void action_manual_take_ccw(lv_event_t * e);
-
-
+extern void action_save_sample_setting(lv_event_t * e);
+extern void action_save_shift_setting(lv_event_t * e);
+extern void action_save_communicate_setting(lv_event_t * e);
+extern void action_btn_motor_stop(lv_event_t * e);
+extern void thread_auto_take(void);
 #ifdef __cplusplus
 }
 #endif

@@ -69,8 +69,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../"
   "/usr/include/SDL2"
   "/usr/include/freetype2"
-  "../lvgl/src/libs/thorvg"
   "../lvgl"
+  "../lvgl/src/libs/thorvg"
   "lvgl"
   )
 

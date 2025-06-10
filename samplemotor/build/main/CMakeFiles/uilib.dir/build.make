@@ -57,18 +57,18 @@ include main/CMakeFiles/uilib.dir/progress.make
 # Include the compile flags for this target's objects.
 include main/CMakeFiles/uilib.dir/flags.make
 
-main/CMakeFiles/uilib.dir/ui/actions.cpp.o: main/CMakeFiles/uilib.dir/flags.make
-main/CMakeFiles/uilib.dir/ui/actions.cpp.o: ../main/ui/actions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object main/CMakeFiles/uilib.dir/ui/actions.cpp.o"
-	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uilib.dir/ui/actions.cpp.o -c /home/zhiyao/rkProject/samplemotor/main/ui/actions.cpp
+main/CMakeFiles/uilib.dir/ui/action.cpp.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/action.cpp.o: ../main/ui/action.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object main/CMakeFiles/uilib.dir/ui/action.cpp.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uilib.dir/ui/action.cpp.o -c /home/zhiyao/rkProject/samplemotor/main/ui/action.cpp
 
-main/CMakeFiles/uilib.dir/ui/actions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uilib.dir/ui/actions.cpp.i"
-	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/actions.cpp > CMakeFiles/uilib.dir/ui/actions.cpp.i
+main/CMakeFiles/uilib.dir/ui/action.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uilib.dir/ui/action.cpp.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/action.cpp > CMakeFiles/uilib.dir/ui/action.cpp.i
 
-main/CMakeFiles/uilib.dir/ui/actions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uilib.dir/ui/actions.cpp.s"
-	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/actions.cpp -o CMakeFiles/uilib.dir/ui/actions.cpp.s
+main/CMakeFiles/uilib.dir/ui/action.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uilib.dir/ui/action.cpp.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/action.cpp -o CMakeFiles/uilib.dir/ui/action.cpp.s
 
 main/CMakeFiles/uilib.dir/ui/eez-flow.cpp.o: main/CMakeFiles/uilib.dir/flags.make
 main/CMakeFiles/uilib.dir/ui/eez-flow.cpp.o: ../main/ui/eez-flow.cpp
@@ -135,9 +135,347 @@ main/CMakeFiles/uilib.dir/ui/ui.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui.c -o CMakeFiles/uilib.dir/ui/ui.c.s
 
+main/CMakeFiles/uilib.dir/ui/ui_font_14.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_14.c.o: ../main/ui/ui_font_14.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_14.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_14.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_14.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_14.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_14.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_14.c > CMakeFiles/uilib.dir/ui/ui_font_14.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_14.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_14.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_14.c -o CMakeFiles/uilib.dir/ui/ui_font_14.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_16.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_16.c.o: ../main/ui/ui_font_16.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_16.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_16.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_16.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_16.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_16.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_16.c > CMakeFiles/uilib.dir/ui/ui_font_16.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_16.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_16.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_16.c -o CMakeFiles/uilib.dir/ui/ui_font_16.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_18.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_18.c.o: ../main/ui/ui_font_18.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_18.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_18.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_18.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_18.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_18.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_18.c > CMakeFiles/uilib.dir/ui/ui_font_18.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_18.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_18.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_18.c -o CMakeFiles/uilib.dir/ui/ui_font_18.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_20.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_20.c.o: ../main/ui/ui_font_20.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_20.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_20.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_20.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_20.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_20.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_20.c > CMakeFiles/uilib.dir/ui/ui_font_20.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_20.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_20.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_20.c -o CMakeFiles/uilib.dir/ui/ui_font_20.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_22.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_22.c.o: ../main/ui/ui_font_22.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_22.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_22.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_22.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_22.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_22.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_22.c > CMakeFiles/uilib.dir/ui/ui_font_22.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_22.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_22.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_22.c -o CMakeFiles/uilib.dir/ui/ui_font_22.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_24.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_24.c.o: ../main/ui/ui_font_24.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_24.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_24.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_24.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_24.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_24.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_24.c > CMakeFiles/uilib.dir/ui/ui_font_24.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_24.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_24.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_24.c -o CMakeFiles/uilib.dir/ui/ui_font_24.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_26.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_26.c.o: ../main/ui/ui_font_26.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_26.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_26.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_26.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_26.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_26.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_26.c > CMakeFiles/uilib.dir/ui/ui_font_26.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_26.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_26.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_26.c -o CMakeFiles/uilib.dir/ui/ui_font_26.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_28.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_28.c.o: ../main/ui/ui_font_28.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_28.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_28.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_28.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_28.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_28.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_28.c > CMakeFiles/uilib.dir/ui/ui_font_28.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_28.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_28.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_28.c -o CMakeFiles/uilib.dir/ui/ui_font_28.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_30.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_30.c.o: ../main/ui/ui_font_30.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_30.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_30.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_30.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_30.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_30.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_30.c > CMakeFiles/uilib.dir/ui/ui_font_30.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_30.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_30.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_30.c -o CMakeFiles/uilib.dir/ui/ui_font_30.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_32.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_32.c.o: ../main/ui/ui_font_32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_32.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_32.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_32.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_32.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_32.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_32.c > CMakeFiles/uilib.dir/ui/ui_font_32.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_32.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_32.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_32.c -o CMakeFiles/uilib.dir/ui/ui_font_32.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_34.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_34.c.o: ../main/ui/ui_font_34.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_34.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_34.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_34.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_34.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_34.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_34.c > CMakeFiles/uilib.dir/ui/ui_font_34.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_34.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_34.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_34.c -o CMakeFiles/uilib.dir/ui/ui_font_34.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_font_36.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_font_36.c.o: ../main/ui/ui_font_36.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object main/CMakeFiles/uilib.dir/ui/ui_font_36.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_font_36.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_36.c
+
+main/CMakeFiles/uilib.dir/ui/ui_font_36.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_font_36.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_36.c > CMakeFiles/uilib.dir/ui/ui_font_36.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_font_36.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_font_36.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_font_36.c -o CMakeFiles/uilib.dir/ui/ui_font_36.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_b5.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_b5.c.o: ../main/ui/ui_image_b5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_b5.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_b5.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_b5.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_b5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_b5.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_b5.c > CMakeFiles/uilib.dir/ui/ui_image_b5.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_b5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_b5.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_b5.c -o CMakeFiles/uilib.dir/ui/ui_image_b5.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.o: ../main/ui/ui_image_backgraound.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_backgraound.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_backgraound.c > CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_backgraound.c -o CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.o: ../main/ui/ui_image_backgraound1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_backgraound1.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_backgraound1.c > CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_backgraound1.c -o CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_bar.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_bar.c.o: ../main/ui/ui_image_bar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_bar.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_bar.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_bar.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_bar.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_bar.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_bar.c > CMakeFiles/uilib.dir/ui/ui_image_bar.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_bar.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_bar.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_bar.c -o CMakeFiles/uilib.dir/ui/ui_image_bar.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel.c.o: ../main/ui/ui_image_barrel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_barrel.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_barrel.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_barrel.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_barrel.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_barrel.c > CMakeFiles/uilib.dir/ui/ui_image_barrel.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_barrel.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_barrel.c -o CMakeFiles/uilib.dir/ui/ui_image_barrel.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.o: ../main/ui/ui_image_barrel_empty.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_barrel_empty.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_barrel_empty.c > CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_barrel_empty.c -o CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.o: ../main/ui/ui_image_barrel_full.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_barrel_full.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_barrel_full.c > CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_barrel_full.c -o CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.o: ../main/ui/ui_image_calendar_symbol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_calendar_symbol.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_calendar_symbol.c > CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_calendar_symbol.c -o CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_home.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_home.c.o: ../main/ui/ui_image_home.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_home.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_home.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_home.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_home.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_home.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_home.c > CMakeFiles/uilib.dir/ui/ui_image_home.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_home.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_home.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_home.c -o CMakeFiles/uilib.dir/ui/ui_image_home.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_net.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_net.c.o: ../main/ui/ui_image_net.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_net.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_net.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_net.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_net.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_net.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_net.c > CMakeFiles/uilib.dir/ui/ui_image_net.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_net.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_net.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_net.c -o CMakeFiles/uilib.dir/ui/ui_image_net.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_setting1.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_setting1.c.o: ../main/ui/ui_image_setting1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_setting1.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_setting1.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_setting1.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_setting1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_setting1.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_setting1.c > CMakeFiles/uilib.dir/ui/ui_image_setting1.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_setting1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_setting1.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_setting1.c -o CMakeFiles/uilib.dir/ui/ui_image_setting1.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_setting7.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_setting7.c.o: ../main/ui/ui_image_setting7.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_setting7.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_setting7.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_setting7.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_setting7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_setting7.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_setting7.c > CMakeFiles/uilib.dir/ui/ui_image_setting7.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_setting7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_setting7.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_setting7.c -o CMakeFiles/uilib.dir/ui/ui_image_setting7.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.o: ../main/ui/ui_image_warning_background.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_warning_background.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_warning_background.c > CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_warning_background.c -o CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.s
+
+main/CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.o: ../main/ui/ui_image_warning_icon.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object main/CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.o   -c /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_warning_icon.c
+
+main/CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_warning_icon.c > CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.i
+
+main/CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/main/ui/ui_image_warning_icon.c -o CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.s
+
 main/CMakeFiles/uilib.dir/ui/vars.cpp.o: main/CMakeFiles/uilib.dir/flags.make
 main/CMakeFiles/uilib.dir/ui/vars.cpp.o: ../main/ui/vars.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object main/CMakeFiles/uilib.dir/ui/vars.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object main/CMakeFiles/uilib.dir/ui/vars.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uilib.dir/ui/vars.cpp.o -c /home/zhiyao/rkProject/samplemotor/main/ui/vars.cpp
 
 main/CMakeFiles/uilib.dir/ui/vars.cpp.i: cmake_force
@@ -150,27 +488,79 @@ main/CMakeFiles/uilib.dir/ui/vars.cpp.s: cmake_force
 
 # Object files for target uilib
 uilib_OBJECTS = \
-"CMakeFiles/uilib.dir/ui/actions.cpp.o" \
+"CMakeFiles/uilib.dir/ui/action.cpp.o" \
 "CMakeFiles/uilib.dir/ui/eez-flow.cpp.o" \
 "CMakeFiles/uilib.dir/ui/images.c.o" \
 "CMakeFiles/uilib.dir/ui/screens.c.o" \
 "CMakeFiles/uilib.dir/ui/styles.c.o" \
 "CMakeFiles/uilib.dir/ui/ui.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_14.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_16.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_18.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_20.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_22.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_24.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_26.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_28.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_30.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_32.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_34.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_font_36.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_b5.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_bar.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_barrel.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_home.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_net.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_setting1.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_setting7.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.o" \
+"CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.o" \
 "CMakeFiles/uilib.dir/ui/vars.cpp.o"
 
 # External object files for target uilib
 uilib_EXTERNAL_OBJECTS =
 
-main/libuilib.a: main/CMakeFiles/uilib.dir/ui/actions.cpp.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/action.cpp.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/ui/eez-flow.cpp.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/ui/images.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/ui/screens.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/ui/styles.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_14.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_16.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_18.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_20.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_22.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_24.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_26.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_28.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_30.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_32.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_34.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_font_36.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_b5.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_backgraound.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_backgraound1.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_bar.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_barrel.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_barrel_empty.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_barrel_full.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_calendar_symbol.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_home.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_net.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_setting1.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_setting7.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_warning_background.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/ui/ui_image_warning_icon.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/ui/vars.cpp.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/build.make
 main/libuilib.a: main/CMakeFiles/uilib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libuilib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX static library libuilib.a"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && $(CMAKE_COMMAND) -P CMakeFiles/uilib.dir/cmake_clean_target.cmake
 	cd /home/zhiyao/rkProject/samplemotor/build/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uilib.dir/link.txt --verbose=$(VERBOSE)
 

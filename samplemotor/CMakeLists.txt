@@ -37,6 +37,7 @@ endif()
 
 # Main include files of the project
 include_directories(${PROJECT_SOURCE_DIR}/main/inc)
+include_directories(${PROJECT_SOURCE_DIR}/lvgl)
 include_directories(${PROJECT_SOURCE_DIR}/main/ui)
 
 # Define options for LVGL with default values (OFF)

@@ -7314,6 +7314,8 @@ lv_freetype.h
 ft2build.h
 /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/ft2build.h
 
+/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/fsdrv/lv_fs_cbfs.c
+
 /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/fsdrv/lv_fs_fatfs.c
 ../../../lvgl.h
 /home/zhiyao/rkProject/samplemotor/lvgl/lvgl.h
@@ -8533,6 +8535,8 @@ lv_style.h
 /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_style_private.h
 lv_style.h
 /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_style.h
+
+/home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_templ.c
 
 /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_text.c
 lv_text_private.h
@@ -10551,6 +10555,8 @@ lv_msgbox.h
 /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/msgbox/lv_msgbox.h
 ../../core/lv_obj_private.h
 /home/zhiyao/rkProject/samplemotor/lvgl/src/core/lv_obj_private.h
+
+/home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/objx_templ/lv_objx_templ.c
 
 /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_animimage_properties.c
 ../animimage/lv_animimage.h

@@ -11,17 +11,21 @@ namespace ACES{
 
     GPIO::~GPIO()
     {
+        // 析构函数，释放所有打开的 GPIO 线和芯片资源，防止内存泄漏。
         if (_lines.size() > 0){
+            // 遍历 _lines 容器，释放每个 GPIO 线资源。
             for (auto i = _lines.begin(); i != _lines.end(); i++)
             {
-                gpiod_line_release(i->second);
+                gpiod_line_release(i->second); // 释放每个 GPIO 线
             }
         }
-
+        // 遍历 _chips 容器，释放每个 GPIO 芯片资源。
+        /*这里的 _chips 是一个 std::list，存储了所有打开的 GPIO 芯片。每个芯片对应一个 /dev/gpiochip* 设备文件。
+          这样可以避免资源泄漏，确保系统资源得到合理利用。*/
         if (!_chips.empty()){
             for (auto i = _chips.begin(); i != _chips.end(); i++)
             {
-                gpiod_chip_close(*i);
+                gpiod_chip_close(*i); // 关闭每个芯片,确保在程序结束时，所有打开的 GPIO 资源都被正确释放。。
             }
         }
     }
@@ -29,28 +33,27 @@ namespace ACES{
     bool GPIO::Init()
     {
         // 初始化3个指针，分别用于代表 GPIO 芯片和两个控制引脚。
-        struct gpiod_chip* gpiochip1 = 0;           // gpiochip1 芯片
-        struct gpiod_line* powerLine = 0;           // GPIO1_A4
-        struct gpiod_line* directionLine = 0;       // GPIO1_B0
-
+        struct gpiod_chip* gpiochip1 = nullptr;           // gpiochip1 芯片
+        struct gpiod_line* powerLine = nullptr;           // 代表 GPIO 控制器中的一个具体引脚 GPIO1_A4
+        struct gpiod_line* directionLine = nullptr;       // 代表 GPIO 控制器中的一个具体引脚 GPIO1_B0
+        
         try{
             // NET_STATUS
             // 打开一个 GPIO 芯片（类似 /dev/gpiochip1），失败则抛出异常。
             gpiochip1 = gpiod_chip_open_by_name("gpiochip1");
-            if (0 == gpiochip1){
-                throw new std::runtime_error("Failed to open gpiochip1");
+            if (gpiochip1 == nullptr){
+                throw std::runtime_error("Failed to open gpiochip1");
             }
             // 获取编号为 4 的 GPIO 引脚，对应于 GPIO1_A4，用于控制电源开关。 A4端口 -> 4 = (0*8 + 4)
             powerLine = gpiod_chip_get_line(gpiochip1, 4);  // GPIO1_A4
-            if (0 == powerLine){
-                throw new std::runtime_error("Failed to get power line");
+            if (powerLine == nullptr){
+                throw std::runtime_error("Failed to get power line");
             }
             // 获取编号为 8 的 GPIO 引脚，对应于 GPIO1_B0，用于控制电机方向。B0端口 -> 8 = (1*8 + 0)
-            directionLine = gpiod_chip_get_line(gpiochip1, 8);  // GPIO1_B0
-            if (0 == directionLine){
-                throw new std::runtime_error("Failed to get direction line");
+            directionLine = gpiod_chip_get_line(gpiochip1, 8);  // GPIO1_B0s
+            if (directionLine == nullptr){
+                throw std::runtime_error("Failed to get direction line");
             }
-
             // 配置两个 GPIO 引脚为输出模式，并设置初始值:
             // 电源线：设为关闭（OFF = 0）
             gpiod_line_request_output(powerLine, "powerLine", static_cast<uint8_t>(MotoPowerState::OFF));

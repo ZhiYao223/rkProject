@@ -3,6 +3,7 @@
         "lv_examples.h": "c",
         "lv_demos.h": "c",
         "modbus.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "stdexcept": "cpp"
     }
 }

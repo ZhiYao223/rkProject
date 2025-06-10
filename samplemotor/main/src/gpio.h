@@ -1,7 +1,6 @@
 #pragma once
 
 #include <gpiod.h>
-
 #include <stdio.h>
 #include <stdbool.h>
 #include <unistd.h>
@@ -44,10 +43,9 @@ namespace ACES{
         bool _inProgress;
 
     public:
-        bool Init();
+        bool Init();                                               // 初始化
         void SetMotorPower(MotoPowerState state);                  // 控制电机是否供电
         void SetMotorDirection(MotorDirection direction);          // 控制电机转动方向
-
         bool RunCW(uint32_t seconds);                              // 电机顺时针运行seconds秒
         bool RunCCW(uint32_t seconds);                             // 电机逆时针运行seconds秒
     };

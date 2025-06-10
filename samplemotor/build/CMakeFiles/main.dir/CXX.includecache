@@ -2547,6 +2547,8 @@ thread
 -
 chrono
 -
+SDL2/SDL.h
+-
 ../ui/ui.h
 /home/zhiyao/rkProject/samplemotor/main/ui/ui.h
 ../ui/screens.h
@@ -2563,10 +2565,14 @@ lvgl/lvgl.h
 -
 
 /home/zhiyao/rkProject/samplemotor/main/ui/eez-flow.h
-lvgl/lvgl.h
+lvgl.h
 -
+lvgl_private.h
+/home/zhiyao/rkProject/samplemotor/main/ui/lvgl_private.h
+src/lvgl_private.h
+/home/zhiyao/rkProject/samplemotor/main/ui/src/lvgl_private.h
 lvgl/src/lvgl_private.h
--
+/home/zhiyao/rkProject/samplemotor/main/ui/lvgl/src/lvgl_private.h
 eez-framework-conf.h
 /home/zhiyao/rkProject/samplemotor/main/ui/eez-framework-conf.h
 Arduino.h
@@ -2625,11 +2631,11 @@ stdint.h
 -
 
 /home/zhiyao/rkProject/samplemotor/main/ui/screens.h
-lvgl/lvgl.h
+lvgl.h
 -
 
 /home/zhiyao/rkProject/samplemotor/main/ui/ui.h
-lvgl/lvgl.h
+lvgl.h
 -
 eez-flow.h
 /home/zhiyao/rkProject/samplemotor/main/ui/eez-flow.h
