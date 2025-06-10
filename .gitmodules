@@ -4,9 +4,6 @@
 [submodule "libmodbus"]
 	path = libmodbus
 	url = https://github.com/stephane/libmodbus.git
-[submodule "eez_rk3566"]
-	path = eez_rk3566
-	url = https://github.com/chikab1/eez_rk3566.git
 [submodule "samplemotor/eez_rk3566"]
 	path = samplemotor/eez_rk3566
 	url = https://github.com/chikab1/eez_rk3566.git
