@@ -207,6 +207,8 @@ static bool bMotoInUse = false;
 
 static bool bInTakeCW = false;      
 static bool bQuitThreadCW = false;  
+
+
 // 手动取样按钮的回调函数 
 void action_manual_collect(lv_event_t * e){
     if (!bInTakeCW){
