@@ -7,11 +7,11 @@ C_FLAGS =  -march=native   -std=gnu99
 
 C_DEFINES = -DLV_USE_LIBPNG=1
 
-C_INCLUDES = -I/home/zhiyao/rkProject/samplemotor/main/inc -I/home/zhiyao/rkProject/samplemotor/lvgl -I/home/zhiyao/rkProject/samplemotor/main/ui -I/home/zhiyao/rkProject/samplemotor 
+C_INCLUDES = -I/home/zhiyao/rkProject/samplemotor/main/inc -I/home/zhiyao/rkProject/samplemotor/lvgl -I/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui -I/home/zhiyao/rkProject/samplemotor 
 
 CXX_FLAGS =  -march=native   -std=gnu++17
 
 CXX_DEFINES = -DLV_USE_LIBPNG=1
 
-CXX_INCLUDES = -I/home/zhiyao/rkProject/samplemotor/main/inc -I/home/zhiyao/rkProject/samplemotor/lvgl -I/home/zhiyao/rkProject/samplemotor/main/ui -I/home/zhiyao/rkProject/samplemotor 
+CXX_INCLUDES = -I/home/zhiyao/rkProject/samplemotor/main/inc -I/home/zhiyao/rkProject/samplemotor/lvgl -I/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui -I/home/zhiyao/rkProject/samplemotor 
 

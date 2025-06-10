@@ -313,10 +313,10 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/widgets/tileview/lv_tileview_private.h
  ../lvgl/src/widgets/win/lv_win.h
  ../lvgl/src/widgets/win/lv_win_private.h
+ /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/actions.h
+ /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/eez-flow.h
+ /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/screens.h
+ /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui.h
+ /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/vars.h
  /home/zhiyao/rkProject/samplemotor/main/src/gpio.h
  /home/zhiyao/rkProject/samplemotor/main/src/main.cpp
- /home/zhiyao/rkProject/samplemotor/main/ui/actions.h
- /home/zhiyao/rkProject/samplemotor/main/ui/eez-flow.h
- /home/zhiyao/rkProject/samplemotor/main/ui/screens.h
- /home/zhiyao/rkProject/samplemotor/main/ui/ui.h
- /home/zhiyao/rkProject/samplemotor/main/ui/vars.h

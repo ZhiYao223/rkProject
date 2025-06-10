@@ -7,11 +7,11 @@ ASM_FLAGS =
 
 ASM_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DLV_USE_LIBPNG=1
 
-ASM_INCLUDES = -I/home/zhiyao/rkProject/samplemotor/main/inc -I/home/zhiyao/rkProject/samplemotor/main/ui -I/home/zhiyao/rkProject/samplemotor -I/usr/include/SDL2 -I/usr/include -I/usr/include/freetype2 -isystem /home/zhiyao/rkProject/samplemotor/lvgl -isystem /home/zhiyao/rkProject/samplemotor/build/lvgl 
+ASM_INCLUDES = -I/home/zhiyao/rkProject/samplemotor/main/inc -I/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui -I/home/zhiyao/rkProject/samplemotor -I/usr/include/SDL2 -I/usr/include -I/usr/include/freetype2 -isystem /home/zhiyao/rkProject/samplemotor/lvgl -isystem /home/zhiyao/rkProject/samplemotor/build/lvgl 
 
 C_FLAGS =  -march=native   -std=gnu99
 
 C_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DLV_USE_LIBPNG=1
 
-C_INCLUDES = -I/home/zhiyao/rkProject/samplemotor/main/inc -I/home/zhiyao/rkProject/samplemotor/main/ui -I/home/zhiyao/rkProject/samplemotor -I/usr/include/SDL2 -I/usr/include/freetype2 -isystem /home/zhiyao/rkProject/samplemotor/lvgl -isystem /home/zhiyao/rkProject/samplemotor/build/lvgl 
+C_INCLUDES = -I/home/zhiyao/rkProject/samplemotor/main/inc -I/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui -I/home/zhiyao/rkProject/samplemotor -I/usr/include/SDL2 -I/usr/include/freetype2 -isystem /home/zhiyao/rkProject/samplemotor/lvgl -isystem /home/zhiyao/rkProject/samplemotor/build/lvgl 
 

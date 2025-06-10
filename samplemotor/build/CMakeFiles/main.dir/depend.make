@@ -312,11 +312,11 @@ CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/widgets/tileview/lv_tilevie
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/widgets/tileview/lv_tileview_private.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/widgets/win/lv_win.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/widgets/win/lv_win_private.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/actions.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/eez-flow.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/screens.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/ui.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/vars.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../main/src/gpio.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../main/src/main.cpp
-CMakeFiles/main.dir/main/src/main.cpp.o: ../main/ui/actions.h
-CMakeFiles/main.dir/main/src/main.cpp.o: ../main/ui/eez-flow.h
-CMakeFiles/main.dir/main/src/main.cpp.o: ../main/ui/screens.h
-CMakeFiles/main.dir/main/src/main.cpp.o: ../main/ui/ui.h
-CMakeFiles/main.dir/main/src/main.cpp.o: ../main/ui/vars.h
 

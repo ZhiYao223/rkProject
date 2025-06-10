@@ -24,10 +24,10 @@
 #include <chrono>
 #include <SDL2/SDL.h>
 
-#include "../ui/ui.h"
-#include "../ui/screens.h"
-#include "../ui/vars.h"
-#include "../ui/actions.h"
+#include "../../eez_rk3566/ui/ui.h"
+#include "../../eez_rk3566/ui/screens.h"
+#include "../../eez_rk3566/ui/vars.h"
+#include "../../eez_rk3566/ui/actions.h"
 #include "gpio.h"
 
 /*********************

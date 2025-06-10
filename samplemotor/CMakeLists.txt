@@ -38,7 +38,7 @@ endif()
 # Main include files of the project
 include_directories(${PROJECT_SOURCE_DIR}/main/inc)
 include_directories(${PROJECT_SOURCE_DIR}/lvgl)
-include_directories(${PROJECT_SOURCE_DIR}/main/ui)
+include_directories(${PROJECT_SOURCE_DIR}/eez_rk3566/ui)
 
 # Define options for LVGL with default values (OFF)
 option(LV_USE_DRAW_SDL "Use SDL draw unit" OFF)

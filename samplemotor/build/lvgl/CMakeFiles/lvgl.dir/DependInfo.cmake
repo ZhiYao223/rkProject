@@ -20,7 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../main/inc"
-  "../main/ui"
+  "../eez_rk3566/ui"
   "../"
   "/usr/include/SDL2"
   "/usr/include"
@@ -435,7 +435,7 @@ set(CMAKE_TARGET_DEFINITIONS_C
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../main/inc"
-  "../main/ui"
+  "../eez_rk3566/ui"
   "../"
   "/usr/include/SDL2"
   "/usr/include/freetype2"

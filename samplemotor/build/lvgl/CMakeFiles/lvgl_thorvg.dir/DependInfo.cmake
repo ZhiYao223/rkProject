@@ -65,7 +65,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../main/inc"
-  "../main/ui"
+  "../eez_rk3566/ui"
   "../"
   "/usr/include/SDL2"
   "/usr/include/freetype2"

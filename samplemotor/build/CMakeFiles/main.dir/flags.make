@@ -6,5 +6,5 @@ CXX_FLAGS =  -march=native   -std=gnu++17
 
 CXX_DEFINES = -DLV_CONF_INCLUDE_SIMPLE -DLV_LVGL_H_INCLUDE_SIMPLE -DLV_USE_LIBPNG=1
 
-CXX_INCLUDES = -I/home/zhiyao/rkProject/samplemotor/main/inc -I/home/zhiyao/rkProject/samplemotor/main/ui -I/home/zhiyao/rkProject/samplemotor -I/usr/include/SDL2 -I/usr/include/freetype2 -isystem /home/zhiyao/rkProject/samplemotor/lvgl -isystem /home/zhiyao/rkProject/samplemotor/build/lvgl -isystem /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg 
+CXX_INCLUDES = -I/home/zhiyao/rkProject/samplemotor/main/inc -I/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui -I/home/zhiyao/rkProject/samplemotor -I/usr/include/SDL2 -I/usr/include/freetype2 -isystem /home/zhiyao/rkProject/samplemotor/lvgl -isystem /home/zhiyao/rkProject/samplemotor/build/lvgl -isystem /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg 
 
