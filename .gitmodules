@@ -10,3 +10,6 @@
 [submodule "samplemotor/FreeRTOS"]
 	path = samplemotor/FreeRTOS
 	url = https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+[submodule "samplemotor/lvlg"]
+	path = samplemotor/lvlg
+	url = https://github.com/lvgl/lvgl.git
