@@ -24,6 +24,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_b5.c" "/home/zhiyao/rkProject/samplemotor/build/main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_b5.c.o"
   "/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_backgraound.c" "/home/zhiyao/rkProject/samplemotor/build/main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.o"
   "/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_backgraound1.c" "/home/zhiyao/rkProject/samplemotor/build/main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.o"
+  "/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_background2.c" "/home/zhiyao/rkProject/samplemotor/build/main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background2.c.o"
   "/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_bar.c" "/home/zhiyao/rkProject/samplemotor/build/main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_bar.c.o"
   "/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_barrel.c" "/home/zhiyao/rkProject/samplemotor/build/main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_barrel.c.o"
   "/home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_barrel_empty.c" "/home/zhiyao/rkProject/samplemotor/build/main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_barrel_empty.c.o"

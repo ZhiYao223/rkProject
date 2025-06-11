@@ -13,7 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
   "../lvgl/CMakeLists.txt"
-  "../lvgl/env_support/cmake/custom.cmake"
+  "../lvgl/env_support/cmake/os_desktop.cmake"
   "../lvgl/env_support/cmake/version.cmake"
   "../lvgl/lv_version.h.in"
   "../lvgl/lvgl.pc.in"
@@ -65,6 +65,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/run.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "lvgl/CMakeFiles/lvgl_demos.dir/DependInfo.cmake"
+  "lvgl/CMakeFiles/lvgl_examples.dir/DependInfo.cmake"
   "lvgl/CMakeFiles/lvgl_thorvg.dir/DependInfo.cmake"
   "lvgl/CMakeFiles/lvgl.dir/DependInfo.cmake"
   "main/CMakeFiles/uilib.dir/DependInfo.cmake"

@@ -11,7 +11,9 @@
 /home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/install.dir
 /home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/list_install_components.dir
 /home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/rebuild_cache.dir
+/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_demos.dir
 /home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/edit_cache.dir
+/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_examples.dir
 /home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir
 /home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl.dir
 /home/zhiyao/rkProject/samplemotor/build/main/CMakeFiles/install/strip.dir

@@ -738,6 +738,33 @@ __/eez_rk3566/ui/ui_image_backgraound1.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.s
 .PHONY : __/eez_rk3566/ui/ui_image_backgraound1.c.s
 
+__/eez_rk3566/ui/ui_image_background2.o: __/eez_rk3566/ui/ui_image_background2.c.o
+
+.PHONY : __/eez_rk3566/ui/ui_image_background2.o
+
+# target to build an object file
+__/eez_rk3566/ui/ui_image_background2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background2.c.o
+.PHONY : __/eez_rk3566/ui/ui_image_background2.c.o
+
+__/eez_rk3566/ui/ui_image_background2.i: __/eez_rk3566/ui/ui_image_background2.c.i
+
+.PHONY : __/eez_rk3566/ui/ui_image_background2.i
+
+# target to preprocess a source file
+__/eez_rk3566/ui/ui_image_background2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background2.c.i
+.PHONY : __/eez_rk3566/ui/ui_image_background2.c.i
+
+__/eez_rk3566/ui/ui_image_background2.s: __/eez_rk3566/ui/ui_image_background2.c.s
+
+.PHONY : __/eez_rk3566/ui/ui_image_background2.s
+
+# target to generate assembly for a file
+__/eez_rk3566/ui/ui_image_background2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background2.c.s
+.PHONY : __/eez_rk3566/ui/ui_image_background2.c.s
+
 __/eez_rk3566/ui/ui_image_bar.o: __/eez_rk3566/ui/ui_image_bar.c.o
 
 .PHONY : __/eez_rk3566/ui/ui_image_bar.o
@@ -1138,6 +1165,9 @@ help:
 	@echo "... __/eez_rk3566/ui/ui_image_backgraound1.o"
 	@echo "... __/eez_rk3566/ui/ui_image_backgraound1.i"
 	@echo "... __/eez_rk3566/ui/ui_image_backgraound1.s"
+	@echo "... __/eez_rk3566/ui/ui_image_background2.o"
+	@echo "... __/eez_rk3566/ui/ui_image_background2.i"
+	@echo "... __/eez_rk3566/ui/ui_image_background2.s"
 	@echo "... __/eez_rk3566/ui/ui_image_bar.o"
 	@echo "... __/eez_rk3566/ui/ui_image_bar.i"
 	@echo "... __/eez_rk3566/ui/ui_image_bar.s"

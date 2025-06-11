@@ -12,6 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "LV_CONF_INCLUDE_SIMPLE"
+  "LV_KCONFIG_IGNORE"
   "LV_LVGL_H_INCLUDE_SIMPLE"
   "LV_USE_LIBPNG=1"
   )
@@ -20,12 +21,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../main/inc"
   "../eez_rk3566/ui"
-  "../"
   "/usr/include/SDL2"
   "/usr/include/freetype2"
   "../lvgl"
+  "../"
   "lvgl"
-  "../lvgl/src/libs/thorvg"
+  "../lvgl/examples"
+  "../lvgl/demos"
   )
 
 # Targets to which this target links.
@@ -33,6 +35,8 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl.dir/DependInfo.cmake"
   "/home/zhiyao/rkProject/samplemotor/build/main/CMakeFiles/uilib.dir/DependInfo.cmake"
   "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/DependInfo.cmake"
+  "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_examples.dir/DependInfo.cmake"
+  "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_demos.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

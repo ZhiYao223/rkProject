@@ -291,9 +291,22 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.o: ../lvgl/src/draw/lv_draw_3d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_3d.c
+
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_3d.c > CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_3d.c -o CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o: ../lvgl/src/draw/lv_draw_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.i: cmake_force
@@ -306,7 +319,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_buf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_buf.c.o: ../lvgl/src/draw/lv_draw_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_buf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_buf.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_draw_buf.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_buf.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_buf.c.i: cmake_force
@@ -319,7 +332,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_buf.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_image.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_image.c.o: ../lvgl/src/draw/lv_draw_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_image.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_image.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_draw_image.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_image.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_image.c.i: cmake_force
@@ -332,7 +345,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_image.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o: ../lvgl/src/draw/lv_draw_label.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_label.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.i: cmake_force
@@ -345,7 +358,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_label.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o: ../lvgl/src/draw/lv_draw_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.i: cmake_force
@@ -358,7 +371,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_line.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o: ../lvgl/src/draw/lv_draw_mask.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_mask.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.i: cmake_force
@@ -371,7 +384,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_mask.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o: ../lvgl/src/draw/lv_draw_rect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_rect.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.i: cmake_force
@@ -384,7 +397,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_rect.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o: ../lvgl/src/draw/lv_draw_triangle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_triangle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.i: cmake_force
@@ -397,7 +410,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_triangle.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_vector.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_vector.c.o: ../lvgl/src/draw/lv_draw_vector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_vector.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_vector.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_draw_vector.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw_vector.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_vector.c.i: cmake_force
@@ -410,7 +423,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_vector.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_image_decoder.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_image_decoder.c.o: ../lvgl/src/draw/lv_image_decoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_image_decoder.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/lv_image_decoder.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/lv_image_decoder.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_image_decoder.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/lv_image_decoder.c.i: cmake_force
@@ -423,7 +436,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/lv_image_decoder.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx.c.i: cmake_force
@@ -436,7 +449,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_arc.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_arc.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_arc.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_arc.c.i: cmake_force
@@ -449,7 +462,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_arc.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_border.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_border.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_border.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_border.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_border.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_border.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_border.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_border.c.i: cmake_force
@@ -462,7 +475,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_border.c.s: cmake_fo
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_fill.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_fill.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_fill.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_fill.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_fill.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_fill.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_fill.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_fill.c.i: cmake_force
@@ -475,7 +488,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_fill.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_img.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_img.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_img.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_img.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_img.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_img.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_img.c.i: cmake_force
@@ -488,7 +501,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_img.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_label.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_label.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_label.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_label.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_label.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_label.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_label.c.i: cmake_force
@@ -501,7 +514,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_label.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_layer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_layer.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_layer.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_layer.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_layer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_layer.c.i: cmake_force
@@ -514,7 +527,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_layer.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_line.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_line.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_line.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_line.c.i: cmake_force
@@ -527,7 +540,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_line.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_stm32_hal.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_stm32_hal.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_stm32_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_stm32_hal.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_stm32_hal.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_stm32_hal.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_stm32_hal.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_stm32_hal.c.i: cmake_force
@@ -540,7 +553,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_stm32_hal.c.s: cmake
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_triangle.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_triangle.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_triangle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_triangle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_triangle.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_triangle.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_triangle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_triangle.c.i: cmake_force
@@ -553,7 +566,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_triangle.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_utils.c.o: ../lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_utils.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_utils.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_draw_nema_gfx_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_utils.c.i: cmake_force
@@ -566,7 +579,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_draw_nema_gfx_utils.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_nema_gfx_path.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_nema_gfx_path.c.o: ../lvgl/src/draw/nema_gfx/lv_nema_gfx_path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_nema_gfx_path.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_nema_gfx_path.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_nema_gfx_path.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nema_gfx/lv_nema_gfx_path.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_nema_gfx_path.c.i: cmake_force
@@ -579,7 +592,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nema_gfx/lv_nema_gfx_path.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_buf_g2d.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_buf_g2d.c.o: ../lvgl/src/draw/nxp/g2d/lv_draw_buf_g2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_buf_g2d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_buf_g2d.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_buf_g2d.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/g2d/lv_draw_buf_g2d.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_buf_g2d.c.i: cmake_force
@@ -592,7 +605,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_buf_g2d.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d.c.o: ../lvgl/src/draw/nxp/g2d/lv_draw_g2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/g2d/lv_draw_g2d.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d.c.i: cmake_force
@@ -605,7 +618,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_fill.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_fill.c.o: ../lvgl/src/draw/nxp/g2d/lv_draw_g2d_fill.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_fill.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_fill.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_fill.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/g2d/lv_draw_g2d_fill.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_fill.c.i: cmake_force
@@ -618,7 +631,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_fill.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_img.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_img.c.o: ../lvgl/src/draw/nxp/g2d/lv_draw_g2d_img.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_img.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_img.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/g2d/lv_draw_g2d_img.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_img.c.i: cmake_force
@@ -631,7 +644,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_draw_g2d_img.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_buf_map.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_buf_map.c.o: ../lvgl/src/draw/nxp/g2d/lv_g2d_buf_map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_buf_map.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_buf_map.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_buf_map.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/g2d/lv_g2d_buf_map.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_buf_map.c.i: cmake_force
@@ -644,7 +657,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_buf_map.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_utils.c.o: ../lvgl/src/draw/nxp/g2d/lv_g2d_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_utils.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_utils.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/g2d/lv_g2d_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_utils.c.i: cmake_force
@@ -657,7 +670,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/g2d/lv_g2d_utils.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o: ../lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_buf_pxp.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/pxp/lv_draw_buf_pxp.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_buf_pxp.c.i: cmake_force
@@ -670,7 +683,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_buf_pxp.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o: ../lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.i: cmake_force
@@ -683,7 +696,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o: ../lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_fill.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/pxp/lv_draw_pxp_fill.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_fill.c.i: cmake_force
@@ -696,7 +709,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_fill.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_img.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_img.c.o: ../lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_img.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_img.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/pxp/lv_draw_pxp_img.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_img.c.i: cmake_force
@@ -709,7 +722,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_img.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o: ../lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_layer.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/pxp/lv_draw_pxp_layer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_layer.c.i: cmake_force
@@ -722,7 +735,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_draw_pxp_layer.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_cfg.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_cfg.c.o: ../lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_cfg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_cfg.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_cfg.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/pxp/lv_pxp_cfg.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_cfg.c.i: cmake_force
@@ -735,7 +748,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_cfg.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_osa.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_osa.c.o: ../lvgl/src/draw/nxp/pxp/lv_pxp_osa.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_osa.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_osa.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_osa.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/pxp/lv_pxp_osa.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_osa.c.i: cmake_force
@@ -748,7 +761,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_osa.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_utils.c.o: ../lvgl/src/draw/nxp/pxp/lv_pxp_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_utils.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_utils.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/pxp/lv_pxp_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_utils.c.i: cmake_force
@@ -761,7 +774,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/pxp/lv_pxp_utils.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_buf_vglite.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_draw_buf_vglite.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_buf_vglite.c.i: cmake_force
@@ -774,7 +787,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_buf_vglite.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.i: cmake_force
@@ -787,7 +800,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.i: cmake_force
@@ -800,7 +813,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_arc.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_border.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_border.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_border.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_border.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_border.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_draw_vglite_border.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_border.c.i: cmake_force
@@ -813,7 +826,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_border.c.s: cmake_fo
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_fill.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_draw_vglite_fill.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_fill.c.i: cmake_force
@@ -826,7 +839,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_fill.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_img.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_img.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_img.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_img.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_draw_vglite_img.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_img.c.i: cmake_force
@@ -839,7 +852,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_img.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_label.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_label.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_label.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_label.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_draw_vglite_label.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_label.c.i: cmake_force
@@ -852,7 +865,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_label.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_layer.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_draw_vglite_layer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_layer.c.i: cmake_force
@@ -865,7 +878,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_layer.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.i: cmake_force
@@ -878,7 +891,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_line.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.o: ../lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_draw_vglite_triangle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.i: cmake_force
@@ -891,7 +904,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_draw_vglite_triangle.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o: ../lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.i: cmake_force
@@ -904,7 +917,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_buf.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_matrix.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_matrix.c.o: ../lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_matrix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_matrix.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_matrix.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_vglite_matrix.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_matrix.c.i: cmake_force
@@ -917,7 +930,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_matrix.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_path.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_path.c.o: ../lvgl/src/draw/nxp/vglite/lv_vglite_path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_path.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_path.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_path.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_vglite_path.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_path.c.i: cmake_force
@@ -930,7 +943,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_path.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o: ../lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.i: cmake_force
@@ -943,7 +956,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/nxp/vglite/lv_vglite_utils.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/opengles/lv_draw_opengles.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/opengles/lv_draw_opengles.c.o: ../lvgl/src/draw/opengles/lv_draw_opengles.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/opengles/lv_draw_opengles.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/opengles/lv_draw_opengles.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/opengles/lv_draw_opengles.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/opengles/lv_draw_opengles.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/opengles/lv_draw_opengles.c.i: cmake_force
@@ -956,7 +969,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/opengles/lv_draw_opengles.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d.c.o: ../lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d.c.i: cmake_force
@@ -969,7 +982,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.o: ../lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.i: cmake_force
@@ -982,7 +995,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_arc.c.s: cmake_f
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.o: ../lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_border.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.i: cmake_force
@@ -995,7 +1008,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_border.c.s: cmak
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.o: ../lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.i: cmake_force
@@ -1008,7 +1021,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_fill.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.o: ../lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_image.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.i: cmake_force
@@ -1021,7 +1034,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_image.c.s: cmake
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.o: ../lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_label.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.i: cmake_force
@@ -1034,7 +1047,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_label.c.s: cmake
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.o: ../lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.i: cmake_force
@@ -1047,7 +1060,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_line.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.o: ../lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c.i: cmake_force
@@ -1060,7 +1073,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_mask_rectangle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.o: ../lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.i: cmake_force
@@ -1073,7 +1086,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_triangle.c.s: cm
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.o: ../lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.i: cmake_force
@@ -1086,7 +1099,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/renesas/dave2d/lv_draw_dave2d_utils.c.s: cmake
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o: ../lvgl/src/draw/sdl/lv_draw_sdl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sdl/lv_draw_sdl.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.i: cmake_force
@@ -1099,12 +1112,12 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sdl/lv_draw_sdl.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/helium/lv_blend_helium.S.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/helium/lv_blend_helium.S.o: ../lvgl/src/draw/sw/blend/helium/lv_blend_helium.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building ASM object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/helium/lv_blend_helium.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building ASM object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/helium/lv_blend_helium.S.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/helium/lv_blend_helium.S.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/helium/lv_blend_helium.S
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend.c.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend.c.i: cmake_force
@@ -1117,7 +1130,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.i: cmake_force
@@ -1130,7 +1143,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.s: cmake_f
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.i: cmake_force
@@ -1141,9 +1154,22 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s: cma
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c
+
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c > CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.i: cmake_force
@@ -1156,7 +1182,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.i: cmake_force
@@ -1169,7 +1195,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.i: cmake_force
@@ -1180,9 +1206,22 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c
+
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c > CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.i: cmake_force
@@ -1195,12 +1234,12 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.s: cmake
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/neon/lv_blend_neon.S.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/neon/lv_blend_neon.S.o: ../lvgl/src/draw/sw/blend/neon/lv_blend_neon.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building ASM object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/neon/lv_blend_neon.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building ASM object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/neon/lv_blend_neon.S.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/blend/neon/lv_blend_neon.S.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/neon/lv_blend_neon.S
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o: ../lvgl/src/draw/sw/lv_draw_sw.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.i: cmake_force
@@ -1213,7 +1252,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o: ../lvgl/src/draw/sw/lv_draw_sw_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.i: cmake_force
@@ -1226,7 +1265,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_arc.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_border.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_border.c.o: ../lvgl/src/draw/sw/lv_draw_sw_border.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_border.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_border.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_border.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_border.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_border.c.i: cmake_force
@@ -1239,7 +1278,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_border.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_box_shadow.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_box_shadow.c.o: ../lvgl/src/draw/sw/lv_draw_sw_box_shadow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_box_shadow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_box_shadow.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_box_shadow.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_box_shadow.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_box_shadow.c.i: cmake_force
@@ -1252,7 +1291,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_box_shadow.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_fill.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_fill.c.o: ../lvgl/src/draw/sw/lv_draw_sw_fill.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_fill.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_fill.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_fill.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_fill.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_fill.c.i: cmake_force
@@ -1265,7 +1304,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_fill.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_grad.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_grad.c.o: ../lvgl/src/draw/sw/lv_draw_sw_grad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_grad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_grad.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_grad.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_grad.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_grad.c.i: cmake_force
@@ -1278,7 +1317,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_grad.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o: ../lvgl/src/draw/sw/lv_draw_sw_img.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_img.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.i: cmake_force
@@ -1291,7 +1330,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_img.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o: ../lvgl/src/draw/sw/lv_draw_sw_letter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_letter.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.i: cmake_force
@@ -1304,7 +1343,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_letter.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o: ../lvgl/src/draw/sw/lv_draw_sw_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.i: cmake_force
@@ -1317,7 +1356,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_line.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask.c.o: ../lvgl/src/draw/sw/lv_draw_sw_mask.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_mask.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask.c.i: cmake_force
@@ -1330,7 +1369,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask_rect.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask_rect.c.o: ../lvgl/src/draw/sw/lv_draw_sw_mask_rect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask_rect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask_rect.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask_rect.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_mask_rect.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask_rect.c.i: cmake_force
@@ -1343,7 +1382,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_mask_rect.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o: ../lvgl/src/draw/sw/lv_draw_sw_transform.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_transform.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.i: cmake_force
@@ -1356,7 +1395,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_transform.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_triangle.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_triangle.c.o: ../lvgl/src/draw/sw/lv_draw_sw_triangle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_triangle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_triangle.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_triangle.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_triangle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_triangle.c.i: cmake_force
@@ -1369,7 +1408,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_triangle.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_utils.c.o: ../lvgl/src/draw/sw/lv_draw_sw_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_utils.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_utils.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_utils.c.i: cmake_force
@@ -1382,7 +1421,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_utils.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_vector.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_vector.c.o: ../lvgl/src/draw/sw/lv_draw_sw_vector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_vector.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_vector.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_vector.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_vector.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_vector.c.i: cmake_force
@@ -1395,7 +1434,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw_vector.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_buf_vg_lite.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_buf_vg_lite.c.o: ../lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_buf_vg_lite.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_buf_vg_lite.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_buf_vg_lite.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_buf_vg_lite.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_buf_vg_lite.c.i: cmake_force
@@ -1408,7 +1447,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_buf_vg_lite.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite.c.i: cmake_force
@@ -1421,7 +1460,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_arc.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_arc.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_arc.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_arc.c.i: cmake_force
@@ -1434,7 +1473,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_arc.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_border.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_border.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_border.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_border.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_border.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_border.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_border.c.i: cmake_force
@@ -1447,7 +1486,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_border.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.i: cmake_force
@@ -1460,7 +1499,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_box_shadow.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_fill.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_fill.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_fill.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_fill.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_fill.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_fill.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_fill.c.i: cmake_force
@@ -1473,7 +1512,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_fill.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_img.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_img.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_img.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_img.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_img.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_img.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_img.c.i: cmake_force
@@ -1486,7 +1525,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_img.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_label.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_label.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_label.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_label.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_label.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_label.c.i: cmake_force
@@ -1499,7 +1538,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_label.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_layer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_layer.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_layer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_layer.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_layer.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_layer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_layer.c.i: cmake_force
@@ -1512,7 +1551,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_layer.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_line.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_line.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_line.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_line.c.i: cmake_force
@@ -1525,7 +1564,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_line.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.i: cmake_force
@@ -1538,7 +1577,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_mask_rect.c.s: cmake_f
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_triangle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.i: cmake_force
@@ -1551,7 +1590,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_triangle.c.s: cmake_fo
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_vector.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_vector.c.o: ../lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_vector.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_vector.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_vector.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_draw_vg_lite_vector.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_vector.c.i: cmake_force
@@ -1564,7 +1603,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_draw_vg_lite_vector.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_decoder.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_decoder.c.o: ../lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_decoder.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_decoder.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_decoder.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_vg_lite_decoder.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_decoder.c.i: cmake_force
@@ -1577,7 +1616,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_decoder.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_grad.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_grad.c.o: ../lvgl/src/draw/vg_lite/lv_vg_lite_grad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_grad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_grad.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_grad.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_vg_lite_grad.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_grad.c.i: cmake_force
@@ -1590,7 +1629,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_grad.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_math.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_math.c.o: ../lvgl/src/draw/vg_lite/lv_vg_lite_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_math.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_math.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_vg_lite_math.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_math.c.i: cmake_force
@@ -1603,7 +1642,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_math.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_path.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_path.c.o: ../lvgl/src/draw/vg_lite/lv_vg_lite_path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_path.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_path.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_path.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_vg_lite_path.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_path.c.i: cmake_force
@@ -1616,7 +1655,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_path.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_pending.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_pending.c.o: ../lvgl/src/draw/vg_lite/lv_vg_lite_pending.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_pending.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_pending.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_pending.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_vg_lite_pending.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_pending.c.i: cmake_force
@@ -1629,7 +1668,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_pending.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_stroke.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_stroke.c.o: ../lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_stroke.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_stroke.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_stroke.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_vg_lite_stroke.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_stroke.c.i: cmake_force
@@ -1642,7 +1681,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_stroke.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_utils.c.o: ../lvgl/src/draw/vg_lite/lv_vg_lite_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_utils.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_utils.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/vg_lite/lv_vg_lite_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_utils.c.i: cmake_force
@@ -1655,7 +1694,7 @@ lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_utils.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/drm/lv_linux_drm.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/drm/lv_linux_drm.c.o: ../lvgl/src/drivers/display/drm/lv_linux_drm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/drm/lv_linux_drm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/drm/lv_linux_drm.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/display/drm/lv_linux_drm.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/drm/lv_linux_drm.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/drm/lv_linux_drm.c.i: cmake_force
@@ -1668,7 +1707,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/display/drm/lv_linux_drm.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.o: ../lvgl/src/drivers/display/fb/lv_linux_fbdev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/fb/lv_linux_fbdev.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.i: cmake_force
@@ -1679,9 +1718,22 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/fb/lv_linux_fbdev.c -o CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.o: ../lvgl/src/drivers/display/ft81x/lv_ft81x.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/ft81x/lv_ft81x.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/ft81x/lv_ft81x.c > CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/ft81x/lv_ft81x.c -o CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ili9341/lv_ili9341.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ili9341/lv_ili9341.c.o: ../lvgl/src/drivers/display/ili9341/lv_ili9341.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ili9341/lv_ili9341.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ili9341/lv_ili9341.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/display/ili9341/lv_ili9341.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/ili9341/lv_ili9341.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ili9341/lv_ili9341.c.i: cmake_force
@@ -1694,7 +1746,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ili9341/lv_ili9341.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/lcd/lv_lcd_generic_mipi.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/lcd/lv_lcd_generic_mipi.c.o: ../lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/lcd/lv_lcd_generic_mipi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/lcd/lv_lcd_generic_mipi.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/display/lcd/lv_lcd_generic_mipi.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/lcd/lv_lcd_generic_mipi.c.i: cmake_force
@@ -1707,7 +1759,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/display/lcd/lv_lcd_generic_mipi.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.o: ../lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.i: cmake_force
@@ -1720,7 +1772,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.s:
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7735/lv_st7735.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7735/lv_st7735.c.o: ../lvgl/src/drivers/display/st7735/lv_st7735.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7735/lv_st7735.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7735/lv_st7735.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/display/st7735/lv_st7735.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/st7735/lv_st7735.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7735/lv_st7735.c.i: cmake_force
@@ -1733,7 +1785,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7735/lv_st7735.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7789/lv_st7789.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7789/lv_st7789.c.o: ../lvgl/src/drivers/display/st7789/lv_st7789.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7789/lv_st7789.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7789/lv_st7789.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/display/st7789/lv_st7789.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/st7789/lv_st7789.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7789/lv_st7789.c.i: cmake_force
@@ -1746,7 +1798,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7789/lv_st7789.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7796/lv_st7796.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7796/lv_st7796.c.o: ../lvgl/src/drivers/display/st7796/lv_st7796.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7796/lv_st7796.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7796/lv_st7796.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/display/st7796/lv_st7796.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/st7796/lv_st7796.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7796/lv_st7796.c.i: cmake_force
@@ -1759,7 +1811,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st7796/lv_st7796.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st_ltdc/lv_st_ltdc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st_ltdc/lv_st_ltdc.c.o: ../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st_ltdc/lv_st_ltdc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st_ltdc/lv_st_ltdc.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/display/st_ltdc/lv_st_ltdc.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st_ltdc/lv_st_ltdc.c.i: cmake_force
@@ -1772,7 +1824,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/display/st_ltdc/lv_st_ltdc.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/evdev/lv_evdev.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/evdev/lv_evdev.c.o: ../lvgl/src/drivers/evdev/lv_evdev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/evdev/lv_evdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/evdev/lv_evdev.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/evdev/lv_evdev.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/evdev/lv_evdev.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/evdev/lv_evdev.c.i: cmake_force
@@ -1785,7 +1837,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/evdev/lv_evdev.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_glfw_window.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_glfw_window.c.o: ../lvgl/src/drivers/glfw/lv_glfw_window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_glfw_window.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_glfw_window.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/glfw/lv_glfw_window.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/glfw/lv_glfw_window.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_glfw_window.c.i: cmake_force
@@ -1798,7 +1850,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_glfw_window.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_debug.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_debug.c.o: ../lvgl/src/drivers/glfw/lv_opengles_debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_debug.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_debug.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_debug.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/glfw/lv_opengles_debug.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_debug.c.i: cmake_force
@@ -1811,7 +1863,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_debug.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_driver.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_driver.c.o: ../lvgl/src/drivers/glfw/lv_opengles_driver.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_driver.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_driver.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_driver.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/glfw/lv_opengles_driver.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_driver.c.i: cmake_force
@@ -1824,7 +1876,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_driver.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_texture.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_texture.c.o: ../lvgl/src/drivers/glfw/lv_opengles_texture.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_texture.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_texture.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_texture.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/glfw/lv_opengles_texture.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_texture.c.i: cmake_force
@@ -1837,7 +1889,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/glfw/lv_opengles_texture.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_libinput.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_libinput.c.o: ../lvgl/src/drivers/libinput/lv_libinput.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_libinput.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_libinput.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/libinput/lv_libinput.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/libinput/lv_libinput.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_libinput.c.i: cmake_force
@@ -1850,7 +1902,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_libinput.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_xkb.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_xkb.c.o: ../lvgl/src/drivers/libinput/lv_xkb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_xkb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_xkb.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/libinput/lv_xkb.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/libinput/lv_xkb.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_xkb.c.i: cmake_force
@@ -1863,7 +1915,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/libinput/lv_xkb.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_cache.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_cache.c.o: ../lvgl/src/drivers/nuttx/lv_nuttx_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_cache.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_cache.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/nuttx/lv_nuttx_cache.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_cache.c.i: cmake_force
@@ -1876,7 +1928,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_cache.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_entry.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_entry.c.o: ../lvgl/src/drivers/nuttx/lv_nuttx_entry.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_entry.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_entry.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_entry.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/nuttx/lv_nuttx_entry.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_entry.c.i: cmake_force
@@ -1889,7 +1941,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_entry.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_fbdev.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_fbdev.c.o: ../lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_fbdev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_fbdev.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_fbdev.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/nuttx/lv_nuttx_fbdev.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_fbdev.c.i: cmake_force
@@ -1902,7 +1954,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_fbdev.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_image_cache.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_image_cache.c.o: ../lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_image_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_image_cache.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_image_cache.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/nuttx/lv_nuttx_image_cache.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_image_cache.c.i: cmake_force
@@ -1915,7 +1967,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_image_cache.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_lcd.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_lcd.c.o: ../lvgl/src/drivers/nuttx/lv_nuttx_lcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_lcd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_lcd.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_lcd.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/nuttx/lv_nuttx_lcd.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_lcd.c.i: cmake_force
@@ -1928,7 +1980,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_lcd.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_libuv.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_libuv.c.o: ../lvgl/src/drivers/nuttx/lv_nuttx_libuv.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_libuv.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_libuv.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_libuv.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/nuttx/lv_nuttx_libuv.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_libuv.c.i: cmake_force
@@ -1941,7 +1993,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_libuv.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_profiler.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_profiler.c.o: ../lvgl/src/drivers/nuttx/lv_nuttx_profiler.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_profiler.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_profiler.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_profiler.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/nuttx/lv_nuttx_profiler.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_profiler.c.i: cmake_force
@@ -1954,7 +2006,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_profiler.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_touchscreen.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_touchscreen.c.o: ../lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_touchscreen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_touchscreen.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_touchscreen.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/nuttx/lv_nuttx_touchscreen.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_touchscreen.c.i: cmake_force
@@ -1967,7 +2019,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/nuttx/lv_nuttx_touchscreen.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/qnx/lv_qnx.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/qnx/lv_qnx.c.o: ../lvgl/src/drivers/qnx/lv_qnx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/qnx/lv_qnx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/qnx/lv_qnx.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/qnx/lv_qnx.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/qnx/lv_qnx.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/qnx/lv_qnx.c.i: cmake_force
@@ -1980,7 +2032,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/qnx/lv_qnx.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_keyboard.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_keyboard.c.o: ../lvgl/src/drivers/sdl/lv_sdl_keyboard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_keyboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_keyboard.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_keyboard.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/sdl/lv_sdl_keyboard.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_keyboard.c.i: cmake_force
@@ -1993,7 +2045,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_keyboard.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mouse.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mouse.c.o: ../lvgl/src/drivers/sdl/lv_sdl_mouse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mouse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mouse.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mouse.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/sdl/lv_sdl_mouse.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mouse.c.i: cmake_force
@@ -2006,7 +2058,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mouse.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mousewheel.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mousewheel.c.o: ../lvgl/src/drivers/sdl/lv_sdl_mousewheel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mousewheel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mousewheel.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mousewheel.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/sdl/lv_sdl_mousewheel.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mousewheel.c.i: cmake_force
@@ -2019,7 +2071,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_mousewheel.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_window.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_window.c.o: ../lvgl/src/drivers/sdl/lv_sdl_window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_window.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_window.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_window.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/sdl/lv_sdl_window.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_window.c.i: cmake_force
@@ -2032,7 +2084,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/sdl/lv_sdl_window.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_context.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_context.c.o: ../lvgl/src/drivers/uefi/lv_uefi_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_context.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_context.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_context.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/uefi/lv_uefi_context.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_context.c.i: cmake_force
@@ -2045,7 +2097,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_context.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_display.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_display.c.o: ../lvgl/src/drivers/uefi/lv_uefi_display.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_display.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_display.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_display.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/uefi/lv_uefi_display.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_display.c.i: cmake_force
@@ -2058,7 +2110,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_display.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_keyboard.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_keyboard.c.o: ../lvgl/src/drivers/uefi/lv_uefi_indev_keyboard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_keyboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_keyboard.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_keyboard.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/uefi/lv_uefi_indev_keyboard.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_keyboard.c.i: cmake_force
@@ -2071,7 +2123,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_keyboard.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_pointer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_pointer.c.o: ../lvgl/src/drivers/uefi/lv_uefi_indev_pointer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_pointer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_pointer.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_pointer.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/uefi/lv_uefi_indev_pointer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_pointer.c.i: cmake_force
@@ -2084,7 +2136,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_pointer.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_touch.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_touch.c.o: ../lvgl/src/drivers/uefi/lv_uefi_indev_touch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_touch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_touch.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_touch.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/uefi/lv_uefi_indev_touch.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_touch.c.i: cmake_force
@@ -2097,7 +2149,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_touch.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_private.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_private.c.o: ../lvgl/src/drivers/uefi/lv_uefi_private.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_private.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_private.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_private.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/uefi/lv_uefi_private.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_private.c.i: cmake_force
@@ -2110,7 +2162,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_private.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland.c.o: ../lvgl/src/drivers/wayland/lv_wayland.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wayland.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland.c.i: cmake_force
@@ -2123,7 +2175,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.o: ../lvgl/src/drivers/wayland/lv_wayland_smm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wayland_smm.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.i: cmake_force
@@ -2134,9 +2186,165 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wayland_smm.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.o: ../lvgl/src/drivers/wayland/lv_wl_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_cache.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_cache.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_cache.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.o: ../lvgl/src/drivers/wayland/lv_wl_dmabuf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_dmabuf.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_dmabuf.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_dmabuf.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.o: ../lvgl/src/drivers/wayland/lv_wl_keyboard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_keyboard.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_keyboard.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_keyboard.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.o: ../lvgl/src/drivers/wayland/lv_wl_pointer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_pointer.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_pointer.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_pointer.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.o: ../lvgl/src/drivers/wayland/lv_wl_pointer_axis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_pointer_axis.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_pointer_axis.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_pointer_axis.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.o: ../lvgl/src/drivers/wayland/lv_wl_seat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_seat.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_seat.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_seat.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.o: ../lvgl/src/drivers/wayland/lv_wl_shell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_shell.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_shell.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_shell.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.o: ../lvgl/src/drivers/wayland/lv_wl_shm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_shm.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_shm.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_shm.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.o: ../lvgl/src/drivers/wayland/lv_wl_touch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_touch.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_touch.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_touch.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.o: ../lvgl/src/drivers/wayland/lv_wl_window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_window.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_window.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_window.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.o: ../lvgl/src/drivers/wayland/lv_wl_window_decorations.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_window_decorations.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_window_decorations.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_window_decorations.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.o: ../lvgl/src/drivers/wayland/lv_wl_xdg_shell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_xdg_shell.c
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_xdg_shell.c > CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wl_xdg_shell.c -o CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_context.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_context.c.o: ../lvgl/src/drivers/windows/lv_windows_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_context.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_context.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_context.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/windows/lv_windows_context.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_context.c.i: cmake_force
@@ -2149,7 +2357,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_context.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_display.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_display.c.o: ../lvgl/src/drivers/windows/lv_windows_display.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_display.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_display.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_display.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/windows/lv_windows_display.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_display.c.i: cmake_force
@@ -2162,7 +2370,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_display.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_input.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_input.c.o: ../lvgl/src/drivers/windows/lv_windows_input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_input.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_input.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_input.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/windows/lv_windows_input.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_input.c.i: cmake_force
@@ -2175,7 +2383,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_input.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_display.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_display.c.o: ../lvgl/src/drivers/x11/lv_x11_display.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_display.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_display.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_display.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/x11/lv_x11_display.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_display.c.i: cmake_force
@@ -2188,7 +2396,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_display.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_input.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_input.c.o: ../lvgl/src/drivers/x11/lv_x11_input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_input.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_input.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_input.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/x11/lv_x11_input.c
 
 lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_input.c.i: cmake_force
@@ -2201,7 +2409,7 @@ lvgl/CMakeFiles/lvgl.dir/src/drivers/x11/lv_x11_input.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_binfont_loader.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_binfont_loader.c.o: ../lvgl/src/font/lv_binfont_loader.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_binfont_loader.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_binfont_loader.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_binfont_loader.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_binfont_loader.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_binfont_loader.c.i: cmake_force
@@ -2214,7 +2422,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_binfont_loader.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o: ../lvgl/src/font/lv_font.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.i: cmake_force
@@ -2227,7 +2435,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o: ../lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.i: cmake_force
@@ -2240,7 +2448,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_dejavu_16_persian_hebrew.c.s: cmake_fo
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o: ../lvgl/src/font/lv_font_fmt_txt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_fmt_txt.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.i: cmake_force
@@ -2253,7 +2461,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o: ../lvgl/src/font/lv_font_montserrat_10.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_10.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.i: cmake_force
@@ -2266,7 +2474,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o: ../lvgl/src/font/lv_font_montserrat_12.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_12.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.i: cmake_force
@@ -2279,7 +2487,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o: ../lvgl/src/font/lv_font_montserrat_14.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_14.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.i: cmake_force
@@ -2290,9 +2498,22 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_14.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.o: ../lvgl/src/font/lv_font_montserrat_14_aligned.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_14_aligned.c
+
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_14_aligned.c > CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_14_aligned.c -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o: ../lvgl/src/font/lv_font_montserrat_16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_16.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.i: cmake_force
@@ -2305,7 +2526,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o: ../lvgl/src/font/lv_font_montserrat_18.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_18.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.i: cmake_force
@@ -2318,7 +2539,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o: ../lvgl/src/font/lv_font_montserrat_20.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_20.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.i: cmake_force
@@ -2331,7 +2552,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o: ../lvgl/src/font/lv_font_montserrat_22.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_22.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.i: cmake_force
@@ -2344,7 +2565,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_22.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o: ../lvgl/src/font/lv_font_montserrat_24.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_24.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.i: cmake_force
@@ -2357,7 +2578,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_24.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o: ../lvgl/src/font/lv_font_montserrat_26.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_26.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.i: cmake_force
@@ -2370,7 +2591,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_26.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o: ../lvgl/src/font/lv_font_montserrat_28.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_28.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.i: cmake_force
@@ -2383,7 +2604,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o: ../lvgl/src/font/lv_font_montserrat_28_compressed.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_28_compressed.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.i: cmake_force
@@ -2396,7 +2617,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_28_compressed.c.s: cmake_fo
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o: ../lvgl/src/font/lv_font_montserrat_30.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_30.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.i: cmake_force
@@ -2409,7 +2630,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_30.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o: ../lvgl/src/font/lv_font_montserrat_32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_32.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.i: cmake_force
@@ -2422,7 +2643,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_32.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o: ../lvgl/src/font/lv_font_montserrat_34.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_34.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.i: cmake_force
@@ -2435,7 +2656,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_34.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o: ../lvgl/src/font/lv_font_montserrat_36.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_36.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.i: cmake_force
@@ -2448,7 +2669,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_36.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o: ../lvgl/src/font/lv_font_montserrat_38.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_38.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.i: cmake_force
@@ -2461,7 +2682,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_38.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o: ../lvgl/src/font/lv_font_montserrat_40.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_40.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.i: cmake_force
@@ -2474,7 +2695,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_40.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o: ../lvgl/src/font/lv_font_montserrat_42.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_42.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.i: cmake_force
@@ -2487,7 +2708,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_42.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o: ../lvgl/src/font/lv_font_montserrat_44.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_44.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.i: cmake_force
@@ -2500,7 +2721,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_44.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o: ../lvgl/src/font/lv_font_montserrat_46.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_46.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.i: cmake_force
@@ -2513,7 +2734,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_46.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o: ../lvgl/src/font/lv_font_montserrat_48.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_48.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.i: cmake_force
@@ -2526,7 +2747,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o: ../lvgl/src/font/lv_font_montserrat_8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_montserrat_8.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.i: cmake_force
@@ -2539,7 +2760,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_14_cjk.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_14_cjk.c.o: ../lvgl/src/font/lv_font_simsun_14_cjk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_14_cjk.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_14_cjk.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_simsun_14_cjk.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_simsun_14_cjk.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_14_cjk.c.i: cmake_force
@@ -2552,7 +2773,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_14_cjk.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o: ../lvgl/src/font/lv_font_simsun_16_cjk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_simsun_16_cjk.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.i: cmake_force
@@ -2563,9 +2784,35 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_simsun_16_cjk.c -o CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.o: ../lvgl/src/font/lv_font_source_han_sans_sc_14_cjk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_source_han_sans_sc_14_cjk.c
+
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_source_han_sans_sc_14_cjk.c > CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_source_han_sans_sc_14_cjk.c -o CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.o: ../lvgl/src/font/lv_font_source_han_sans_sc_16_cjk.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_source_han_sans_sc_16_cjk.c
+
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_source_han_sans_sc_16_cjk.c > CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_source_han_sans_sc_16_cjk.c -o CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o: ../lvgl/src/font/lv_font_unscii_16.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_unscii_16.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.i: cmake_force
@@ -2578,7 +2825,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o: ../lvgl/src/font/lv_font_unscii_8.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_unscii_8.c
 
 lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.i: cmake_force
@@ -2591,7 +2838,7 @@ lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev.c.o: ../lvgl/src/indev/lv_indev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/indev/lv_indev.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/indev/lv_indev.c
 
 lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev.c.i: cmake_force
@@ -2604,7 +2851,7 @@ lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_gesture.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_gesture.c.o: ../lvgl/src/indev/lv_indev_gesture.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_gesture.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_gesture.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/indev/lv_indev_gesture.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/indev/lv_indev_gesture.c
 
 lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_gesture.c.i: cmake_force
@@ -2617,7 +2864,7 @@ lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_gesture.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_scroll.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_scroll.c.o: ../lvgl/src/indev/lv_indev_scroll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_scroll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_scroll.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/indev/lv_indev_scroll.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/indev/lv_indev_scroll.c
 
 lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_scroll.c.i: cmake_force
@@ -2630,7 +2877,7 @@ lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev_scroll.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/layouts/flex/lv_flex.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/layouts/flex/lv_flex.c.o: ../lvgl/src/layouts/flex/lv_flex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object lvgl/CMakeFiles/lvgl.dir/src/layouts/flex/lv_flex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object lvgl/CMakeFiles/lvgl.dir/src/layouts/flex/lv_flex.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/layouts/flex/lv_flex.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/layouts/flex/lv_flex.c
 
 lvgl/CMakeFiles/lvgl.dir/src/layouts/flex/lv_flex.c.i: cmake_force
@@ -2643,7 +2890,7 @@ lvgl/CMakeFiles/lvgl.dir/src/layouts/flex/lv_flex.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/layouts/grid/lv_grid.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/layouts/grid/lv_grid.c.o: ../lvgl/src/layouts/grid/lv_grid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object lvgl/CMakeFiles/lvgl.dir/src/layouts/grid/lv_grid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object lvgl/CMakeFiles/lvgl.dir/src/layouts/grid/lv_grid.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/layouts/grid/lv_grid.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/layouts/grid/lv_grid.c
 
 lvgl/CMakeFiles/lvgl.dir/src/layouts/grid/lv_grid.c.i: cmake_force
@@ -2656,7 +2903,7 @@ lvgl/CMakeFiles/lvgl.dir/src/layouts/grid/lv_grid.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/layouts/lv_layout.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/layouts/lv_layout.c.o: ../lvgl/src/layouts/lv_layout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object lvgl/CMakeFiles/lvgl.dir/src/layouts/lv_layout.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object lvgl/CMakeFiles/lvgl.dir/src/layouts/lv_layout.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/layouts/lv_layout.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/layouts/lv_layout.c
 
 lvgl/CMakeFiles/lvgl.dir/src/layouts/lv_layout.c.i: cmake_force
@@ -2669,7 +2916,7 @@ lvgl/CMakeFiles/lvgl.dir/src/layouts/lv_layout.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/code128.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/code128.c.o: ../lvgl/src/libs/barcode/code128.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/code128.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/code128.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/barcode/code128.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/barcode/code128.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/code128.c.i: cmake_force
@@ -2682,7 +2929,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/code128.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/lv_barcode.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/lv_barcode.c.o: ../lvgl/src/libs/barcode/lv_barcode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/lv_barcode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/lv_barcode.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/barcode/lv_barcode.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/barcode/lv_barcode.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/lv_barcode.c.i: cmake_force
@@ -2695,7 +2942,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/barcode/lv_barcode.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/bin_decoder/lv_bin_decoder.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/bin_decoder/lv_bin_decoder.c.o: ../lvgl/src/libs/bin_decoder/lv_bin_decoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/bin_decoder/lv_bin_decoder.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/bin_decoder/lv_bin_decoder.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/bin_decoder/lv_bin_decoder.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/bin_decoder/lv_bin_decoder.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/bin_decoder/lv_bin_decoder.c.i: cmake_force
@@ -2708,7 +2955,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/bin_decoder/lv_bin_decoder.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/bmp/lv_bmp.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/bmp/lv_bmp.c.o: ../lvgl/src/libs/bmp/lv_bmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/bmp/lv_bmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/bmp/lv_bmp.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/bmp/lv_bmp.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/bmp/lv_bmp.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/bmp/lv_bmp.c.i: cmake_force
@@ -2721,7 +2968,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/bmp/lv_bmp.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlparse.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlparse.c.o: ../lvgl/src/libs/expat/xmlparse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlparse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlparse.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/expat/xmlparse.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/expat/xmlparse.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlparse.c.i: cmake_force
@@ -2734,7 +2981,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlparse.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlrole.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlrole.c.o: ../lvgl/src/libs/expat/xmlrole.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlrole.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlrole.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/expat/xmlrole.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/expat/xmlrole.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlrole.c.i: cmake_force
@@ -2747,7 +2994,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmlrole.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok.c.o: ../lvgl/src/libs/expat/xmltok.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/expat/xmltok.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/expat/xmltok.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok.c.i: cmake_force
@@ -2760,7 +3007,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_impl.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_impl.c.o: ../lvgl/src/libs/expat/xmltok_impl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_impl.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_impl.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/expat/xmltok_impl.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/expat/xmltok_impl.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_impl.c.i: cmake_force
@@ -2773,7 +3020,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_impl.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_ns.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_ns.c.o: ../lvgl/src/libs/expat/xmltok_ns.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_ns.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_ns.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/expat/xmltok_ns.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/expat/xmltok_ns.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_ns.c.i: cmake_force
@@ -2786,7 +3033,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/expat/xmltok_ns.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/ffmpeg/lv_ffmpeg.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/ffmpeg/lv_ffmpeg.c.o: ../lvgl/src/libs/ffmpeg/lv_ffmpeg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/ffmpeg/lv_ffmpeg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/ffmpeg/lv_ffmpeg.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/ffmpeg/lv_ffmpeg.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/ffmpeg/lv_ffmpeg.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/ffmpeg/lv_ffmpeg.c.i: cmake_force
@@ -2799,7 +3046,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/ffmpeg/lv_ffmpeg.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype.c.o: ../lvgl/src/libs/freetype/lv_freetype.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_freetype.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype.c.i: cmake_force
@@ -2812,7 +3059,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_glyph.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_glyph.c.o: ../lvgl/src/libs/freetype/lv_freetype_glyph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_glyph.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_glyph.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_glyph.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_freetype_glyph.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_glyph.c.i: cmake_force
@@ -2825,7 +3072,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_glyph.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_image.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_image.c.o: ../lvgl/src/libs/freetype/lv_freetype_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_image.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_image.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_image.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_freetype_image.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_image.c.i: cmake_force
@@ -2838,7 +3085,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_image.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.o: ../lvgl/src/libs/freetype/lv_freetype_outline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_freetype_outline.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.i: cmake_force
@@ -2849,9 +3096,22 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_freetype_outline.c -o CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.o: ../lvgl/src/libs/freetype/lv_ftsystem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_ftsystem.c
+
+lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_ftsystem.c > CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_ftsystem.c -o CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_cbfs.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_cbfs.c.o: ../lvgl/src/libs/fsdrv/lv_fs_cbfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_cbfs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_cbfs.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_cbfs.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/fsdrv/lv_fs_cbfs.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_cbfs.c.i: cmake_force
@@ -2864,7 +3124,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_cbfs.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_fatfs.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_fatfs.c.o: ../lvgl/src/libs/fsdrv/lv_fs_fatfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_fatfs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_fatfs.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_fatfs.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/fsdrv/lv_fs_fatfs.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_fatfs.c.i: cmake_force
@@ -2877,7 +3137,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_fatfs.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_littlefs.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_littlefs.c.o: ../lvgl/src/libs/fsdrv/lv_fs_littlefs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_littlefs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_littlefs.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_littlefs.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/fsdrv/lv_fs_littlefs.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_littlefs.c.i: cmake_force
@@ -2890,7 +3150,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_littlefs.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_memfs.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_memfs.c.o: ../lvgl/src/libs/fsdrv/lv_fs_memfs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_memfs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_memfs.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_memfs.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/fsdrv/lv_fs_memfs.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_memfs.c.i: cmake_force
@@ -2903,7 +3163,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_memfs.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_posix.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_posix.c.o: ../lvgl/src/libs/fsdrv/lv_fs_posix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_posix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_posix.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_posix.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/fsdrv/lv_fs_posix.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_posix.c.i: cmake_force
@@ -2916,7 +3176,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_posix.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_stdio.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_stdio.c.o: ../lvgl/src/libs/fsdrv/lv_fs_stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_stdio.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_stdio.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/fsdrv/lv_fs_stdio.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_stdio.c.i: cmake_force
@@ -2929,7 +3189,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_stdio.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_uefi.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_uefi.c.o: ../lvgl/src/libs/fsdrv/lv_fs_uefi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_uefi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_uefi.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_uefi.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/fsdrv/lv_fs_uefi.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_uefi.c.i: cmake_force
@@ -2942,7 +3202,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_uefi.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_win32.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_win32.c.o: ../lvgl/src/libs/fsdrv/lv_fs_win32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_win32.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_win32.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_win32.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/fsdrv/lv_fs_win32.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_win32.c.i: cmake_force
@@ -2955,7 +3215,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_win32.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/gif/gifdec.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/gif/gifdec.c.o: ../lvgl/src/libs/gif/gifdec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/gif/gifdec.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/gif/gifdec.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/gif/gifdec.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/gif/gifdec.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/gif/gifdec.c.i: cmake_force
@@ -2968,7 +3228,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/gif/gifdec.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/gif/lv_gif.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/gif/lv_gif.c.o: ../lvgl/src/libs/gif/lv_gif.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/gif/lv_gif.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/gif/lv_gif.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/gif/lv_gif.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/gif/lv_gif.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/gif/lv_gif.c.i: cmake_force
@@ -2981,7 +3241,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/gif/lv_gif.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o: ../lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.i: cmake_force
@@ -2994,7 +3254,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/libjpeg_turbo/lv_libjpeg_turbo.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/libpng/lv_libpng.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/libpng/lv_libpng.c.o: ../lvgl/src/libs/libpng/lv_libpng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/libpng/lv_libpng.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/libpng/lv_libpng.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/libpng/lv_libpng.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/libpng/lv_libpng.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/libpng/lv_libpng.c.i: cmake_force
@@ -3007,7 +3267,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/libpng/lv_libpng.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lodepng.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lodepng.c.o: ../lvgl/src/libs/lodepng/lodepng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lodepng.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lodepng.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/lodepng/lodepng.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/lodepng/lodepng.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lodepng.c.i: cmake_force
@@ -3020,7 +3280,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lodepng.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lv_lodepng.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lv_lodepng.c.o: ../lvgl/src/libs/lodepng/lv_lodepng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lv_lodepng.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lv_lodepng.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/lodepng/lv_lodepng.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/lodepng/lv_lodepng.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lv_lodepng.c.i: cmake_force
@@ -3033,7 +3293,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/lodepng/lv_lodepng.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/lz4/lz4.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/lz4/lz4.c.o: ../lvgl/src/libs/lz4/lz4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/lz4/lz4.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/lz4/lz4.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/lz4/lz4.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/lz4/lz4.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/lz4/lz4.c.i: cmake_force
@@ -3046,7 +3306,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/lz4/lz4.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/lv_qrcode.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/lv_qrcode.c.o: ../lvgl/src/libs/qrcode/lv_qrcode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/lv_qrcode.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/lv_qrcode.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/qrcode/lv_qrcode.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/qrcode/lv_qrcode.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/lv_qrcode.c.i: cmake_force
@@ -3059,7 +3319,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/lv_qrcode.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/qrcodegen.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/qrcodegen.c.o: ../lvgl/src/libs/qrcode/qrcodegen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/qrcodegen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/qrcodegen.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/qrcode/qrcodegen.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/qrcode/qrcodegen.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/qrcodegen.c.i: cmake_force
@@ -3072,7 +3332,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/qrcode/qrcodegen.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/rle/lv_rle.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/rle/lv_rle.c.o: ../lvgl/src/libs/rle/lv_rle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/rle/lv_rle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/rle/lv_rle.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/rle/lv_rle.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/rle/lv_rle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/rle/lv_rle.c.i: cmake_force
@@ -3085,7 +3345,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/rle/lv_rle.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/rlottie/lv_rlottie.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/rlottie/lv_rlottie.c.o: ../lvgl/src/libs/rlottie/lv_rlottie.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/rlottie/lv_rlottie.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/rlottie/lv_rlottie.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/rlottie/lv_rlottie.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/rlottie/lv_rlottie.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/rlottie/lv_rlottie.c.i: cmake_force
@@ -3098,7 +3358,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/rlottie/lv_rlottie.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg.c.o: ../lvgl/src/libs/svg/lv_svg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/svg/lv_svg.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/svg/lv_svg.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg.c.i: cmake_force
@@ -3111,7 +3371,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_decoder.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_decoder.c.o: ../lvgl/src/libs/svg/lv_svg_decoder.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_decoder.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_decoder.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_decoder.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/svg/lv_svg_decoder.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_decoder.c.i: cmake_force
@@ -3124,7 +3384,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_decoder.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_parser.c.o: ../lvgl/src/libs/svg/lv_svg_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/svg/lv_svg_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_parser.c.i: cmake_force
@@ -3137,7 +3397,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_parser.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_render.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_render.c.o: ../lvgl/src/libs/svg/lv_svg_render.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_render.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_render.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_render.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/svg/lv_svg_render.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_render.c.i: cmake_force
@@ -3150,7 +3410,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_render.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_token.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_token.c.o: ../lvgl/src/libs/svg/lv_svg_token.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_token.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_token.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_token.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/svg/lv_svg_token.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_token.c.i: cmake_force
@@ -3163,7 +3423,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/svg/lv_svg_token.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/tiny_ttf/lv_tiny_ttf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/tiny_ttf/lv_tiny_ttf.c.o: ../lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/tiny_ttf/lv_tiny_ttf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/tiny_ttf/lv_tiny_ttf.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/tiny_ttf/lv_tiny_ttf.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/tiny_ttf/lv_tiny_ttf.c.i: cmake_force
@@ -3176,7 +3436,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/tiny_ttf/lv_tiny_ttf.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/lv_tjpgd.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/lv_tjpgd.c.o: ../lvgl/src/libs/tjpgd/lv_tjpgd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/lv_tjpgd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/lv_tjpgd.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/tjpgd/lv_tjpgd.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/tjpgd/lv_tjpgd.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/lv_tjpgd.c.i: cmake_force
@@ -3189,7 +3449,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/lv_tjpgd.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/tjpgd.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/tjpgd.c.o: ../lvgl/src/libs/tjpgd/tjpgd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/tjpgd.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/tjpgd.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/libs/tjpgd/tjpgd.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/tjpgd/tjpgd.c
 
 lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/tjpgd.c.i: cmake_force
@@ -3202,7 +3462,7 @@ lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/tjpgd.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/lv_init.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/lv_init.c.o: ../lvgl/src/lv_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Building C object lvgl/CMakeFiles/lvgl.dir/src/lv_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object lvgl/CMakeFiles/lvgl.dir/src/lv_init.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/lv_init.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_init.c
 
 lvgl/CMakeFiles/lvgl.dir/src/lv_init.c.i: cmake_force
@@ -3213,9 +3473,61 @@ lvgl/CMakeFiles/lvgl.dir/src/lv_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/lv_init.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_init.c -o CMakeFiles/lvgl.dir/src/lv_init.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.o: ../lvgl/src/misc/cache/class/lv_cache_lru_ll.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/class/lv_cache_lru_ll.c
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/class/lv_cache_lru_ll.c > CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/class/lv_cache_lru_ll.c -o CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.o: ../lvgl/src/misc/cache/class/lv_cache_lru_rb.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/class/lv_cache_lru_rb.c
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/class/lv_cache_lru_rb.c > CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/class/lv_cache_lru_rb.c -o CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.o: ../lvgl/src/misc/cache/instance/lv_image_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/instance/lv_image_cache.c
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/instance/lv_image_cache.c > CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/instance/lv_image_cache.c -o CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.o: ../lvgl/src/misc/cache/instance/lv_image_header_cache.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/instance/lv_image_header_cache.c
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/instance/lv_image_header_cache.c > CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/instance/lv_image_header_cache.c -o CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache.c.o: ../lvgl/src/misc/cache/lv_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/cache/lv_cache.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_cache.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache.c.i: cmake_force
@@ -3228,7 +3540,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.o: ../lvgl/src/misc/cache/lv_cache_entry.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_cache_entry.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.i: cmake_force
@@ -3239,48 +3551,9 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_cache_entry.c -o CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.o: ../lvgl/src/misc/cache/lv_cache_lru_rb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.o"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_cache_lru_rb.c
-
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.i"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_cache_lru_rb.c > CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.i
-
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.s"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_cache_lru_rb.c -o CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.s
-
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.o: ../lvgl/src/misc/cache/lv_image_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.o"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_image_cache.c
-
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.i"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_image_cache.c > CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.i
-
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.s"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_image_cache.c -o CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.s
-
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.o: ../lvgl/src/misc/cache/lv_image_header_cache.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.o"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_image_header_cache.c
-
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.i"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_image_header_cache.c > CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.i
-
-lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.s"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/cache/lv_image_header_cache.c -o CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.s
-
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o: ../lvgl/src/misc/lv_anim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_anim.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.i: cmake_force
@@ -3293,7 +3566,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o: ../lvgl/src/misc/lv_anim_timeline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_anim_timeline.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.i: cmake_force
@@ -3306,7 +3579,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o: ../lvgl/src/misc/lv_area.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_area.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_area.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.i: cmake_force
@@ -3319,7 +3592,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_array.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_array.c.o: ../lvgl/src/misc/lv_array.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_array.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_array.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_array.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_array.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_array.c.i: cmake_force
@@ -3332,7 +3605,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_array.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o: ../lvgl/src/misc/lv_async.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_async.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_async.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.i: cmake_force
@@ -3345,7 +3618,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_async.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o: ../lvgl/src/misc/lv_bidi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_bidi.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.i: cmake_force
@@ -3358,7 +3631,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_bidi.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_circle_buf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_circle_buf.c.o: ../lvgl/src/misc/lv_circle_buf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_circle_buf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_circle_buf.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_circle_buf.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_circle_buf.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_circle_buf.c.i: cmake_force
@@ -3371,7 +3644,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_circle_buf.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o: ../lvgl/src/misc/lv_color.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_color.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_color.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.i: cmake_force
@@ -3384,7 +3657,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color_op.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color_op.c.o: ../lvgl/src/misc/lv_color_op.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color_op.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color_op.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_color_op.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_color_op.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color_op.c.i: cmake_force
@@ -3397,7 +3670,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_color_op.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_event.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_event.c.o: ../lvgl/src/misc/lv_event.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_event.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_event.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_event.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_event.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_event.c.i: cmake_force
@@ -3410,7 +3683,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_event.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o: ../lvgl/src/misc/lv_fs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_fs.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_fs.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.i: cmake_force
@@ -3423,7 +3696,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_fs.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_grad.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_grad.c.o: ../lvgl/src/misc/lv_grad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_grad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_grad.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_grad.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_grad.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_grad.c.i: cmake_force
@@ -3436,7 +3709,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_grad.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_iter.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_iter.c.o: ../lvgl/src/misc/lv_iter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_iter.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_iter.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_iter.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_iter.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_iter.c.i: cmake_force
@@ -3449,7 +3722,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_iter.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o: ../lvgl/src/misc/lv_ll.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_ll.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_ll.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.i: cmake_force
@@ -3462,7 +3735,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_ll.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o: ../lvgl/src/misc/lv_log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_log.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.i: cmake_force
@@ -3475,7 +3748,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_log.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o: ../lvgl/src/misc/lv_lru.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_lru.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_lru.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.i: cmake_force
@@ -3488,7 +3761,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_lru.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o: ../lvgl/src/misc/lv_math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_math.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_math.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.i: cmake_force
@@ -3501,7 +3774,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_math.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_matrix.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_matrix.c.o: ../lvgl/src/misc/lv_matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_matrix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_matrix.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_matrix.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_matrix.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_matrix.c.i: cmake_force
@@ -3514,7 +3787,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_matrix.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_palette.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_palette.c.o: ../lvgl/src/misc/lv_palette.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_palette.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_palette.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_palette.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_palette.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_palette.c.i: cmake_force
@@ -3527,7 +3800,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_palette.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_profiler_builtin.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_profiler_builtin.c.o: ../lvgl/src/misc/lv_profiler_builtin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_profiler_builtin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_profiler_builtin.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_profiler_builtin.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_profiler_builtin.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_profiler_builtin.c.i: cmake_force
@@ -3540,7 +3813,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_profiler_builtin.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_rb.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_rb.c.o: ../lvgl/src/misc/lv_rb.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_rb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_rb.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_rb.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_rb.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_rb.c.i: cmake_force
@@ -3553,7 +3826,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_rb.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o: ../lvgl/src/misc/lv_style.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_style.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_style.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.i: cmake_force
@@ -3566,7 +3839,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o: ../lvgl/src/misc/lv_style_gen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_style_gen.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.i: cmake_force
@@ -3579,7 +3852,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_style_gen.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o: ../lvgl/src/misc/lv_templ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_templ.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_templ.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.i: cmake_force
@@ -3592,7 +3865,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_templ.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text.c.o: ../lvgl/src/misc/lv_text.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_text.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_text.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text.c.i: cmake_force
@@ -3605,7 +3878,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text_ap.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text_ap.c.o: ../lvgl/src/misc/lv_text_ap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text_ap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text_ap.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_text_ap.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_text_ap.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text_ap.c.i: cmake_force
@@ -3618,7 +3891,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_text_ap.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o: ../lvgl/src/misc/lv_timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_timer.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_timer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.i: cmake_force
@@ -3631,7 +3904,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_timer.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tree.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tree.c.o: ../lvgl/src/misc/lv_tree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tree.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tree.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_tree.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_tree.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tree.c.i: cmake_force
@@ -3644,7 +3917,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_tree.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o: ../lvgl/src/misc/lv_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/misc/lv_utils.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.i: cmake_force
@@ -3657,7 +3930,7 @@ lvgl/CMakeFiles/lvgl.dir/src/misc/lv_utils.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_cmsis_rtos2.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_cmsis_rtos2.c.o: ../lvgl/src/osal/lv_cmsis_rtos2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_cmsis_rtos2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_cmsis_rtos2.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/osal/lv_cmsis_rtos2.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_cmsis_rtos2.c
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_cmsis_rtos2.c.i: cmake_force
@@ -3670,7 +3943,7 @@ lvgl/CMakeFiles/lvgl.dir/src/osal/lv_cmsis_rtos2.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_freertos.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_freertos.c.o: ../lvgl/src/osal/lv_freertos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_freertos.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_freertos.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/osal/lv_freertos.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_freertos.c
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_freertos.c.i: cmake_force
@@ -3683,7 +3956,7 @@ lvgl/CMakeFiles/lvgl.dir/src/osal/lv_freertos.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_linux.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_linux.c.o: ../lvgl/src/osal/lv_linux.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_linux.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_linux.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/osal/lv_linux.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_linux.c
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_linux.c.i: cmake_force
@@ -3696,7 +3969,7 @@ lvgl/CMakeFiles/lvgl.dir/src/osal/lv_linux.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_mqx.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_mqx.c.o: ../lvgl/src/osal/lv_mqx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_mqx.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_mqx.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/osal/lv_mqx.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_mqx.c
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_mqx.c.i: cmake_force
@@ -3709,7 +3982,7 @@ lvgl/CMakeFiles/lvgl.dir/src/osal/lv_mqx.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os.c.o: ../lvgl/src/osal/lv_os.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/osal/lv_os.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_os.c
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os.c.i: cmake_force
@@ -3722,7 +3995,7 @@ lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os_none.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os_none.c.o: ../lvgl/src/osal/lv_os_none.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os_none.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os_none.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/osal/lv_os_none.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_os_none.c
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os_none.c.i: cmake_force
@@ -3735,7 +4008,7 @@ lvgl/CMakeFiles/lvgl.dir/src/osal/lv_os_none.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_pthread.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_pthread.c.o: ../lvgl/src/osal/lv_pthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_pthread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_pthread.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/osal/lv_pthread.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_pthread.c
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_pthread.c.i: cmake_force
@@ -3748,7 +4021,7 @@ lvgl/CMakeFiles/lvgl.dir/src/osal/lv_pthread.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_rtthread.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_rtthread.c.o: ../lvgl/src/osal/lv_rtthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_rtthread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_rtthread.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/osal/lv_rtthread.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_rtthread.c
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_rtthread.c.i: cmake_force
@@ -3761,7 +4034,7 @@ lvgl/CMakeFiles/lvgl.dir/src/osal/lv_rtthread.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_sdl2.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_sdl2.c.o: ../lvgl/src/osal/lv_sdl2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_sdl2.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_sdl2.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/osal/lv_sdl2.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_sdl2.c
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_sdl2.c.i: cmake_force
@@ -3774,7 +4047,7 @@ lvgl/CMakeFiles/lvgl.dir/src/osal/lv_sdl2.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_windows.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_windows.c.o: ../lvgl/src/osal/lv_windows.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_windows.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object lvgl/CMakeFiles/lvgl.dir/src/osal/lv_windows.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/osal/lv_windows.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_windows.c
 
 lvgl/CMakeFiles/lvgl.dir/src/osal/lv_windows.c.i: cmake_force
@@ -3787,7 +4060,7 @@ lvgl/CMakeFiles/lvgl.dir/src/osal/lv_windows.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/file_explorer/lv_file_explorer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/file_explorer/lv_file_explorer.c.o: ../lvgl/src/others/file_explorer/lv_file_explorer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/file_explorer/lv_file_explorer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/file_explorer/lv_file_explorer.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/file_explorer/lv_file_explorer.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/file_explorer/lv_file_explorer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/file_explorer/lv_file_explorer.c.i: cmake_force
@@ -3800,7 +4073,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/file_explorer/lv_file_explorer.c.s: cmake_fo
 
 lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager.c.o: ../lvgl/src/others/font_manager/lv_font_manager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/font_manager/lv_font_manager.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager.c.i: cmake_force
@@ -3813,7 +4086,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.o: ../lvgl/src/others/font_manager/lv_font_manager_recycle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/font_manager/lv_font_manager_recycle.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.i: cmake_force
@@ -3824,22 +4097,9 @@ lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.s: cm
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/font_manager/lv_font_manager_recycle.c -o CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.s
 
-lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
-lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.o: ../lvgl/src/others/font_manager/lv_font_manager_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.o"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/font_manager/lv_font_manager_utils.c
-
-lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.i"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/others/font_manager/lv_font_manager_utils.c > CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.i
-
-lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.s"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/font_manager/lv_font_manager_utils.c -o CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.s
-
 lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment.c.o: ../lvgl/src/others/fragment/lv_fragment.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/fragment/lv_fragment.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment.c.i: cmake_force
@@ -3852,7 +4112,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment_manager.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment_manager.c.o: ../lvgl/src/others/fragment/lv_fragment_manager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment_manager.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment_manager.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment_manager.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/fragment/lv_fragment_manager.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment_manager.c.i: cmake_force
@@ -3865,7 +4125,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment_manager.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/others/gridnav/lv_gridnav.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/gridnav/lv_gridnav.c.o: ../lvgl/src/others/gridnav/lv_gridnav.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/gridnav/lv_gridnav.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/gridnav/lv_gridnav.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/gridnav/lv_gridnav.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/gridnav/lv_gridnav.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/gridnav/lv_gridnav.c.i: cmake_force
@@ -3878,7 +4138,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/gridnav/lv_gridnav.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/ime/lv_ime_pinyin.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/ime/lv_ime_pinyin.c.o: ../lvgl/src/others/ime/lv_ime_pinyin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/ime/lv_ime_pinyin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/ime/lv_ime_pinyin.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/ime/lv_ime_pinyin.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/ime/lv_ime_pinyin.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/ime/lv_ime_pinyin.c.i: cmake_force
@@ -3891,7 +4151,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/ime/lv_ime_pinyin.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/imgfont/lv_imgfont.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/imgfont/lv_imgfont.c.o: ../lvgl/src/others/imgfont/lv_imgfont.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/imgfont/lv_imgfont.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/imgfont/lv_imgfont.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/imgfont/lv_imgfont.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/imgfont/lv_imgfont.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/imgfont/lv_imgfont.c.i: cmake_force
@@ -3904,7 +4164,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/imgfont/lv_imgfont.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/monkey/lv_monkey.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/monkey/lv_monkey.c.o: ../lvgl/src/others/monkey/lv_monkey.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/monkey/lv_monkey.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/monkey/lv_monkey.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/monkey/lv_monkey.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/monkey/lv_monkey.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/monkey/lv_monkey.c.i: cmake_force
@@ -3917,7 +4177,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/monkey/lv_monkey.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/observer/lv_observer.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/observer/lv_observer.c.o: ../lvgl/src/others/observer/lv_observer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/observer/lv_observer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/observer/lv_observer.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/observer/lv_observer.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/observer/lv_observer.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/observer/lv_observer.c.i: cmake_force
@@ -3930,7 +4190,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/observer/lv_observer.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/snapshot/lv_snapshot.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/snapshot/lv_snapshot.c.o: ../lvgl/src/others/snapshot/lv_snapshot.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/snapshot/lv_snapshot.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/snapshot/lv_snapshot.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/snapshot/lv_snapshot.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/snapshot/lv_snapshot.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/snapshot/lv_snapshot.c.i: cmake_force
@@ -3943,7 +4203,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/snapshot/lv_snapshot.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/sysmon/lv_sysmon.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/sysmon/lv_sysmon.c.o: ../lvgl/src/others/sysmon/lv_sysmon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/sysmon/lv_sysmon.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/sysmon/lv_sysmon.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/sysmon/lv_sysmon.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/sysmon/lv_sysmon.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/sysmon/lv_sysmon.c.i: cmake_force
@@ -3956,7 +4216,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/sysmon/lv_sysmon.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_display.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_display.c.o: ../lvgl/src/others/test/lv_test_display.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_display.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_display.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/test/lv_test_display.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_display.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_display.c.i: cmake_force
@@ -3969,7 +4229,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_display.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_helpers.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_helpers.c.o: ../lvgl/src/others/test/lv_test_helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_helpers.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_helpers.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/test/lv_test_helpers.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_helpers.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_helpers.c.i: cmake_force
@@ -3982,7 +4242,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_helpers.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev.c.o: ../lvgl/src/others/test/lv_test_indev.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/test/lv_test_indev.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_indev.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev.c.i: cmake_force
@@ -3995,7 +4255,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev_gesture.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev_gesture.c.o: ../lvgl/src/others/test/lv_test_indev_gesture.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev_gesture.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev_gesture.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/test/lv_test_indev_gesture.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_indev_gesture.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev_gesture.c.i: cmake_force
@@ -4008,7 +4268,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_indev_gesture.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_screenshot_compare.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_screenshot_compare.c.o: ../lvgl/src/others/test/lv_test_screenshot_compare.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_screenshot_compare.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_screenshot_compare.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/test/lv_test_screenshot_compare.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_screenshot_compare.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_screenshot_compare.c.i: cmake_force
@@ -4021,7 +4281,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/test/lv_test_screenshot_compare.c.s: cmake_f
 
 lvgl/CMakeFiles/lvgl.dir/src/others/vg_lite_tvg/vg_lite_matrix.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/vg_lite_tvg/vg_lite_matrix.c.o: ../lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/vg_lite_tvg/vg_lite_matrix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/vg_lite_tvg/vg_lite_matrix.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/vg_lite_tvg/vg_lite_matrix.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/vg_lite_tvg/vg_lite_matrix.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/vg_lite_tvg/vg_lite_matrix.c.i: cmake_force
@@ -4034,7 +4294,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/vg_lite_tvg/vg_lite_matrix.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml.c.o: ../lvgl/src/others/xml/lv_xml.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml.c.i: cmake_force
@@ -4047,7 +4307,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_base_types.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_base_types.c.o: ../lvgl/src/others/xml/lv_xml_base_types.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_base_types.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_base_types.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml_base_types.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_base_types.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_base_types.c.i: cmake_force
@@ -4060,7 +4320,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_base_types.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_component.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_component.c.o: ../lvgl/src/others/xml/lv_xml_component.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_component.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_component.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml_component.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_component.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_component.c.i: cmake_force
@@ -4073,7 +4333,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_component.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_parser.c.o: ../lvgl/src/others/xml/lv_xml_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_parser.c.i: cmake_force
@@ -4086,7 +4346,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_parser.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.o: ../lvgl/src/others/xml/lv_xml_style.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_style.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.i: cmake_force
@@ -4097,9 +4357,22 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_style.c -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.o: ../lvgl/src/others/xml/lv_xml_update.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_update.c
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_update.c > CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_update.c -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_utils.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_utils.c.o: ../lvgl/src/others/xml/lv_xml_utils.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_utils.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_utils.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml_utils.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_utils.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_utils.c.i: cmake_force
@@ -4112,7 +4385,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_utils.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.o: ../lvgl/src/others/xml/lv_xml_widget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_widget.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.i: cmake_force
@@ -4123,9 +4396,22 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_widget.c -o CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_arc_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_arc_parser.c
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_arc_parser.c > CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_arc_parser.c -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_bar_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_bar_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_bar_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_bar_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_bar_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_bar_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_bar_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_bar_parser.c.i: cmake_force
@@ -4138,7 +4424,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_bar_parser.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_button_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_button_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_button_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_button_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_button_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_button_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_button_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_button_parser.c.i: cmake_force
@@ -4151,7 +4437,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_button_parser.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.i: cmake_force
@@ -4162,9 +4448,35 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_calendar_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_calendar_parser.c
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_calendar_parser.c > CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_calendar_parser.c -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.s
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_canvas_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_canvas_parser.c
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_canvas_parser.c > CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_canvas_parser.c -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_chart_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_chart_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.i: cmake_force
@@ -4175,9 +4487,22 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_chart_parser.c -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_checkbox_parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_checkbox_parser.c
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_checkbox_parser.c > CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_checkbox_parser.c -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_dropdown_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_dropdown_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_dropdown_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_dropdown_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_dropdown_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_dropdown_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_dropdown_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_dropdown_parser.c.i: cmake_force
@@ -4190,7 +4515,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_dropdown_parser.c.s: cmak
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_event_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_event_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_event_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_event_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_event_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_event_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_event_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_event_parser.c.i: cmake_force
@@ -4203,7 +4528,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_event_parser.c.s: cmake_f
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_image_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_image_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_image_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_image_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_image_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_image_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_image_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_image_parser.c.i: cmake_force
@@ -4216,7 +4541,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_image_parser.c.s: cmake_f
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_keyboard_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_keyboard_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_keyboard_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_keyboard_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_keyboard_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_keyboard_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_keyboard_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_keyboard_parser.c.i: cmake_force
@@ -4229,7 +4554,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_keyboard_parser.c.s: cmak
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_label_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_label_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_label_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_label_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_label_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_label_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_label_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_label_parser.c.i: cmake_force
@@ -4242,7 +4567,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_label_parser.c.s: cmake_f
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_obj_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_obj_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_obj_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_obj_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_obj_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_obj_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_obj_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_obj_parser.c.i: cmake_force
@@ -4255,7 +4580,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_obj_parser.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_roller_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_roller_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_roller_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_roller_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_roller_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_roller_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_roller_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_roller_parser.c.i: cmake_force
@@ -4268,7 +4593,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_roller_parser.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_scale_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_scale_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_scale_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_scale_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_scale_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_scale_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_scale_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_scale_parser.c.i: cmake_force
@@ -4281,7 +4606,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_scale_parser.c.s: cmake_f
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_slider_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_slider_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_slider_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_slider_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_slider_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_slider_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_slider_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_slider_parser.c.i: cmake_force
@@ -4294,7 +4619,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_slider_parser.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_spangroup_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_spangroup_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_spangroup_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_spangroup_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_spangroup_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_spangroup_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_spangroup_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_spangroup_parser.c.i: cmake_force
@@ -4307,7 +4632,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_spangroup_parser.c.s: cma
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_table_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_table_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_table_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_table_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_table_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_table_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_table_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_table_parser.c.i: cmake_force
@@ -4320,7 +4645,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_table_parser.c.s: cmake_f
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_tabview_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_tabview_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_tabview_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_tabview_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_tabview_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_tabview_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_tabview_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_tabview_parser.c.i: cmake_force
@@ -4333,7 +4658,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_tabview_parser.c.s: cmake
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_textarea_parser.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_textarea_parser.c.o: ../lvgl/src/others/xml/parsers/lv_xml_textarea_parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_textarea_parser.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_textarea_parser.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_textarea_parser.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_textarea_parser.c
 
 lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_textarea_parser.c.i: cmake_force
@@ -4346,7 +4671,7 @@ lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_textarea_parser.c.s: cmak
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_mem_core_builtin.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_mem_core_builtin.c.o: ../lvgl/src/stdlib/builtin/lv_mem_core_builtin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_mem_core_builtin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_mem_core_builtin.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_mem_core_builtin.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/builtin/lv_mem_core_builtin.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_mem_core_builtin.c.i: cmake_force
@@ -4359,7 +4684,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_mem_core_builtin.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_sprintf_builtin.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_sprintf_builtin.c.o: ../lvgl/src/stdlib/builtin/lv_sprintf_builtin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_sprintf_builtin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_sprintf_builtin.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_sprintf_builtin.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/builtin/lv_sprintf_builtin.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_sprintf_builtin.c.i: cmake_force
@@ -4372,7 +4697,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_sprintf_builtin.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_string_builtin.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_string_builtin.c.o: ../lvgl/src/stdlib/builtin/lv_string_builtin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_string_builtin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_string_builtin.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_string_builtin.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/builtin/lv_string_builtin.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_string_builtin.c.i: cmake_force
@@ -4385,7 +4710,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_string_builtin.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_tlsf.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_tlsf.c.o: ../lvgl/src/stdlib/builtin/lv_tlsf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_tlsf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_tlsf.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_tlsf.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/builtin/lv_tlsf.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_tlsf.c.i: cmake_force
@@ -4398,7 +4723,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/builtin/lv_tlsf.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_mem_core_clib.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_mem_core_clib.c.o: ../lvgl/src/stdlib/clib/lv_mem_core_clib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_mem_core_clib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_mem_core_clib.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/clib/lv_mem_core_clib.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/clib/lv_mem_core_clib.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_mem_core_clib.c.i: cmake_force
@@ -4411,7 +4736,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_mem_core_clib.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_sprintf_clib.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_sprintf_clib.c.o: ../lvgl/src/stdlib/clib/lv_sprintf_clib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_sprintf_clib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_sprintf_clib.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/clib/lv_sprintf_clib.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/clib/lv_sprintf_clib.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_sprintf_clib.c.i: cmake_force
@@ -4424,7 +4749,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_sprintf_clib.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_string_clib.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_string_clib.c.o: ../lvgl/src/stdlib/clib/lv_string_clib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_string_clib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_string_clib.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/clib/lv_string_clib.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/clib/lv_string_clib.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_string_clib.c.i: cmake_force
@@ -4437,7 +4762,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/clib/lv_string_clib.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/lv_mem.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/lv_mem.c.o: ../lvgl/src/stdlib/lv_mem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/lv_mem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/lv_mem.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/lv_mem.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/lv_mem.c.i: cmake_force
@@ -4450,7 +4775,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/lv_mem.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/micropython/lv_mem_core_micropython.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/micropython/lv_mem_core_micropython.c.o: ../lvgl/src/stdlib/micropython/lv_mem_core_micropython.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/micropython/lv_mem_core_micropython.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/micropython/lv_mem_core_micropython.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/micropython/lv_mem_core_micropython.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/micropython/lv_mem_core_micropython.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/micropython/lv_mem_core_micropython.c.i: cmake_force
@@ -4463,7 +4788,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/micropython/lv_mem_core_micropython.c.s: cma
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_mem_core_rtthread.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_mem_core_rtthread.c.o: ../lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_mem_core_rtthread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_mem_core_rtthread.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_mem_core_rtthread.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/rtthread/lv_mem_core_rtthread.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_mem_core_rtthread.c.i: cmake_force
@@ -4476,7 +4801,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_mem_core_rtthread.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_sprintf_rtthread.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_sprintf_rtthread.c.o: ../lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_sprintf_rtthread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_sprintf_rtthread.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_sprintf_rtthread.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/rtthread/lv_sprintf_rtthread.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_sprintf_rtthread.c.i: cmake_force
@@ -4489,7 +4814,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_sprintf_rtthread.c.s: cmake_forc
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_string_rtthread.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_string_rtthread.c.o: ../lvgl/src/stdlib/rtthread/lv_string_rtthread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_string_rtthread.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_string_rtthread.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_string_rtthread.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/rtthread/lv_string_rtthread.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_string_rtthread.c.i: cmake_force
@@ -4502,7 +4827,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/rtthread/lv_string_rtthread.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/uefi/lv_mem_core_uefi.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/uefi/lv_mem_core_uefi.c.o: ../lvgl/src/stdlib/uefi/lv_mem_core_uefi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/uefi/lv_mem_core_uefi.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object lvgl/CMakeFiles/lvgl.dir/src/stdlib/uefi/lv_mem_core_uefi.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/stdlib/uefi/lv_mem_core_uefi.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/uefi/lv_mem_core_uefi.c
 
 lvgl/CMakeFiles/lvgl.dir/src/stdlib/uefi/lv_mem_core_uefi.c.i: cmake_force
@@ -4515,7 +4840,7 @@ lvgl/CMakeFiles/lvgl.dir/src/stdlib/uefi/lv_mem_core_uefi.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/themes/default/lv_theme_default.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/themes/default/lv_theme_default.c.o: ../lvgl/src/themes/default/lv_theme_default.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Building C object lvgl/CMakeFiles/lvgl.dir/src/themes/default/lv_theme_default.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object lvgl/CMakeFiles/lvgl.dir/src/themes/default/lv_theme_default.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/themes/default/lv_theme_default.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/themes/default/lv_theme_default.c
 
 lvgl/CMakeFiles/lvgl.dir/src/themes/default/lv_theme_default.c.i: cmake_force
@@ -4528,7 +4853,7 @@ lvgl/CMakeFiles/lvgl.dir/src/themes/default/lv_theme_default.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/themes/lv_theme.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/themes/lv_theme.c.o: ../lvgl/src/themes/lv_theme.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Building C object lvgl/CMakeFiles/lvgl.dir/src/themes/lv_theme.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object lvgl/CMakeFiles/lvgl.dir/src/themes/lv_theme.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/themes/lv_theme.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/themes/lv_theme.c
 
 lvgl/CMakeFiles/lvgl.dir/src/themes/lv_theme.c.i: cmake_force
@@ -4541,7 +4866,7 @@ lvgl/CMakeFiles/lvgl.dir/src/themes/lv_theme.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/themes/mono/lv_theme_mono.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/themes/mono/lv_theme_mono.c.o: ../lvgl/src/themes/mono/lv_theme_mono.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Building C object lvgl/CMakeFiles/lvgl.dir/src/themes/mono/lv_theme_mono.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object lvgl/CMakeFiles/lvgl.dir/src/themes/mono/lv_theme_mono.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/themes/mono/lv_theme_mono.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/themes/mono/lv_theme_mono.c
 
 lvgl/CMakeFiles/lvgl.dir/src/themes/mono/lv_theme_mono.c.i: cmake_force
@@ -4554,7 +4879,7 @@ lvgl/CMakeFiles/lvgl.dir/src/themes/mono/lv_theme_mono.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/themes/simple/lv_theme_simple.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/themes/simple/lv_theme_simple.c.o: ../lvgl/src/themes/simple/lv_theme_simple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Building C object lvgl/CMakeFiles/lvgl.dir/src/themes/simple/lv_theme_simple.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object lvgl/CMakeFiles/lvgl.dir/src/themes/simple/lv_theme_simple.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/themes/simple/lv_theme_simple.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/themes/simple/lv_theme_simple.c
 
 lvgl/CMakeFiles/lvgl.dir/src/themes/simple/lv_theme_simple.c.i: cmake_force
@@ -4567,7 +4892,7 @@ lvgl/CMakeFiles/lvgl.dir/src/themes/simple/lv_theme_simple.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/tick/lv_tick.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/tick/lv_tick.c.o: ../lvgl/src/tick/lv_tick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Building C object lvgl/CMakeFiles/lvgl.dir/src/tick/lv_tick.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object lvgl/CMakeFiles/lvgl.dir/src/tick/lv_tick.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/tick/lv_tick.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/tick/lv_tick.c
 
 lvgl/CMakeFiles/lvgl.dir/src/tick/lv_tick.c.i: cmake_force
@@ -4578,9 +4903,22 @@ lvgl/CMakeFiles/lvgl.dir/src/tick/lv_tick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/tick/lv_tick.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/tick/lv_tick.c -o CMakeFiles/lvgl.dir/src/tick/lv_tick.c.s
 
+lvgl/CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
+lvgl/CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.o: ../lvgl/src/widgets/3dtexture/lv_3dtexture.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/3dtexture/lv_3dtexture.c
+
+lvgl/CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/3dtexture/lv_3dtexture.c > CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.i
+
+lvgl/CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/3dtexture/lv_3dtexture.c -o CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.s
+
 lvgl/CMakeFiles/lvgl.dir/src/widgets/animimage/lv_animimage.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/animimage/lv_animimage.c.o: ../lvgl/src/widgets/animimage/lv_animimage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/animimage/lv_animimage.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/animimage/lv_animimage.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/animimage/lv_animimage.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/animimage/lv_animimage.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/animimage/lv_animimage.c.i: cmake_force
@@ -4593,7 +4931,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/animimage/lv_animimage.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/arc/lv_arc.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/arc/lv_arc.c.o: ../lvgl/src/widgets/arc/lv_arc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/arc/lv_arc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/arc/lv_arc.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/arc/lv_arc.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/arc/lv_arc.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/arc/lv_arc.c.i: cmake_force
@@ -4606,7 +4944,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/arc/lv_arc.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/bar/lv_bar.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/bar/lv_bar.c.o: ../lvgl/src/widgets/bar/lv_bar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/bar/lv_bar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/bar/lv_bar.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/bar/lv_bar.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/bar/lv_bar.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/bar/lv_bar.c.i: cmake_force
@@ -4619,7 +4957,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/bar/lv_bar.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/button/lv_button.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/button/lv_button.c.o: ../lvgl/src/widgets/button/lv_button.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/button/lv_button.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/button/lv_button.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/button/lv_button.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/button/lv_button.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/button/lv_button.c.i: cmake_force
@@ -4632,7 +4970,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/button/lv_button.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/buttonmatrix/lv_buttonmatrix.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/buttonmatrix/lv_buttonmatrix.c.o: ../lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/buttonmatrix/lv_buttonmatrix.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/buttonmatrix/lv_buttonmatrix.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/buttonmatrix/lv_buttonmatrix.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/buttonmatrix/lv_buttonmatrix.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/buttonmatrix/lv_buttonmatrix.c.i: cmake_force
@@ -4645,7 +4983,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/buttonmatrix/lv_buttonmatrix.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar.c.o: ../lvgl/src/widgets/calendar/lv_calendar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/calendar/lv_calendar.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar.c.i: cmake_force
@@ -4658,7 +4996,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_chinese.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_chinese.c.o: ../lvgl/src/widgets/calendar/lv_calendar_chinese.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_chinese.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_chinese.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_chinese.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/calendar/lv_calendar_chinese.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_chinese.c.i: cmake_force
@@ -4671,7 +5009,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_chinese.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_arrow.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_arrow.c.o: ../lvgl/src/widgets/calendar/lv_calendar_header_arrow.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_arrow.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_arrow.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_arrow.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/calendar/lv_calendar_header_arrow.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_arrow.c.i: cmake_force
@@ -4684,7 +5022,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_arrow.c.s: cmak
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_dropdown.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_dropdown.c.o: ../lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_dropdown.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_dropdown.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_dropdown.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/calendar/lv_calendar_header_dropdown.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_dropdown.c.i: cmake_force
@@ -4697,7 +5035,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/calendar/lv_calendar_header_dropdown.c.s: c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/canvas/lv_canvas.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/canvas/lv_canvas.c.o: ../lvgl/src/widgets/canvas/lv_canvas.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/canvas/lv_canvas.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/canvas/lv_canvas.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/canvas/lv_canvas.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/canvas/lv_canvas.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/canvas/lv_canvas.c.i: cmake_force
@@ -4710,7 +5048,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/canvas/lv_canvas.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/chart/lv_chart.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/chart/lv_chart.c.o: ../lvgl/src/widgets/chart/lv_chart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/chart/lv_chart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/chart/lv_chart.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/chart/lv_chart.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/chart/lv_chart.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/chart/lv_chart.c.i: cmake_force
@@ -4723,7 +5061,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/chart/lv_chart.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/checkbox/lv_checkbox.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/checkbox/lv_checkbox.c.o: ../lvgl/src/widgets/checkbox/lv_checkbox.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/checkbox/lv_checkbox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/checkbox/lv_checkbox.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/checkbox/lv_checkbox.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/checkbox/lv_checkbox.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/checkbox/lv_checkbox.c.i: cmake_force
@@ -4736,7 +5074,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/checkbox/lv_checkbox.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/dropdown/lv_dropdown.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/dropdown/lv_dropdown.c.o: ../lvgl/src/widgets/dropdown/lv_dropdown.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/dropdown/lv_dropdown.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/dropdown/lv_dropdown.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/dropdown/lv_dropdown.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/dropdown/lv_dropdown.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/dropdown/lv_dropdown.c.i: cmake_force
@@ -4749,7 +5087,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/dropdown/lv_dropdown.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/image/lv_image.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/image/lv_image.c.o: ../lvgl/src/widgets/image/lv_image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/image/lv_image.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/image/lv_image.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/image/lv_image.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/image/lv_image.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/image/lv_image.c.i: cmake_force
@@ -4762,7 +5100,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/image/lv_image.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/imagebutton/lv_imagebutton.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/imagebutton/lv_imagebutton.c.o: ../lvgl/src/widgets/imagebutton/lv_imagebutton.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/imagebutton/lv_imagebutton.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/imagebutton/lv_imagebutton.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/imagebutton/lv_imagebutton.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/imagebutton/lv_imagebutton.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/imagebutton/lv_imagebutton.c.i: cmake_force
@@ -4775,7 +5113,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/imagebutton/lv_imagebutton.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/keyboard/lv_keyboard.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/keyboard/lv_keyboard.c.o: ../lvgl/src/widgets/keyboard/lv_keyboard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/keyboard/lv_keyboard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/keyboard/lv_keyboard.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/keyboard/lv_keyboard.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/keyboard/lv_keyboard.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/keyboard/lv_keyboard.c.i: cmake_force
@@ -4788,7 +5126,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/keyboard/lv_keyboard.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/label/lv_label.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/label/lv_label.c.o: ../lvgl/src/widgets/label/lv_label.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_366) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/label/lv_label.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/label/lv_label.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/label/lv_label.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/label/lv_label.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/label/lv_label.c.i: cmake_force
@@ -4801,7 +5139,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/label/lv_label.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/led/lv_led.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/led/lv_led.c.o: ../lvgl/src/widgets/led/lv_led.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_367) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/led/lv_led.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/led/lv_led.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/led/lv_led.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/led/lv_led.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/led/lv_led.c.i: cmake_force
@@ -4814,7 +5152,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/led/lv_led.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/line/lv_line.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/line/lv_line.c.o: ../lvgl/src/widgets/line/lv_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_368) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/line/lv_line.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/line/lv_line.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/line/lv_line.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/line/lv_line.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/line/lv_line.c.i: cmake_force
@@ -4827,7 +5165,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/line/lv_line.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/list/lv_list.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/list/lv_list.c.o: ../lvgl/src/widgets/list/lv_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_369) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/list/lv_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/list/lv_list.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/list/lv_list.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/list/lv_list.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/list/lv_list.c.i: cmake_force
@@ -4840,7 +5178,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/list/lv_list.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lottie/lv_lottie.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lottie/lv_lottie.c.o: ../lvgl/src/widgets/lottie/lv_lottie.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_370) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lottie/lv_lottie.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/lottie/lv_lottie.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/lottie/lv_lottie.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/lottie/lv_lottie.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/lottie/lv_lottie.c.i: cmake_force
@@ -4853,7 +5191,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/lottie/lv_lottie.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/menu/lv_menu.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/menu/lv_menu.c.o: ../lvgl/src/widgets/menu/lv_menu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_371) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/menu/lv_menu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_397) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/menu/lv_menu.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/menu/lv_menu.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/menu/lv_menu.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/menu/lv_menu.c.i: cmake_force
@@ -4866,7 +5204,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/menu/lv_menu.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/msgbox/lv_msgbox.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/msgbox/lv_msgbox.c.o: ../lvgl/src/widgets/msgbox/lv_msgbox.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_372) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/msgbox/lv_msgbox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_398) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/msgbox/lv_msgbox.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/msgbox/lv_msgbox.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/msgbox/lv_msgbox.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/msgbox/lv_msgbox.c.i: cmake_force
@@ -4879,7 +5217,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/msgbox/lv_msgbox.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/objx_templ/lv_objx_templ.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/objx_templ/lv_objx_templ.c.o: ../lvgl/src/widgets/objx_templ/lv_objx_templ.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_373) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/objx_templ/lv_objx_templ.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_399) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/objx_templ/lv_objx_templ.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/objx_templ/lv_objx_templ.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/objx_templ/lv_objx_templ.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/objx_templ/lv_objx_templ.c.i: cmake_force
@@ -4892,7 +5230,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/objx_templ/lv_objx_templ.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_animimage_properties.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_animimage_properties.c.o: ../lvgl/src/widgets/property/lv_animimage_properties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_374) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_animimage_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_400) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_animimage_properties.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/property/lv_animimage_properties.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_animimage_properties.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_animimage_properties.c.i: cmake_force
@@ -4905,7 +5243,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_animimage_properties.c.s: cmake
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_dropdown_properties.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_dropdown_properties.c.o: ../lvgl/src/widgets/property/lv_dropdown_properties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_375) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_dropdown_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_401) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_dropdown_properties.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/property/lv_dropdown_properties.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_dropdown_properties.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_dropdown_properties.c.i: cmake_force
@@ -4918,7 +5256,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_dropdown_properties.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_image_properties.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_image_properties.c.o: ../lvgl/src/widgets/property/lv_image_properties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_376) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_image_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_402) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_image_properties.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/property/lv_image_properties.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_image_properties.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_image_properties.c.i: cmake_force
@@ -4931,7 +5269,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_image_properties.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_keyboard_properties.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_keyboard_properties.c.o: ../lvgl/src/widgets/property/lv_keyboard_properties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_377) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_keyboard_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_403) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_keyboard_properties.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/property/lv_keyboard_properties.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_keyboard_properties.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_keyboard_properties.c.i: cmake_force
@@ -4944,7 +5282,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_keyboard_properties.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_label_properties.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_label_properties.c.o: ../lvgl/src/widgets/property/lv_label_properties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_378) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_label_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_404) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_label_properties.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/property/lv_label_properties.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_label_properties.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_label_properties.c.i: cmake_force
@@ -4957,7 +5295,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_label_properties.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_obj_properties.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_obj_properties.c.o: ../lvgl/src/widgets/property/lv_obj_properties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_379) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_obj_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_405) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_obj_properties.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/property/lv_obj_properties.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_obj_properties.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_obj_properties.c.i: cmake_force
@@ -4970,7 +5308,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_obj_properties.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_roller_properties.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_roller_properties.c.o: ../lvgl/src/widgets/property/lv_roller_properties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_380) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_roller_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_406) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_roller_properties.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/property/lv_roller_properties.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_roller_properties.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_roller_properties.c.i: cmake_force
@@ -4983,7 +5321,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_roller_properties.c.s: cmake_fo
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_slider_properties.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_slider_properties.c.o: ../lvgl/src/widgets/property/lv_slider_properties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_381) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_slider_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_407) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_slider_properties.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/property/lv_slider_properties.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_slider_properties.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_slider_properties.c.i: cmake_force
@@ -4996,7 +5334,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_slider_properties.c.s: cmake_fo
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_style_properties.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_style_properties.c.o: ../lvgl/src/widgets/property/lv_style_properties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_382) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_style_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_408) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_style_properties.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/property/lv_style_properties.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_style_properties.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_style_properties.c.i: cmake_force
@@ -5009,7 +5347,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_style_properties.c.s: cmake_for
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_textarea_properties.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_textarea_properties.c.o: ../lvgl/src/widgets/property/lv_textarea_properties.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_383) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_textarea_properties.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_409) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_textarea_properties.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/property/lv_textarea_properties.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/property/lv_textarea_properties.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_textarea_properties.c.i: cmake_force
@@ -5022,7 +5360,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/property/lv_textarea_properties.c.s: cmake_
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/roller/lv_roller.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/roller/lv_roller.c.o: ../lvgl/src/widgets/roller/lv_roller.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_384) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/roller/lv_roller.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_410) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/roller/lv_roller.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/roller/lv_roller.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/roller/lv_roller.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/roller/lv_roller.c.i: cmake_force
@@ -5035,7 +5373,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/roller/lv_roller.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/scale/lv_scale.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/scale/lv_scale.c.o: ../lvgl/src/widgets/scale/lv_scale.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_385) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/scale/lv_scale.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_411) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/scale/lv_scale.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/scale/lv_scale.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/scale/lv_scale.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/scale/lv_scale.c.i: cmake_force
@@ -5048,7 +5386,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/scale/lv_scale.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/slider/lv_slider.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/slider/lv_slider.c.o: ../lvgl/src/widgets/slider/lv_slider.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_386) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/slider/lv_slider.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_412) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/slider/lv_slider.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/slider/lv_slider.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/slider/lv_slider.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/slider/lv_slider.c.i: cmake_force
@@ -5061,7 +5399,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/slider/lv_slider.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/span/lv_span.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/span/lv_span.c.o: ../lvgl/src/widgets/span/lv_span.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_387) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/span/lv_span.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_413) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/span/lv_span.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/span/lv_span.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/span/lv_span.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/span/lv_span.c.i: cmake_force
@@ -5074,7 +5412,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/span/lv_span.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/spinbox/lv_spinbox.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/spinbox/lv_spinbox.c.o: ../lvgl/src/widgets/spinbox/lv_spinbox.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_388) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/spinbox/lv_spinbox.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_414) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/spinbox/lv_spinbox.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/spinbox/lv_spinbox.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/spinbox/lv_spinbox.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/spinbox/lv_spinbox.c.i: cmake_force
@@ -5087,7 +5425,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/spinbox/lv_spinbox.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/spinner/lv_spinner.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/spinner/lv_spinner.c.o: ../lvgl/src/widgets/spinner/lv_spinner.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_389) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/spinner/lv_spinner.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_415) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/spinner/lv_spinner.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/spinner/lv_spinner.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/spinner/lv_spinner.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/spinner/lv_spinner.c.i: cmake_force
@@ -5100,7 +5438,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/spinner/lv_spinner.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/switch/lv_switch.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/switch/lv_switch.c.o: ../lvgl/src/widgets/switch/lv_switch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_390) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/switch/lv_switch.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_416) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/switch/lv_switch.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/switch/lv_switch.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/switch/lv_switch.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/switch/lv_switch.c.i: cmake_force
@@ -5113,7 +5451,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/switch/lv_switch.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/table/lv_table.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/table/lv_table.c.o: ../lvgl/src/widgets/table/lv_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_391) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/table/lv_table.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_417) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/table/lv_table.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/table/lv_table.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/table/lv_table.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/table/lv_table.c.i: cmake_force
@@ -5126,7 +5464,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/table/lv_table.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/tabview/lv_tabview.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/tabview/lv_tabview.c.o: ../lvgl/src/widgets/tabview/lv_tabview.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_392) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/tabview/lv_tabview.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_418) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/tabview/lv_tabview.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/tabview/lv_tabview.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/tabview/lv_tabview.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/tabview/lv_tabview.c.i: cmake_force
@@ -5139,7 +5477,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/tabview/lv_tabview.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/textarea/lv_textarea.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/textarea/lv_textarea.c.o: ../lvgl/src/widgets/textarea/lv_textarea.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_393) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/textarea/lv_textarea.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_419) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/textarea/lv_textarea.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/textarea/lv_textarea.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/textarea/lv_textarea.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/textarea/lv_textarea.c.i: cmake_force
@@ -5152,7 +5490,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/textarea/lv_textarea.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/tileview/lv_tileview.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/tileview/lv_tileview.c.o: ../lvgl/src/widgets/tileview/lv_tileview.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_394) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/tileview/lv_tileview.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_420) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/tileview/lv_tileview.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/tileview/lv_tileview.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/tileview/lv_tileview.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/tileview/lv_tileview.c.i: cmake_force
@@ -5165,7 +5503,7 @@ lvgl/CMakeFiles/lvgl.dir/src/widgets/tileview/lv_tileview.c.s: cmake_force
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/win/lv_win.c.o: lvgl/CMakeFiles/lvgl.dir/flags.make
 lvgl/CMakeFiles/lvgl.dir/src/widgets/win/lv_win.c.o: ../lvgl/src/widgets/win/lv_win.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_395) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/win/lv_win.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_421) "Building C object lvgl/CMakeFiles/lvgl.dir/src/widgets/win/lv_win.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lvgl.dir/src/widgets/win/lv_win.c.o   -c /home/zhiyao/rkProject/samplemotor/lvgl/src/widgets/win/lv_win.c
 
 lvgl/CMakeFiles/lvgl.dir/src/widgets/win/lv_win.c.i: cmake_force
@@ -5196,6 +5534,7 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/draw/dma2d/lv_draw_dma2d_fill.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/dma2d/lv_draw_dma2d_img.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/lv_draw_buf.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/lv_draw_image.c.o" \
@@ -5262,9 +5601,11 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o" \
+"CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o" \
 "CMakeFiles/lvgl.dir/src/draw/sw/blend/neon/lv_blend_neon.S.o" \
 "CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o" \
@@ -5304,6 +5645,7 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_utils.c.o" \
 "CMakeFiles/lvgl.dir/src/drivers/display/drm/lv_linux_drm.c.o" \
 "CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.o" \
 "CMakeFiles/lvgl.dir/src/drivers/display/ili9341/lv_ili9341.c.o" \
 "CMakeFiles/lvgl.dir/src/drivers/display/lcd/lv_lcd_generic_mipi.c.o" \
 "CMakeFiles/lvgl.dir/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.o" \
@@ -5339,6 +5681,18 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_private.c.o" \
 "CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland.c.o" \
 "CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.o" \
+"CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.o" \
 "CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_context.c.o" \
 "CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_display.c.o" \
 "CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_input.c.o" \
@@ -5351,6 +5705,7 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o" \
 "CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o" \
 "CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.o" \
 "CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o" \
 "CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o" \
 "CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o" \
@@ -5372,6 +5727,8 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o" \
 "CMakeFiles/lvgl.dir/src/font/lv_font_simsun_14_cjk.c.o" \
 "CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.o" \
+"CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.o" \
 "CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o" \
 "CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o" \
 "CMakeFiles/lvgl.dir/src/indev/lv_indev.c.o" \
@@ -5394,6 +5751,7 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_glyph.c.o" \
 "CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_image.c.o" \
 "CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.o" \
+"CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.o" \
 "CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_cbfs.c.o" \
 "CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_fatfs.c.o" \
 "CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_littlefs.c.o" \
@@ -5422,11 +5780,12 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/libs/tjpgd/lv_tjpgd.c.o" \
 "CMakeFiles/lvgl.dir/src/libs/tjpgd/tjpgd.c.o" \
 "CMakeFiles/lvgl.dir/src/lv_init.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.o" \
+"CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.o" \
 "CMakeFiles/lvgl.dir/src/misc/cache/lv_cache.c.o" \
 "CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.o" \
-"CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.o" \
-"CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.o" \
-"CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.o" \
 "CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o" \
 "CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o" \
 "CMakeFiles/lvgl.dir/src/misc/lv_area.c.o" \
@@ -5469,7 +5828,6 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/others/file_explorer/lv_file_explorer.c.o" \
 "CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager.c.o" \
 "CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.o" \
-"CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.o" \
 "CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment.c.o" \
 "CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment_manager.c.o" \
 "CMakeFiles/lvgl.dir/src/others/gridnav/lv_gridnav.c.o" \
@@ -5490,12 +5848,17 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/others/xml/lv_xml_component.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/lv_xml_parser.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.o" \
+"CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/lv_xml_utils.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.o" \
+"CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_bar_parser.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_button_parser.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.o" \
+"CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.o" \
+"CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.o" \
+"CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_dropdown_parser.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_event_parser.c.o" \
 "CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_image_parser.c.o" \
@@ -5527,6 +5890,7 @@ lvgl_OBJECTS = \
 "CMakeFiles/lvgl.dir/src/themes/mono/lv_theme_mono.c.o" \
 "CMakeFiles/lvgl.dir/src/themes/simple/lv_theme_simple.c.o" \
 "CMakeFiles/lvgl.dir/src/tick/lv_tick.c.o" \
+"CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.o" \
 "CMakeFiles/lvgl.dir/src/widgets/animimage/lv_animimage.c.o" \
 "CMakeFiles/lvgl.dir/src/widgets/arc/lv_arc.c.o" \
 "CMakeFiles/lvgl.dir/src/widgets/bar/lv_bar.c.o" \
@@ -5595,6 +5959,7 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/dma2d/lv_draw_dma2d.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/dma2d/lv_draw_dma2d_fill.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/dma2d/lv_draw_dma2d_img.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_arc.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_buf.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_image.c.o
@@ -5661,9 +6026,11 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/helium/lv_blend_h
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_al88.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_l8.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/neon/lv_blend_neon.S.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/sw/lv_draw_sw.c.o
@@ -5703,6 +6070,7 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_stroke.
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/draw/vg_lite/lv_vg_lite_utils.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/display/drm/lv_linux_drm.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ili9341/lv_ili9341.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/display/lcd/lv_lcd_generic_mipi.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.c.o
@@ -5738,6 +6106,18 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_indev_touc
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/uefi/lv_uefi_private.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_context.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_display.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/drivers/windows/lv_windows_input.c.o
@@ -5750,6 +6130,7 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_fmt_txt.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_10.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_12.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_16.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_18.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_20.c.o
@@ -5771,6 +6152,8 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_48.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_8.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_14_cjk.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_16.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_unscii_8.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/indev/lv_indev.c.o
@@ -5793,6 +6176,7 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_glyph.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_image.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_cbfs.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_fatfs.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/fsdrv/lv_fs_littlefs.c.o
@@ -5821,11 +6205,12 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/tiny_ttf/lv_tiny_ttf.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/lv_tjpgd.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/libs/tjpgd/tjpgd.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/lv_init.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.o
-lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.o
-lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.o
-lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_anim_timeline.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/misc/lv_area.c.o
@@ -5868,7 +6253,6 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/osal/lv_windows.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/file_explorer/lv_file_explorer.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.o
-lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/fragment/lv_fragment_manager.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/gridnav/lv_gridnav.c.o
@@ -5889,12 +6273,17 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_base_types.c.
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_component.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_parser.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_utils.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_bar_parser.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_button_parser.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_dropdown_parser.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_event_parser.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_image_parser.c.o
@@ -5926,6 +6315,7 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/themes/lv_theme.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/themes/mono/lv_theme_mono.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/themes/simple/lv_theme_simple.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/tick/lv_tick.c.o
+lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/animimage/lv_animimage.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/arc/lv_arc.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/bar/lv_bar.c.o
@@ -5974,7 +6364,7 @@ lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/tileview/lv_tileview.c.
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/src/widgets/win/lv_win.c.o
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/build.make
 lvgl/lib/liblvgl.a: lvgl/CMakeFiles/lvgl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_396) "Linking C static library lib/liblvgl.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_422) "Linking CXX static library lib/liblvgl.a"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && $(CMAKE_COMMAND) -P CMakeFiles/lvgl.dir/cmake_clean_target.cmake
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lvgl.dir/link.txt --verbose=$(VERBOSE)
 

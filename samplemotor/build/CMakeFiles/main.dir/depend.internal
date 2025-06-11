@@ -8,7 +8,6 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lv_conf.h
  ../lvgl/lv_version.h
  ../lvgl/lvgl.h
- ../lvgl/lvgl_private.h
  ../lvgl/src/core/lv_global.h
  ../lvgl/src/core/lv_group.h
  ../lvgl/src/core/lv_group_private.h
@@ -56,22 +55,15 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/draw/sw/blend/lv_draw_sw_blend.h
  ../lvgl/src/draw/sw/blend/lv_draw_sw_blend_private.h
  ../lvgl/src/draw/sw/lv_draw_sw.h
+ ../lvgl/src/draw/sw/lv_draw_sw_gradient.h
+ ../lvgl/src/draw/sw/lv_draw_sw_gradient_private.h
  ../lvgl/src/draw/sw/lv_draw_sw_mask.h
  ../lvgl/src/draw/sw/lv_draw_sw_mask_private.h
  ../lvgl/src/draw/sw/lv_draw_sw_private.h
- ../lvgl/src/draw/sw/lv_draw_sw_utils.h
  ../lvgl/src/drivers/display/drm/lv_linux_drm.h
  ../lvgl/src/drivers/display/fb/lv_linux_fbdev.h
- ../lvgl/src/drivers/display/ili9341/lv_ili9341.h
- ../lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h
- ../lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h
- ../lvgl/src/drivers/display/st7735/lv_st7735.h
- ../lvgl/src/drivers/display/st7789/lv_st7789.h
- ../lvgl/src/drivers/display/st7796/lv_st7796.h
- ../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h
  ../lvgl/src/drivers/display/tft_espi/lv_tft_espi.h
  ../lvgl/src/drivers/evdev/lv_evdev.h
- ../lvgl/src/drivers/evdev/lv_evdev_private.h
  ../lvgl/src/drivers/glfw/lv_glfw_window.h
  ../lvgl/src/drivers/glfw/lv_opengles_driver.h
  ../lvgl/src/drivers/glfw/lv_opengles_texture.h
@@ -90,10 +82,6 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/drivers/sdl/lv_sdl_mouse.h
  ../lvgl/src/drivers/sdl/lv_sdl_mousewheel.h
  ../lvgl/src/drivers/sdl/lv_sdl_window.h
- ../lvgl/src/drivers/uefi/lv_uefi.h
- ../lvgl/src/drivers/uefi/lv_uefi_context.h
- ../lvgl/src/drivers/uefi/lv_uefi_display.h
- ../lvgl/src/drivers/uefi/lv_uefi_indev.h
  ../lvgl/src/drivers/wayland/lv_wayland.h
  ../lvgl/src/drivers/windows/lv_windows_display.h
  ../lvgl/src/drivers/windows/lv_windows_input.h
@@ -104,9 +92,7 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/font/lv_font_fmt_txt_private.h
  ../lvgl/src/font/lv_symbol_def.h
  ../lvgl/src/indev/lv_indev.h
- ../lvgl/src/indev/lv_indev_gesture.h
  ../lvgl/src/indev/lv_indev_private.h
- ../lvgl/src/indev/lv_indev_scroll.h
  ../lvgl/src/layouts/flex/lv_flex.h
  ../lvgl/src/layouts/grid/lv_grid.h
  ../lvgl/src/layouts/lv_layout.h
@@ -130,8 +116,6 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/libs/rle/lv_rle.h
  ../lvgl/src/libs/rlottie/lv_rlottie.h
  ../lvgl/src/libs/rlottie/lv_rlottie_private.h
- ../lvgl/src/libs/svg/lv_svg.h
- ../lvgl/src/libs/svg/lv_svg_render.h
  ../lvgl/src/libs/thorvg/thorvg_capi.h
  ../lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h
  ../lvgl/src/libs/tjpgd/lv_tjpgd.h
@@ -141,7 +125,6 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/lv_conf_internal.h
  ../lvgl/src/lv_conf_kconfig.h
  ../lvgl/src/lv_init.h
- ../lvgl/src/lvgl.h
  ../lvgl/src/lvgl_private.h
  ../lvgl/src/misc/cache/lv_cache.h
  ../lvgl/src/misc/cache/lv_cache_entry.h
@@ -160,7 +143,6 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/misc/lv_async.h
  ../lvgl/src/misc/lv_bidi.h
  ../lvgl/src/misc/lv_bidi_private.h
- ../lvgl/src/misc/lv_circle_buf.h
  ../lvgl/src/misc/lv_color.h
  ../lvgl/src/misc/lv_color_op.h
  ../lvgl/src/misc/lv_color_op_private.h
@@ -168,8 +150,6 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/misc/lv_event_private.h
  ../lvgl/src/misc/lv_fs.h
  ../lvgl/src/misc/lv_fs_private.h
- ../lvgl/src/misc/lv_grad.h
- ../lvgl/src/misc/lv_iter.h
  ../lvgl/src/misc/lv_ll.h
  ../lvgl/src/misc/lv_log.h
  ../lvgl/src/misc/lv_math.h
@@ -187,23 +167,19 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/misc/lv_text_private.h
  ../lvgl/src/misc/lv_timer.h
  ../lvgl/src/misc/lv_timer_private.h
- ../lvgl/src/misc/lv_tree.h
  ../lvgl/src/misc/lv_types.h
  ../lvgl/src/misc/lv_utils.h
  ../lvgl/src/osal/lv_cmsis_rtos2.h
  ../lvgl/src/osal/lv_freertos.h
- ../lvgl/src/osal/lv_linux_private.h
  ../lvgl/src/osal/lv_mqx.h
  ../lvgl/src/osal/lv_os.h
  ../lvgl/src/osal/lv_os_none.h
  ../lvgl/src/osal/lv_os_private.h
  ../lvgl/src/osal/lv_pthread.h
  ../lvgl/src/osal/lv_rtthread.h
- ../lvgl/src/osal/lv_sdl2.h
  ../lvgl/src/osal/lv_windows.h
  ../lvgl/src/others/file_explorer/lv_file_explorer.h
  ../lvgl/src/others/file_explorer/lv_file_explorer_private.h
- ../lvgl/src/others/font_manager/lv_font_manager.h
  ../lvgl/src/others/fragment/lv_fragment.h
  ../lvgl/src/others/fragment/lv_fragment_private.h
  ../lvgl/src/others/gridnav/lv_gridnav.h
@@ -217,22 +193,6 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/others/snapshot/lv_snapshot.h
  ../lvgl/src/others/sysmon/lv_sysmon.h
  ../lvgl/src/others/sysmon/lv_sysmon_private.h
- ../lvgl/src/others/test/lv_test.h
- ../lvgl/src/others/test/lv_test_display.h
- ../lvgl/src/others/test/lv_test_helpers.h
- ../lvgl/src/others/test/lv_test_indev.h
- ../lvgl/src/others/test/lv_test_indev_gesture.h
- ../lvgl/src/others/test/lv_test_private.h
- ../lvgl/src/others/test/lv_test_screenshot_compare.h
- ../lvgl/src/others/xml/lv_xml.h
- ../lvgl/src/others/xml/lv_xml_base_types.h
- ../lvgl/src/others/xml/lv_xml_component.h
- ../lvgl/src/others/xml/lv_xml_component_private.h
- ../lvgl/src/others/xml/lv_xml_parser.h
- ../lvgl/src/others/xml/lv_xml_private.h
- ../lvgl/src/others/xml/lv_xml_style.h
- ../lvgl/src/others/xml/lv_xml_utils.h
- ../lvgl/src/others/xml/parsers/lv_xml_obj_parser.h
  ../lvgl/src/stdlib/builtin/lv_tlsf.h
  ../lvgl/src/stdlib/builtin/lv_tlsf_private.h
  ../lvgl/src/stdlib/lv_mem.h

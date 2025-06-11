@@ -9,21 +9,13 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/l
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgAccessor.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgCompressor.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgIteratorAccessor.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lv_conf.h
@@ -43,14 +35,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/libs/thorvg/tvgPicture.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lv_conf.h
@@ -61,19 +47,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/lib
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgCanvas.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgCanvas.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lv_conf.h
@@ -85,26 +64,15 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lvgl/src/libs/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lvgl/src/libs/thorvg/tvgCapi.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/lv_version.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/libs/thorvg/config.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/libs/thorvg/tvgCompressor.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/libs/thorvg/tvgCompressor.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lv_conf.h
@@ -116,11 +84,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lvgl/src/libs/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lvgl/src/libs/thorvg/tvgFill.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lv_conf.h
@@ -131,19 +94,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/l
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgCanvas.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgGlCanvas.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lv_conf.h
@@ -162,11 +118,18 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lvgl/sr
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o: ../lvgl/src/stdlib/lv_string.h
+
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lv_conf.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lv_conf.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lvgl/lv_version.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lvgl/src/libs/thorvg/config.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lvgl/src/libs/thorvg/tvgLines.cpp
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lvgl/src/libs/thorvg/tvgLines.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lvgl/src/lv_conf_internal.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lvgl/src/lv_conf_kconfig.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lv_conf.h
@@ -189,11 +152,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lvgl/src/lib
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lv_conf.h
@@ -218,11 +176,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lvg
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lv_conf.h
@@ -232,16 +185,14 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLines.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieBuilder.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieBuilder.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieExpressions.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieInterpolator.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModel.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModifier.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieProperty.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieRenderPooler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
@@ -249,11 +200,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lv_conf.h
@@ -262,28 +208,19 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../l
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgCompressor.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLines.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieExpressions.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieExpressions.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieInterpolator.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModel.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModifier.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieProperty.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieRenderPooler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lv_conf.h
@@ -296,11 +233,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/rapidjson/error/error.h
@@ -334,33 +266,24 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/s
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgFrameModule.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLines.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLoadModule.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieBuilder.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieExpressions.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieInterpolator.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieLoader.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieLoader.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModel.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModifier.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieParser.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieParserHandler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieProperty.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieRenderPooler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgShape.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgStr.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lv_conf.h
@@ -370,45 +293,18 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/sr
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgFill.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLines.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieExpressions.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieInterpolator.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModel.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModel.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModifier.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieProperty.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieRenderPooler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/stdlib/lv_string.h
-
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lv_conf.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lv_conf.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/lv_version.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/libs/thorvg/config.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModifier.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModifier.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/lv_conf_internal.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/rapidjson/error/error.h
@@ -441,30 +337,20 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/s
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgCompressor.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLines.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieExpressions.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieInterpolator.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModel.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModifier.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieParser.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieParser.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieParserHandler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieProperty.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieRenderPooler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgStr.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ../lvgl/src/libs/thorvg/rapidjson/error/error.h
@@ -499,11 +385,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ..
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieParserHandler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lv_conf.h
@@ -515,11 +396,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lvgl/src/libs/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lv_conf.h
@@ -540,15 +416,9 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/libs
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/libs/thorvg/tvgScene.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/libs/thorvg/tvgShape.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/libs/thorvg/tvgText.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lv_conf.h
@@ -566,14 +436,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/li
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/libs/thorvg/tvgPicture.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/libs/thorvg/tvgPicture.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lv_conf.h
@@ -589,14 +453,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgRawLoader.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgRawLoader.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lv_conf.h
@@ -605,19 +463,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/lib
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lv_conf.h
@@ -626,7 +477,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/tvgIteratorAccessor.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
@@ -634,14 +484,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/tvgSaveModule.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/tvgSaver.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lv_conf.h
@@ -650,21 +494,14 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/tvgScene.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/tvgScene.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lv_conf.h
@@ -673,21 +510,14 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/tvgShape.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/tvgShape.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lv_conf.h
@@ -700,11 +530,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lvgl/src/libs/t
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lvgl/src/libs/thorvg/tvgStr.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lv_conf.h
@@ -718,11 +543,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lvgl/sr
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lvgl/src/libs/thorvg/tvgSvgLoaderCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lv_conf.h
@@ -747,11 +567,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lvgl/src/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgXmlParser.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lv_conf.h
@@ -760,7 +575,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/li
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
@@ -770,14 +584,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/li
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/tvgSvgLoaderCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/tvgSvgPath.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/tvgSvgPath.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lv_conf.h
@@ -803,11 +611,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lvg
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lv_conf.h
@@ -819,11 +622,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lvgl/src/li
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lvgl/src/libs/thorvg/tvgSvgUtil.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lv_conf.h
@@ -841,14 +639,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/l
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgSwCanvas.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgSwRenderer.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lv_conf.h
@@ -858,20 +650,13 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/lib
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/libs/thorvg/tvgFill.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/libs/thorvg/tvgSwCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/libs/thorvg/tvgSwFill.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lv_conf.h
@@ -880,20 +665,13 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/li
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/libs/thorvg/tvgSwCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/libs/thorvg/tvgSwImage.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lv_conf.h
@@ -902,20 +680,13 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/lib
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/libs/thorvg/tvgSwCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/libs/thorvg/tvgSwMath.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lv_conf.h
@@ -924,40 +695,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/libs/thorvg/tvgSwCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/libs/thorvg/tvgSwMemPool.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o: ../lvgl/src/stdlib/lv_string.h
-
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lv_conf.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lv_conf.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/lv_version.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/config.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/tvgSwCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/tvgSwPostEffect.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/lv_conf_internal.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lv_conf.h
@@ -966,7 +709,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/l
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
@@ -976,14 +718,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/l
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgSwRasterC.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgSwRasterNeon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgSwRasterTexmap.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lv_conf.h
@@ -1002,11 +738,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lvgl/src
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lv_conf.h
@@ -1015,19 +746,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs/thorvg/tvgSwCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs/thorvg/tvgSwRle.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lv_conf.h
@@ -1036,20 +760,14 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/li
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgLines.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgSwCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgSwShape.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lv_conf.h
@@ -1058,19 +776,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/l
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/libs/thorvg/tvgSwCommon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/libs/thorvg/tvgSwStroke.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lv_conf.h
@@ -1084,11 +795,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lvgl/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lv_conf.h
@@ -1106,16 +812,10 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/libs/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/libs/thorvg/tvgShape.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/libs/thorvg/tvgText.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/libs/thorvg/tvgText.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lv_conf.h
@@ -1125,20 +825,13 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/l
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgArray.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgCanvas.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgCommon.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgInlist.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgLock.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgMath.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgPaint.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgRender.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgWgCanvas.cpp
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lv_conf.h
@@ -1153,18 +846,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lvgl/src/
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lvgl/src/libs/thorvg/tvgXmlParser.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lvgl/src/lv_conf_internal.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lvgl/src/lv_conf_kconfig.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lvgl/src/misc/lv_assert.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lvgl/src/misc/lv_log.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lvgl/src/misc/lv_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lvgl/src/stdlib/lv_mem.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lvgl/src/stdlib/lv_string.h
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/libs/thorvg/thorvg_capi.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lv_conf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/lv_version.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/lvgl.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/lvgl_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/core/lv_global.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/core/lv_group.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/core/lv_group_private.h
@@ -1212,22 +899,15 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvg
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/draw/sw/blend/lv_draw_sw_blend_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/draw/sw/lv_draw_sw.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/draw/sw/lv_draw_sw_gradient.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/draw/sw/lv_draw_sw_gradient_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/draw/sw/lv_draw_sw_mask.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/draw/sw/lv_draw_sw_mask_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/draw/sw/lv_draw_sw_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/draw/sw/lv_draw_sw_utils.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/display/drm/lv_linux_drm.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/display/fb/lv_linux_fbdev.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/display/ili9341/lv_ili9341.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/display/st7735/lv_st7735.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/display/st7789/lv_st7789.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/display/st7796/lv_st7796.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/display/tft_espi/lv_tft_espi.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/evdev/lv_evdev.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/evdev/lv_evdev_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/glfw/lv_glfw_window.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/glfw/lv_opengles_driver.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/glfw/lv_opengles_texture.h
@@ -1246,10 +926,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvg
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/sdl/lv_sdl_mouse.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/sdl/lv_sdl_mousewheel.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/sdl/lv_sdl_window.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/uefi/lv_uefi.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/uefi/lv_uefi_context.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/uefi/lv_uefi_display.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/uefi/lv_uefi_indev.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/wayland/lv_wayland.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/windows/lv_windows_display.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/drivers/windows/lv_windows_input.h
@@ -1260,9 +936,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvg
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/font/lv_font_fmt_txt_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/font/lv_symbol_def.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/indev/lv_indev.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/indev/lv_indev_gesture.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/indev/lv_indev_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/indev/lv_indev_scroll.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/layouts/flex/lv_flex.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/layouts/grid/lv_grid.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/layouts/lv_layout.h
@@ -1286,8 +960,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvg
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/libs/rle/lv_rle.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/libs/rlottie/lv_rlottie.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/libs/rlottie/lv_rlottie_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/libs/svg/lv_svg.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/libs/svg/lv_svg_render.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/libs/thorvg/thorvg.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/libs/thorvg/thorvg_capi.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h
@@ -1317,7 +989,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvg
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_async.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_bidi.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_bidi_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_circle_buf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_color.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_color_op.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_color_op_private.h
@@ -1325,8 +996,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvg
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_event_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_fs.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_fs_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_grad.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_iter.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_ll.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_log.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_math.h
@@ -1344,23 +1013,19 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvg
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_text_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_timer.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_timer_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_tree.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_types.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/misc/lv_utils.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_cmsis_rtos2.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_freertos.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_linux_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_mqx.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_os.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_os_none.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_os_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_pthread.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_rtthread.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_sdl2.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/osal/lv_windows.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/file_explorer/lv_file_explorer.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/file_explorer/lv_file_explorer_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/font_manager/lv_font_manager.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/fragment/lv_fragment.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/fragment/lv_fragment_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/gridnav/lv_gridnav.h
@@ -1374,24 +1039,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvg
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/snapshot/lv_snapshot.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/sysmon/lv_sysmon.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/sysmon/lv_sysmon_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/test/lv_test.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/test/lv_test_display.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/test/lv_test_helpers.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/test/lv_test_indev.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/test/lv_test_indev_gesture.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/test/lv_test_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/test/lv_test_screenshot_compare.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/vg_lite_tvg/vg_lite.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/xml/lv_xml.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/xml/lv_xml_base_types.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/xml/lv_xml_component.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/xml/lv_xml_component_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/xml/lv_xml_parser.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/xml/lv_xml_private.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/xml/lv_xml_style.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/xml/lv_xml_utils.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/xml/parsers/lv_xml_obj_parser.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/stdlib/builtin/lv_tlsf.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/stdlib/builtin/lv_tlsf_private.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/stdlib/lv_mem.h

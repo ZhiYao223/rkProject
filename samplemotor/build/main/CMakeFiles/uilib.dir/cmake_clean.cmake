@@ -20,6 +20,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_b5.c.o"
   "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.o"
   "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.o"
+  "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background2.c.o"
   "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_bar.c.o"
   "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_barrel.c.o"
   "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_barrel_empty.c.o"

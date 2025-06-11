@@ -100,7 +100,12 @@ main_EXTERNAL_OBJECTS =
 ../bin/main: /usr/lib/aarch64-linux-gnu/libpng.so
 ../bin/main: /usr/lib/aarch64-linux-gnu/libz.so
 ../bin/main: /usr/lib/aarch64-linux-gnu/libfreetype.so
+../bin/main: lvgl/lib/liblvgl_examples.a
+../bin/main: lvgl/lib/liblvgl_demos.a
 ../bin/main: lvgl/lib/liblvgl.a
+../bin/main: lvgl/lib/liblvgl_thorvg.a
+../bin/main: lvgl/lib/liblvgl_examples.a
+../bin/main: lvgl/lib/liblvgl_demos.a
 ../bin/main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)

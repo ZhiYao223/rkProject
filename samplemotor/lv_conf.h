@@ -11,6 +11,8 @@
  *    - add the path as include path
  */
 
+// LV_USE_FREETYPE
+// 
 /* clang-format off */
 #if 1 /*Set it to "1" to enable content*/
 
@@ -496,7 +498,7 @@
 #define LV_FONT_MONTSERRAT_32 0
 #define LV_FONT_MONTSERRAT_34 0
 #define LV_FONT_MONTSERRAT_36 0
-#define LV_FONT_MONTSERRAT_38 0
+#define LV_FONT_MONTSERRAT_38 1
 #define LV_FONT_MONTSERRAT_40 0
 #define LV_FONT_MONTSERRAT_42 0
 #define LV_FONT_MONTSERRAT_44 0
@@ -774,7 +776,9 @@
 #define LV_USE_LODEPNG 0
 
 /*PNG decoder(libpng) library*/
+#ifndef LV_USE_LIBPNG
 #define LV_USE_LIBPNG 0
+#endif
 
 /*BMP decoder library*/
 #define LV_USE_BMP 0
@@ -808,7 +812,7 @@
 #define LV_USE_BARCODE 0
 
 /*FreeType library*/
-#define LV_USE_FREETYPE 0
+#define LV_USE_FREETYPE 1
 #if LV_USE_FREETYPE
     /*Let FreeType to use LVGL memory and file porting*/
     #define LV_FREETYPE_USE_LVGL_PORT 0

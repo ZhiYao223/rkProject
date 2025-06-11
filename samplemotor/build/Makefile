@@ -183,6 +183,32 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named lvgl_demos
+
+# Build rule for target.
+lvgl_demos: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lvgl_demos
+.PHONY : lvgl_demos
+
+# fast build rule for target.
+lvgl_demos/fast:
+	$(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/build
+.PHONY : lvgl_demos/fast
+
+#=============================================================================
+# Target rules for targets named lvgl_examples
+
+# Build rule for target.
+lvgl_examples: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lvgl_examples
+.PHONY : lvgl_examples
+
+# fast build rule for target.
+lvgl_examples/fast:
+	$(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/build
+.PHONY : lvgl_examples/fast
+
+#=============================================================================
 # Target rules for targets named lvgl_thorvg
 
 # Build rule for target.
@@ -289,6 +315,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... run"
 	@echo "... main"
+	@echo "... lvgl_demos"
+	@echo "... lvgl_examples"
 	@echo "... lvgl_thorvg"
 	@echo "... lvgl"
 	@echo "... uilib"

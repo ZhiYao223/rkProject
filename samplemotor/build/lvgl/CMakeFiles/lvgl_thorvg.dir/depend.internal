@@ -10,21 +10,13 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgAccessor.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCompressor.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgIteratorAccessor.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -44,14 +36,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPicture.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -62,19 +48,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCanvas.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCanvas.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -86,26 +65,15 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCapi.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lvgl/lv_version.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/config.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCompressor.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCompressor.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -117,11 +85,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgFill.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -132,19 +95,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCanvas.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgGlCanvas.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -163,11 +119,18 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o
+ ../lv_conf.h
+ /home/zhiyao/rkProject/samplemotor/lv_conf.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/lv_version.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/config.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.cpp
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -190,11 +153,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -219,11 +177,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -233,16 +186,14 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieBuilder.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieExpressions.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieInterpolator.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModel.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieProperty.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieRenderPooler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
@@ -250,11 +201,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -263,28 +209,19 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCompressor.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieExpressions.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieInterpolator.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModel.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieProperty.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieRenderPooler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -297,11 +234,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o
  ../lv_conf.h
  ../lvgl/src/libs/thorvg/rapidjson/error/error.h
@@ -335,33 +267,24 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgFrameModule.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLoadModule.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieBuilder.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieExpressions.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieInterpolator.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieLoader.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieLoader.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModel.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieParser.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieParserHandler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieProperty.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieRenderPooler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgShape.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgStr.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -371,45 +294,18 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgFill.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieExpressions.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieInterpolator.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModel.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModel.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieProperty.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieRenderPooler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o
- ../lv_conf.h
- /home/zhiyao/rkProject/samplemotor/lv_conf.h
- /home/zhiyao/rkProject/samplemotor/lvgl/lv_version.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/config.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o
  ../lv_conf.h
  ../lvgl/src/libs/thorvg/rapidjson/error/error.h
@@ -442,30 +338,20 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCompressor.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieExpressions.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieInterpolator.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModel.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieParser.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieParser.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieParserHandler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieProperty.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieRenderPooler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgStr.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o
  ../lv_conf.h
  ../lvgl/src/libs/thorvg/rapidjson/error/error.h
@@ -500,11 +386,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieParserHandler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -516,11 +397,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -541,15 +417,9 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgScene.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgShape.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgText.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -567,14 +437,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPicture.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPicture.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -590,14 +454,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRawLoader.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRawLoader.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -606,19 +464,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -627,7 +478,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgIteratorAccessor.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
@@ -635,14 +485,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSaveModule.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSaver.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -651,21 +495,14 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgScene.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgScene.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -674,21 +511,14 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgShape.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgShape.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -701,11 +531,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgStr.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -719,11 +544,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSvgLoaderCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -748,11 +568,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgXmlParser.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -761,7 +576,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
@@ -771,14 +585,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSvgLoaderCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSvgPath.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSvgPath.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -804,11 +612,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -820,11 +623,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSvgUtil.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -842,14 +640,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwCanvas.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRenderer.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -859,20 +651,13 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgFill.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwFill.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -881,20 +666,13 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwImage.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -903,20 +681,13 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwMath.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -925,40 +696,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwMemPool.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o
- ../lv_conf.h
- /home/zhiyao/rkProject/samplemotor/lv_conf.h
- /home/zhiyao/rkProject/samplemotor/lvgl/lv_version.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/config.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwPostEffect.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -967,7 +710,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
@@ -977,14 +719,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRasterC.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRasterNeon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRasterTexmap.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -1003,11 +739,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -1016,19 +747,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRle.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -1037,20 +761,14 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwShape.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -1059,19 +777,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwCommon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwStroke.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -1085,11 +796,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -1107,16 +813,10 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgShape.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgText.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgText.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -1126,20 +826,13 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgArray.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCanvas.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgCommon.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInlist.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLock.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgPaint.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgRender.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgWgCanvas.cpp
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o
  ../lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
@@ -1154,18 +847,12 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgXmlParser.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_assert.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_string.h
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
  ../lv_conf.h
  ../lvgl/src/libs/thorvg/thorvg_capi.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lvgl/lv_version.h
  /home/zhiyao/rkProject/samplemotor/lvgl/lvgl.h
- /home/zhiyao/rkProject/samplemotor/lvgl/lvgl_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/core/lv_global.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/core/lv_group.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/core/lv_group_private.h
@@ -1213,22 +900,15 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/blend/lv_draw_sw_blend_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_gradient.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_gradient_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_mask.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_mask_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/draw/sw/lv_draw_sw_utils.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/drm/lv_linux_drm.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/fb/lv_linux_fbdev.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/ili9341/lv_ili9341.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/st7735/lv_st7735.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/st7789/lv_st7789.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/st7796/lv_st7796.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/display/tft_espi/lv_tft_espi.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/evdev/lv_evdev.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/evdev/lv_evdev_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/glfw/lv_glfw_window.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/glfw/lv_opengles_driver.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/glfw/lv_opengles_texture.h
@@ -1247,10 +927,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/sdl/lv_sdl_mouse.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/sdl/lv_sdl_mousewheel.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/sdl/lv_sdl_window.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/uefi/lv_uefi.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/uefi/lv_uefi_context.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/uefi/lv_uefi_display.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/uefi/lv_uefi_indev.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/wayland/lv_wayland.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/windows/lv_windows_display.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/windows/lv_windows_input.h
@@ -1261,9 +937,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_font_fmt_txt_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/font/lv_symbol_def.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/indev/lv_indev.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/indev/lv_indev_gesture.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/indev/lv_indev_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/indev/lv_indev_scroll.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/layouts/flex/lv_flex.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/layouts/grid/lv_grid.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/layouts/lv_layout.h
@@ -1287,8 +961,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/rle/lv_rle.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/rlottie/lv_rlottie.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/rlottie/lv_rlottie_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/svg/lv_svg.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/svg/lv_svg_render.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/thorvg_capi.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/tiny_ttf/lv_tiny_ttf.h
@@ -1318,7 +990,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_async.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_bidi.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_bidi_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_circle_buf.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_color.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_color_op.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_color_op_private.h
@@ -1326,8 +997,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_event_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_fs.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_fs_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_grad.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_iter.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_ll.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_log.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_math.h
@@ -1345,23 +1014,19 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_text_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_timer.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_timer_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_tree.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_utils.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_cmsis_rtos2.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_freertos.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_linux_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_mqx.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_os.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_os_none.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_os_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_pthread.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_rtthread.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_sdl2.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/osal/lv_windows.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/others/file_explorer/lv_file_explorer.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/others/file_explorer/lv_file_explorer_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/font_manager/lv_font_manager.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/others/fragment/lv_fragment.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/others/fragment/lv_fragment_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/others/gridnav/lv_gridnav.h
@@ -1375,24 +1040,8 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
  /home/zhiyao/rkProject/samplemotor/lvgl/src/others/snapshot/lv_snapshot.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/others/sysmon/lv_sysmon.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/others/sysmon/lv_sysmon_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_display.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_helpers.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_indev.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_indev_gesture.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/test/lv_test_screenshot_compare.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/others/vg_lite_tvg/vg_lite.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_base_types.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_component.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_component_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_parser.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_private.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_style.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/lv_xml_utils.h
- /home/zhiyao/rkProject/samplemotor/lvgl/src/others/xml/parsers/lv_xml_obj_parser.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/builtin/lv_tlsf.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/builtin/lv_tlsf_private.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/stdlib/lv_mem.h

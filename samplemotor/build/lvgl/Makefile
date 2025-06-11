@@ -157,6 +157,36 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+lvgl/CMakeFiles/lvgl_demos.dir/rule:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f CMakeFiles/Makefile2 lvgl/CMakeFiles/lvgl_demos.dir/rule
+.PHONY : lvgl/CMakeFiles/lvgl_demos.dir/rule
+
+# Convenience name for target.
+lvgl_demos: lvgl/CMakeFiles/lvgl_demos.dir/rule
+
+.PHONY : lvgl_demos
+
+# fast build rule for target.
+lvgl_demos/fast:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/build
+.PHONY : lvgl_demos/fast
+
+# Convenience name for target.
+lvgl/CMakeFiles/lvgl_examples.dir/rule:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f CMakeFiles/Makefile2 lvgl/CMakeFiles/lvgl_examples.dir/rule
+.PHONY : lvgl/CMakeFiles/lvgl_examples.dir/rule
+
+# Convenience name for target.
+lvgl_examples: lvgl/CMakeFiles/lvgl_examples.dir/rule
+
+.PHONY : lvgl_examples
+
+# fast build rule for target.
+lvgl_examples/fast:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/build
+.PHONY : lvgl_examples/fast
+
+# Convenience name for target.
 lvgl/CMakeFiles/lvgl_thorvg.dir/rule:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f CMakeFiles/Makefile2 lvgl/CMakeFiles/lvgl_thorvg.dir/rule
 .PHONY : lvgl/CMakeFiles/lvgl_thorvg.dir/rule
@@ -185,6 +215,8565 @@ lvgl: lvgl/CMakeFiles/lvgl.dir/rule
 lvgl/fast:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/build
 .PHONY : lvgl/fast
+
+demos/benchmark/assets/img_benchmark_avatar.o: demos/benchmark/assets/img_benchmark_avatar.c.o
+
+.PHONY : demos/benchmark/assets/img_benchmark_avatar.o
+
+# target to build an object file
+demos/benchmark/assets/img_benchmark_avatar.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_avatar.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_avatar.c.o
+
+demos/benchmark/assets/img_benchmark_avatar.i: demos/benchmark/assets/img_benchmark_avatar.c.i
+
+.PHONY : demos/benchmark/assets/img_benchmark_avatar.i
+
+# target to preprocess a source file
+demos/benchmark/assets/img_benchmark_avatar.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_avatar.c.i
+.PHONY : demos/benchmark/assets/img_benchmark_avatar.c.i
+
+demos/benchmark/assets/img_benchmark_avatar.s: demos/benchmark/assets/img_benchmark_avatar.c.s
+
+.PHONY : demos/benchmark/assets/img_benchmark_avatar.s
+
+# target to generate assembly for a file
+demos/benchmark/assets/img_benchmark_avatar.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_avatar.c.s
+.PHONY : demos/benchmark/assets/img_benchmark_avatar.c.s
+
+demos/benchmark/assets/img_benchmark_lvgl_logo_argb.o: demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.o
+
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_argb.o
+
+# target to build an object file
+demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.o
+
+demos/benchmark/assets/img_benchmark_lvgl_logo_argb.i: demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.i
+
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_argb.i
+
+# target to preprocess a source file
+demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.i
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.i
+
+demos/benchmark/assets/img_benchmark_lvgl_logo_argb.s: demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.s
+
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_argb.s
+
+# target to generate assembly for a file
+demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.s
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_argb.c.s
+
+demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.o: demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.o
+
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.o
+
+# target to build an object file
+demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.o
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.o
+
+demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.i: demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.i
+
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.i
+
+# target to preprocess a source file
+demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.i
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.i
+
+demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.s: demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.s
+
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.s
+
+# target to generate assembly for a file
+demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.s
+.PHONY : demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.c.s
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.o: demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.o
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.o
+
+# target to build an object file
+demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.o
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.o
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.i: demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.i
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.i
+
+# target to preprocess a source file
+demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.i
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.i
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.s: demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.s
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.s
+
+# target to generate assembly for a file
+demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.s
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.c.s
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.o: demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.o
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.o
+
+# target to build an object file
+demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.o
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.o
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.i: demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.i
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.i
+
+# target to preprocess a source file
+demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.i
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.i
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.s: demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.s
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.s
+
+# target to generate assembly for a file
+demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.s
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.c.s
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.o: demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.o
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.o
+
+# target to build an object file
+demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.o
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.o
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.i: demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.i
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.i
+
+# target to preprocess a source file
+demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.i
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.i
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.s: demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.s
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.s
+
+# target to generate assembly for a file
+demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.s
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.c.s
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.o: demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.o
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.o
+
+# target to build an object file
+demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.o
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.o
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.i: demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.i
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.i
+
+# target to preprocess a source file
+demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.i
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.i
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.s: demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.s
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.s
+
+# target to generate assembly for a file
+demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.s
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.c.s
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.o: demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.o
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.o
+
+# target to build an object file
+demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.o
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.o
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.i: demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.i
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.i
+
+# target to preprocess a source file
+demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.i
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.i
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.s: demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.s
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.s
+
+# target to generate assembly for a file
+demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.s
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.c.s
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.o: demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.o
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.o
+
+# target to build an object file
+demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.o
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.o
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.i: demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.i
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.i
+
+# target to preprocess a source file
+demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.i
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.i
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.s: demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.s
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.s
+
+# target to generate assembly for a file
+demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.s
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.c.s
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.o: demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.o
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.o
+
+# target to build an object file
+demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.o
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.o
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.i: demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.i
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.i
+
+# target to preprocess a source file
+demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.i
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.i
+
+demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.s: demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.s
+
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.s
+
+# target to generate assembly for a file
+demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.s
+.PHONY : demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.c.s
+
+demos/benchmark/lv_demo_benchmark.o: demos/benchmark/lv_demo_benchmark.c.o
+
+.PHONY : demos/benchmark/lv_demo_benchmark.o
+
+# target to build an object file
+demos/benchmark/lv_demo_benchmark.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.o
+.PHONY : demos/benchmark/lv_demo_benchmark.c.o
+
+demos/benchmark/lv_demo_benchmark.i: demos/benchmark/lv_demo_benchmark.c.i
+
+.PHONY : demos/benchmark/lv_demo_benchmark.i
+
+# target to preprocess a source file
+demos/benchmark/lv_demo_benchmark.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.i
+.PHONY : demos/benchmark/lv_demo_benchmark.c.i
+
+demos/benchmark/lv_demo_benchmark.s: demos/benchmark/lv_demo_benchmark.c.s
+
+.PHONY : demos/benchmark/lv_demo_benchmark.s
+
+# target to generate assembly for a file
+demos/benchmark/lv_demo_benchmark.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/benchmark/lv_demo_benchmark.c.s
+.PHONY : demos/benchmark/lv_demo_benchmark.c.s
+
+demos/keypad_encoder/lv_demo_keypad_encoder.o: demos/keypad_encoder/lv_demo_keypad_encoder.c.o
+
+.PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.o
+
+# target to build an object file
+demos/keypad_encoder/lv_demo_keypad_encoder.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.o
+.PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.c.o
+
+demos/keypad_encoder/lv_demo_keypad_encoder.i: demos/keypad_encoder/lv_demo_keypad_encoder.c.i
+
+.PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.i
+
+# target to preprocess a source file
+demos/keypad_encoder/lv_demo_keypad_encoder.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.i
+.PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.c.i
+
+demos/keypad_encoder/lv_demo_keypad_encoder.s: demos/keypad_encoder/lv_demo_keypad_encoder.c.s
+
+.PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.s
+
+# target to generate assembly for a file
+demos/keypad_encoder/lv_demo_keypad_encoder.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/keypad_encoder/lv_demo_keypad_encoder.c.s
+.PHONY : demos/keypad_encoder/lv_demo_keypad_encoder.c.s
+
+demos/lv_demos.o: demos/lv_demos.c.o
+
+.PHONY : demos/lv_demos.o
+
+# target to build an object file
+demos/lv_demos.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/lv_demos.c.o
+.PHONY : demos/lv_demos.c.o
+
+demos/lv_demos.i: demos/lv_demos.c.i
+
+.PHONY : demos/lv_demos.i
+
+# target to preprocess a source file
+demos/lv_demos.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/lv_demos.c.i
+.PHONY : demos/lv_demos.c.i
+
+demos/lv_demos.s: demos/lv_demos.c.s
+
+.PHONY : demos/lv_demos.s
+
+# target to generate assembly for a file
+demos/lv_demos.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/lv_demos.c.s
+.PHONY : demos/lv_demos.c.s
+
+demos/music/assets/img_lv_demo_music_btn_corner_large.o: demos/music/assets/img_lv_demo_music_btn_corner_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_corner_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.c.o
+
+demos/music/assets/img_lv_demo_music_btn_corner_large.i: demos/music/assets/img_lv_demo_music_btn_corner_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_corner_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.c.i
+
+demos/music/assets/img_lv_demo_music_btn_corner_large.s: demos/music/assets/img_lv_demo_music_btn_corner_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_corner_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_corner_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_corner_large.c.s
+
+demos/music/assets/img_lv_demo_music_btn_list_pause.o: demos/music/assets/img_lv_demo_music_btn_list_pause.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_list_pause.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.c.o
+
+demos/music/assets/img_lv_demo_music_btn_list_pause.i: demos/music/assets/img_lv_demo_music_btn_list_pause.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_list_pause.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.c.i
+
+demos/music/assets/img_lv_demo_music_btn_list_pause.s: demos/music/assets/img_lv_demo_music_btn_list_pause.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_list_pause.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause.c.s
+
+demos/music/assets/img_lv_demo_music_btn_list_pause_large.o: demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.o
+
+demos/music/assets/img_lv_demo_music_btn_list_pause_large.i: demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.i
+
+demos/music/assets/img_lv_demo_music_btn_list_pause_large.s: demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_pause_large.c.s
+
+demos/music/assets/img_lv_demo_music_btn_list_play.o: demos/music/assets/img_lv_demo_music_btn_list_play.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_list_play.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.c.o
+
+demos/music/assets/img_lv_demo_music_btn_list_play.i: demos/music/assets/img_lv_demo_music_btn_list_play.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_list_play.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.c.i
+
+demos/music/assets/img_lv_demo_music_btn_list_play.s: demos/music/assets/img_lv_demo_music_btn_list_play.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_list_play.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play.c.s
+
+demos/music/assets/img_lv_demo_music_btn_list_play_large.o: demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.c.o
+
+demos/music/assets/img_lv_demo_music_btn_list_play_large.i: demos/music/assets/img_lv_demo_music_btn_list_play_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_list_play_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.c.i
+
+demos/music/assets/img_lv_demo_music_btn_list_play_large.s: demos/music/assets/img_lv_demo_music_btn_list_play_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_list_play_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_list_play_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_list_play_large.c.s
+
+demos/music/assets/img_lv_demo_music_btn_loop.o: demos/music/assets/img_lv_demo_music_btn_loop.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_loop.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop.c.o
+
+demos/music/assets/img_lv_demo_music_btn_loop.i: demos/music/assets/img_lv_demo_music_btn_loop.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_loop.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop.c.i
+
+demos/music/assets/img_lv_demo_music_btn_loop.s: demos/music/assets/img_lv_demo_music_btn_loop.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_loop.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop.c.s
+
+demos/music/assets/img_lv_demo_music_btn_loop_large.o: demos/music/assets/img_lv_demo_music_btn_loop_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_loop_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.c.o
+
+demos/music/assets/img_lv_demo_music_btn_loop_large.i: demos/music/assets/img_lv_demo_music_btn_loop_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_loop_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.c.i
+
+demos/music/assets/img_lv_demo_music_btn_loop_large.s: demos/music/assets/img_lv_demo_music_btn_loop_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_loop_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_loop_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_loop_large.c.s
+
+demos/music/assets/img_lv_demo_music_btn_next.o: demos/music/assets/img_lv_demo_music_btn_next.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_next.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next.c.o
+
+demos/music/assets/img_lv_demo_music_btn_next.i: demos/music/assets/img_lv_demo_music_btn_next.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_next.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next.c.i
+
+demos/music/assets/img_lv_demo_music_btn_next.s: demos/music/assets/img_lv_demo_music_btn_next.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_next.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next.c.s
+
+demos/music/assets/img_lv_demo_music_btn_next_large.o: demos/music/assets/img_lv_demo_music_btn_next_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_next_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.c.o
+
+demos/music/assets/img_lv_demo_music_btn_next_large.i: demos/music/assets/img_lv_demo_music_btn_next_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_next_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.c.i
+
+demos/music/assets/img_lv_demo_music_btn_next_large.s: demos/music/assets/img_lv_demo_music_btn_next_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_next_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_next_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_next_large.c.s
+
+demos/music/assets/img_lv_demo_music_btn_pause.o: demos/music/assets/img_lv_demo_music_btn_pause.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_pause.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause.c.o
+
+demos/music/assets/img_lv_demo_music_btn_pause.i: demos/music/assets/img_lv_demo_music_btn_pause.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_pause.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause.c.i
+
+demos/music/assets/img_lv_demo_music_btn_pause.s: demos/music/assets/img_lv_demo_music_btn_pause.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_pause.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause.c.s
+
+demos/music/assets/img_lv_demo_music_btn_pause_large.o: demos/music/assets/img_lv_demo_music_btn_pause_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_pause_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.c.o
+
+demos/music/assets/img_lv_demo_music_btn_pause_large.i: demos/music/assets/img_lv_demo_music_btn_pause_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_pause_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.c.i
+
+demos/music/assets/img_lv_demo_music_btn_pause_large.s: demos/music/assets/img_lv_demo_music_btn_pause_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_pause_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_pause_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_pause_large.c.s
+
+demos/music/assets/img_lv_demo_music_btn_play.o: demos/music/assets/img_lv_demo_music_btn_play.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_play.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play.c.o
+
+demos/music/assets/img_lv_demo_music_btn_play.i: demos/music/assets/img_lv_demo_music_btn_play.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_play.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play.c.i
+
+demos/music/assets/img_lv_demo_music_btn_play.s: demos/music/assets/img_lv_demo_music_btn_play.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_play.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play.c.s
+
+demos/music/assets/img_lv_demo_music_btn_play_large.o: demos/music/assets/img_lv_demo_music_btn_play_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_play_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.c.o
+
+demos/music/assets/img_lv_demo_music_btn_play_large.i: demos/music/assets/img_lv_demo_music_btn_play_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_play_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.c.i
+
+demos/music/assets/img_lv_demo_music_btn_play_large.s: demos/music/assets/img_lv_demo_music_btn_play_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_play_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_play_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_play_large.c.s
+
+demos/music/assets/img_lv_demo_music_btn_prev.o: demos/music/assets/img_lv_demo_music_btn_prev.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_prev.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev.c.o
+
+demos/music/assets/img_lv_demo_music_btn_prev.i: demos/music/assets/img_lv_demo_music_btn_prev.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_prev.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev.c.i
+
+demos/music/assets/img_lv_demo_music_btn_prev.s: demos/music/assets/img_lv_demo_music_btn_prev.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_prev.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev.c.s
+
+demos/music/assets/img_lv_demo_music_btn_prev_large.o: demos/music/assets/img_lv_demo_music_btn_prev_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_prev_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.c.o
+
+demos/music/assets/img_lv_demo_music_btn_prev_large.i: demos/music/assets/img_lv_demo_music_btn_prev_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_prev_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.c.i
+
+demos/music/assets/img_lv_demo_music_btn_prev_large.s: demos/music/assets/img_lv_demo_music_btn_prev_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_prev_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_prev_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_prev_large.c.s
+
+demos/music/assets/img_lv_demo_music_btn_rnd.o: demos/music/assets/img_lv_demo_music_btn_rnd.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_rnd.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.c.o
+
+demos/music/assets/img_lv_demo_music_btn_rnd.i: demos/music/assets/img_lv_demo_music_btn_rnd.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_rnd.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.c.i
+
+demos/music/assets/img_lv_demo_music_btn_rnd.s: demos/music/assets/img_lv_demo_music_btn_rnd.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_rnd.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd.c.s
+
+demos/music/assets/img_lv_demo_music_btn_rnd_large.o: demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.c.o
+
+demos/music/assets/img_lv_demo_music_btn_rnd_large.i: demos/music/assets/img_lv_demo_music_btn_rnd_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_btn_rnd_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.c.i
+
+demos/music/assets/img_lv_demo_music_btn_rnd_large.s: demos/music/assets/img_lv_demo_music_btn_rnd_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_btn_rnd_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_btn_rnd_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_btn_rnd_large.c.s
+
+demos/music/assets/img_lv_demo_music_corner_left.o: demos/music/assets/img_lv_demo_music_corner_left.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_corner_left.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left.c.o
+
+demos/music/assets/img_lv_demo_music_corner_left.i: demos/music/assets/img_lv_demo_music_corner_left.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_corner_left.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left.c.i
+
+demos/music/assets/img_lv_demo_music_corner_left.s: demos/music/assets/img_lv_demo_music_corner_left.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_corner_left.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left.c.s
+
+demos/music/assets/img_lv_demo_music_corner_left_large.o: demos/music/assets/img_lv_demo_music_corner_left_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_corner_left_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.c.o
+
+demos/music/assets/img_lv_demo_music_corner_left_large.i: demos/music/assets/img_lv_demo_music_corner_left_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_corner_left_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.c.i
+
+demos/music/assets/img_lv_demo_music_corner_left_large.s: demos/music/assets/img_lv_demo_music_corner_left_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_corner_left_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_left_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_corner_left_large.c.s
+
+demos/music/assets/img_lv_demo_music_corner_right.o: demos/music/assets/img_lv_demo_music_corner_right.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_corner_right.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right.c.o
+
+demos/music/assets/img_lv_demo_music_corner_right.i: demos/music/assets/img_lv_demo_music_corner_right.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_corner_right.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right.c.i
+
+demos/music/assets/img_lv_demo_music_corner_right.s: demos/music/assets/img_lv_demo_music_corner_right.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_corner_right.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right.c.s
+
+demos/music/assets/img_lv_demo_music_corner_right_large.o: demos/music/assets/img_lv_demo_music_corner_right_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_corner_right_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.c.o
+
+demos/music/assets/img_lv_demo_music_corner_right_large.i: demos/music/assets/img_lv_demo_music_corner_right_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_corner_right_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.c.i
+
+demos/music/assets/img_lv_demo_music_corner_right_large.s: demos/music/assets/img_lv_demo_music_corner_right_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_corner_right_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_corner_right_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_corner_right_large.c.s
+
+demos/music/assets/img_lv_demo_music_cover_1.o: demos/music/assets/img_lv_demo_music_cover_1.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_cover_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1.c.o
+
+demos/music/assets/img_lv_demo_music_cover_1.i: demos/music/assets/img_lv_demo_music_cover_1.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_cover_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1.c.i
+
+demos/music/assets/img_lv_demo_music_cover_1.s: demos/music/assets/img_lv_demo_music_cover_1.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_cover_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1.c.s
+
+demos/music/assets/img_lv_demo_music_cover_1_large.o: demos/music/assets/img_lv_demo_music_cover_1_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_cover_1_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.c.o
+
+demos/music/assets/img_lv_demo_music_cover_1_large.i: demos/music/assets/img_lv_demo_music_cover_1_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_cover_1_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.c.i
+
+demos/music/assets/img_lv_demo_music_cover_1_large.s: demos/music/assets/img_lv_demo_music_cover_1_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_cover_1_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_1_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_cover_1_large.c.s
+
+demos/music/assets/img_lv_demo_music_cover_2.o: demos/music/assets/img_lv_demo_music_cover_2.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_cover_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2.c.o
+
+demos/music/assets/img_lv_demo_music_cover_2.i: demos/music/assets/img_lv_demo_music_cover_2.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_cover_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2.c.i
+
+demos/music/assets/img_lv_demo_music_cover_2.s: demos/music/assets/img_lv_demo_music_cover_2.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_cover_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2.c.s
+
+demos/music/assets/img_lv_demo_music_cover_2_large.o: demos/music/assets/img_lv_demo_music_cover_2_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_cover_2_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.c.o
+
+demos/music/assets/img_lv_demo_music_cover_2_large.i: demos/music/assets/img_lv_demo_music_cover_2_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_cover_2_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.c.i
+
+demos/music/assets/img_lv_demo_music_cover_2_large.s: demos/music/assets/img_lv_demo_music_cover_2_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_cover_2_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_2_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_cover_2_large.c.s
+
+demos/music/assets/img_lv_demo_music_cover_3.o: demos/music/assets/img_lv_demo_music_cover_3.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_cover_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3.c.o
+
+demos/music/assets/img_lv_demo_music_cover_3.i: demos/music/assets/img_lv_demo_music_cover_3.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_cover_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3.c.i
+
+demos/music/assets/img_lv_demo_music_cover_3.s: demos/music/assets/img_lv_demo_music_cover_3.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_cover_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3.c.s
+
+demos/music/assets/img_lv_demo_music_cover_3_large.o: demos/music/assets/img_lv_demo_music_cover_3_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_cover_3_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.c.o
+
+demos/music/assets/img_lv_demo_music_cover_3_large.i: demos/music/assets/img_lv_demo_music_cover_3_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_cover_3_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.c.i
+
+demos/music/assets/img_lv_demo_music_cover_3_large.s: demos/music/assets/img_lv_demo_music_cover_3_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_cover_3_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_cover_3_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_cover_3_large.c.s
+
+demos/music/assets/img_lv_demo_music_icon_1.o: demos/music/assets/img_lv_demo_music_icon_1.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_icon_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1.c.o
+
+demos/music/assets/img_lv_demo_music_icon_1.i: demos/music/assets/img_lv_demo_music_icon_1.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_icon_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1.c.i
+
+demos/music/assets/img_lv_demo_music_icon_1.s: demos/music/assets/img_lv_demo_music_icon_1.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_icon_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1.c.s
+
+demos/music/assets/img_lv_demo_music_icon_1_large.o: demos/music/assets/img_lv_demo_music_icon_1_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_icon_1_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.c.o
+
+demos/music/assets/img_lv_demo_music_icon_1_large.i: demos/music/assets/img_lv_demo_music_icon_1_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_icon_1_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.c.i
+
+demos/music/assets/img_lv_demo_music_icon_1_large.s: demos/music/assets/img_lv_demo_music_icon_1_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_icon_1_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_1_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_icon_1_large.c.s
+
+demos/music/assets/img_lv_demo_music_icon_2.o: demos/music/assets/img_lv_demo_music_icon_2.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_icon_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2.c.o
+
+demos/music/assets/img_lv_demo_music_icon_2.i: demos/music/assets/img_lv_demo_music_icon_2.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_icon_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2.c.i
+
+demos/music/assets/img_lv_demo_music_icon_2.s: demos/music/assets/img_lv_demo_music_icon_2.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_icon_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2.c.s
+
+demos/music/assets/img_lv_demo_music_icon_2_large.o: demos/music/assets/img_lv_demo_music_icon_2_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_icon_2_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.c.o
+
+demos/music/assets/img_lv_demo_music_icon_2_large.i: demos/music/assets/img_lv_demo_music_icon_2_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_icon_2_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.c.i
+
+demos/music/assets/img_lv_demo_music_icon_2_large.s: demos/music/assets/img_lv_demo_music_icon_2_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_icon_2_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_2_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_icon_2_large.c.s
+
+demos/music/assets/img_lv_demo_music_icon_3.o: demos/music/assets/img_lv_demo_music_icon_3.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_icon_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3.c.o
+
+demos/music/assets/img_lv_demo_music_icon_3.i: demos/music/assets/img_lv_demo_music_icon_3.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_icon_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3.c.i
+
+demos/music/assets/img_lv_demo_music_icon_3.s: demos/music/assets/img_lv_demo_music_icon_3.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_icon_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3.c.s
+
+demos/music/assets/img_lv_demo_music_icon_3_large.o: demos/music/assets/img_lv_demo_music_icon_3_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_icon_3_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.c.o
+
+demos/music/assets/img_lv_demo_music_icon_3_large.i: demos/music/assets/img_lv_demo_music_icon_3_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_icon_3_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.c.i
+
+demos/music/assets/img_lv_demo_music_icon_3_large.s: demos/music/assets/img_lv_demo_music_icon_3_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_icon_3_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_3_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_icon_3_large.c.s
+
+demos/music/assets/img_lv_demo_music_icon_4.o: demos/music/assets/img_lv_demo_music_icon_4.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_icon_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4.c.o
+
+demos/music/assets/img_lv_demo_music_icon_4.i: demos/music/assets/img_lv_demo_music_icon_4.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_icon_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4.c.i
+
+demos/music/assets/img_lv_demo_music_icon_4.s: demos/music/assets/img_lv_demo_music_icon_4.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_icon_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4.c.s
+
+demos/music/assets/img_lv_demo_music_icon_4_large.o: demos/music/assets/img_lv_demo_music_icon_4_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_icon_4_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.c.o
+
+demos/music/assets/img_lv_demo_music_icon_4_large.i: demos/music/assets/img_lv_demo_music_icon_4_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_icon_4_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.c.i
+
+demos/music/assets/img_lv_demo_music_icon_4_large.s: demos/music/assets/img_lv_demo_music_icon_4_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_icon_4_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_icon_4_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_icon_4_large.c.s
+
+demos/music/assets/img_lv_demo_music_list_border.o: demos/music/assets/img_lv_demo_music_list_border.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_list_border.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_list_border.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_list_border.c.o
+
+demos/music/assets/img_lv_demo_music_list_border.i: demos/music/assets/img_lv_demo_music_list_border.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_list_border.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_list_border.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_list_border.c.i
+
+demos/music/assets/img_lv_demo_music_list_border.s: demos/music/assets/img_lv_demo_music_list_border.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_list_border.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_list_border.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_list_border.c.s
+
+demos/music/assets/img_lv_demo_music_list_border_large.o: demos/music/assets/img_lv_demo_music_list_border_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_list_border_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_list_border_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_list_border_large.c.o
+
+demos/music/assets/img_lv_demo_music_list_border_large.i: demos/music/assets/img_lv_demo_music_list_border_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_list_border_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_list_border_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_list_border_large.c.i
+
+demos/music/assets/img_lv_demo_music_list_border_large.s: demos/music/assets/img_lv_demo_music_list_border_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_list_border_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_list_border_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_list_border_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_list_border_large.c.s
+
+demos/music/assets/img_lv_demo_music_logo.o: demos/music/assets/img_lv_demo_music_logo.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_logo.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_logo.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_logo.c.o
+
+demos/music/assets/img_lv_demo_music_logo.i: demos/music/assets/img_lv_demo_music_logo.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_logo.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_logo.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_logo.c.i
+
+demos/music/assets/img_lv_demo_music_logo.s: demos/music/assets/img_lv_demo_music_logo.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_logo.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_logo.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_logo.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_logo.c.s
+
+demos/music/assets/img_lv_demo_music_slider_knob.o: demos/music/assets/img_lv_demo_music_slider_knob.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_slider_knob.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob.c.o
+
+demos/music/assets/img_lv_demo_music_slider_knob.i: demos/music/assets/img_lv_demo_music_slider_knob.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_slider_knob.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob.c.i
+
+demos/music/assets/img_lv_demo_music_slider_knob.s: demos/music/assets/img_lv_demo_music_slider_knob.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_slider_knob.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob.c.s
+
+demos/music/assets/img_lv_demo_music_slider_knob_large.o: demos/music/assets/img_lv_demo_music_slider_knob_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_slider_knob_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.c.o
+
+demos/music/assets/img_lv_demo_music_slider_knob_large.i: demos/music/assets/img_lv_demo_music_slider_knob_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_slider_knob_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.c.i
+
+demos/music/assets/img_lv_demo_music_slider_knob_large.s: demos/music/assets/img_lv_demo_music_slider_knob_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_slider_knob_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_slider_knob_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_slider_knob_large.c.s
+
+demos/music/assets/img_lv_demo_music_wave_bottom.o: demos/music/assets/img_lv_demo_music_wave_bottom.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_wave_bottom.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.c.o
+
+demos/music/assets/img_lv_demo_music_wave_bottom.i: demos/music/assets/img_lv_demo_music_wave_bottom.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_wave_bottom.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.c.i
+
+demos/music/assets/img_lv_demo_music_wave_bottom.s: demos/music/assets/img_lv_demo_music_wave_bottom.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_wave_bottom.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom.c.s
+
+demos/music/assets/img_lv_demo_music_wave_bottom_large.o: demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.c.o
+
+demos/music/assets/img_lv_demo_music_wave_bottom_large.i: demos/music/assets/img_lv_demo_music_wave_bottom_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_wave_bottom_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.c.i
+
+demos/music/assets/img_lv_demo_music_wave_bottom_large.s: demos/music/assets/img_lv_demo_music_wave_bottom_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_wave_bottom_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_bottom_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_wave_bottom_large.c.s
+
+demos/music/assets/img_lv_demo_music_wave_top.o: demos/music/assets/img_lv_demo_music_wave_top.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_wave_top.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top.c.o
+
+demos/music/assets/img_lv_demo_music_wave_top.i: demos/music/assets/img_lv_demo_music_wave_top.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_wave_top.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top.c.i
+
+demos/music/assets/img_lv_demo_music_wave_top.s: demos/music/assets/img_lv_demo_music_wave_top.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_wave_top.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top.c.s
+
+demos/music/assets/img_lv_demo_music_wave_top_large.o: demos/music/assets/img_lv_demo_music_wave_top_large.c.o
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.o
+
+# target to build an object file
+demos/music/assets/img_lv_demo_music_wave_top_large.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.o
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.c.o
+
+demos/music/assets/img_lv_demo_music_wave_top_large.i: demos/music/assets/img_lv_demo_music_wave_top_large.c.i
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.i
+
+# target to preprocess a source file
+demos/music/assets/img_lv_demo_music_wave_top_large.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.i
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.c.i
+
+demos/music/assets/img_lv_demo_music_wave_top_large.s: demos/music/assets/img_lv_demo_music_wave_top_large.c.s
+
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.s
+
+# target to generate assembly for a file
+demos/music/assets/img_lv_demo_music_wave_top_large.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/assets/img_lv_demo_music_wave_top_large.c.s
+.PHONY : demos/music/assets/img_lv_demo_music_wave_top_large.c.s
+
+demos/music/lv_demo_music.o: demos/music/lv_demo_music.c.o
+
+.PHONY : demos/music/lv_demo_music.o
+
+# target to build an object file
+demos/music/lv_demo_music.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.o
+.PHONY : demos/music/lv_demo_music.c.o
+
+demos/music/lv_demo_music.i: demos/music/lv_demo_music.c.i
+
+.PHONY : demos/music/lv_demo_music.i
+
+# target to preprocess a source file
+demos/music/lv_demo_music.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.i
+.PHONY : demos/music/lv_demo_music.c.i
+
+demos/music/lv_demo_music.s: demos/music/lv_demo_music.c.s
+
+.PHONY : demos/music/lv_demo_music.s
+
+# target to generate assembly for a file
+demos/music/lv_demo_music.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music.c.s
+.PHONY : demos/music/lv_demo_music.c.s
+
+demos/music/lv_demo_music_list.o: demos/music/lv_demo_music_list.c.o
+
+.PHONY : demos/music/lv_demo_music_list.o
+
+# target to build an object file
+demos/music/lv_demo_music_list.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.o
+.PHONY : demos/music/lv_demo_music_list.c.o
+
+demos/music/lv_demo_music_list.i: demos/music/lv_demo_music_list.c.i
+
+.PHONY : demos/music/lv_demo_music_list.i
+
+# target to preprocess a source file
+demos/music/lv_demo_music_list.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.i
+.PHONY : demos/music/lv_demo_music_list.c.i
+
+demos/music/lv_demo_music_list.s: demos/music/lv_demo_music_list.c.s
+
+.PHONY : demos/music/lv_demo_music_list.s
+
+# target to generate assembly for a file
+demos/music/lv_demo_music_list.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_list.c.s
+.PHONY : demos/music/lv_demo_music_list.c.s
+
+demos/music/lv_demo_music_main.o: demos/music/lv_demo_music_main.c.o
+
+.PHONY : demos/music/lv_demo_music_main.o
+
+# target to build an object file
+demos/music/lv_demo_music_main.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.o
+.PHONY : demos/music/lv_demo_music_main.c.o
+
+demos/music/lv_demo_music_main.i: demos/music/lv_demo_music_main.c.i
+
+.PHONY : demos/music/lv_demo_music_main.i
+
+# target to preprocess a source file
+demos/music/lv_demo_music_main.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.i
+.PHONY : demos/music/lv_demo_music_main.c.i
+
+demos/music/lv_demo_music_main.s: demos/music/lv_demo_music_main.c.s
+
+.PHONY : demos/music/lv_demo_music_main.s
+
+# target to generate assembly for a file
+demos/music/lv_demo_music_main.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/music/lv_demo_music_main.c.s
+.PHONY : demos/music/lv_demo_music_main.c.s
+
+demos/render/assets/img_render_arc_bg.o: demos/render/assets/img_render_arc_bg.c.o
+
+.PHONY : demos/render/assets/img_render_arc_bg.o
+
+# target to build an object file
+demos/render/assets/img_render_arc_bg.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_arc_bg.c.o
+.PHONY : demos/render/assets/img_render_arc_bg.c.o
+
+demos/render/assets/img_render_arc_bg.i: demos/render/assets/img_render_arc_bg.c.i
+
+.PHONY : demos/render/assets/img_render_arc_bg.i
+
+# target to preprocess a source file
+demos/render/assets/img_render_arc_bg.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_arc_bg.c.i
+.PHONY : demos/render/assets/img_render_arc_bg.c.i
+
+demos/render/assets/img_render_arc_bg.s: demos/render/assets/img_render_arc_bg.c.s
+
+.PHONY : demos/render/assets/img_render_arc_bg.s
+
+# target to generate assembly for a file
+demos/render/assets/img_render_arc_bg.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_arc_bg.c.s
+.PHONY : demos/render/assets/img_render_arc_bg.c.s
+
+demos/render/assets/img_render_lvgl_logo_argb8888.o: demos/render/assets/img_render_lvgl_logo_argb8888.c.o
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888.o
+
+# target to build an object file
+demos/render/assets/img_render_lvgl_logo_argb8888.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_argb8888.c.o
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888.c.o
+
+demos/render/assets/img_render_lvgl_logo_argb8888.i: demos/render/assets/img_render_lvgl_logo_argb8888.c.i
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888.i
+
+# target to preprocess a source file
+demos/render/assets/img_render_lvgl_logo_argb8888.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_argb8888.c.i
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888.c.i
+
+demos/render/assets/img_render_lvgl_logo_argb8888.s: demos/render/assets/img_render_lvgl_logo_argb8888.c.s
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888.s
+
+# target to generate assembly for a file
+demos/render/assets/img_render_lvgl_logo_argb8888.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_argb8888.c.s
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888.c.s
+
+demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.o: demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.o
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.o
+
+# target to build an object file
+demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.o
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.o
+
+demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.i: demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.i
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.i
+
+# target to preprocess a source file
+demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.i
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.i
+
+demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.s: demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.s
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.s
+
+# target to generate assembly for a file
+demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.s
+.PHONY : demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.c.s
+
+demos/render/assets/img_render_lvgl_logo_i1.o: demos/render/assets/img_render_lvgl_logo_i1.c.o
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_i1.o
+
+# target to build an object file
+demos/render/assets/img_render_lvgl_logo_i1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_i1.c.o
+.PHONY : demos/render/assets/img_render_lvgl_logo_i1.c.o
+
+demos/render/assets/img_render_lvgl_logo_i1.i: demos/render/assets/img_render_lvgl_logo_i1.c.i
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_i1.i
+
+# target to preprocess a source file
+demos/render/assets/img_render_lvgl_logo_i1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_i1.c.i
+.PHONY : demos/render/assets/img_render_lvgl_logo_i1.c.i
+
+demos/render/assets/img_render_lvgl_logo_i1.s: demos/render/assets/img_render_lvgl_logo_i1.c.s
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_i1.s
+
+# target to generate assembly for a file
+demos/render/assets/img_render_lvgl_logo_i1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_i1.c.s
+.PHONY : demos/render/assets/img_render_lvgl_logo_i1.c.s
+
+demos/render/assets/img_render_lvgl_logo_l8.o: demos/render/assets/img_render_lvgl_logo_l8.c.o
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_l8.o
+
+# target to build an object file
+demos/render/assets/img_render_lvgl_logo_l8.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_l8.c.o
+.PHONY : demos/render/assets/img_render_lvgl_logo_l8.c.o
+
+demos/render/assets/img_render_lvgl_logo_l8.i: demos/render/assets/img_render_lvgl_logo_l8.c.i
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_l8.i
+
+# target to preprocess a source file
+demos/render/assets/img_render_lvgl_logo_l8.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_l8.c.i
+.PHONY : demos/render/assets/img_render_lvgl_logo_l8.c.i
+
+demos/render/assets/img_render_lvgl_logo_l8.s: demos/render/assets/img_render_lvgl_logo_l8.c.s
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_l8.s
+
+# target to generate assembly for a file
+demos/render/assets/img_render_lvgl_logo_l8.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_l8.c.s
+.PHONY : demos/render/assets/img_render_lvgl_logo_l8.c.s
+
+demos/render/assets/img_render_lvgl_logo_rgb565.o: demos/render/assets/img_render_lvgl_logo_rgb565.c.o
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565.o
+
+# target to build an object file
+demos/render/assets/img_render_lvgl_logo_rgb565.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb565.c.o
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565.c.o
+
+demos/render/assets/img_render_lvgl_logo_rgb565.i: demos/render/assets/img_render_lvgl_logo_rgb565.c.i
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565.i
+
+# target to preprocess a source file
+demos/render/assets/img_render_lvgl_logo_rgb565.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb565.c.i
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565.c.i
+
+demos/render/assets/img_render_lvgl_logo_rgb565.s: demos/render/assets/img_render_lvgl_logo_rgb565.c.s
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565.s
+
+# target to generate assembly for a file
+demos/render/assets/img_render_lvgl_logo_rgb565.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb565.c.s
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565.c.s
+
+demos/render/assets/img_render_lvgl_logo_rgb565_swapped.o: demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.o
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565_swapped.o
+
+# target to build an object file
+demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.o
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.o
+
+demos/render/assets/img_render_lvgl_logo_rgb565_swapped.i: demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.i
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565_swapped.i
+
+# target to preprocess a source file
+demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.i
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.i
+
+demos/render/assets/img_render_lvgl_logo_rgb565_swapped.s: demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.s
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565_swapped.s
+
+# target to generate assembly for a file
+demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.s
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565_swapped.c.s
+
+demos/render/assets/img_render_lvgl_logo_rgb565a8.o: demos/render/assets/img_render_lvgl_logo_rgb565a8.c.o
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565a8.o
+
+# target to build an object file
+demos/render/assets/img_render_lvgl_logo_rgb565a8.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb565a8.c.o
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565a8.c.o
+
+demos/render/assets/img_render_lvgl_logo_rgb565a8.i: demos/render/assets/img_render_lvgl_logo_rgb565a8.c.i
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565a8.i
+
+# target to preprocess a source file
+demos/render/assets/img_render_lvgl_logo_rgb565a8.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb565a8.c.i
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565a8.c.i
+
+demos/render/assets/img_render_lvgl_logo_rgb565a8.s: demos/render/assets/img_render_lvgl_logo_rgb565a8.c.s
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565a8.s
+
+# target to generate assembly for a file
+demos/render/assets/img_render_lvgl_logo_rgb565a8.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb565a8.c.s
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb565a8.c.s
+
+demos/render/assets/img_render_lvgl_logo_rgb888.o: demos/render/assets/img_render_lvgl_logo_rgb888.c.o
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb888.o
+
+# target to build an object file
+demos/render/assets/img_render_lvgl_logo_rgb888.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb888.c.o
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb888.c.o
+
+demos/render/assets/img_render_lvgl_logo_rgb888.i: demos/render/assets/img_render_lvgl_logo_rgb888.c.i
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb888.i
+
+# target to preprocess a source file
+demos/render/assets/img_render_lvgl_logo_rgb888.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb888.c.i
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb888.c.i
+
+demos/render/assets/img_render_lvgl_logo_rgb888.s: demos/render/assets/img_render_lvgl_logo_rgb888.c.s
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb888.s
+
+# target to generate assembly for a file
+demos/render/assets/img_render_lvgl_logo_rgb888.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_rgb888.c.s
+.PHONY : demos/render/assets/img_render_lvgl_logo_rgb888.c.s
+
+demos/render/assets/img_render_lvgl_logo_xrgb8888.o: demos/render/assets/img_render_lvgl_logo_xrgb8888.c.o
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_xrgb8888.o
+
+# target to build an object file
+demos/render/assets/img_render_lvgl_logo_xrgb8888.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_xrgb8888.c.o
+.PHONY : demos/render/assets/img_render_lvgl_logo_xrgb8888.c.o
+
+demos/render/assets/img_render_lvgl_logo_xrgb8888.i: demos/render/assets/img_render_lvgl_logo_xrgb8888.c.i
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_xrgb8888.i
+
+# target to preprocess a source file
+demos/render/assets/img_render_lvgl_logo_xrgb8888.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_xrgb8888.c.i
+.PHONY : demos/render/assets/img_render_lvgl_logo_xrgb8888.c.i
+
+demos/render/assets/img_render_lvgl_logo_xrgb8888.s: demos/render/assets/img_render_lvgl_logo_xrgb8888.c.s
+
+.PHONY : demos/render/assets/img_render_lvgl_logo_xrgb8888.s
+
+# target to generate assembly for a file
+demos/render/assets/img_render_lvgl_logo_xrgb8888.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/assets/img_render_lvgl_logo_xrgb8888.c.s
+.PHONY : demos/render/assets/img_render_lvgl_logo_xrgb8888.c.s
+
+demos/render/lv_demo_render.o: demos/render/lv_demo_render.c.o
+
+.PHONY : demos/render/lv_demo_render.o
+
+# target to build an object file
+demos/render/lv_demo_render.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/lv_demo_render.c.o
+.PHONY : demos/render/lv_demo_render.c.o
+
+demos/render/lv_demo_render.i: demos/render/lv_demo_render.c.i
+
+.PHONY : demos/render/lv_demo_render.i
+
+# target to preprocess a source file
+demos/render/lv_demo_render.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/lv_demo_render.c.i
+.PHONY : demos/render/lv_demo_render.c.i
+
+demos/render/lv_demo_render.s: demos/render/lv_demo_render.c.s
+
+.PHONY : demos/render/lv_demo_render.s
+
+# target to generate assembly for a file
+demos/render/lv_demo_render.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/render/lv_demo_render.c.s
+.PHONY : demos/render/lv_demo_render.c.s
+
+demos/stress/lv_demo_stress.o: demos/stress/lv_demo_stress.c.o
+
+.PHONY : demos/stress/lv_demo_stress.o
+
+# target to build an object file
+demos/stress/lv_demo_stress.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.o
+.PHONY : demos/stress/lv_demo_stress.c.o
+
+demos/stress/lv_demo_stress.i: demos/stress/lv_demo_stress.c.i
+
+.PHONY : demos/stress/lv_demo_stress.i
+
+# target to preprocess a source file
+demos/stress/lv_demo_stress.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.i
+.PHONY : demos/stress/lv_demo_stress.c.i
+
+demos/stress/lv_demo_stress.s: demos/stress/lv_demo_stress.c.s
+
+.PHONY : demos/stress/lv_demo_stress.s
+
+# target to generate assembly for a file
+demos/stress/lv_demo_stress.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/stress/lv_demo_stress.c.s
+.PHONY : demos/stress/lv_demo_stress.c.s
+
+demos/vector_graphic/assets/img_demo_vector_avatar.o: demos/vector_graphic/assets/img_demo_vector_avatar.c.o
+
+.PHONY : demos/vector_graphic/assets/img_demo_vector_avatar.o
+
+# target to build an object file
+demos/vector_graphic/assets/img_demo_vector_avatar.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/vector_graphic/assets/img_demo_vector_avatar.c.o
+.PHONY : demos/vector_graphic/assets/img_demo_vector_avatar.c.o
+
+demos/vector_graphic/assets/img_demo_vector_avatar.i: demos/vector_graphic/assets/img_demo_vector_avatar.c.i
+
+.PHONY : demos/vector_graphic/assets/img_demo_vector_avatar.i
+
+# target to preprocess a source file
+demos/vector_graphic/assets/img_demo_vector_avatar.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/vector_graphic/assets/img_demo_vector_avatar.c.i
+.PHONY : demos/vector_graphic/assets/img_demo_vector_avatar.c.i
+
+demos/vector_graphic/assets/img_demo_vector_avatar.s: demos/vector_graphic/assets/img_demo_vector_avatar.c.s
+
+.PHONY : demos/vector_graphic/assets/img_demo_vector_avatar.s
+
+# target to generate assembly for a file
+demos/vector_graphic/assets/img_demo_vector_avatar.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/vector_graphic/assets/img_demo_vector_avatar.c.s
+.PHONY : demos/vector_graphic/assets/img_demo_vector_avatar.c.s
+
+demos/vector_graphic/lv_demo_vector_graphic.o: demos/vector_graphic/lv_demo_vector_graphic.c.o
+
+.PHONY : demos/vector_graphic/lv_demo_vector_graphic.o
+
+# target to build an object file
+demos/vector_graphic/lv_demo_vector_graphic.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/vector_graphic/lv_demo_vector_graphic.c.o
+.PHONY : demos/vector_graphic/lv_demo_vector_graphic.c.o
+
+demos/vector_graphic/lv_demo_vector_graphic.i: demos/vector_graphic/lv_demo_vector_graphic.c.i
+
+.PHONY : demos/vector_graphic/lv_demo_vector_graphic.i
+
+# target to preprocess a source file
+demos/vector_graphic/lv_demo_vector_graphic.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/vector_graphic/lv_demo_vector_graphic.c.i
+.PHONY : demos/vector_graphic/lv_demo_vector_graphic.c.i
+
+demos/vector_graphic/lv_demo_vector_graphic.s: demos/vector_graphic/lv_demo_vector_graphic.c.s
+
+.PHONY : demos/vector_graphic/lv_demo_vector_graphic.s
+
+# target to generate assembly for a file
+demos/vector_graphic/lv_demo_vector_graphic.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/vector_graphic/lv_demo_vector_graphic.c.s
+.PHONY : demos/vector_graphic/lv_demo_vector_graphic.c.s
+
+demos/widgets/assets/img_clothes.o: demos/widgets/assets/img_clothes.c.o
+
+.PHONY : demos/widgets/assets/img_clothes.o
+
+# target to build an object file
+demos/widgets/assets/img_clothes.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.o
+.PHONY : demos/widgets/assets/img_clothes.c.o
+
+demos/widgets/assets/img_clothes.i: demos/widgets/assets/img_clothes.c.i
+
+.PHONY : demos/widgets/assets/img_clothes.i
+
+# target to preprocess a source file
+demos/widgets/assets/img_clothes.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.i
+.PHONY : demos/widgets/assets/img_clothes.c.i
+
+demos/widgets/assets/img_clothes.s: demos/widgets/assets/img_clothes.c.s
+
+.PHONY : demos/widgets/assets/img_clothes.s
+
+# target to generate assembly for a file
+demos/widgets/assets/img_clothes.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_clothes.c.s
+.PHONY : demos/widgets/assets/img_clothes.c.s
+
+demos/widgets/assets/img_demo_widgets_avatar.o: demos/widgets/assets/img_demo_widgets_avatar.c.o
+
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.o
+
+# target to build an object file
+demos/widgets/assets/img_demo_widgets_avatar.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.o
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.c.o
+
+demos/widgets/assets/img_demo_widgets_avatar.i: demos/widgets/assets/img_demo_widgets_avatar.c.i
+
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.i
+
+# target to preprocess a source file
+demos/widgets/assets/img_demo_widgets_avatar.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.i
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.c.i
+
+demos/widgets/assets/img_demo_widgets_avatar.s: demos/widgets/assets/img_demo_widgets_avatar.c.s
+
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.s
+
+# target to generate assembly for a file
+demos/widgets/assets/img_demo_widgets_avatar.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_avatar.c.s
+.PHONY : demos/widgets/assets/img_demo_widgets_avatar.c.s
+
+demos/widgets/assets/img_demo_widgets_needle.o: demos/widgets/assets/img_demo_widgets_needle.c.o
+
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.o
+
+# target to build an object file
+demos/widgets/assets/img_demo_widgets_needle.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_needle.c.o
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.c.o
+
+demos/widgets/assets/img_demo_widgets_needle.i: demos/widgets/assets/img_demo_widgets_needle.c.i
+
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.i
+
+# target to preprocess a source file
+demos/widgets/assets/img_demo_widgets_needle.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_needle.c.i
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.c.i
+
+demos/widgets/assets/img_demo_widgets_needle.s: demos/widgets/assets/img_demo_widgets_needle.c.s
+
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.s
+
+# target to generate assembly for a file
+demos/widgets/assets/img_demo_widgets_needle.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_demo_widgets_needle.c.s
+.PHONY : demos/widgets/assets/img_demo_widgets_needle.c.s
+
+demos/widgets/assets/img_lvgl_logo.o: demos/widgets/assets/img_lvgl_logo.c.o
+
+.PHONY : demos/widgets/assets/img_lvgl_logo.o
+
+# target to build an object file
+demos/widgets/assets/img_lvgl_logo.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.o
+.PHONY : demos/widgets/assets/img_lvgl_logo.c.o
+
+demos/widgets/assets/img_lvgl_logo.i: demos/widgets/assets/img_lvgl_logo.c.i
+
+.PHONY : demos/widgets/assets/img_lvgl_logo.i
+
+# target to preprocess a source file
+demos/widgets/assets/img_lvgl_logo.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.i
+.PHONY : demos/widgets/assets/img_lvgl_logo.c.i
+
+demos/widgets/assets/img_lvgl_logo.s: demos/widgets/assets/img_lvgl_logo.c.s
+
+.PHONY : demos/widgets/assets/img_lvgl_logo.s
+
+# target to generate assembly for a file
+demos/widgets/assets/img_lvgl_logo.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/assets/img_lvgl_logo.c.s
+.PHONY : demos/widgets/assets/img_lvgl_logo.c.s
+
+demos/widgets/lv_demo_widgets.o: demos/widgets/lv_demo_widgets.c.o
+
+.PHONY : demos/widgets/lv_demo_widgets.o
+
+# target to build an object file
+demos/widgets/lv_demo_widgets.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.o
+.PHONY : demos/widgets/lv_demo_widgets.c.o
+
+demos/widgets/lv_demo_widgets.i: demos/widgets/lv_demo_widgets.c.i
+
+.PHONY : demos/widgets/lv_demo_widgets.i
+
+# target to preprocess a source file
+demos/widgets/lv_demo_widgets.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.i
+.PHONY : demos/widgets/lv_demo_widgets.c.i
+
+demos/widgets/lv_demo_widgets.s: demos/widgets/lv_demo_widgets.c.s
+
+.PHONY : demos/widgets/lv_demo_widgets.s
+
+# target to generate assembly for a file
+demos/widgets/lv_demo_widgets.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_demos.dir/build.make lvgl/CMakeFiles/lvgl_demos.dir/demos/widgets/lv_demo_widgets.c.s
+.PHONY : demos/widgets/lv_demo_widgets.c.s
+
+examples/anim/lv_example_anim_1.o: examples/anim/lv_example_anim_1.c.o
+
+.PHONY : examples/anim/lv_example_anim_1.o
+
+# target to build an object file
+examples/anim/lv_example_anim_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_1.c.o
+.PHONY : examples/anim/lv_example_anim_1.c.o
+
+examples/anim/lv_example_anim_1.i: examples/anim/lv_example_anim_1.c.i
+
+.PHONY : examples/anim/lv_example_anim_1.i
+
+# target to preprocess a source file
+examples/anim/lv_example_anim_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_1.c.i
+.PHONY : examples/anim/lv_example_anim_1.c.i
+
+examples/anim/lv_example_anim_1.s: examples/anim/lv_example_anim_1.c.s
+
+.PHONY : examples/anim/lv_example_anim_1.s
+
+# target to generate assembly for a file
+examples/anim/lv_example_anim_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_1.c.s
+.PHONY : examples/anim/lv_example_anim_1.c.s
+
+examples/anim/lv_example_anim_2.o: examples/anim/lv_example_anim_2.c.o
+
+.PHONY : examples/anim/lv_example_anim_2.o
+
+# target to build an object file
+examples/anim/lv_example_anim_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_2.c.o
+.PHONY : examples/anim/lv_example_anim_2.c.o
+
+examples/anim/lv_example_anim_2.i: examples/anim/lv_example_anim_2.c.i
+
+.PHONY : examples/anim/lv_example_anim_2.i
+
+# target to preprocess a source file
+examples/anim/lv_example_anim_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_2.c.i
+.PHONY : examples/anim/lv_example_anim_2.c.i
+
+examples/anim/lv_example_anim_2.s: examples/anim/lv_example_anim_2.c.s
+
+.PHONY : examples/anim/lv_example_anim_2.s
+
+# target to generate assembly for a file
+examples/anim/lv_example_anim_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_2.c.s
+.PHONY : examples/anim/lv_example_anim_2.c.s
+
+examples/anim/lv_example_anim_3.o: examples/anim/lv_example_anim_3.c.o
+
+.PHONY : examples/anim/lv_example_anim_3.o
+
+# target to build an object file
+examples/anim/lv_example_anim_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_3.c.o
+.PHONY : examples/anim/lv_example_anim_3.c.o
+
+examples/anim/lv_example_anim_3.i: examples/anim/lv_example_anim_3.c.i
+
+.PHONY : examples/anim/lv_example_anim_3.i
+
+# target to preprocess a source file
+examples/anim/lv_example_anim_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_3.c.i
+.PHONY : examples/anim/lv_example_anim_3.c.i
+
+examples/anim/lv_example_anim_3.s: examples/anim/lv_example_anim_3.c.s
+
+.PHONY : examples/anim/lv_example_anim_3.s
+
+# target to generate assembly for a file
+examples/anim/lv_example_anim_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_3.c.s
+.PHONY : examples/anim/lv_example_anim_3.c.s
+
+examples/anim/lv_example_anim_4.o: examples/anim/lv_example_anim_4.c.o
+
+.PHONY : examples/anim/lv_example_anim_4.o
+
+# target to build an object file
+examples/anim/lv_example_anim_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_4.c.o
+.PHONY : examples/anim/lv_example_anim_4.c.o
+
+examples/anim/lv_example_anim_4.i: examples/anim/lv_example_anim_4.c.i
+
+.PHONY : examples/anim/lv_example_anim_4.i
+
+# target to preprocess a source file
+examples/anim/lv_example_anim_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_4.c.i
+.PHONY : examples/anim/lv_example_anim_4.c.i
+
+examples/anim/lv_example_anim_4.s: examples/anim/lv_example_anim_4.c.s
+
+.PHONY : examples/anim/lv_example_anim_4.s
+
+# target to generate assembly for a file
+examples/anim/lv_example_anim_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_4.c.s
+.PHONY : examples/anim/lv_example_anim_4.c.s
+
+examples/anim/lv_example_anim_timeline_1.o: examples/anim/lv_example_anim_timeline_1.c.o
+
+.PHONY : examples/anim/lv_example_anim_timeline_1.o
+
+# target to build an object file
+examples/anim/lv_example_anim_timeline_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_timeline_1.c.o
+.PHONY : examples/anim/lv_example_anim_timeline_1.c.o
+
+examples/anim/lv_example_anim_timeline_1.i: examples/anim/lv_example_anim_timeline_1.c.i
+
+.PHONY : examples/anim/lv_example_anim_timeline_1.i
+
+# target to preprocess a source file
+examples/anim/lv_example_anim_timeline_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_timeline_1.c.i
+.PHONY : examples/anim/lv_example_anim_timeline_1.c.i
+
+examples/anim/lv_example_anim_timeline_1.s: examples/anim/lv_example_anim_timeline_1.c.s
+
+.PHONY : examples/anim/lv_example_anim_timeline_1.s
+
+# target to generate assembly for a file
+examples/anim/lv_example_anim_timeline_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/anim/lv_example_anim_timeline_1.c.s
+.PHONY : examples/anim/lv_example_anim_timeline_1.c.s
+
+examples/assets/animimg001.o: examples/assets/animimg001.c.o
+
+.PHONY : examples/assets/animimg001.o
+
+# target to build an object file
+examples/assets/animimg001.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg001.c.o
+.PHONY : examples/assets/animimg001.c.o
+
+examples/assets/animimg001.i: examples/assets/animimg001.c.i
+
+.PHONY : examples/assets/animimg001.i
+
+# target to preprocess a source file
+examples/assets/animimg001.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg001.c.i
+.PHONY : examples/assets/animimg001.c.i
+
+examples/assets/animimg001.s: examples/assets/animimg001.c.s
+
+.PHONY : examples/assets/animimg001.s
+
+# target to generate assembly for a file
+examples/assets/animimg001.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg001.c.s
+.PHONY : examples/assets/animimg001.c.s
+
+examples/assets/animimg002.o: examples/assets/animimg002.c.o
+
+.PHONY : examples/assets/animimg002.o
+
+# target to build an object file
+examples/assets/animimg002.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg002.c.o
+.PHONY : examples/assets/animimg002.c.o
+
+examples/assets/animimg002.i: examples/assets/animimg002.c.i
+
+.PHONY : examples/assets/animimg002.i
+
+# target to preprocess a source file
+examples/assets/animimg002.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg002.c.i
+.PHONY : examples/assets/animimg002.c.i
+
+examples/assets/animimg002.s: examples/assets/animimg002.c.s
+
+.PHONY : examples/assets/animimg002.s
+
+# target to generate assembly for a file
+examples/assets/animimg002.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg002.c.s
+.PHONY : examples/assets/animimg002.c.s
+
+examples/assets/animimg003.o: examples/assets/animimg003.c.o
+
+.PHONY : examples/assets/animimg003.o
+
+# target to build an object file
+examples/assets/animimg003.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg003.c.o
+.PHONY : examples/assets/animimg003.c.o
+
+examples/assets/animimg003.i: examples/assets/animimg003.c.i
+
+.PHONY : examples/assets/animimg003.i
+
+# target to preprocess a source file
+examples/assets/animimg003.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg003.c.i
+.PHONY : examples/assets/animimg003.c.i
+
+examples/assets/animimg003.s: examples/assets/animimg003.c.s
+
+.PHONY : examples/assets/animimg003.s
+
+# target to generate assembly for a file
+examples/assets/animimg003.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/animimg003.c.s
+.PHONY : examples/assets/animimg003.c.s
+
+examples/assets/emoji/img_emoji_F617.o: examples/assets/emoji/img_emoji_F617.c.o
+
+.PHONY : examples/assets/emoji/img_emoji_F617.o
+
+# target to build an object file
+examples/assets/emoji/img_emoji_F617.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/emoji/img_emoji_F617.c.o
+.PHONY : examples/assets/emoji/img_emoji_F617.c.o
+
+examples/assets/emoji/img_emoji_F617.i: examples/assets/emoji/img_emoji_F617.c.i
+
+.PHONY : examples/assets/emoji/img_emoji_F617.i
+
+# target to preprocess a source file
+examples/assets/emoji/img_emoji_F617.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/emoji/img_emoji_F617.c.i
+.PHONY : examples/assets/emoji/img_emoji_F617.c.i
+
+examples/assets/emoji/img_emoji_F617.s: examples/assets/emoji/img_emoji_F617.c.s
+
+.PHONY : examples/assets/emoji/img_emoji_F617.s
+
+# target to generate assembly for a file
+examples/assets/emoji/img_emoji_F617.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/emoji/img_emoji_F617.c.s
+.PHONY : examples/assets/emoji/img_emoji_F617.c.s
+
+examples/assets/img_caret_down.o: examples/assets/img_caret_down.c.o
+
+.PHONY : examples/assets/img_caret_down.o
+
+# target to build an object file
+examples/assets/img_caret_down.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_caret_down.c.o
+.PHONY : examples/assets/img_caret_down.c.o
+
+examples/assets/img_caret_down.i: examples/assets/img_caret_down.c.i
+
+.PHONY : examples/assets/img_caret_down.i
+
+# target to preprocess a source file
+examples/assets/img_caret_down.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_caret_down.c.i
+.PHONY : examples/assets/img_caret_down.c.i
+
+examples/assets/img_caret_down.s: examples/assets/img_caret_down.c.s
+
+.PHONY : examples/assets/img_caret_down.s
+
+# target to generate assembly for a file
+examples/assets/img_caret_down.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_caret_down.c.s
+.PHONY : examples/assets/img_caret_down.c.s
+
+examples/assets/img_cogwheel_argb.o: examples/assets/img_cogwheel_argb.c.o
+
+.PHONY : examples/assets/img_cogwheel_argb.o
+
+# target to build an object file
+examples/assets/img_cogwheel_argb.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_argb.c.o
+.PHONY : examples/assets/img_cogwheel_argb.c.o
+
+examples/assets/img_cogwheel_argb.i: examples/assets/img_cogwheel_argb.c.i
+
+.PHONY : examples/assets/img_cogwheel_argb.i
+
+# target to preprocess a source file
+examples/assets/img_cogwheel_argb.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_argb.c.i
+.PHONY : examples/assets/img_cogwheel_argb.c.i
+
+examples/assets/img_cogwheel_argb.s: examples/assets/img_cogwheel_argb.c.s
+
+.PHONY : examples/assets/img_cogwheel_argb.s
+
+# target to generate assembly for a file
+examples/assets/img_cogwheel_argb.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_argb.c.s
+.PHONY : examples/assets/img_cogwheel_argb.c.s
+
+examples/assets/img_cogwheel_indexed16.o: examples/assets/img_cogwheel_indexed16.c.o
+
+.PHONY : examples/assets/img_cogwheel_indexed16.o
+
+# target to build an object file
+examples/assets/img_cogwheel_indexed16.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_indexed16.c.o
+.PHONY : examples/assets/img_cogwheel_indexed16.c.o
+
+examples/assets/img_cogwheel_indexed16.i: examples/assets/img_cogwheel_indexed16.c.i
+
+.PHONY : examples/assets/img_cogwheel_indexed16.i
+
+# target to preprocess a source file
+examples/assets/img_cogwheel_indexed16.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_indexed16.c.i
+.PHONY : examples/assets/img_cogwheel_indexed16.c.i
+
+examples/assets/img_cogwheel_indexed16.s: examples/assets/img_cogwheel_indexed16.c.s
+
+.PHONY : examples/assets/img_cogwheel_indexed16.s
+
+# target to generate assembly for a file
+examples/assets/img_cogwheel_indexed16.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_indexed16.c.s
+.PHONY : examples/assets/img_cogwheel_indexed16.c.s
+
+examples/assets/img_cogwheel_rgb.o: examples/assets/img_cogwheel_rgb.c.o
+
+.PHONY : examples/assets/img_cogwheel_rgb.o
+
+# target to build an object file
+examples/assets/img_cogwheel_rgb.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_rgb.c.o
+.PHONY : examples/assets/img_cogwheel_rgb.c.o
+
+examples/assets/img_cogwheel_rgb.i: examples/assets/img_cogwheel_rgb.c.i
+
+.PHONY : examples/assets/img_cogwheel_rgb.i
+
+# target to preprocess a source file
+examples/assets/img_cogwheel_rgb.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_rgb.c.i
+.PHONY : examples/assets/img_cogwheel_rgb.c.i
+
+examples/assets/img_cogwheel_rgb.s: examples/assets/img_cogwheel_rgb.c.s
+
+.PHONY : examples/assets/img_cogwheel_rgb.s
+
+# target to generate assembly for a file
+examples/assets/img_cogwheel_rgb.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_cogwheel_rgb.c.s
+.PHONY : examples/assets/img_cogwheel_rgb.c.s
+
+examples/assets/img_hand.o: examples/assets/img_hand.c.o
+
+.PHONY : examples/assets/img_hand.o
+
+# target to build an object file
+examples/assets/img_hand.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_hand.c.o
+.PHONY : examples/assets/img_hand.c.o
+
+examples/assets/img_hand.i: examples/assets/img_hand.c.i
+
+.PHONY : examples/assets/img_hand.i
+
+# target to preprocess a source file
+examples/assets/img_hand.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_hand.c.i
+.PHONY : examples/assets/img_hand.c.i
+
+examples/assets/img_hand.s: examples/assets/img_hand.c.s
+
+.PHONY : examples/assets/img_hand.s
+
+# target to generate assembly for a file
+examples/assets/img_hand.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_hand.c.s
+.PHONY : examples/assets/img_hand.c.s
+
+examples/assets/img_skew_strip.o: examples/assets/img_skew_strip.c.o
+
+.PHONY : examples/assets/img_skew_strip.o
+
+# target to build an object file
+examples/assets/img_skew_strip.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_skew_strip.c.o
+.PHONY : examples/assets/img_skew_strip.c.o
+
+examples/assets/img_skew_strip.i: examples/assets/img_skew_strip.c.i
+
+.PHONY : examples/assets/img_skew_strip.i
+
+# target to preprocess a source file
+examples/assets/img_skew_strip.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_skew_strip.c.i
+.PHONY : examples/assets/img_skew_strip.c.i
+
+examples/assets/img_skew_strip.s: examples/assets/img_skew_strip.c.s
+
+.PHONY : examples/assets/img_skew_strip.s
+
+# target to generate assembly for a file
+examples/assets/img_skew_strip.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_skew_strip.c.s
+.PHONY : examples/assets/img_skew_strip.c.s
+
+examples/assets/img_star.o: examples/assets/img_star.c.o
+
+.PHONY : examples/assets/img_star.o
+
+# target to build an object file
+examples/assets/img_star.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_star.c.o
+.PHONY : examples/assets/img_star.c.o
+
+examples/assets/img_star.i: examples/assets/img_star.c.i
+
+.PHONY : examples/assets/img_star.i
+
+# target to preprocess a source file
+examples/assets/img_star.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_star.c.i
+.PHONY : examples/assets/img_star.c.i
+
+examples/assets/img_star.s: examples/assets/img_star.c.s
+
+.PHONY : examples/assets/img_star.s
+
+# target to generate assembly for a file
+examples/assets/img_star.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_star.c.s
+.PHONY : examples/assets/img_star.c.s
+
+examples/assets/img_svg_img.o: examples/assets/img_svg_img.c.o
+
+.PHONY : examples/assets/img_svg_img.o
+
+# target to build an object file
+examples/assets/img_svg_img.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_svg_img.c.o
+.PHONY : examples/assets/img_svg_img.c.o
+
+examples/assets/img_svg_img.i: examples/assets/img_svg_img.c.i
+
+.PHONY : examples/assets/img_svg_img.i
+
+# target to preprocess a source file
+examples/assets/img_svg_img.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_svg_img.c.i
+.PHONY : examples/assets/img_svg_img.c.i
+
+examples/assets/img_svg_img.s: examples/assets/img_svg_img.c.s
+
+.PHONY : examples/assets/img_svg_img.s
+
+# target to generate assembly for a file
+examples/assets/img_svg_img.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/img_svg_img.c.s
+.PHONY : examples/assets/img_svg_img.c.s
+
+examples/assets/imgbtn_left.o: examples/assets/imgbtn_left.c.o
+
+.PHONY : examples/assets/imgbtn_left.o
+
+# target to build an object file
+examples/assets/imgbtn_left.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_left.c.o
+.PHONY : examples/assets/imgbtn_left.c.o
+
+examples/assets/imgbtn_left.i: examples/assets/imgbtn_left.c.i
+
+.PHONY : examples/assets/imgbtn_left.i
+
+# target to preprocess a source file
+examples/assets/imgbtn_left.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_left.c.i
+.PHONY : examples/assets/imgbtn_left.c.i
+
+examples/assets/imgbtn_left.s: examples/assets/imgbtn_left.c.s
+
+.PHONY : examples/assets/imgbtn_left.s
+
+# target to generate assembly for a file
+examples/assets/imgbtn_left.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_left.c.s
+.PHONY : examples/assets/imgbtn_left.c.s
+
+examples/assets/imgbtn_mid.o: examples/assets/imgbtn_mid.c.o
+
+.PHONY : examples/assets/imgbtn_mid.o
+
+# target to build an object file
+examples/assets/imgbtn_mid.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_mid.c.o
+.PHONY : examples/assets/imgbtn_mid.c.o
+
+examples/assets/imgbtn_mid.i: examples/assets/imgbtn_mid.c.i
+
+.PHONY : examples/assets/imgbtn_mid.i
+
+# target to preprocess a source file
+examples/assets/imgbtn_mid.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_mid.c.i
+.PHONY : examples/assets/imgbtn_mid.c.i
+
+examples/assets/imgbtn_mid.s: examples/assets/imgbtn_mid.c.s
+
+.PHONY : examples/assets/imgbtn_mid.s
+
+# target to generate assembly for a file
+examples/assets/imgbtn_mid.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_mid.c.s
+.PHONY : examples/assets/imgbtn_mid.c.s
+
+examples/assets/imgbtn_right.o: examples/assets/imgbtn_right.c.o
+
+.PHONY : examples/assets/imgbtn_right.o
+
+# target to build an object file
+examples/assets/imgbtn_right.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_right.c.o
+.PHONY : examples/assets/imgbtn_right.c.o
+
+examples/assets/imgbtn_right.i: examples/assets/imgbtn_right.c.i
+
+.PHONY : examples/assets/imgbtn_right.i
+
+# target to preprocess a source file
+examples/assets/imgbtn_right.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_right.c.i
+.PHONY : examples/assets/imgbtn_right.c.i
+
+examples/assets/imgbtn_right.s: examples/assets/imgbtn_right.c.s
+
+.PHONY : examples/assets/imgbtn_right.s
+
+# target to generate assembly for a file
+examples/assets/imgbtn_right.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/assets/imgbtn_right.c.s
+.PHONY : examples/assets/imgbtn_right.c.s
+
+examples/event/lv_example_event_bubble.o: examples/event/lv_example_event_bubble.c.o
+
+.PHONY : examples/event/lv_example_event_bubble.o
+
+# target to build an object file
+examples/event/lv_example_event_bubble.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_bubble.c.o
+.PHONY : examples/event/lv_example_event_bubble.c.o
+
+examples/event/lv_example_event_bubble.i: examples/event/lv_example_event_bubble.c.i
+
+.PHONY : examples/event/lv_example_event_bubble.i
+
+# target to preprocess a source file
+examples/event/lv_example_event_bubble.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_bubble.c.i
+.PHONY : examples/event/lv_example_event_bubble.c.i
+
+examples/event/lv_example_event_bubble.s: examples/event/lv_example_event_bubble.c.s
+
+.PHONY : examples/event/lv_example_event_bubble.s
+
+# target to generate assembly for a file
+examples/event/lv_example_event_bubble.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_bubble.c.s
+.PHONY : examples/event/lv_example_event_bubble.c.s
+
+examples/event/lv_example_event_button.o: examples/event/lv_example_event_button.c.o
+
+.PHONY : examples/event/lv_example_event_button.o
+
+# target to build an object file
+examples/event/lv_example_event_button.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_button.c.o
+.PHONY : examples/event/lv_example_event_button.c.o
+
+examples/event/lv_example_event_button.i: examples/event/lv_example_event_button.c.i
+
+.PHONY : examples/event/lv_example_event_button.i
+
+# target to preprocess a source file
+examples/event/lv_example_event_button.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_button.c.i
+.PHONY : examples/event/lv_example_event_button.c.i
+
+examples/event/lv_example_event_button.s: examples/event/lv_example_event_button.c.s
+
+.PHONY : examples/event/lv_example_event_button.s
+
+# target to generate assembly for a file
+examples/event/lv_example_event_button.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_button.c.s
+.PHONY : examples/event/lv_example_event_button.c.s
+
+examples/event/lv_example_event_click.o: examples/event/lv_example_event_click.c.o
+
+.PHONY : examples/event/lv_example_event_click.o
+
+# target to build an object file
+examples/event/lv_example_event_click.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_click.c.o
+.PHONY : examples/event/lv_example_event_click.c.o
+
+examples/event/lv_example_event_click.i: examples/event/lv_example_event_click.c.i
+
+.PHONY : examples/event/lv_example_event_click.i
+
+# target to preprocess a source file
+examples/event/lv_example_event_click.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_click.c.i
+.PHONY : examples/event/lv_example_event_click.c.i
+
+examples/event/lv_example_event_click.s: examples/event/lv_example_event_click.c.s
+
+.PHONY : examples/event/lv_example_event_click.s
+
+# target to generate assembly for a file
+examples/event/lv_example_event_click.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_click.c.s
+.PHONY : examples/event/lv_example_event_click.c.s
+
+examples/event/lv_example_event_draw.o: examples/event/lv_example_event_draw.c.o
+
+.PHONY : examples/event/lv_example_event_draw.o
+
+# target to build an object file
+examples/event/lv_example_event_draw.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_draw.c.o
+.PHONY : examples/event/lv_example_event_draw.c.o
+
+examples/event/lv_example_event_draw.i: examples/event/lv_example_event_draw.c.i
+
+.PHONY : examples/event/lv_example_event_draw.i
+
+# target to preprocess a source file
+examples/event/lv_example_event_draw.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_draw.c.i
+.PHONY : examples/event/lv_example_event_draw.c.i
+
+examples/event/lv_example_event_draw.s: examples/event/lv_example_event_draw.c.s
+
+.PHONY : examples/event/lv_example_event_draw.s
+
+# target to generate assembly for a file
+examples/event/lv_example_event_draw.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_draw.c.s
+.PHONY : examples/event/lv_example_event_draw.c.s
+
+examples/event/lv_example_event_streak.o: examples/event/lv_example_event_streak.c.o
+
+.PHONY : examples/event/lv_example_event_streak.o
+
+# target to build an object file
+examples/event/lv_example_event_streak.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_streak.c.o
+.PHONY : examples/event/lv_example_event_streak.c.o
+
+examples/event/lv_example_event_streak.i: examples/event/lv_example_event_streak.c.i
+
+.PHONY : examples/event/lv_example_event_streak.i
+
+# target to preprocess a source file
+examples/event/lv_example_event_streak.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_streak.c.i
+.PHONY : examples/event/lv_example_event_streak.c.i
+
+examples/event/lv_example_event_streak.s: examples/event/lv_example_event_streak.c.s
+
+.PHONY : examples/event/lv_example_event_streak.s
+
+# target to generate assembly for a file
+examples/event/lv_example_event_streak.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/event/lv_example_event_streak.c.s
+.PHONY : examples/event/lv_example_event_streak.c.s
+
+examples/get_started/lv_example_get_started_1.o: examples/get_started/lv_example_get_started_1.c.o
+
+.PHONY : examples/get_started/lv_example_get_started_1.o
+
+# target to build an object file
+examples/get_started/lv_example_get_started_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_1.c.o
+.PHONY : examples/get_started/lv_example_get_started_1.c.o
+
+examples/get_started/lv_example_get_started_1.i: examples/get_started/lv_example_get_started_1.c.i
+
+.PHONY : examples/get_started/lv_example_get_started_1.i
+
+# target to preprocess a source file
+examples/get_started/lv_example_get_started_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_1.c.i
+.PHONY : examples/get_started/lv_example_get_started_1.c.i
+
+examples/get_started/lv_example_get_started_1.s: examples/get_started/lv_example_get_started_1.c.s
+
+.PHONY : examples/get_started/lv_example_get_started_1.s
+
+# target to generate assembly for a file
+examples/get_started/lv_example_get_started_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_1.c.s
+.PHONY : examples/get_started/lv_example_get_started_1.c.s
+
+examples/get_started/lv_example_get_started_2.o: examples/get_started/lv_example_get_started_2.c.o
+
+.PHONY : examples/get_started/lv_example_get_started_2.o
+
+# target to build an object file
+examples/get_started/lv_example_get_started_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_2.c.o
+.PHONY : examples/get_started/lv_example_get_started_2.c.o
+
+examples/get_started/lv_example_get_started_2.i: examples/get_started/lv_example_get_started_2.c.i
+
+.PHONY : examples/get_started/lv_example_get_started_2.i
+
+# target to preprocess a source file
+examples/get_started/lv_example_get_started_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_2.c.i
+.PHONY : examples/get_started/lv_example_get_started_2.c.i
+
+examples/get_started/lv_example_get_started_2.s: examples/get_started/lv_example_get_started_2.c.s
+
+.PHONY : examples/get_started/lv_example_get_started_2.s
+
+# target to generate assembly for a file
+examples/get_started/lv_example_get_started_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_2.c.s
+.PHONY : examples/get_started/lv_example_get_started_2.c.s
+
+examples/get_started/lv_example_get_started_3.o: examples/get_started/lv_example_get_started_3.c.o
+
+.PHONY : examples/get_started/lv_example_get_started_3.o
+
+# target to build an object file
+examples/get_started/lv_example_get_started_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_3.c.o
+.PHONY : examples/get_started/lv_example_get_started_3.c.o
+
+examples/get_started/lv_example_get_started_3.i: examples/get_started/lv_example_get_started_3.c.i
+
+.PHONY : examples/get_started/lv_example_get_started_3.i
+
+# target to preprocess a source file
+examples/get_started/lv_example_get_started_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_3.c.i
+.PHONY : examples/get_started/lv_example_get_started_3.c.i
+
+examples/get_started/lv_example_get_started_3.s: examples/get_started/lv_example_get_started_3.c.s
+
+.PHONY : examples/get_started/lv_example_get_started_3.s
+
+# target to generate assembly for a file
+examples/get_started/lv_example_get_started_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_3.c.s
+.PHONY : examples/get_started/lv_example_get_started_3.c.s
+
+examples/get_started/lv_example_get_started_4.o: examples/get_started/lv_example_get_started_4.c.o
+
+.PHONY : examples/get_started/lv_example_get_started_4.o
+
+# target to build an object file
+examples/get_started/lv_example_get_started_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_4.c.o
+.PHONY : examples/get_started/lv_example_get_started_4.c.o
+
+examples/get_started/lv_example_get_started_4.i: examples/get_started/lv_example_get_started_4.c.i
+
+.PHONY : examples/get_started/lv_example_get_started_4.i
+
+# target to preprocess a source file
+examples/get_started/lv_example_get_started_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_4.c.i
+.PHONY : examples/get_started/lv_example_get_started_4.c.i
+
+examples/get_started/lv_example_get_started_4.s: examples/get_started/lv_example_get_started_4.c.s
+
+.PHONY : examples/get_started/lv_example_get_started_4.s
+
+# target to generate assembly for a file
+examples/get_started/lv_example_get_started_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/get_started/lv_example_get_started_4.c.s
+.PHONY : examples/get_started/lv_example_get_started_4.c.s
+
+examples/grad/lv_example_grad_1.o: examples/grad/lv_example_grad_1.c.o
+
+.PHONY : examples/grad/lv_example_grad_1.o
+
+# target to build an object file
+examples/grad/lv_example_grad_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_1.c.o
+.PHONY : examples/grad/lv_example_grad_1.c.o
+
+examples/grad/lv_example_grad_1.i: examples/grad/lv_example_grad_1.c.i
+
+.PHONY : examples/grad/lv_example_grad_1.i
+
+# target to preprocess a source file
+examples/grad/lv_example_grad_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_1.c.i
+.PHONY : examples/grad/lv_example_grad_1.c.i
+
+examples/grad/lv_example_grad_1.s: examples/grad/lv_example_grad_1.c.s
+
+.PHONY : examples/grad/lv_example_grad_1.s
+
+# target to generate assembly for a file
+examples/grad/lv_example_grad_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_1.c.s
+.PHONY : examples/grad/lv_example_grad_1.c.s
+
+examples/grad/lv_example_grad_2.o: examples/grad/lv_example_grad_2.c.o
+
+.PHONY : examples/grad/lv_example_grad_2.o
+
+# target to build an object file
+examples/grad/lv_example_grad_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_2.c.o
+.PHONY : examples/grad/lv_example_grad_2.c.o
+
+examples/grad/lv_example_grad_2.i: examples/grad/lv_example_grad_2.c.i
+
+.PHONY : examples/grad/lv_example_grad_2.i
+
+# target to preprocess a source file
+examples/grad/lv_example_grad_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_2.c.i
+.PHONY : examples/grad/lv_example_grad_2.c.i
+
+examples/grad/lv_example_grad_2.s: examples/grad/lv_example_grad_2.c.s
+
+.PHONY : examples/grad/lv_example_grad_2.s
+
+# target to generate assembly for a file
+examples/grad/lv_example_grad_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_2.c.s
+.PHONY : examples/grad/lv_example_grad_2.c.s
+
+examples/grad/lv_example_grad_3.o: examples/grad/lv_example_grad_3.c.o
+
+.PHONY : examples/grad/lv_example_grad_3.o
+
+# target to build an object file
+examples/grad/lv_example_grad_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_3.c.o
+.PHONY : examples/grad/lv_example_grad_3.c.o
+
+examples/grad/lv_example_grad_3.i: examples/grad/lv_example_grad_3.c.i
+
+.PHONY : examples/grad/lv_example_grad_3.i
+
+# target to preprocess a source file
+examples/grad/lv_example_grad_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_3.c.i
+.PHONY : examples/grad/lv_example_grad_3.c.i
+
+examples/grad/lv_example_grad_3.s: examples/grad/lv_example_grad_3.c.s
+
+.PHONY : examples/grad/lv_example_grad_3.s
+
+# target to generate assembly for a file
+examples/grad/lv_example_grad_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_3.c.s
+.PHONY : examples/grad/lv_example_grad_3.c.s
+
+examples/grad/lv_example_grad_4.o: examples/grad/lv_example_grad_4.c.o
+
+.PHONY : examples/grad/lv_example_grad_4.o
+
+# target to build an object file
+examples/grad/lv_example_grad_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_4.c.o
+.PHONY : examples/grad/lv_example_grad_4.c.o
+
+examples/grad/lv_example_grad_4.i: examples/grad/lv_example_grad_4.c.i
+
+.PHONY : examples/grad/lv_example_grad_4.i
+
+# target to preprocess a source file
+examples/grad/lv_example_grad_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_4.c.i
+.PHONY : examples/grad/lv_example_grad_4.c.i
+
+examples/grad/lv_example_grad_4.s: examples/grad/lv_example_grad_4.c.s
+
+.PHONY : examples/grad/lv_example_grad_4.s
+
+# target to generate assembly for a file
+examples/grad/lv_example_grad_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/grad/lv_example_grad_4.c.s
+.PHONY : examples/grad/lv_example_grad_4.c.s
+
+examples/layouts/flex/lv_example_flex_1.o: examples/layouts/flex/lv_example_flex_1.c.o
+
+.PHONY : examples/layouts/flex/lv_example_flex_1.o
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_1.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_1.c.o
+
+examples/layouts/flex/lv_example_flex_1.i: examples/layouts/flex/lv_example_flex_1.c.i
+
+.PHONY : examples/layouts/flex/lv_example_flex_1.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_1.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_1.c.i
+
+examples/layouts/flex/lv_example_flex_1.s: examples/layouts/flex/lv_example_flex_1.c.s
+
+.PHONY : examples/layouts/flex/lv_example_flex_1.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_1.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_1.c.s
+
+examples/layouts/flex/lv_example_flex_2.o: examples/layouts/flex/lv_example_flex_2.c.o
+
+.PHONY : examples/layouts/flex/lv_example_flex_2.o
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_2.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_2.c.o
+
+examples/layouts/flex/lv_example_flex_2.i: examples/layouts/flex/lv_example_flex_2.c.i
+
+.PHONY : examples/layouts/flex/lv_example_flex_2.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_2.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_2.c.i
+
+examples/layouts/flex/lv_example_flex_2.s: examples/layouts/flex/lv_example_flex_2.c.s
+
+.PHONY : examples/layouts/flex/lv_example_flex_2.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_2.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_2.c.s
+
+examples/layouts/flex/lv_example_flex_3.o: examples/layouts/flex/lv_example_flex_3.c.o
+
+.PHONY : examples/layouts/flex/lv_example_flex_3.o
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_3.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_3.c.o
+
+examples/layouts/flex/lv_example_flex_3.i: examples/layouts/flex/lv_example_flex_3.c.i
+
+.PHONY : examples/layouts/flex/lv_example_flex_3.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_3.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_3.c.i
+
+examples/layouts/flex/lv_example_flex_3.s: examples/layouts/flex/lv_example_flex_3.c.s
+
+.PHONY : examples/layouts/flex/lv_example_flex_3.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_3.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_3.c.s
+
+examples/layouts/flex/lv_example_flex_4.o: examples/layouts/flex/lv_example_flex_4.c.o
+
+.PHONY : examples/layouts/flex/lv_example_flex_4.o
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_4.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_4.c.o
+
+examples/layouts/flex/lv_example_flex_4.i: examples/layouts/flex/lv_example_flex_4.c.i
+
+.PHONY : examples/layouts/flex/lv_example_flex_4.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_4.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_4.c.i
+
+examples/layouts/flex/lv_example_flex_4.s: examples/layouts/flex/lv_example_flex_4.c.s
+
+.PHONY : examples/layouts/flex/lv_example_flex_4.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_4.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_4.c.s
+
+examples/layouts/flex/lv_example_flex_5.o: examples/layouts/flex/lv_example_flex_5.c.o
+
+.PHONY : examples/layouts/flex/lv_example_flex_5.o
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_5.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_5.c.o
+
+examples/layouts/flex/lv_example_flex_5.i: examples/layouts/flex/lv_example_flex_5.c.i
+
+.PHONY : examples/layouts/flex/lv_example_flex_5.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_5.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_5.c.i
+
+examples/layouts/flex/lv_example_flex_5.s: examples/layouts/flex/lv_example_flex_5.c.s
+
+.PHONY : examples/layouts/flex/lv_example_flex_5.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_5.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_5.c.s
+
+examples/layouts/flex/lv_example_flex_6.o: examples/layouts/flex/lv_example_flex_6.c.o
+
+.PHONY : examples/layouts/flex/lv_example_flex_6.o
+
+# target to build an object file
+examples/layouts/flex/lv_example_flex_6.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_6.c.o
+.PHONY : examples/layouts/flex/lv_example_flex_6.c.o
+
+examples/layouts/flex/lv_example_flex_6.i: examples/layouts/flex/lv_example_flex_6.c.i
+
+.PHONY : examples/layouts/flex/lv_example_flex_6.i
+
+# target to preprocess a source file
+examples/layouts/flex/lv_example_flex_6.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_6.c.i
+.PHONY : examples/layouts/flex/lv_example_flex_6.c.i
+
+examples/layouts/flex/lv_example_flex_6.s: examples/layouts/flex/lv_example_flex_6.c.s
+
+.PHONY : examples/layouts/flex/lv_example_flex_6.s
+
+# target to generate assembly for a file
+examples/layouts/flex/lv_example_flex_6.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/flex/lv_example_flex_6.c.s
+.PHONY : examples/layouts/flex/lv_example_flex_6.c.s
+
+examples/layouts/grid/lv_example_grid_1.o: examples/layouts/grid/lv_example_grid_1.c.o
+
+.PHONY : examples/layouts/grid/lv_example_grid_1.o
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_1.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_1.c.o
+
+examples/layouts/grid/lv_example_grid_1.i: examples/layouts/grid/lv_example_grid_1.c.i
+
+.PHONY : examples/layouts/grid/lv_example_grid_1.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_1.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_1.c.i
+
+examples/layouts/grid/lv_example_grid_1.s: examples/layouts/grid/lv_example_grid_1.c.s
+
+.PHONY : examples/layouts/grid/lv_example_grid_1.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_1.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_1.c.s
+
+examples/layouts/grid/lv_example_grid_2.o: examples/layouts/grid/lv_example_grid_2.c.o
+
+.PHONY : examples/layouts/grid/lv_example_grid_2.o
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_2.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_2.c.o
+
+examples/layouts/grid/lv_example_grid_2.i: examples/layouts/grid/lv_example_grid_2.c.i
+
+.PHONY : examples/layouts/grid/lv_example_grid_2.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_2.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_2.c.i
+
+examples/layouts/grid/lv_example_grid_2.s: examples/layouts/grid/lv_example_grid_2.c.s
+
+.PHONY : examples/layouts/grid/lv_example_grid_2.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_2.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_2.c.s
+
+examples/layouts/grid/lv_example_grid_3.o: examples/layouts/grid/lv_example_grid_3.c.o
+
+.PHONY : examples/layouts/grid/lv_example_grid_3.o
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_3.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_3.c.o
+
+examples/layouts/grid/lv_example_grid_3.i: examples/layouts/grid/lv_example_grid_3.c.i
+
+.PHONY : examples/layouts/grid/lv_example_grid_3.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_3.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_3.c.i
+
+examples/layouts/grid/lv_example_grid_3.s: examples/layouts/grid/lv_example_grid_3.c.s
+
+.PHONY : examples/layouts/grid/lv_example_grid_3.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_3.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_3.c.s
+
+examples/layouts/grid/lv_example_grid_4.o: examples/layouts/grid/lv_example_grid_4.c.o
+
+.PHONY : examples/layouts/grid/lv_example_grid_4.o
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_4.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_4.c.o
+
+examples/layouts/grid/lv_example_grid_4.i: examples/layouts/grid/lv_example_grid_4.c.i
+
+.PHONY : examples/layouts/grid/lv_example_grid_4.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_4.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_4.c.i
+
+examples/layouts/grid/lv_example_grid_4.s: examples/layouts/grid/lv_example_grid_4.c.s
+
+.PHONY : examples/layouts/grid/lv_example_grid_4.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_4.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_4.c.s
+
+examples/layouts/grid/lv_example_grid_5.o: examples/layouts/grid/lv_example_grid_5.c.o
+
+.PHONY : examples/layouts/grid/lv_example_grid_5.o
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_5.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_5.c.o
+
+examples/layouts/grid/lv_example_grid_5.i: examples/layouts/grid/lv_example_grid_5.c.i
+
+.PHONY : examples/layouts/grid/lv_example_grid_5.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_5.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_5.c.i
+
+examples/layouts/grid/lv_example_grid_5.s: examples/layouts/grid/lv_example_grid_5.c.s
+
+.PHONY : examples/layouts/grid/lv_example_grid_5.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_5.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_5.c.s
+
+examples/layouts/grid/lv_example_grid_6.o: examples/layouts/grid/lv_example_grid_6.c.o
+
+.PHONY : examples/layouts/grid/lv_example_grid_6.o
+
+# target to build an object file
+examples/layouts/grid/lv_example_grid_6.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_6.c.o
+.PHONY : examples/layouts/grid/lv_example_grid_6.c.o
+
+examples/layouts/grid/lv_example_grid_6.i: examples/layouts/grid/lv_example_grid_6.c.i
+
+.PHONY : examples/layouts/grid/lv_example_grid_6.i
+
+# target to preprocess a source file
+examples/layouts/grid/lv_example_grid_6.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_6.c.i
+.PHONY : examples/layouts/grid/lv_example_grid_6.c.i
+
+examples/layouts/grid/lv_example_grid_6.s: examples/layouts/grid/lv_example_grid_6.c.s
+
+.PHONY : examples/layouts/grid/lv_example_grid_6.s
+
+# target to generate assembly for a file
+examples/layouts/grid/lv_example_grid_6.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/layouts/grid/lv_example_grid_6.c.s
+.PHONY : examples/layouts/grid/lv_example_grid_6.c.s
+
+examples/libs/barcode/lv_example_barcode_1.o: examples/libs/barcode/lv_example_barcode_1.c.o
+
+.PHONY : examples/libs/barcode/lv_example_barcode_1.o
+
+# target to build an object file
+examples/libs/barcode/lv_example_barcode_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/barcode/lv_example_barcode_1.c.o
+.PHONY : examples/libs/barcode/lv_example_barcode_1.c.o
+
+examples/libs/barcode/lv_example_barcode_1.i: examples/libs/barcode/lv_example_barcode_1.c.i
+
+.PHONY : examples/libs/barcode/lv_example_barcode_1.i
+
+# target to preprocess a source file
+examples/libs/barcode/lv_example_barcode_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/barcode/lv_example_barcode_1.c.i
+.PHONY : examples/libs/barcode/lv_example_barcode_1.c.i
+
+examples/libs/barcode/lv_example_barcode_1.s: examples/libs/barcode/lv_example_barcode_1.c.s
+
+.PHONY : examples/libs/barcode/lv_example_barcode_1.s
+
+# target to generate assembly for a file
+examples/libs/barcode/lv_example_barcode_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/barcode/lv_example_barcode_1.c.s
+.PHONY : examples/libs/barcode/lv_example_barcode_1.c.s
+
+examples/libs/bmp/lv_example_bmp_1.o: examples/libs/bmp/lv_example_bmp_1.c.o
+
+.PHONY : examples/libs/bmp/lv_example_bmp_1.o
+
+# target to build an object file
+examples/libs/bmp/lv_example_bmp_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/bmp/lv_example_bmp_1.c.o
+.PHONY : examples/libs/bmp/lv_example_bmp_1.c.o
+
+examples/libs/bmp/lv_example_bmp_1.i: examples/libs/bmp/lv_example_bmp_1.c.i
+
+.PHONY : examples/libs/bmp/lv_example_bmp_1.i
+
+# target to preprocess a source file
+examples/libs/bmp/lv_example_bmp_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/bmp/lv_example_bmp_1.c.i
+.PHONY : examples/libs/bmp/lv_example_bmp_1.c.i
+
+examples/libs/bmp/lv_example_bmp_1.s: examples/libs/bmp/lv_example_bmp_1.c.s
+
+.PHONY : examples/libs/bmp/lv_example_bmp_1.s
+
+# target to generate assembly for a file
+examples/libs/bmp/lv_example_bmp_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/bmp/lv_example_bmp_1.c.s
+.PHONY : examples/libs/bmp/lv_example_bmp_1.c.s
+
+examples/libs/ffmpeg/lv_example_ffmpeg_1.o: examples/libs/ffmpeg/lv_example_ffmpeg_1.c.o
+
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.o
+
+# target to build an object file
+examples/libs/ffmpeg/lv_example_ffmpeg_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.o
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.c.o
+
+examples/libs/ffmpeg/lv_example_ffmpeg_1.i: examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i
+
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.i
+
+# target to preprocess a source file
+examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.c.i
+
+examples/libs/ffmpeg/lv_example_ffmpeg_1.s: examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s
+
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.s
+
+# target to generate assembly for a file
+examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_1.c.s
+
+examples/libs/ffmpeg/lv_example_ffmpeg_2.o: examples/libs/ffmpeg/lv_example_ffmpeg_2.c.o
+
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.o
+
+# target to build an object file
+examples/libs/ffmpeg/lv_example_ffmpeg_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.o
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.c.o
+
+examples/libs/ffmpeg/lv_example_ffmpeg_2.i: examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i
+
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.i
+
+# target to preprocess a source file
+examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.c.i
+
+examples/libs/ffmpeg/lv_example_ffmpeg_2.s: examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s
+
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.s
+
+# target to generate assembly for a file
+examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s
+.PHONY : examples/libs/ffmpeg/lv_example_ffmpeg_2.c.s
+
+examples/libs/freetype/lv_example_freetype_1.o: examples/libs/freetype/lv_example_freetype_1.c.o
+
+.PHONY : examples/libs/freetype/lv_example_freetype_1.o
+
+# target to build an object file
+examples/libs/freetype/lv_example_freetype_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_1.c.o
+.PHONY : examples/libs/freetype/lv_example_freetype_1.c.o
+
+examples/libs/freetype/lv_example_freetype_1.i: examples/libs/freetype/lv_example_freetype_1.c.i
+
+.PHONY : examples/libs/freetype/lv_example_freetype_1.i
+
+# target to preprocess a source file
+examples/libs/freetype/lv_example_freetype_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_1.c.i
+.PHONY : examples/libs/freetype/lv_example_freetype_1.c.i
+
+examples/libs/freetype/lv_example_freetype_1.s: examples/libs/freetype/lv_example_freetype_1.c.s
+
+.PHONY : examples/libs/freetype/lv_example_freetype_1.s
+
+# target to generate assembly for a file
+examples/libs/freetype/lv_example_freetype_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_1.c.s
+.PHONY : examples/libs/freetype/lv_example_freetype_1.c.s
+
+examples/libs/freetype/lv_example_freetype_2.o: examples/libs/freetype/lv_example_freetype_2.c.o
+
+.PHONY : examples/libs/freetype/lv_example_freetype_2.o
+
+# target to build an object file
+examples/libs/freetype/lv_example_freetype_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_2.c.o
+.PHONY : examples/libs/freetype/lv_example_freetype_2.c.o
+
+examples/libs/freetype/lv_example_freetype_2.i: examples/libs/freetype/lv_example_freetype_2.c.i
+
+.PHONY : examples/libs/freetype/lv_example_freetype_2.i
+
+# target to preprocess a source file
+examples/libs/freetype/lv_example_freetype_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_2.c.i
+.PHONY : examples/libs/freetype/lv_example_freetype_2.c.i
+
+examples/libs/freetype/lv_example_freetype_2.s: examples/libs/freetype/lv_example_freetype_2.c.s
+
+.PHONY : examples/libs/freetype/lv_example_freetype_2.s
+
+# target to generate assembly for a file
+examples/libs/freetype/lv_example_freetype_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_2.c.s
+.PHONY : examples/libs/freetype/lv_example_freetype_2.c.s
+
+examples/libs/freetype/lv_example_freetype_3.o: examples/libs/freetype/lv_example_freetype_3.c.o
+
+.PHONY : examples/libs/freetype/lv_example_freetype_3.o
+
+# target to build an object file
+examples/libs/freetype/lv_example_freetype_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_3.c.o
+.PHONY : examples/libs/freetype/lv_example_freetype_3.c.o
+
+examples/libs/freetype/lv_example_freetype_3.i: examples/libs/freetype/lv_example_freetype_3.c.i
+
+.PHONY : examples/libs/freetype/lv_example_freetype_3.i
+
+# target to preprocess a source file
+examples/libs/freetype/lv_example_freetype_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_3.c.i
+.PHONY : examples/libs/freetype/lv_example_freetype_3.c.i
+
+examples/libs/freetype/lv_example_freetype_3.s: examples/libs/freetype/lv_example_freetype_3.c.s
+
+.PHONY : examples/libs/freetype/lv_example_freetype_3.s
+
+# target to generate assembly for a file
+examples/libs/freetype/lv_example_freetype_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/freetype/lv_example_freetype_3.c.s
+.PHONY : examples/libs/freetype/lv_example_freetype_3.c.s
+
+examples/libs/gif/img_bulb_gif.o: examples/libs/gif/img_bulb_gif.c.o
+
+.PHONY : examples/libs/gif/img_bulb_gif.o
+
+# target to build an object file
+examples/libs/gif/img_bulb_gif.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/img_bulb_gif.c.o
+.PHONY : examples/libs/gif/img_bulb_gif.c.o
+
+examples/libs/gif/img_bulb_gif.i: examples/libs/gif/img_bulb_gif.c.i
+
+.PHONY : examples/libs/gif/img_bulb_gif.i
+
+# target to preprocess a source file
+examples/libs/gif/img_bulb_gif.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/img_bulb_gif.c.i
+.PHONY : examples/libs/gif/img_bulb_gif.c.i
+
+examples/libs/gif/img_bulb_gif.s: examples/libs/gif/img_bulb_gif.c.s
+
+.PHONY : examples/libs/gif/img_bulb_gif.s
+
+# target to generate assembly for a file
+examples/libs/gif/img_bulb_gif.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/img_bulb_gif.c.s
+.PHONY : examples/libs/gif/img_bulb_gif.c.s
+
+examples/libs/gif/lv_example_gif_1.o: examples/libs/gif/lv_example_gif_1.c.o
+
+.PHONY : examples/libs/gif/lv_example_gif_1.o
+
+# target to build an object file
+examples/libs/gif/lv_example_gif_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/lv_example_gif_1.c.o
+.PHONY : examples/libs/gif/lv_example_gif_1.c.o
+
+examples/libs/gif/lv_example_gif_1.i: examples/libs/gif/lv_example_gif_1.c.i
+
+.PHONY : examples/libs/gif/lv_example_gif_1.i
+
+# target to preprocess a source file
+examples/libs/gif/lv_example_gif_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/lv_example_gif_1.c.i
+.PHONY : examples/libs/gif/lv_example_gif_1.c.i
+
+examples/libs/gif/lv_example_gif_1.s: examples/libs/gif/lv_example_gif_1.c.s
+
+.PHONY : examples/libs/gif/lv_example_gif_1.s
+
+# target to generate assembly for a file
+examples/libs/gif/lv_example_gif_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/gif/lv_example_gif_1.c.s
+.PHONY : examples/libs/gif/lv_example_gif_1.c.s
+
+examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.o: examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.o
+
+.PHONY : examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.o
+
+# target to build an object file
+examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.o
+.PHONY : examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.o
+
+examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.i: examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.i
+
+.PHONY : examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.i
+
+# target to preprocess a source file
+examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.i
+.PHONY : examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.i
+
+examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.s: examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.s
+
+.PHONY : examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.s
+
+# target to generate assembly for a file
+examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.s
+.PHONY : examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.c.s
+
+examples/libs/libpng/img_png_demo.o: examples/libs/libpng/img_png_demo.c.o
+
+.PHONY : examples/libs/libpng/img_png_demo.o
+
+# target to build an object file
+examples/libs/libpng/img_png_demo.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/libpng/img_png_demo.c.o
+.PHONY : examples/libs/libpng/img_png_demo.c.o
+
+examples/libs/libpng/img_png_demo.i: examples/libs/libpng/img_png_demo.c.i
+
+.PHONY : examples/libs/libpng/img_png_demo.i
+
+# target to preprocess a source file
+examples/libs/libpng/img_png_demo.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/libpng/img_png_demo.c.i
+.PHONY : examples/libs/libpng/img_png_demo.c.i
+
+examples/libs/libpng/img_png_demo.s: examples/libs/libpng/img_png_demo.c.s
+
+.PHONY : examples/libs/libpng/img_png_demo.s
+
+# target to generate assembly for a file
+examples/libs/libpng/img_png_demo.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/libpng/img_png_demo.c.s
+.PHONY : examples/libs/libpng/img_png_demo.c.s
+
+examples/libs/libpng/lv_example_libpng_1.o: examples/libs/libpng/lv_example_libpng_1.c.o
+
+.PHONY : examples/libs/libpng/lv_example_libpng_1.o
+
+# target to build an object file
+examples/libs/libpng/lv_example_libpng_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/libpng/lv_example_libpng_1.c.o
+.PHONY : examples/libs/libpng/lv_example_libpng_1.c.o
+
+examples/libs/libpng/lv_example_libpng_1.i: examples/libs/libpng/lv_example_libpng_1.c.i
+
+.PHONY : examples/libs/libpng/lv_example_libpng_1.i
+
+# target to preprocess a source file
+examples/libs/libpng/lv_example_libpng_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/libpng/lv_example_libpng_1.c.i
+.PHONY : examples/libs/libpng/lv_example_libpng_1.c.i
+
+examples/libs/libpng/lv_example_libpng_1.s: examples/libs/libpng/lv_example_libpng_1.c.s
+
+.PHONY : examples/libs/libpng/lv_example_libpng_1.s
+
+# target to generate assembly for a file
+examples/libs/libpng/lv_example_libpng_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/libpng/lv_example_libpng_1.c.s
+.PHONY : examples/libs/libpng/lv_example_libpng_1.c.s
+
+examples/libs/lodepng/img_wink_png.o: examples/libs/lodepng/img_wink_png.c.o
+
+.PHONY : examples/libs/lodepng/img_wink_png.o
+
+# target to build an object file
+examples/libs/lodepng/img_wink_png.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/lodepng/img_wink_png.c.o
+.PHONY : examples/libs/lodepng/img_wink_png.c.o
+
+examples/libs/lodepng/img_wink_png.i: examples/libs/lodepng/img_wink_png.c.i
+
+.PHONY : examples/libs/lodepng/img_wink_png.i
+
+# target to preprocess a source file
+examples/libs/lodepng/img_wink_png.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/lodepng/img_wink_png.c.i
+.PHONY : examples/libs/lodepng/img_wink_png.c.i
+
+examples/libs/lodepng/img_wink_png.s: examples/libs/lodepng/img_wink_png.c.s
+
+.PHONY : examples/libs/lodepng/img_wink_png.s
+
+# target to generate assembly for a file
+examples/libs/lodepng/img_wink_png.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/lodepng/img_wink_png.c.s
+.PHONY : examples/libs/lodepng/img_wink_png.c.s
+
+examples/libs/lodepng/lv_example_lodepng_1.o: examples/libs/lodepng/lv_example_lodepng_1.c.o
+
+.PHONY : examples/libs/lodepng/lv_example_lodepng_1.o
+
+# target to build an object file
+examples/libs/lodepng/lv_example_lodepng_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/lodepng/lv_example_lodepng_1.c.o
+.PHONY : examples/libs/lodepng/lv_example_lodepng_1.c.o
+
+examples/libs/lodepng/lv_example_lodepng_1.i: examples/libs/lodepng/lv_example_lodepng_1.c.i
+
+.PHONY : examples/libs/lodepng/lv_example_lodepng_1.i
+
+# target to preprocess a source file
+examples/libs/lodepng/lv_example_lodepng_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/lodepng/lv_example_lodepng_1.c.i
+.PHONY : examples/libs/lodepng/lv_example_lodepng_1.c.i
+
+examples/libs/lodepng/lv_example_lodepng_1.s: examples/libs/lodepng/lv_example_lodepng_1.c.s
+
+.PHONY : examples/libs/lodepng/lv_example_lodepng_1.s
+
+# target to generate assembly for a file
+examples/libs/lodepng/lv_example_lodepng_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/lodepng/lv_example_lodepng_1.c.s
+.PHONY : examples/libs/lodepng/lv_example_lodepng_1.c.s
+
+examples/libs/qrcode/lv_example_qrcode_1.o: examples/libs/qrcode/lv_example_qrcode_1.c.o
+
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.o
+
+# target to build an object file
+examples/libs/qrcode/lv_example_qrcode_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/qrcode/lv_example_qrcode_1.c.o
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.c.o
+
+examples/libs/qrcode/lv_example_qrcode_1.i: examples/libs/qrcode/lv_example_qrcode_1.c.i
+
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.i
+
+# target to preprocess a source file
+examples/libs/qrcode/lv_example_qrcode_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/qrcode/lv_example_qrcode_1.c.i
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.c.i
+
+examples/libs/qrcode/lv_example_qrcode_1.s: examples/libs/qrcode/lv_example_qrcode_1.c.s
+
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.s
+
+# target to generate assembly for a file
+examples/libs/qrcode/lv_example_qrcode_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/qrcode/lv_example_qrcode_1.c.s
+.PHONY : examples/libs/qrcode/lv_example_qrcode_1.c.s
+
+examples/libs/rlottie/lv_example_rlottie_1.o: examples/libs/rlottie/lv_example_rlottie_1.c.o
+
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.o
+
+# target to build an object file
+examples/libs/rlottie/lv_example_rlottie_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_1.c.o
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.c.o
+
+examples/libs/rlottie/lv_example_rlottie_1.i: examples/libs/rlottie/lv_example_rlottie_1.c.i
+
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.i
+
+# target to preprocess a source file
+examples/libs/rlottie/lv_example_rlottie_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_1.c.i
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.c.i
+
+examples/libs/rlottie/lv_example_rlottie_1.s: examples/libs/rlottie/lv_example_rlottie_1.c.s
+
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.s
+
+# target to generate assembly for a file
+examples/libs/rlottie/lv_example_rlottie_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_1.c.s
+.PHONY : examples/libs/rlottie/lv_example_rlottie_1.c.s
+
+examples/libs/rlottie/lv_example_rlottie_2.o: examples/libs/rlottie/lv_example_rlottie_2.c.o
+
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.o
+
+# target to build an object file
+examples/libs/rlottie/lv_example_rlottie_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_2.c.o
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.c.o
+
+examples/libs/rlottie/lv_example_rlottie_2.i: examples/libs/rlottie/lv_example_rlottie_2.c.i
+
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.i
+
+# target to preprocess a source file
+examples/libs/rlottie/lv_example_rlottie_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_2.c.i
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.c.i
+
+examples/libs/rlottie/lv_example_rlottie_2.s: examples/libs/rlottie/lv_example_rlottie_2.c.s
+
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.s
+
+# target to generate assembly for a file
+examples/libs/rlottie/lv_example_rlottie_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_2.c.s
+.PHONY : examples/libs/rlottie/lv_example_rlottie_2.c.s
+
+examples/libs/rlottie/lv_example_rlottie_approve.o: examples/libs/rlottie/lv_example_rlottie_approve.c.o
+
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.o
+
+# target to build an object file
+examples/libs/rlottie/lv_example_rlottie_approve.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_approve.c.o
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.c.o
+
+examples/libs/rlottie/lv_example_rlottie_approve.i: examples/libs/rlottie/lv_example_rlottie_approve.c.i
+
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.i
+
+# target to preprocess a source file
+examples/libs/rlottie/lv_example_rlottie_approve.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_approve.c.i
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.c.i
+
+examples/libs/rlottie/lv_example_rlottie_approve.s: examples/libs/rlottie/lv_example_rlottie_approve.c.s
+
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.s
+
+# target to generate assembly for a file
+examples/libs/rlottie/lv_example_rlottie_approve.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/rlottie/lv_example_rlottie_approve.c.s
+.PHONY : examples/libs/rlottie/lv_example_rlottie_approve.c.s
+
+examples/libs/svg/lv_example_svg_1.o: examples/libs/svg/lv_example_svg_1.c.o
+
+.PHONY : examples/libs/svg/lv_example_svg_1.o
+
+# target to build an object file
+examples/libs/svg/lv_example_svg_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/svg/lv_example_svg_1.c.o
+.PHONY : examples/libs/svg/lv_example_svg_1.c.o
+
+examples/libs/svg/lv_example_svg_1.i: examples/libs/svg/lv_example_svg_1.c.i
+
+.PHONY : examples/libs/svg/lv_example_svg_1.i
+
+# target to preprocess a source file
+examples/libs/svg/lv_example_svg_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/svg/lv_example_svg_1.c.i
+.PHONY : examples/libs/svg/lv_example_svg_1.c.i
+
+examples/libs/svg/lv_example_svg_1.s: examples/libs/svg/lv_example_svg_1.c.s
+
+.PHONY : examples/libs/svg/lv_example_svg_1.s
+
+# target to generate assembly for a file
+examples/libs/svg/lv_example_svg_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/svg/lv_example_svg_1.c.s
+.PHONY : examples/libs/svg/lv_example_svg_1.c.s
+
+examples/libs/tiny_ttf/lv_example_tiny_ttf_1.o: examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.o
+
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_1.o
+
+# target to build an object file
+examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.o
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.o
+
+examples/libs/tiny_ttf/lv_example_tiny_ttf_1.i: examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.i
+
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_1.i
+
+# target to preprocess a source file
+examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.i
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.i
+
+examples/libs/tiny_ttf/lv_example_tiny_ttf_1.s: examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.s
+
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_1.s
+
+# target to generate assembly for a file
+examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.s
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_1.c.s
+
+examples/libs/tiny_ttf/lv_example_tiny_ttf_2.o: examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.o
+
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_2.o
+
+# target to build an object file
+examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.o
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.o
+
+examples/libs/tiny_ttf/lv_example_tiny_ttf_2.i: examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.i
+
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_2.i
+
+# target to preprocess a source file
+examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.i
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.i
+
+examples/libs/tiny_ttf/lv_example_tiny_ttf_2.s: examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.s
+
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_2.s
+
+# target to generate assembly for a file
+examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.s
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_2.c.s
+
+examples/libs/tiny_ttf/lv_example_tiny_ttf_3.o: examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.o
+
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_3.o
+
+# target to build an object file
+examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.o
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.o
+
+examples/libs/tiny_ttf/lv_example_tiny_ttf_3.i: examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.i
+
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_3.i
+
+# target to preprocess a source file
+examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.i
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.i
+
+examples/libs/tiny_ttf/lv_example_tiny_ttf_3.s: examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.s
+
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_3.s
+
+# target to generate assembly for a file
+examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.s
+.PHONY : examples/libs/tiny_ttf/lv_example_tiny_ttf_3.c.s
+
+examples/libs/tiny_ttf/ubuntu_font.o: examples/libs/tiny_ttf/ubuntu_font.c.o
+
+.PHONY : examples/libs/tiny_ttf/ubuntu_font.o
+
+# target to build an object file
+examples/libs/tiny_ttf/ubuntu_font.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/ubuntu_font.c.o
+.PHONY : examples/libs/tiny_ttf/ubuntu_font.c.o
+
+examples/libs/tiny_ttf/ubuntu_font.i: examples/libs/tiny_ttf/ubuntu_font.c.i
+
+.PHONY : examples/libs/tiny_ttf/ubuntu_font.i
+
+# target to preprocess a source file
+examples/libs/tiny_ttf/ubuntu_font.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/ubuntu_font.c.i
+.PHONY : examples/libs/tiny_ttf/ubuntu_font.c.i
+
+examples/libs/tiny_ttf/ubuntu_font.s: examples/libs/tiny_ttf/ubuntu_font.c.s
+
+.PHONY : examples/libs/tiny_ttf/ubuntu_font.s
+
+# target to generate assembly for a file
+examples/libs/tiny_ttf/ubuntu_font.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tiny_ttf/ubuntu_font.c.s
+.PHONY : examples/libs/tiny_ttf/ubuntu_font.c.s
+
+examples/libs/tjpgd/lv_example_tjpgd_1.o: examples/libs/tjpgd/lv_example_tjpgd_1.c.o
+
+.PHONY : examples/libs/tjpgd/lv_example_tjpgd_1.o
+
+# target to build an object file
+examples/libs/tjpgd/lv_example_tjpgd_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tjpgd/lv_example_tjpgd_1.c.o
+.PHONY : examples/libs/tjpgd/lv_example_tjpgd_1.c.o
+
+examples/libs/tjpgd/lv_example_tjpgd_1.i: examples/libs/tjpgd/lv_example_tjpgd_1.c.i
+
+.PHONY : examples/libs/tjpgd/lv_example_tjpgd_1.i
+
+# target to preprocess a source file
+examples/libs/tjpgd/lv_example_tjpgd_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tjpgd/lv_example_tjpgd_1.c.i
+.PHONY : examples/libs/tjpgd/lv_example_tjpgd_1.c.i
+
+examples/libs/tjpgd/lv_example_tjpgd_1.s: examples/libs/tjpgd/lv_example_tjpgd_1.c.s
+
+.PHONY : examples/libs/tjpgd/lv_example_tjpgd_1.s
+
+# target to generate assembly for a file
+examples/libs/tjpgd/lv_example_tjpgd_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/libs/tjpgd/lv_example_tjpgd_1.c.s
+.PHONY : examples/libs/tjpgd/lv_example_tjpgd_1.c.s
+
+examples/others/file_explorer/lv_example_file_explorer_1.o: examples/others/file_explorer/lv_example_file_explorer_1.c.o
+
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_1.o
+
+# target to build an object file
+examples/others/file_explorer/lv_example_file_explorer_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/file_explorer/lv_example_file_explorer_1.c.o
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_1.c.o
+
+examples/others/file_explorer/lv_example_file_explorer_1.i: examples/others/file_explorer/lv_example_file_explorer_1.c.i
+
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_1.i
+
+# target to preprocess a source file
+examples/others/file_explorer/lv_example_file_explorer_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/file_explorer/lv_example_file_explorer_1.c.i
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_1.c.i
+
+examples/others/file_explorer/lv_example_file_explorer_1.s: examples/others/file_explorer/lv_example_file_explorer_1.c.s
+
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_1.s
+
+# target to generate assembly for a file
+examples/others/file_explorer/lv_example_file_explorer_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/file_explorer/lv_example_file_explorer_1.c.s
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_1.c.s
+
+examples/others/file_explorer/lv_example_file_explorer_2.o: examples/others/file_explorer/lv_example_file_explorer_2.c.o
+
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_2.o
+
+# target to build an object file
+examples/others/file_explorer/lv_example_file_explorer_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/file_explorer/lv_example_file_explorer_2.c.o
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_2.c.o
+
+examples/others/file_explorer/lv_example_file_explorer_2.i: examples/others/file_explorer/lv_example_file_explorer_2.c.i
+
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_2.i
+
+# target to preprocess a source file
+examples/others/file_explorer/lv_example_file_explorer_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/file_explorer/lv_example_file_explorer_2.c.i
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_2.c.i
+
+examples/others/file_explorer/lv_example_file_explorer_2.s: examples/others/file_explorer/lv_example_file_explorer_2.c.s
+
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_2.s
+
+# target to generate assembly for a file
+examples/others/file_explorer/lv_example_file_explorer_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/file_explorer/lv_example_file_explorer_2.c.s
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_2.c.s
+
+examples/others/file_explorer/lv_example_file_explorer_3.o: examples/others/file_explorer/lv_example_file_explorer_3.c.o
+
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_3.o
+
+# target to build an object file
+examples/others/file_explorer/lv_example_file_explorer_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/file_explorer/lv_example_file_explorer_3.c.o
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_3.c.o
+
+examples/others/file_explorer/lv_example_file_explorer_3.i: examples/others/file_explorer/lv_example_file_explorer_3.c.i
+
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_3.i
+
+# target to preprocess a source file
+examples/others/file_explorer/lv_example_file_explorer_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/file_explorer/lv_example_file_explorer_3.c.i
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_3.c.i
+
+examples/others/file_explorer/lv_example_file_explorer_3.s: examples/others/file_explorer/lv_example_file_explorer_3.c.s
+
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_3.s
+
+# target to generate assembly for a file
+examples/others/file_explorer/lv_example_file_explorer_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/file_explorer/lv_example_file_explorer_3.c.s
+.PHONY : examples/others/file_explorer/lv_example_file_explorer_3.c.s
+
+examples/others/font_manager/lv_example_font_manager_1.o: examples/others/font_manager/lv_example_font_manager_1.c.o
+
+.PHONY : examples/others/font_manager/lv_example_font_manager_1.o
+
+# target to build an object file
+examples/others/font_manager/lv_example_font_manager_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/font_manager/lv_example_font_manager_1.c.o
+.PHONY : examples/others/font_manager/lv_example_font_manager_1.c.o
+
+examples/others/font_manager/lv_example_font_manager_1.i: examples/others/font_manager/lv_example_font_manager_1.c.i
+
+.PHONY : examples/others/font_manager/lv_example_font_manager_1.i
+
+# target to preprocess a source file
+examples/others/font_manager/lv_example_font_manager_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/font_manager/lv_example_font_manager_1.c.i
+.PHONY : examples/others/font_manager/lv_example_font_manager_1.c.i
+
+examples/others/font_manager/lv_example_font_manager_1.s: examples/others/font_manager/lv_example_font_manager_1.c.s
+
+.PHONY : examples/others/font_manager/lv_example_font_manager_1.s
+
+# target to generate assembly for a file
+examples/others/font_manager/lv_example_font_manager_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/font_manager/lv_example_font_manager_1.c.s
+.PHONY : examples/others/font_manager/lv_example_font_manager_1.c.s
+
+examples/others/font_manager/lv_example_font_manager_2.o: examples/others/font_manager/lv_example_font_manager_2.c.o
+
+.PHONY : examples/others/font_manager/lv_example_font_manager_2.o
+
+# target to build an object file
+examples/others/font_manager/lv_example_font_manager_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/font_manager/lv_example_font_manager_2.c.o
+.PHONY : examples/others/font_manager/lv_example_font_manager_2.c.o
+
+examples/others/font_manager/lv_example_font_manager_2.i: examples/others/font_manager/lv_example_font_manager_2.c.i
+
+.PHONY : examples/others/font_manager/lv_example_font_manager_2.i
+
+# target to preprocess a source file
+examples/others/font_manager/lv_example_font_manager_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/font_manager/lv_example_font_manager_2.c.i
+.PHONY : examples/others/font_manager/lv_example_font_manager_2.c.i
+
+examples/others/font_manager/lv_example_font_manager_2.s: examples/others/font_manager/lv_example_font_manager_2.c.s
+
+.PHONY : examples/others/font_manager/lv_example_font_manager_2.s
+
+# target to generate assembly for a file
+examples/others/font_manager/lv_example_font_manager_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/font_manager/lv_example_font_manager_2.c.s
+.PHONY : examples/others/font_manager/lv_example_font_manager_2.c.s
+
+examples/others/font_manager/lv_example_font_manager_3.o: examples/others/font_manager/lv_example_font_manager_3.c.o
+
+.PHONY : examples/others/font_manager/lv_example_font_manager_3.o
+
+# target to build an object file
+examples/others/font_manager/lv_example_font_manager_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/font_manager/lv_example_font_manager_3.c.o
+.PHONY : examples/others/font_manager/lv_example_font_manager_3.c.o
+
+examples/others/font_manager/lv_example_font_manager_3.i: examples/others/font_manager/lv_example_font_manager_3.c.i
+
+.PHONY : examples/others/font_manager/lv_example_font_manager_3.i
+
+# target to preprocess a source file
+examples/others/font_manager/lv_example_font_manager_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/font_manager/lv_example_font_manager_3.c.i
+.PHONY : examples/others/font_manager/lv_example_font_manager_3.c.i
+
+examples/others/font_manager/lv_example_font_manager_3.s: examples/others/font_manager/lv_example_font_manager_3.c.s
+
+.PHONY : examples/others/font_manager/lv_example_font_manager_3.s
+
+# target to generate assembly for a file
+examples/others/font_manager/lv_example_font_manager_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/font_manager/lv_example_font_manager_3.c.s
+.PHONY : examples/others/font_manager/lv_example_font_manager_3.c.s
+
+examples/others/fragment/lv_example_fragment_1.o: examples/others/fragment/lv_example_fragment_1.c.o
+
+.PHONY : examples/others/fragment/lv_example_fragment_1.o
+
+# target to build an object file
+examples/others/fragment/lv_example_fragment_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_1.c.o
+.PHONY : examples/others/fragment/lv_example_fragment_1.c.o
+
+examples/others/fragment/lv_example_fragment_1.i: examples/others/fragment/lv_example_fragment_1.c.i
+
+.PHONY : examples/others/fragment/lv_example_fragment_1.i
+
+# target to preprocess a source file
+examples/others/fragment/lv_example_fragment_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_1.c.i
+.PHONY : examples/others/fragment/lv_example_fragment_1.c.i
+
+examples/others/fragment/lv_example_fragment_1.s: examples/others/fragment/lv_example_fragment_1.c.s
+
+.PHONY : examples/others/fragment/lv_example_fragment_1.s
+
+# target to generate assembly for a file
+examples/others/fragment/lv_example_fragment_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_1.c.s
+.PHONY : examples/others/fragment/lv_example_fragment_1.c.s
+
+examples/others/fragment/lv_example_fragment_2.o: examples/others/fragment/lv_example_fragment_2.c.o
+
+.PHONY : examples/others/fragment/lv_example_fragment_2.o
+
+# target to build an object file
+examples/others/fragment/lv_example_fragment_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_2.c.o
+.PHONY : examples/others/fragment/lv_example_fragment_2.c.o
+
+examples/others/fragment/lv_example_fragment_2.i: examples/others/fragment/lv_example_fragment_2.c.i
+
+.PHONY : examples/others/fragment/lv_example_fragment_2.i
+
+# target to preprocess a source file
+examples/others/fragment/lv_example_fragment_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_2.c.i
+.PHONY : examples/others/fragment/lv_example_fragment_2.c.i
+
+examples/others/fragment/lv_example_fragment_2.s: examples/others/fragment/lv_example_fragment_2.c.s
+
+.PHONY : examples/others/fragment/lv_example_fragment_2.s
+
+# target to generate assembly for a file
+examples/others/fragment/lv_example_fragment_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/fragment/lv_example_fragment_2.c.s
+.PHONY : examples/others/fragment/lv_example_fragment_2.c.s
+
+examples/others/gestures/lv_example_gestures.o: examples/others/gestures/lv_example_gestures.c.o
+
+.PHONY : examples/others/gestures/lv_example_gestures.o
+
+# target to build an object file
+examples/others/gestures/lv_example_gestures.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gestures/lv_example_gestures.c.o
+.PHONY : examples/others/gestures/lv_example_gestures.c.o
+
+examples/others/gestures/lv_example_gestures.i: examples/others/gestures/lv_example_gestures.c.i
+
+.PHONY : examples/others/gestures/lv_example_gestures.i
+
+# target to preprocess a source file
+examples/others/gestures/lv_example_gestures.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gestures/lv_example_gestures.c.i
+.PHONY : examples/others/gestures/lv_example_gestures.c.i
+
+examples/others/gestures/lv_example_gestures.s: examples/others/gestures/lv_example_gestures.c.s
+
+.PHONY : examples/others/gestures/lv_example_gestures.s
+
+# target to generate assembly for a file
+examples/others/gestures/lv_example_gestures.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gestures/lv_example_gestures.c.s
+.PHONY : examples/others/gestures/lv_example_gestures.c.s
+
+examples/others/gridnav/lv_example_gridnav_1.o: examples/others/gridnav/lv_example_gridnav_1.c.o
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.o
+
+# target to build an object file
+examples/others/gridnav/lv_example_gridnav_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_1.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.c.o
+
+examples/others/gridnav/lv_example_gridnav_1.i: examples/others/gridnav/lv_example_gridnav_1.c.i
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.i
+
+# target to preprocess a source file
+examples/others/gridnav/lv_example_gridnav_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_1.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.c.i
+
+examples/others/gridnav/lv_example_gridnav_1.s: examples/others/gridnav/lv_example_gridnav_1.c.s
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.s
+
+# target to generate assembly for a file
+examples/others/gridnav/lv_example_gridnav_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_1.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_1.c.s
+
+examples/others/gridnav/lv_example_gridnav_2.o: examples/others/gridnav/lv_example_gridnav_2.c.o
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.o
+
+# target to build an object file
+examples/others/gridnav/lv_example_gridnav_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_2.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.c.o
+
+examples/others/gridnav/lv_example_gridnav_2.i: examples/others/gridnav/lv_example_gridnav_2.c.i
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.i
+
+# target to preprocess a source file
+examples/others/gridnav/lv_example_gridnav_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_2.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.c.i
+
+examples/others/gridnav/lv_example_gridnav_2.s: examples/others/gridnav/lv_example_gridnav_2.c.s
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.s
+
+# target to generate assembly for a file
+examples/others/gridnav/lv_example_gridnav_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_2.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_2.c.s
+
+examples/others/gridnav/lv_example_gridnav_3.o: examples/others/gridnav/lv_example_gridnav_3.c.o
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.o
+
+# target to build an object file
+examples/others/gridnav/lv_example_gridnav_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_3.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.c.o
+
+examples/others/gridnav/lv_example_gridnav_3.i: examples/others/gridnav/lv_example_gridnav_3.c.i
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.i
+
+# target to preprocess a source file
+examples/others/gridnav/lv_example_gridnav_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_3.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.c.i
+
+examples/others/gridnav/lv_example_gridnav_3.s: examples/others/gridnav/lv_example_gridnav_3.c.s
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.s
+
+# target to generate assembly for a file
+examples/others/gridnav/lv_example_gridnav_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_3.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_3.c.s
+
+examples/others/gridnav/lv_example_gridnav_4.o: examples/others/gridnav/lv_example_gridnav_4.c.o
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.o
+
+# target to build an object file
+examples/others/gridnav/lv_example_gridnav_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_4.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.c.o
+
+examples/others/gridnav/lv_example_gridnav_4.i: examples/others/gridnav/lv_example_gridnav_4.c.i
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.i
+
+# target to preprocess a source file
+examples/others/gridnav/lv_example_gridnav_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_4.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.c.i
+
+examples/others/gridnav/lv_example_gridnav_4.s: examples/others/gridnav/lv_example_gridnav_4.c.s
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.s
+
+# target to generate assembly for a file
+examples/others/gridnav/lv_example_gridnav_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_4.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_4.c.s
+
+examples/others/gridnav/lv_example_gridnav_5.o: examples/others/gridnav/lv_example_gridnav_5.c.o
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_5.o
+
+# target to build an object file
+examples/others/gridnav/lv_example_gridnav_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_5.c.o
+.PHONY : examples/others/gridnav/lv_example_gridnav_5.c.o
+
+examples/others/gridnav/lv_example_gridnav_5.i: examples/others/gridnav/lv_example_gridnav_5.c.i
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_5.i
+
+# target to preprocess a source file
+examples/others/gridnav/lv_example_gridnav_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_5.c.i
+.PHONY : examples/others/gridnav/lv_example_gridnav_5.c.i
+
+examples/others/gridnav/lv_example_gridnav_5.s: examples/others/gridnav/lv_example_gridnav_5.c.s
+
+.PHONY : examples/others/gridnav/lv_example_gridnav_5.s
+
+# target to generate assembly for a file
+examples/others/gridnav/lv_example_gridnav_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/gridnav/lv_example_gridnav_5.c.s
+.PHONY : examples/others/gridnav/lv_example_gridnav_5.c.s
+
+examples/others/ime/lv_example_ime_pinyin_1.o: examples/others/ime/lv_example_ime_pinyin_1.c.o
+
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.o
+
+# target to build an object file
+examples/others/ime/lv_example_ime_pinyin_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_1.c.o
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.c.o
+
+examples/others/ime/lv_example_ime_pinyin_1.i: examples/others/ime/lv_example_ime_pinyin_1.c.i
+
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.i
+
+# target to preprocess a source file
+examples/others/ime/lv_example_ime_pinyin_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_1.c.i
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.c.i
+
+examples/others/ime/lv_example_ime_pinyin_1.s: examples/others/ime/lv_example_ime_pinyin_1.c.s
+
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.s
+
+# target to generate assembly for a file
+examples/others/ime/lv_example_ime_pinyin_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_1.c.s
+.PHONY : examples/others/ime/lv_example_ime_pinyin_1.c.s
+
+examples/others/ime/lv_example_ime_pinyin_2.o: examples/others/ime/lv_example_ime_pinyin_2.c.o
+
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.o
+
+# target to build an object file
+examples/others/ime/lv_example_ime_pinyin_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_2.c.o
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.c.o
+
+examples/others/ime/lv_example_ime_pinyin_2.i: examples/others/ime/lv_example_ime_pinyin_2.c.i
+
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.i
+
+# target to preprocess a source file
+examples/others/ime/lv_example_ime_pinyin_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_2.c.i
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.c.i
+
+examples/others/ime/lv_example_ime_pinyin_2.s: examples/others/ime/lv_example_ime_pinyin_2.c.s
+
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.s
+
+# target to generate assembly for a file
+examples/others/ime/lv_example_ime_pinyin_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/ime/lv_example_ime_pinyin_2.c.s
+.PHONY : examples/others/ime/lv_example_ime_pinyin_2.c.s
+
+examples/others/imgfont/lv_example_imgfont_1.o: examples/others/imgfont/lv_example_imgfont_1.c.o
+
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.o
+
+# target to build an object file
+examples/others/imgfont/lv_example_imgfont_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/imgfont/lv_example_imgfont_1.c.o
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.c.o
+
+examples/others/imgfont/lv_example_imgfont_1.i: examples/others/imgfont/lv_example_imgfont_1.c.i
+
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.i
+
+# target to preprocess a source file
+examples/others/imgfont/lv_example_imgfont_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/imgfont/lv_example_imgfont_1.c.i
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.c.i
+
+examples/others/imgfont/lv_example_imgfont_1.s: examples/others/imgfont/lv_example_imgfont_1.c.s
+
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.s
+
+# target to generate assembly for a file
+examples/others/imgfont/lv_example_imgfont_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/imgfont/lv_example_imgfont_1.c.s
+.PHONY : examples/others/imgfont/lv_example_imgfont_1.c.s
+
+examples/others/monkey/lv_example_monkey_1.o: examples/others/monkey/lv_example_monkey_1.c.o
+
+.PHONY : examples/others/monkey/lv_example_monkey_1.o
+
+# target to build an object file
+examples/others/monkey/lv_example_monkey_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_1.c.o
+.PHONY : examples/others/monkey/lv_example_monkey_1.c.o
+
+examples/others/monkey/lv_example_monkey_1.i: examples/others/monkey/lv_example_monkey_1.c.i
+
+.PHONY : examples/others/monkey/lv_example_monkey_1.i
+
+# target to preprocess a source file
+examples/others/monkey/lv_example_monkey_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_1.c.i
+.PHONY : examples/others/monkey/lv_example_monkey_1.c.i
+
+examples/others/monkey/lv_example_monkey_1.s: examples/others/monkey/lv_example_monkey_1.c.s
+
+.PHONY : examples/others/monkey/lv_example_monkey_1.s
+
+# target to generate assembly for a file
+examples/others/monkey/lv_example_monkey_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_1.c.s
+.PHONY : examples/others/monkey/lv_example_monkey_1.c.s
+
+examples/others/monkey/lv_example_monkey_2.o: examples/others/monkey/lv_example_monkey_2.c.o
+
+.PHONY : examples/others/monkey/lv_example_monkey_2.o
+
+# target to build an object file
+examples/others/monkey/lv_example_monkey_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_2.c.o
+.PHONY : examples/others/monkey/lv_example_monkey_2.c.o
+
+examples/others/monkey/lv_example_monkey_2.i: examples/others/monkey/lv_example_monkey_2.c.i
+
+.PHONY : examples/others/monkey/lv_example_monkey_2.i
+
+# target to preprocess a source file
+examples/others/monkey/lv_example_monkey_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_2.c.i
+.PHONY : examples/others/monkey/lv_example_monkey_2.c.i
+
+examples/others/monkey/lv_example_monkey_2.s: examples/others/monkey/lv_example_monkey_2.c.s
+
+.PHONY : examples/others/monkey/lv_example_monkey_2.s
+
+# target to generate assembly for a file
+examples/others/monkey/lv_example_monkey_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_2.c.s
+.PHONY : examples/others/monkey/lv_example_monkey_2.c.s
+
+examples/others/monkey/lv_example_monkey_3.o: examples/others/monkey/lv_example_monkey_3.c.o
+
+.PHONY : examples/others/monkey/lv_example_monkey_3.o
+
+# target to build an object file
+examples/others/monkey/lv_example_monkey_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_3.c.o
+.PHONY : examples/others/monkey/lv_example_monkey_3.c.o
+
+examples/others/monkey/lv_example_monkey_3.i: examples/others/monkey/lv_example_monkey_3.c.i
+
+.PHONY : examples/others/monkey/lv_example_monkey_3.i
+
+# target to preprocess a source file
+examples/others/monkey/lv_example_monkey_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_3.c.i
+.PHONY : examples/others/monkey/lv_example_monkey_3.c.i
+
+examples/others/monkey/lv_example_monkey_3.s: examples/others/monkey/lv_example_monkey_3.c.s
+
+.PHONY : examples/others/monkey/lv_example_monkey_3.s
+
+# target to generate assembly for a file
+examples/others/monkey/lv_example_monkey_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/monkey/lv_example_monkey_3.c.s
+.PHONY : examples/others/monkey/lv_example_monkey_3.c.s
+
+examples/others/observer/lv_example_observer_1.o: examples/others/observer/lv_example_observer_1.c.o
+
+.PHONY : examples/others/observer/lv_example_observer_1.o
+
+# target to build an object file
+examples/others/observer/lv_example_observer_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_1.c.o
+.PHONY : examples/others/observer/lv_example_observer_1.c.o
+
+examples/others/observer/lv_example_observer_1.i: examples/others/observer/lv_example_observer_1.c.i
+
+.PHONY : examples/others/observer/lv_example_observer_1.i
+
+# target to preprocess a source file
+examples/others/observer/lv_example_observer_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_1.c.i
+.PHONY : examples/others/observer/lv_example_observer_1.c.i
+
+examples/others/observer/lv_example_observer_1.s: examples/others/observer/lv_example_observer_1.c.s
+
+.PHONY : examples/others/observer/lv_example_observer_1.s
+
+# target to generate assembly for a file
+examples/others/observer/lv_example_observer_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_1.c.s
+.PHONY : examples/others/observer/lv_example_observer_1.c.s
+
+examples/others/observer/lv_example_observer_2.o: examples/others/observer/lv_example_observer_2.c.o
+
+.PHONY : examples/others/observer/lv_example_observer_2.o
+
+# target to build an object file
+examples/others/observer/lv_example_observer_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_2.c.o
+.PHONY : examples/others/observer/lv_example_observer_2.c.o
+
+examples/others/observer/lv_example_observer_2.i: examples/others/observer/lv_example_observer_2.c.i
+
+.PHONY : examples/others/observer/lv_example_observer_2.i
+
+# target to preprocess a source file
+examples/others/observer/lv_example_observer_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_2.c.i
+.PHONY : examples/others/observer/lv_example_observer_2.c.i
+
+examples/others/observer/lv_example_observer_2.s: examples/others/observer/lv_example_observer_2.c.s
+
+.PHONY : examples/others/observer/lv_example_observer_2.s
+
+# target to generate assembly for a file
+examples/others/observer/lv_example_observer_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_2.c.s
+.PHONY : examples/others/observer/lv_example_observer_2.c.s
+
+examples/others/observer/lv_example_observer_3.o: examples/others/observer/lv_example_observer_3.c.o
+
+.PHONY : examples/others/observer/lv_example_observer_3.o
+
+# target to build an object file
+examples/others/observer/lv_example_observer_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_3.c.o
+.PHONY : examples/others/observer/lv_example_observer_3.c.o
+
+examples/others/observer/lv_example_observer_3.i: examples/others/observer/lv_example_observer_3.c.i
+
+.PHONY : examples/others/observer/lv_example_observer_3.i
+
+# target to preprocess a source file
+examples/others/observer/lv_example_observer_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_3.c.i
+.PHONY : examples/others/observer/lv_example_observer_3.c.i
+
+examples/others/observer/lv_example_observer_3.s: examples/others/observer/lv_example_observer_3.c.s
+
+.PHONY : examples/others/observer/lv_example_observer_3.s
+
+# target to generate assembly for a file
+examples/others/observer/lv_example_observer_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_3.c.s
+.PHONY : examples/others/observer/lv_example_observer_3.c.s
+
+examples/others/observer/lv_example_observer_4.o: examples/others/observer/lv_example_observer_4.c.o
+
+.PHONY : examples/others/observer/lv_example_observer_4.o
+
+# target to build an object file
+examples/others/observer/lv_example_observer_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_4.c.o
+.PHONY : examples/others/observer/lv_example_observer_4.c.o
+
+examples/others/observer/lv_example_observer_4.i: examples/others/observer/lv_example_observer_4.c.i
+
+.PHONY : examples/others/observer/lv_example_observer_4.i
+
+# target to preprocess a source file
+examples/others/observer/lv_example_observer_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_4.c.i
+.PHONY : examples/others/observer/lv_example_observer_4.c.i
+
+examples/others/observer/lv_example_observer_4.s: examples/others/observer/lv_example_observer_4.c.s
+
+.PHONY : examples/others/observer/lv_example_observer_4.s
+
+# target to generate assembly for a file
+examples/others/observer/lv_example_observer_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_4.c.s
+.PHONY : examples/others/observer/lv_example_observer_4.c.s
+
+examples/others/observer/lv_example_observer_5.o: examples/others/observer/lv_example_observer_5.c.o
+
+.PHONY : examples/others/observer/lv_example_observer_5.o
+
+# target to build an object file
+examples/others/observer/lv_example_observer_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_5.c.o
+.PHONY : examples/others/observer/lv_example_observer_5.c.o
+
+examples/others/observer/lv_example_observer_5.i: examples/others/observer/lv_example_observer_5.c.i
+
+.PHONY : examples/others/observer/lv_example_observer_5.i
+
+# target to preprocess a source file
+examples/others/observer/lv_example_observer_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_5.c.i
+.PHONY : examples/others/observer/lv_example_observer_5.c.i
+
+examples/others/observer/lv_example_observer_5.s: examples/others/observer/lv_example_observer_5.c.s
+
+.PHONY : examples/others/observer/lv_example_observer_5.s
+
+# target to generate assembly for a file
+examples/others/observer/lv_example_observer_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_5.c.s
+.PHONY : examples/others/observer/lv_example_observer_5.c.s
+
+examples/others/observer/lv_example_observer_6.o: examples/others/observer/lv_example_observer_6.c.o
+
+.PHONY : examples/others/observer/lv_example_observer_6.o
+
+# target to build an object file
+examples/others/observer/lv_example_observer_6.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_6.c.o
+.PHONY : examples/others/observer/lv_example_observer_6.c.o
+
+examples/others/observer/lv_example_observer_6.i: examples/others/observer/lv_example_observer_6.c.i
+
+.PHONY : examples/others/observer/lv_example_observer_6.i
+
+# target to preprocess a source file
+examples/others/observer/lv_example_observer_6.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_6.c.i
+.PHONY : examples/others/observer/lv_example_observer_6.c.i
+
+examples/others/observer/lv_example_observer_6.s: examples/others/observer/lv_example_observer_6.c.s
+
+.PHONY : examples/others/observer/lv_example_observer_6.s
+
+# target to generate assembly for a file
+examples/others/observer/lv_example_observer_6.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/observer/lv_example_observer_6.c.s
+.PHONY : examples/others/observer/lv_example_observer_6.c.s
+
+examples/others/snapshot/lv_example_snapshot_1.o: examples/others/snapshot/lv_example_snapshot_1.c.o
+
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.o
+
+# target to build an object file
+examples/others/snapshot/lv_example_snapshot_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/snapshot/lv_example_snapshot_1.c.o
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.c.o
+
+examples/others/snapshot/lv_example_snapshot_1.i: examples/others/snapshot/lv_example_snapshot_1.c.i
+
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.i
+
+# target to preprocess a source file
+examples/others/snapshot/lv_example_snapshot_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/snapshot/lv_example_snapshot_1.c.i
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.c.i
+
+examples/others/snapshot/lv_example_snapshot_1.s: examples/others/snapshot/lv_example_snapshot_1.c.s
+
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.s
+
+# target to generate assembly for a file
+examples/others/snapshot/lv_example_snapshot_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/snapshot/lv_example_snapshot_1.c.s
+.PHONY : examples/others/snapshot/lv_example_snapshot_1.c.s
+
+examples/others/xml/lv_example_xml_1.o: examples/others/xml/lv_example_xml_1.c.o
+
+.PHONY : examples/others/xml/lv_example_xml_1.o
+
+# target to build an object file
+examples/others/xml/lv_example_xml_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/xml/lv_example_xml_1.c.o
+.PHONY : examples/others/xml/lv_example_xml_1.c.o
+
+examples/others/xml/lv_example_xml_1.i: examples/others/xml/lv_example_xml_1.c.i
+
+.PHONY : examples/others/xml/lv_example_xml_1.i
+
+# target to preprocess a source file
+examples/others/xml/lv_example_xml_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/xml/lv_example_xml_1.c.i
+.PHONY : examples/others/xml/lv_example_xml_1.c.i
+
+examples/others/xml/lv_example_xml_1.s: examples/others/xml/lv_example_xml_1.c.s
+
+.PHONY : examples/others/xml/lv_example_xml_1.s
+
+# target to generate assembly for a file
+examples/others/xml/lv_example_xml_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/xml/lv_example_xml_1.c.s
+.PHONY : examples/others/xml/lv_example_xml_1.c.s
+
+examples/others/xml/lv_example_xml_2.o: examples/others/xml/lv_example_xml_2.c.o
+
+.PHONY : examples/others/xml/lv_example_xml_2.o
+
+# target to build an object file
+examples/others/xml/lv_example_xml_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/xml/lv_example_xml_2.c.o
+.PHONY : examples/others/xml/lv_example_xml_2.c.o
+
+examples/others/xml/lv_example_xml_2.i: examples/others/xml/lv_example_xml_2.c.i
+
+.PHONY : examples/others/xml/lv_example_xml_2.i
+
+# target to preprocess a source file
+examples/others/xml/lv_example_xml_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/xml/lv_example_xml_2.c.i
+.PHONY : examples/others/xml/lv_example_xml_2.c.i
+
+examples/others/xml/lv_example_xml_2.s: examples/others/xml/lv_example_xml_2.c.s
+
+.PHONY : examples/others/xml/lv_example_xml_2.s
+
+# target to generate assembly for a file
+examples/others/xml/lv_example_xml_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/others/xml/lv_example_xml_2.c.s
+.PHONY : examples/others/xml/lv_example_xml_2.c.s
+
+examples/porting/lv_port_disp_template.o: examples/porting/lv_port_disp_template.c.o
+
+.PHONY : examples/porting/lv_port_disp_template.o
+
+# target to build an object file
+examples/porting/lv_port_disp_template.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_disp_template.c.o
+.PHONY : examples/porting/lv_port_disp_template.c.o
+
+examples/porting/lv_port_disp_template.i: examples/porting/lv_port_disp_template.c.i
+
+.PHONY : examples/porting/lv_port_disp_template.i
+
+# target to preprocess a source file
+examples/porting/lv_port_disp_template.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_disp_template.c.i
+.PHONY : examples/porting/lv_port_disp_template.c.i
+
+examples/porting/lv_port_disp_template.s: examples/porting/lv_port_disp_template.c.s
+
+.PHONY : examples/porting/lv_port_disp_template.s
+
+# target to generate assembly for a file
+examples/porting/lv_port_disp_template.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_disp_template.c.s
+.PHONY : examples/porting/lv_port_disp_template.c.s
+
+examples/porting/lv_port_fs_template.o: examples/porting/lv_port_fs_template.c.o
+
+.PHONY : examples/porting/lv_port_fs_template.o
+
+# target to build an object file
+examples/porting/lv_port_fs_template.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_fs_template.c.o
+.PHONY : examples/porting/lv_port_fs_template.c.o
+
+examples/porting/lv_port_fs_template.i: examples/porting/lv_port_fs_template.c.i
+
+.PHONY : examples/porting/lv_port_fs_template.i
+
+# target to preprocess a source file
+examples/porting/lv_port_fs_template.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_fs_template.c.i
+.PHONY : examples/porting/lv_port_fs_template.c.i
+
+examples/porting/lv_port_fs_template.s: examples/porting/lv_port_fs_template.c.s
+
+.PHONY : examples/porting/lv_port_fs_template.s
+
+# target to generate assembly for a file
+examples/porting/lv_port_fs_template.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_fs_template.c.s
+.PHONY : examples/porting/lv_port_fs_template.c.s
+
+examples/porting/lv_port_indev_template.o: examples/porting/lv_port_indev_template.c.o
+
+.PHONY : examples/porting/lv_port_indev_template.o
+
+# target to build an object file
+examples/porting/lv_port_indev_template.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_indev_template.c.o
+.PHONY : examples/porting/lv_port_indev_template.c.o
+
+examples/porting/lv_port_indev_template.i: examples/porting/lv_port_indev_template.c.i
+
+.PHONY : examples/porting/lv_port_indev_template.i
+
+# target to preprocess a source file
+examples/porting/lv_port_indev_template.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_indev_template.c.i
+.PHONY : examples/porting/lv_port_indev_template.c.i
+
+examples/porting/lv_port_indev_template.s: examples/porting/lv_port_indev_template.c.s
+
+.PHONY : examples/porting/lv_port_indev_template.s
+
+# target to generate assembly for a file
+examples/porting/lv_port_indev_template.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_indev_template.c.s
+.PHONY : examples/porting/lv_port_indev_template.c.s
+
+examples/porting/lv_port_lcd_stm32_template.o: examples/porting/lv_port_lcd_stm32_template.c.o
+
+.PHONY : examples/porting/lv_port_lcd_stm32_template.o
+
+# target to build an object file
+examples/porting/lv_port_lcd_stm32_template.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_lcd_stm32_template.c.o
+.PHONY : examples/porting/lv_port_lcd_stm32_template.c.o
+
+examples/porting/lv_port_lcd_stm32_template.i: examples/porting/lv_port_lcd_stm32_template.c.i
+
+.PHONY : examples/porting/lv_port_lcd_stm32_template.i
+
+# target to preprocess a source file
+examples/porting/lv_port_lcd_stm32_template.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_lcd_stm32_template.c.i
+.PHONY : examples/porting/lv_port_lcd_stm32_template.c.i
+
+examples/porting/lv_port_lcd_stm32_template.s: examples/porting/lv_port_lcd_stm32_template.c.s
+
+.PHONY : examples/porting/lv_port_lcd_stm32_template.s
+
+# target to generate assembly for a file
+examples/porting/lv_port_lcd_stm32_template.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/lv_port_lcd_stm32_template.c.s
+.PHONY : examples/porting/lv_port_lcd_stm32_template.c.s
+
+examples/porting/osal/lv_example_osal.o: examples/porting/osal/lv_example_osal.c.o
+
+.PHONY : examples/porting/osal/lv_example_osal.o
+
+# target to build an object file
+examples/porting/osal/lv_example_osal.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/osal/lv_example_osal.c.o
+.PHONY : examples/porting/osal/lv_example_osal.c.o
+
+examples/porting/osal/lv_example_osal.i: examples/porting/osal/lv_example_osal.c.i
+
+.PHONY : examples/porting/osal/lv_example_osal.i
+
+# target to preprocess a source file
+examples/porting/osal/lv_example_osal.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/osal/lv_example_osal.c.i
+.PHONY : examples/porting/osal/lv_example_osal.c.i
+
+examples/porting/osal/lv_example_osal.s: examples/porting/osal/lv_example_osal.c.s
+
+.PHONY : examples/porting/osal/lv_example_osal.s
+
+# target to generate assembly for a file
+examples/porting/osal/lv_example_osal.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/porting/osal/lv_example_osal.c.s
+.PHONY : examples/porting/osal/lv_example_osal.c.s
+
+examples/scroll/lv_example_scroll_1.o: examples/scroll/lv_example_scroll_1.c.o
+
+.PHONY : examples/scroll/lv_example_scroll_1.o
+
+# target to build an object file
+examples/scroll/lv_example_scroll_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_1.c.o
+.PHONY : examples/scroll/lv_example_scroll_1.c.o
+
+examples/scroll/lv_example_scroll_1.i: examples/scroll/lv_example_scroll_1.c.i
+
+.PHONY : examples/scroll/lv_example_scroll_1.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_1.c.i
+.PHONY : examples/scroll/lv_example_scroll_1.c.i
+
+examples/scroll/lv_example_scroll_1.s: examples/scroll/lv_example_scroll_1.c.s
+
+.PHONY : examples/scroll/lv_example_scroll_1.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_1.c.s
+.PHONY : examples/scroll/lv_example_scroll_1.c.s
+
+examples/scroll/lv_example_scroll_2.o: examples/scroll/lv_example_scroll_2.c.o
+
+.PHONY : examples/scroll/lv_example_scroll_2.o
+
+# target to build an object file
+examples/scroll/lv_example_scroll_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_2.c.o
+.PHONY : examples/scroll/lv_example_scroll_2.c.o
+
+examples/scroll/lv_example_scroll_2.i: examples/scroll/lv_example_scroll_2.c.i
+
+.PHONY : examples/scroll/lv_example_scroll_2.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_2.c.i
+.PHONY : examples/scroll/lv_example_scroll_2.c.i
+
+examples/scroll/lv_example_scroll_2.s: examples/scroll/lv_example_scroll_2.c.s
+
+.PHONY : examples/scroll/lv_example_scroll_2.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_2.c.s
+.PHONY : examples/scroll/lv_example_scroll_2.c.s
+
+examples/scroll/lv_example_scroll_3.o: examples/scroll/lv_example_scroll_3.c.o
+
+.PHONY : examples/scroll/lv_example_scroll_3.o
+
+# target to build an object file
+examples/scroll/lv_example_scroll_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_3.c.o
+.PHONY : examples/scroll/lv_example_scroll_3.c.o
+
+examples/scroll/lv_example_scroll_3.i: examples/scroll/lv_example_scroll_3.c.i
+
+.PHONY : examples/scroll/lv_example_scroll_3.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_3.c.i
+.PHONY : examples/scroll/lv_example_scroll_3.c.i
+
+examples/scroll/lv_example_scroll_3.s: examples/scroll/lv_example_scroll_3.c.s
+
+.PHONY : examples/scroll/lv_example_scroll_3.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_3.c.s
+.PHONY : examples/scroll/lv_example_scroll_3.c.s
+
+examples/scroll/lv_example_scroll_4.o: examples/scroll/lv_example_scroll_4.c.o
+
+.PHONY : examples/scroll/lv_example_scroll_4.o
+
+# target to build an object file
+examples/scroll/lv_example_scroll_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_4.c.o
+.PHONY : examples/scroll/lv_example_scroll_4.c.o
+
+examples/scroll/lv_example_scroll_4.i: examples/scroll/lv_example_scroll_4.c.i
+
+.PHONY : examples/scroll/lv_example_scroll_4.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_4.c.i
+.PHONY : examples/scroll/lv_example_scroll_4.c.i
+
+examples/scroll/lv_example_scroll_4.s: examples/scroll/lv_example_scroll_4.c.s
+
+.PHONY : examples/scroll/lv_example_scroll_4.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_4.c.s
+.PHONY : examples/scroll/lv_example_scroll_4.c.s
+
+examples/scroll/lv_example_scroll_5.o: examples/scroll/lv_example_scroll_5.c.o
+
+.PHONY : examples/scroll/lv_example_scroll_5.o
+
+# target to build an object file
+examples/scroll/lv_example_scroll_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_5.c.o
+.PHONY : examples/scroll/lv_example_scroll_5.c.o
+
+examples/scroll/lv_example_scroll_5.i: examples/scroll/lv_example_scroll_5.c.i
+
+.PHONY : examples/scroll/lv_example_scroll_5.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_5.c.i
+.PHONY : examples/scroll/lv_example_scroll_5.c.i
+
+examples/scroll/lv_example_scroll_5.s: examples/scroll/lv_example_scroll_5.c.s
+
+.PHONY : examples/scroll/lv_example_scroll_5.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_5.c.s
+.PHONY : examples/scroll/lv_example_scroll_5.c.s
+
+examples/scroll/lv_example_scroll_6.o: examples/scroll/lv_example_scroll_6.c.o
+
+.PHONY : examples/scroll/lv_example_scroll_6.o
+
+# target to build an object file
+examples/scroll/lv_example_scroll_6.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_6.c.o
+.PHONY : examples/scroll/lv_example_scroll_6.c.o
+
+examples/scroll/lv_example_scroll_6.i: examples/scroll/lv_example_scroll_6.c.i
+
+.PHONY : examples/scroll/lv_example_scroll_6.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_6.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_6.c.i
+.PHONY : examples/scroll/lv_example_scroll_6.c.i
+
+examples/scroll/lv_example_scroll_6.s: examples/scroll/lv_example_scroll_6.c.s
+
+.PHONY : examples/scroll/lv_example_scroll_6.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_6.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_6.c.s
+.PHONY : examples/scroll/lv_example_scroll_6.c.s
+
+examples/scroll/lv_example_scroll_7.o: examples/scroll/lv_example_scroll_7.c.o
+
+.PHONY : examples/scroll/lv_example_scroll_7.o
+
+# target to build an object file
+examples/scroll/lv_example_scroll_7.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_7.c.o
+.PHONY : examples/scroll/lv_example_scroll_7.c.o
+
+examples/scroll/lv_example_scroll_7.i: examples/scroll/lv_example_scroll_7.c.i
+
+.PHONY : examples/scroll/lv_example_scroll_7.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_7.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_7.c.i
+.PHONY : examples/scroll/lv_example_scroll_7.c.i
+
+examples/scroll/lv_example_scroll_7.s: examples/scroll/lv_example_scroll_7.c.s
+
+.PHONY : examples/scroll/lv_example_scroll_7.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_7.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_7.c.s
+.PHONY : examples/scroll/lv_example_scroll_7.c.s
+
+examples/scroll/lv_example_scroll_8.o: examples/scroll/lv_example_scroll_8.c.o
+
+.PHONY : examples/scroll/lv_example_scroll_8.o
+
+# target to build an object file
+examples/scroll/lv_example_scroll_8.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_8.c.o
+.PHONY : examples/scroll/lv_example_scroll_8.c.o
+
+examples/scroll/lv_example_scroll_8.i: examples/scroll/lv_example_scroll_8.c.i
+
+.PHONY : examples/scroll/lv_example_scroll_8.i
+
+# target to preprocess a source file
+examples/scroll/lv_example_scroll_8.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_8.c.i
+.PHONY : examples/scroll/lv_example_scroll_8.c.i
+
+examples/scroll/lv_example_scroll_8.s: examples/scroll/lv_example_scroll_8.c.s
+
+.PHONY : examples/scroll/lv_example_scroll_8.s
+
+# target to generate assembly for a file
+examples/scroll/lv_example_scroll_8.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/scroll/lv_example_scroll_8.c.s
+.PHONY : examples/scroll/lv_example_scroll_8.c.s
+
+examples/styles/lv_example_style_1.o: examples/styles/lv_example_style_1.c.o
+
+.PHONY : examples/styles/lv_example_style_1.o
+
+# target to build an object file
+examples/styles/lv_example_style_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_1.c.o
+.PHONY : examples/styles/lv_example_style_1.c.o
+
+examples/styles/lv_example_style_1.i: examples/styles/lv_example_style_1.c.i
+
+.PHONY : examples/styles/lv_example_style_1.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_1.c.i
+.PHONY : examples/styles/lv_example_style_1.c.i
+
+examples/styles/lv_example_style_1.s: examples/styles/lv_example_style_1.c.s
+
+.PHONY : examples/styles/lv_example_style_1.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_1.c.s
+.PHONY : examples/styles/lv_example_style_1.c.s
+
+examples/styles/lv_example_style_10.o: examples/styles/lv_example_style_10.c.o
+
+.PHONY : examples/styles/lv_example_style_10.o
+
+# target to build an object file
+examples/styles/lv_example_style_10.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_10.c.o
+.PHONY : examples/styles/lv_example_style_10.c.o
+
+examples/styles/lv_example_style_10.i: examples/styles/lv_example_style_10.c.i
+
+.PHONY : examples/styles/lv_example_style_10.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_10.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_10.c.i
+.PHONY : examples/styles/lv_example_style_10.c.i
+
+examples/styles/lv_example_style_10.s: examples/styles/lv_example_style_10.c.s
+
+.PHONY : examples/styles/lv_example_style_10.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_10.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_10.c.s
+.PHONY : examples/styles/lv_example_style_10.c.s
+
+examples/styles/lv_example_style_11.o: examples/styles/lv_example_style_11.c.o
+
+.PHONY : examples/styles/lv_example_style_11.o
+
+# target to build an object file
+examples/styles/lv_example_style_11.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_11.c.o
+.PHONY : examples/styles/lv_example_style_11.c.o
+
+examples/styles/lv_example_style_11.i: examples/styles/lv_example_style_11.c.i
+
+.PHONY : examples/styles/lv_example_style_11.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_11.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_11.c.i
+.PHONY : examples/styles/lv_example_style_11.c.i
+
+examples/styles/lv_example_style_11.s: examples/styles/lv_example_style_11.c.s
+
+.PHONY : examples/styles/lv_example_style_11.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_11.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_11.c.s
+.PHONY : examples/styles/lv_example_style_11.c.s
+
+examples/styles/lv_example_style_12.o: examples/styles/lv_example_style_12.c.o
+
+.PHONY : examples/styles/lv_example_style_12.o
+
+# target to build an object file
+examples/styles/lv_example_style_12.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_12.c.o
+.PHONY : examples/styles/lv_example_style_12.c.o
+
+examples/styles/lv_example_style_12.i: examples/styles/lv_example_style_12.c.i
+
+.PHONY : examples/styles/lv_example_style_12.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_12.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_12.c.i
+.PHONY : examples/styles/lv_example_style_12.c.i
+
+examples/styles/lv_example_style_12.s: examples/styles/lv_example_style_12.c.s
+
+.PHONY : examples/styles/lv_example_style_12.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_12.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_12.c.s
+.PHONY : examples/styles/lv_example_style_12.c.s
+
+examples/styles/lv_example_style_13.o: examples/styles/lv_example_style_13.c.o
+
+.PHONY : examples/styles/lv_example_style_13.o
+
+# target to build an object file
+examples/styles/lv_example_style_13.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_13.c.o
+.PHONY : examples/styles/lv_example_style_13.c.o
+
+examples/styles/lv_example_style_13.i: examples/styles/lv_example_style_13.c.i
+
+.PHONY : examples/styles/lv_example_style_13.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_13.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_13.c.i
+.PHONY : examples/styles/lv_example_style_13.c.i
+
+examples/styles/lv_example_style_13.s: examples/styles/lv_example_style_13.c.s
+
+.PHONY : examples/styles/lv_example_style_13.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_13.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_13.c.s
+.PHONY : examples/styles/lv_example_style_13.c.s
+
+examples/styles/lv_example_style_14.o: examples/styles/lv_example_style_14.c.o
+
+.PHONY : examples/styles/lv_example_style_14.o
+
+# target to build an object file
+examples/styles/lv_example_style_14.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_14.c.o
+.PHONY : examples/styles/lv_example_style_14.c.o
+
+examples/styles/lv_example_style_14.i: examples/styles/lv_example_style_14.c.i
+
+.PHONY : examples/styles/lv_example_style_14.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_14.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_14.c.i
+.PHONY : examples/styles/lv_example_style_14.c.i
+
+examples/styles/lv_example_style_14.s: examples/styles/lv_example_style_14.c.s
+
+.PHONY : examples/styles/lv_example_style_14.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_14.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_14.c.s
+.PHONY : examples/styles/lv_example_style_14.c.s
+
+examples/styles/lv_example_style_15.o: examples/styles/lv_example_style_15.c.o
+
+.PHONY : examples/styles/lv_example_style_15.o
+
+# target to build an object file
+examples/styles/lv_example_style_15.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_15.c.o
+.PHONY : examples/styles/lv_example_style_15.c.o
+
+examples/styles/lv_example_style_15.i: examples/styles/lv_example_style_15.c.i
+
+.PHONY : examples/styles/lv_example_style_15.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_15.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_15.c.i
+.PHONY : examples/styles/lv_example_style_15.c.i
+
+examples/styles/lv_example_style_15.s: examples/styles/lv_example_style_15.c.s
+
+.PHONY : examples/styles/lv_example_style_15.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_15.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_15.c.s
+.PHONY : examples/styles/lv_example_style_15.c.s
+
+examples/styles/lv_example_style_16.o: examples/styles/lv_example_style_16.c.o
+
+.PHONY : examples/styles/lv_example_style_16.o
+
+# target to build an object file
+examples/styles/lv_example_style_16.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_16.c.o
+.PHONY : examples/styles/lv_example_style_16.c.o
+
+examples/styles/lv_example_style_16.i: examples/styles/lv_example_style_16.c.i
+
+.PHONY : examples/styles/lv_example_style_16.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_16.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_16.c.i
+.PHONY : examples/styles/lv_example_style_16.c.i
+
+examples/styles/lv_example_style_16.s: examples/styles/lv_example_style_16.c.s
+
+.PHONY : examples/styles/lv_example_style_16.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_16.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_16.c.s
+.PHONY : examples/styles/lv_example_style_16.c.s
+
+examples/styles/lv_example_style_17.o: examples/styles/lv_example_style_17.c.o
+
+.PHONY : examples/styles/lv_example_style_17.o
+
+# target to build an object file
+examples/styles/lv_example_style_17.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_17.c.o
+.PHONY : examples/styles/lv_example_style_17.c.o
+
+examples/styles/lv_example_style_17.i: examples/styles/lv_example_style_17.c.i
+
+.PHONY : examples/styles/lv_example_style_17.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_17.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_17.c.i
+.PHONY : examples/styles/lv_example_style_17.c.i
+
+examples/styles/lv_example_style_17.s: examples/styles/lv_example_style_17.c.s
+
+.PHONY : examples/styles/lv_example_style_17.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_17.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_17.c.s
+.PHONY : examples/styles/lv_example_style_17.c.s
+
+examples/styles/lv_example_style_18.o: examples/styles/lv_example_style_18.c.o
+
+.PHONY : examples/styles/lv_example_style_18.o
+
+# target to build an object file
+examples/styles/lv_example_style_18.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_18.c.o
+.PHONY : examples/styles/lv_example_style_18.c.o
+
+examples/styles/lv_example_style_18.i: examples/styles/lv_example_style_18.c.i
+
+.PHONY : examples/styles/lv_example_style_18.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_18.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_18.c.i
+.PHONY : examples/styles/lv_example_style_18.c.i
+
+examples/styles/lv_example_style_18.s: examples/styles/lv_example_style_18.c.s
+
+.PHONY : examples/styles/lv_example_style_18.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_18.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_18.c.s
+.PHONY : examples/styles/lv_example_style_18.c.s
+
+examples/styles/lv_example_style_19.o: examples/styles/lv_example_style_19.c.o
+
+.PHONY : examples/styles/lv_example_style_19.o
+
+# target to build an object file
+examples/styles/lv_example_style_19.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_19.c.o
+.PHONY : examples/styles/lv_example_style_19.c.o
+
+examples/styles/lv_example_style_19.i: examples/styles/lv_example_style_19.c.i
+
+.PHONY : examples/styles/lv_example_style_19.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_19.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_19.c.i
+.PHONY : examples/styles/lv_example_style_19.c.i
+
+examples/styles/lv_example_style_19.s: examples/styles/lv_example_style_19.c.s
+
+.PHONY : examples/styles/lv_example_style_19.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_19.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_19.c.s
+.PHONY : examples/styles/lv_example_style_19.c.s
+
+examples/styles/lv_example_style_2.o: examples/styles/lv_example_style_2.c.o
+
+.PHONY : examples/styles/lv_example_style_2.o
+
+# target to build an object file
+examples/styles/lv_example_style_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_2.c.o
+.PHONY : examples/styles/lv_example_style_2.c.o
+
+examples/styles/lv_example_style_2.i: examples/styles/lv_example_style_2.c.i
+
+.PHONY : examples/styles/lv_example_style_2.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_2.c.i
+.PHONY : examples/styles/lv_example_style_2.c.i
+
+examples/styles/lv_example_style_2.s: examples/styles/lv_example_style_2.c.s
+
+.PHONY : examples/styles/lv_example_style_2.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_2.c.s
+.PHONY : examples/styles/lv_example_style_2.c.s
+
+examples/styles/lv_example_style_3.o: examples/styles/lv_example_style_3.c.o
+
+.PHONY : examples/styles/lv_example_style_3.o
+
+# target to build an object file
+examples/styles/lv_example_style_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_3.c.o
+.PHONY : examples/styles/lv_example_style_3.c.o
+
+examples/styles/lv_example_style_3.i: examples/styles/lv_example_style_3.c.i
+
+.PHONY : examples/styles/lv_example_style_3.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_3.c.i
+.PHONY : examples/styles/lv_example_style_3.c.i
+
+examples/styles/lv_example_style_3.s: examples/styles/lv_example_style_3.c.s
+
+.PHONY : examples/styles/lv_example_style_3.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_3.c.s
+.PHONY : examples/styles/lv_example_style_3.c.s
+
+examples/styles/lv_example_style_4.o: examples/styles/lv_example_style_4.c.o
+
+.PHONY : examples/styles/lv_example_style_4.o
+
+# target to build an object file
+examples/styles/lv_example_style_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_4.c.o
+.PHONY : examples/styles/lv_example_style_4.c.o
+
+examples/styles/lv_example_style_4.i: examples/styles/lv_example_style_4.c.i
+
+.PHONY : examples/styles/lv_example_style_4.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_4.c.i
+.PHONY : examples/styles/lv_example_style_4.c.i
+
+examples/styles/lv_example_style_4.s: examples/styles/lv_example_style_4.c.s
+
+.PHONY : examples/styles/lv_example_style_4.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_4.c.s
+.PHONY : examples/styles/lv_example_style_4.c.s
+
+examples/styles/lv_example_style_5.o: examples/styles/lv_example_style_5.c.o
+
+.PHONY : examples/styles/lv_example_style_5.o
+
+# target to build an object file
+examples/styles/lv_example_style_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_5.c.o
+.PHONY : examples/styles/lv_example_style_5.c.o
+
+examples/styles/lv_example_style_5.i: examples/styles/lv_example_style_5.c.i
+
+.PHONY : examples/styles/lv_example_style_5.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_5.c.i
+.PHONY : examples/styles/lv_example_style_5.c.i
+
+examples/styles/lv_example_style_5.s: examples/styles/lv_example_style_5.c.s
+
+.PHONY : examples/styles/lv_example_style_5.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_5.c.s
+.PHONY : examples/styles/lv_example_style_5.c.s
+
+examples/styles/lv_example_style_6.o: examples/styles/lv_example_style_6.c.o
+
+.PHONY : examples/styles/lv_example_style_6.o
+
+# target to build an object file
+examples/styles/lv_example_style_6.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_6.c.o
+.PHONY : examples/styles/lv_example_style_6.c.o
+
+examples/styles/lv_example_style_6.i: examples/styles/lv_example_style_6.c.i
+
+.PHONY : examples/styles/lv_example_style_6.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_6.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_6.c.i
+.PHONY : examples/styles/lv_example_style_6.c.i
+
+examples/styles/lv_example_style_6.s: examples/styles/lv_example_style_6.c.s
+
+.PHONY : examples/styles/lv_example_style_6.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_6.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_6.c.s
+.PHONY : examples/styles/lv_example_style_6.c.s
+
+examples/styles/lv_example_style_7.o: examples/styles/lv_example_style_7.c.o
+
+.PHONY : examples/styles/lv_example_style_7.o
+
+# target to build an object file
+examples/styles/lv_example_style_7.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_7.c.o
+.PHONY : examples/styles/lv_example_style_7.c.o
+
+examples/styles/lv_example_style_7.i: examples/styles/lv_example_style_7.c.i
+
+.PHONY : examples/styles/lv_example_style_7.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_7.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_7.c.i
+.PHONY : examples/styles/lv_example_style_7.c.i
+
+examples/styles/lv_example_style_7.s: examples/styles/lv_example_style_7.c.s
+
+.PHONY : examples/styles/lv_example_style_7.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_7.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_7.c.s
+.PHONY : examples/styles/lv_example_style_7.c.s
+
+examples/styles/lv_example_style_8.o: examples/styles/lv_example_style_8.c.o
+
+.PHONY : examples/styles/lv_example_style_8.o
+
+# target to build an object file
+examples/styles/lv_example_style_8.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_8.c.o
+.PHONY : examples/styles/lv_example_style_8.c.o
+
+examples/styles/lv_example_style_8.i: examples/styles/lv_example_style_8.c.i
+
+.PHONY : examples/styles/lv_example_style_8.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_8.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_8.c.i
+.PHONY : examples/styles/lv_example_style_8.c.i
+
+examples/styles/lv_example_style_8.s: examples/styles/lv_example_style_8.c.s
+
+.PHONY : examples/styles/lv_example_style_8.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_8.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_8.c.s
+.PHONY : examples/styles/lv_example_style_8.c.s
+
+examples/styles/lv_example_style_9.o: examples/styles/lv_example_style_9.c.o
+
+.PHONY : examples/styles/lv_example_style_9.o
+
+# target to build an object file
+examples/styles/lv_example_style_9.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_9.c.o
+.PHONY : examples/styles/lv_example_style_9.c.o
+
+examples/styles/lv_example_style_9.i: examples/styles/lv_example_style_9.c.i
+
+.PHONY : examples/styles/lv_example_style_9.i
+
+# target to preprocess a source file
+examples/styles/lv_example_style_9.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_9.c.i
+.PHONY : examples/styles/lv_example_style_9.c.i
+
+examples/styles/lv_example_style_9.s: examples/styles/lv_example_style_9.c.s
+
+.PHONY : examples/styles/lv_example_style_9.s
+
+# target to generate assembly for a file
+examples/styles/lv_example_style_9.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/styles/lv_example_style_9.c.s
+.PHONY : examples/styles/lv_example_style_9.c.s
+
+examples/widgets/animimg/lv_example_animimg_1.o: examples/widgets/animimg/lv_example_animimg_1.c.o
+
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.o
+
+# target to build an object file
+examples/widgets/animimg/lv_example_animimg_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/animimg/lv_example_animimg_1.c.o
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.c.o
+
+examples/widgets/animimg/lv_example_animimg_1.i: examples/widgets/animimg/lv_example_animimg_1.c.i
+
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.i
+
+# target to preprocess a source file
+examples/widgets/animimg/lv_example_animimg_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/animimg/lv_example_animimg_1.c.i
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.c.i
+
+examples/widgets/animimg/lv_example_animimg_1.s: examples/widgets/animimg/lv_example_animimg_1.c.s
+
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.s
+
+# target to generate assembly for a file
+examples/widgets/animimg/lv_example_animimg_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/animimg/lv_example_animimg_1.c.s
+.PHONY : examples/widgets/animimg/lv_example_animimg_1.c.s
+
+examples/widgets/arc/lv_example_arc_1.o: examples/widgets/arc/lv_example_arc_1.c.o
+
+.PHONY : examples/widgets/arc/lv_example_arc_1.o
+
+# target to build an object file
+examples/widgets/arc/lv_example_arc_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_1.c.o
+.PHONY : examples/widgets/arc/lv_example_arc_1.c.o
+
+examples/widgets/arc/lv_example_arc_1.i: examples/widgets/arc/lv_example_arc_1.c.i
+
+.PHONY : examples/widgets/arc/lv_example_arc_1.i
+
+# target to preprocess a source file
+examples/widgets/arc/lv_example_arc_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_1.c.i
+.PHONY : examples/widgets/arc/lv_example_arc_1.c.i
+
+examples/widgets/arc/lv_example_arc_1.s: examples/widgets/arc/lv_example_arc_1.c.s
+
+.PHONY : examples/widgets/arc/lv_example_arc_1.s
+
+# target to generate assembly for a file
+examples/widgets/arc/lv_example_arc_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_1.c.s
+.PHONY : examples/widgets/arc/lv_example_arc_1.c.s
+
+examples/widgets/arc/lv_example_arc_2.o: examples/widgets/arc/lv_example_arc_2.c.o
+
+.PHONY : examples/widgets/arc/lv_example_arc_2.o
+
+# target to build an object file
+examples/widgets/arc/lv_example_arc_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_2.c.o
+.PHONY : examples/widgets/arc/lv_example_arc_2.c.o
+
+examples/widgets/arc/lv_example_arc_2.i: examples/widgets/arc/lv_example_arc_2.c.i
+
+.PHONY : examples/widgets/arc/lv_example_arc_2.i
+
+# target to preprocess a source file
+examples/widgets/arc/lv_example_arc_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_2.c.i
+.PHONY : examples/widgets/arc/lv_example_arc_2.c.i
+
+examples/widgets/arc/lv_example_arc_2.s: examples/widgets/arc/lv_example_arc_2.c.s
+
+.PHONY : examples/widgets/arc/lv_example_arc_2.s
+
+# target to generate assembly for a file
+examples/widgets/arc/lv_example_arc_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_2.c.s
+.PHONY : examples/widgets/arc/lv_example_arc_2.c.s
+
+examples/widgets/arc/lv_example_arc_3.o: examples/widgets/arc/lv_example_arc_3.c.o
+
+.PHONY : examples/widgets/arc/lv_example_arc_3.o
+
+# target to build an object file
+examples/widgets/arc/lv_example_arc_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_3.c.o
+.PHONY : examples/widgets/arc/lv_example_arc_3.c.o
+
+examples/widgets/arc/lv_example_arc_3.i: examples/widgets/arc/lv_example_arc_3.c.i
+
+.PHONY : examples/widgets/arc/lv_example_arc_3.i
+
+# target to preprocess a source file
+examples/widgets/arc/lv_example_arc_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_3.c.i
+.PHONY : examples/widgets/arc/lv_example_arc_3.c.i
+
+examples/widgets/arc/lv_example_arc_3.s: examples/widgets/arc/lv_example_arc_3.c.s
+
+.PHONY : examples/widgets/arc/lv_example_arc_3.s
+
+# target to generate assembly for a file
+examples/widgets/arc/lv_example_arc_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/arc/lv_example_arc_3.c.s
+.PHONY : examples/widgets/arc/lv_example_arc_3.c.s
+
+examples/widgets/bar/lv_example_bar_1.o: examples/widgets/bar/lv_example_bar_1.c.o
+
+.PHONY : examples/widgets/bar/lv_example_bar_1.o
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_1.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_1.c.o
+
+examples/widgets/bar/lv_example_bar_1.i: examples/widgets/bar/lv_example_bar_1.c.i
+
+.PHONY : examples/widgets/bar/lv_example_bar_1.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_1.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_1.c.i
+
+examples/widgets/bar/lv_example_bar_1.s: examples/widgets/bar/lv_example_bar_1.c.s
+
+.PHONY : examples/widgets/bar/lv_example_bar_1.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_1.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_1.c.s
+
+examples/widgets/bar/lv_example_bar_2.o: examples/widgets/bar/lv_example_bar_2.c.o
+
+.PHONY : examples/widgets/bar/lv_example_bar_2.o
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_2.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_2.c.o
+
+examples/widgets/bar/lv_example_bar_2.i: examples/widgets/bar/lv_example_bar_2.c.i
+
+.PHONY : examples/widgets/bar/lv_example_bar_2.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_2.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_2.c.i
+
+examples/widgets/bar/lv_example_bar_2.s: examples/widgets/bar/lv_example_bar_2.c.s
+
+.PHONY : examples/widgets/bar/lv_example_bar_2.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_2.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_2.c.s
+
+examples/widgets/bar/lv_example_bar_3.o: examples/widgets/bar/lv_example_bar_3.c.o
+
+.PHONY : examples/widgets/bar/lv_example_bar_3.o
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_3.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_3.c.o
+
+examples/widgets/bar/lv_example_bar_3.i: examples/widgets/bar/lv_example_bar_3.c.i
+
+.PHONY : examples/widgets/bar/lv_example_bar_3.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_3.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_3.c.i
+
+examples/widgets/bar/lv_example_bar_3.s: examples/widgets/bar/lv_example_bar_3.c.s
+
+.PHONY : examples/widgets/bar/lv_example_bar_3.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_3.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_3.c.s
+
+examples/widgets/bar/lv_example_bar_4.o: examples/widgets/bar/lv_example_bar_4.c.o
+
+.PHONY : examples/widgets/bar/lv_example_bar_4.o
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_4.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_4.c.o
+
+examples/widgets/bar/lv_example_bar_4.i: examples/widgets/bar/lv_example_bar_4.c.i
+
+.PHONY : examples/widgets/bar/lv_example_bar_4.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_4.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_4.c.i
+
+examples/widgets/bar/lv_example_bar_4.s: examples/widgets/bar/lv_example_bar_4.c.s
+
+.PHONY : examples/widgets/bar/lv_example_bar_4.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_4.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_4.c.s
+
+examples/widgets/bar/lv_example_bar_5.o: examples/widgets/bar/lv_example_bar_5.c.o
+
+.PHONY : examples/widgets/bar/lv_example_bar_5.o
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_5.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_5.c.o
+
+examples/widgets/bar/lv_example_bar_5.i: examples/widgets/bar/lv_example_bar_5.c.i
+
+.PHONY : examples/widgets/bar/lv_example_bar_5.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_5.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_5.c.i
+
+examples/widgets/bar/lv_example_bar_5.s: examples/widgets/bar/lv_example_bar_5.c.s
+
+.PHONY : examples/widgets/bar/lv_example_bar_5.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_5.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_5.c.s
+
+examples/widgets/bar/lv_example_bar_6.o: examples/widgets/bar/lv_example_bar_6.c.o
+
+.PHONY : examples/widgets/bar/lv_example_bar_6.o
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_6.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_6.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_6.c.o
+
+examples/widgets/bar/lv_example_bar_6.i: examples/widgets/bar/lv_example_bar_6.c.i
+
+.PHONY : examples/widgets/bar/lv_example_bar_6.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_6.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_6.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_6.c.i
+
+examples/widgets/bar/lv_example_bar_6.s: examples/widgets/bar/lv_example_bar_6.c.s
+
+.PHONY : examples/widgets/bar/lv_example_bar_6.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_6.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_6.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_6.c.s
+
+examples/widgets/bar/lv_example_bar_7.o: examples/widgets/bar/lv_example_bar_7.c.o
+
+.PHONY : examples/widgets/bar/lv_example_bar_7.o
+
+# target to build an object file
+examples/widgets/bar/lv_example_bar_7.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_7.c.o
+.PHONY : examples/widgets/bar/lv_example_bar_7.c.o
+
+examples/widgets/bar/lv_example_bar_7.i: examples/widgets/bar/lv_example_bar_7.c.i
+
+.PHONY : examples/widgets/bar/lv_example_bar_7.i
+
+# target to preprocess a source file
+examples/widgets/bar/lv_example_bar_7.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_7.c.i
+.PHONY : examples/widgets/bar/lv_example_bar_7.c.i
+
+examples/widgets/bar/lv_example_bar_7.s: examples/widgets/bar/lv_example_bar_7.c.s
+
+.PHONY : examples/widgets/bar/lv_example_bar_7.s
+
+# target to generate assembly for a file
+examples/widgets/bar/lv_example_bar_7.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/bar/lv_example_bar_7.c.s
+.PHONY : examples/widgets/bar/lv_example_bar_7.c.s
+
+examples/widgets/button/lv_example_button_1.o: examples/widgets/button/lv_example_button_1.c.o
+
+.PHONY : examples/widgets/button/lv_example_button_1.o
+
+# target to build an object file
+examples/widgets/button/lv_example_button_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/button/lv_example_button_1.c.o
+.PHONY : examples/widgets/button/lv_example_button_1.c.o
+
+examples/widgets/button/lv_example_button_1.i: examples/widgets/button/lv_example_button_1.c.i
+
+.PHONY : examples/widgets/button/lv_example_button_1.i
+
+# target to preprocess a source file
+examples/widgets/button/lv_example_button_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/button/lv_example_button_1.c.i
+.PHONY : examples/widgets/button/lv_example_button_1.c.i
+
+examples/widgets/button/lv_example_button_1.s: examples/widgets/button/lv_example_button_1.c.s
+
+.PHONY : examples/widgets/button/lv_example_button_1.s
+
+# target to generate assembly for a file
+examples/widgets/button/lv_example_button_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/button/lv_example_button_1.c.s
+.PHONY : examples/widgets/button/lv_example_button_1.c.s
+
+examples/widgets/button/lv_example_button_2.o: examples/widgets/button/lv_example_button_2.c.o
+
+.PHONY : examples/widgets/button/lv_example_button_2.o
+
+# target to build an object file
+examples/widgets/button/lv_example_button_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/button/lv_example_button_2.c.o
+.PHONY : examples/widgets/button/lv_example_button_2.c.o
+
+examples/widgets/button/lv_example_button_2.i: examples/widgets/button/lv_example_button_2.c.i
+
+.PHONY : examples/widgets/button/lv_example_button_2.i
+
+# target to preprocess a source file
+examples/widgets/button/lv_example_button_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/button/lv_example_button_2.c.i
+.PHONY : examples/widgets/button/lv_example_button_2.c.i
+
+examples/widgets/button/lv_example_button_2.s: examples/widgets/button/lv_example_button_2.c.s
+
+.PHONY : examples/widgets/button/lv_example_button_2.s
+
+# target to generate assembly for a file
+examples/widgets/button/lv_example_button_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/button/lv_example_button_2.c.s
+.PHONY : examples/widgets/button/lv_example_button_2.c.s
+
+examples/widgets/button/lv_example_button_3.o: examples/widgets/button/lv_example_button_3.c.o
+
+.PHONY : examples/widgets/button/lv_example_button_3.o
+
+# target to build an object file
+examples/widgets/button/lv_example_button_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/button/lv_example_button_3.c.o
+.PHONY : examples/widgets/button/lv_example_button_3.c.o
+
+examples/widgets/button/lv_example_button_3.i: examples/widgets/button/lv_example_button_3.c.i
+
+.PHONY : examples/widgets/button/lv_example_button_3.i
+
+# target to preprocess a source file
+examples/widgets/button/lv_example_button_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/button/lv_example_button_3.c.i
+.PHONY : examples/widgets/button/lv_example_button_3.c.i
+
+examples/widgets/button/lv_example_button_3.s: examples/widgets/button/lv_example_button_3.c.s
+
+.PHONY : examples/widgets/button/lv_example_button_3.s
+
+# target to generate assembly for a file
+examples/widgets/button/lv_example_button_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/button/lv_example_button_3.c.s
+.PHONY : examples/widgets/button/lv_example_button_3.c.s
+
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.o: examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.o
+
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.o
+
+# target to build an object file
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.o
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.o
+
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.i: examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.i
+
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.i
+
+# target to preprocess a source file
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.i
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.i
+
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.s: examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.s
+
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.s
+
+# target to generate assembly for a file
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.s
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.c.s
+
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.o: examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.o
+
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.o
+
+# target to build an object file
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.o
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.o
+
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.i: examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.i
+
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.i
+
+# target to preprocess a source file
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.i
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.i
+
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.s: examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.s
+
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.s
+
+# target to generate assembly for a file
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.s
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.c.s
+
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.o: examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.o
+
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.o
+
+# target to build an object file
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.o
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.o
+
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.i: examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.i
+
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.i
+
+# target to preprocess a source file
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.i
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.i
+
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.s: examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.s
+
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.s
+
+# target to generate assembly for a file
+examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.s
+.PHONY : examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.c.s
+
+examples/widgets/calendar/lv_example_calendar_1.o: examples/widgets/calendar/lv_example_calendar_1.c.o
+
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.o
+
+# target to build an object file
+examples/widgets/calendar/lv_example_calendar_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/calendar/lv_example_calendar_1.c.o
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.c.o
+
+examples/widgets/calendar/lv_example_calendar_1.i: examples/widgets/calendar/lv_example_calendar_1.c.i
+
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.i
+
+# target to preprocess a source file
+examples/widgets/calendar/lv_example_calendar_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/calendar/lv_example_calendar_1.c.i
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.c.i
+
+examples/widgets/calendar/lv_example_calendar_1.s: examples/widgets/calendar/lv_example_calendar_1.c.s
+
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.s
+
+# target to generate assembly for a file
+examples/widgets/calendar/lv_example_calendar_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/calendar/lv_example_calendar_1.c.s
+.PHONY : examples/widgets/calendar/lv_example_calendar_1.c.s
+
+examples/widgets/calendar/lv_example_calendar_2.o: examples/widgets/calendar/lv_example_calendar_2.c.o
+
+.PHONY : examples/widgets/calendar/lv_example_calendar_2.o
+
+# target to build an object file
+examples/widgets/calendar/lv_example_calendar_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/calendar/lv_example_calendar_2.c.o
+.PHONY : examples/widgets/calendar/lv_example_calendar_2.c.o
+
+examples/widgets/calendar/lv_example_calendar_2.i: examples/widgets/calendar/lv_example_calendar_2.c.i
+
+.PHONY : examples/widgets/calendar/lv_example_calendar_2.i
+
+# target to preprocess a source file
+examples/widgets/calendar/lv_example_calendar_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/calendar/lv_example_calendar_2.c.i
+.PHONY : examples/widgets/calendar/lv_example_calendar_2.c.i
+
+examples/widgets/calendar/lv_example_calendar_2.s: examples/widgets/calendar/lv_example_calendar_2.c.s
+
+.PHONY : examples/widgets/calendar/lv_example_calendar_2.s
+
+# target to generate assembly for a file
+examples/widgets/calendar/lv_example_calendar_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/calendar/lv_example_calendar_2.c.s
+.PHONY : examples/widgets/calendar/lv_example_calendar_2.c.s
+
+examples/widgets/canvas/lv_example_canvas_1.o: examples/widgets/canvas/lv_example_canvas_1.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_1.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.c.o
+
+examples/widgets/canvas/lv_example_canvas_1.i: examples/widgets/canvas/lv_example_canvas_1.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_1.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.c.i
+
+examples/widgets/canvas/lv_example_canvas_1.s: examples/widgets/canvas/lv_example_canvas_1.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_1.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_1.c.s
+
+examples/widgets/canvas/lv_example_canvas_10.o: examples/widgets/canvas/lv_example_canvas_10.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_10.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_10.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_10.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_10.c.o
+
+examples/widgets/canvas/lv_example_canvas_10.i: examples/widgets/canvas/lv_example_canvas_10.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_10.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_10.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_10.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_10.c.i
+
+examples/widgets/canvas/lv_example_canvas_10.s: examples/widgets/canvas/lv_example_canvas_10.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_10.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_10.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_10.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_10.c.s
+
+examples/widgets/canvas/lv_example_canvas_11.o: examples/widgets/canvas/lv_example_canvas_11.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_11.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_11.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_11.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_11.c.o
+
+examples/widgets/canvas/lv_example_canvas_11.i: examples/widgets/canvas/lv_example_canvas_11.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_11.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_11.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_11.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_11.c.i
+
+examples/widgets/canvas/lv_example_canvas_11.s: examples/widgets/canvas/lv_example_canvas_11.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_11.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_11.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_11.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_11.c.s
+
+examples/widgets/canvas/lv_example_canvas_2.o: examples/widgets/canvas/lv_example_canvas_2.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_2.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.c.o
+
+examples/widgets/canvas/lv_example_canvas_2.i: examples/widgets/canvas/lv_example_canvas_2.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_2.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.c.i
+
+examples/widgets/canvas/lv_example_canvas_2.s: examples/widgets/canvas/lv_example_canvas_2.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_2.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_2.c.s
+
+examples/widgets/canvas/lv_example_canvas_3.o: examples/widgets/canvas/lv_example_canvas_3.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_3.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_3.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_3.c.o
+
+examples/widgets/canvas/lv_example_canvas_3.i: examples/widgets/canvas/lv_example_canvas_3.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_3.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_3.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_3.c.i
+
+examples/widgets/canvas/lv_example_canvas_3.s: examples/widgets/canvas/lv_example_canvas_3.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_3.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_3.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_3.c.s
+
+examples/widgets/canvas/lv_example_canvas_4.o: examples/widgets/canvas/lv_example_canvas_4.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_4.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_4.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_4.c.o
+
+examples/widgets/canvas/lv_example_canvas_4.i: examples/widgets/canvas/lv_example_canvas_4.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_4.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_4.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_4.c.i
+
+examples/widgets/canvas/lv_example_canvas_4.s: examples/widgets/canvas/lv_example_canvas_4.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_4.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_4.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_4.c.s
+
+examples/widgets/canvas/lv_example_canvas_5.o: examples/widgets/canvas/lv_example_canvas_5.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_5.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_5.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_5.c.o
+
+examples/widgets/canvas/lv_example_canvas_5.i: examples/widgets/canvas/lv_example_canvas_5.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_5.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_5.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_5.c.i
+
+examples/widgets/canvas/lv_example_canvas_5.s: examples/widgets/canvas/lv_example_canvas_5.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_5.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_5.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_5.c.s
+
+examples/widgets/canvas/lv_example_canvas_6.o: examples/widgets/canvas/lv_example_canvas_6.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_6.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_6.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_6.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_6.c.o
+
+examples/widgets/canvas/lv_example_canvas_6.i: examples/widgets/canvas/lv_example_canvas_6.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_6.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_6.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_6.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_6.c.i
+
+examples/widgets/canvas/lv_example_canvas_6.s: examples/widgets/canvas/lv_example_canvas_6.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_6.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_6.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_6.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_6.c.s
+
+examples/widgets/canvas/lv_example_canvas_7.o: examples/widgets/canvas/lv_example_canvas_7.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_7.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_7.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_7.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_7.c.o
+
+examples/widgets/canvas/lv_example_canvas_7.i: examples/widgets/canvas/lv_example_canvas_7.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_7.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_7.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_7.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_7.c.i
+
+examples/widgets/canvas/lv_example_canvas_7.s: examples/widgets/canvas/lv_example_canvas_7.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_7.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_7.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_7.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_7.c.s
+
+examples/widgets/canvas/lv_example_canvas_8.o: examples/widgets/canvas/lv_example_canvas_8.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_8.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_8.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_8.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_8.c.o
+
+examples/widgets/canvas/lv_example_canvas_8.i: examples/widgets/canvas/lv_example_canvas_8.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_8.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_8.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_8.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_8.c.i
+
+examples/widgets/canvas/lv_example_canvas_8.s: examples/widgets/canvas/lv_example_canvas_8.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_8.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_8.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_8.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_8.c.s
+
+examples/widgets/canvas/lv_example_canvas_9.o: examples/widgets/canvas/lv_example_canvas_9.c.o
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_9.o
+
+# target to build an object file
+examples/widgets/canvas/lv_example_canvas_9.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_9.c.o
+.PHONY : examples/widgets/canvas/lv_example_canvas_9.c.o
+
+examples/widgets/canvas/lv_example_canvas_9.i: examples/widgets/canvas/lv_example_canvas_9.c.i
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_9.i
+
+# target to preprocess a source file
+examples/widgets/canvas/lv_example_canvas_9.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_9.c.i
+.PHONY : examples/widgets/canvas/lv_example_canvas_9.c.i
+
+examples/widgets/canvas/lv_example_canvas_9.s: examples/widgets/canvas/lv_example_canvas_9.c.s
+
+.PHONY : examples/widgets/canvas/lv_example_canvas_9.s
+
+# target to generate assembly for a file
+examples/widgets/canvas/lv_example_canvas_9.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/canvas/lv_example_canvas_9.c.s
+.PHONY : examples/widgets/canvas/lv_example_canvas_9.c.s
+
+examples/widgets/chart/lv_example_chart_1.o: examples/widgets/chart/lv_example_chart_1.c.o
+
+.PHONY : examples/widgets/chart/lv_example_chart_1.o
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_1.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_1.c.o
+
+examples/widgets/chart/lv_example_chart_1.i: examples/widgets/chart/lv_example_chart_1.c.i
+
+.PHONY : examples/widgets/chart/lv_example_chart_1.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_1.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_1.c.i
+
+examples/widgets/chart/lv_example_chart_1.s: examples/widgets/chart/lv_example_chart_1.c.s
+
+.PHONY : examples/widgets/chart/lv_example_chart_1.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_1.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_1.c.s
+
+examples/widgets/chart/lv_example_chart_2.o: examples/widgets/chart/lv_example_chart_2.c.o
+
+.PHONY : examples/widgets/chart/lv_example_chart_2.o
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_2.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_2.c.o
+
+examples/widgets/chart/lv_example_chart_2.i: examples/widgets/chart/lv_example_chart_2.c.i
+
+.PHONY : examples/widgets/chart/lv_example_chart_2.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_2.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_2.c.i
+
+examples/widgets/chart/lv_example_chart_2.s: examples/widgets/chart/lv_example_chart_2.c.s
+
+.PHONY : examples/widgets/chart/lv_example_chart_2.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_2.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_2.c.s
+
+examples/widgets/chart/lv_example_chart_3.o: examples/widgets/chart/lv_example_chart_3.c.o
+
+.PHONY : examples/widgets/chart/lv_example_chart_3.o
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_3.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_3.c.o
+
+examples/widgets/chart/lv_example_chart_3.i: examples/widgets/chart/lv_example_chart_3.c.i
+
+.PHONY : examples/widgets/chart/lv_example_chart_3.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_3.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_3.c.i
+
+examples/widgets/chart/lv_example_chart_3.s: examples/widgets/chart/lv_example_chart_3.c.s
+
+.PHONY : examples/widgets/chart/lv_example_chart_3.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_3.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_3.c.s
+
+examples/widgets/chart/lv_example_chart_4.o: examples/widgets/chart/lv_example_chart_4.c.o
+
+.PHONY : examples/widgets/chart/lv_example_chart_4.o
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_4.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_4.c.o
+
+examples/widgets/chart/lv_example_chart_4.i: examples/widgets/chart/lv_example_chart_4.c.i
+
+.PHONY : examples/widgets/chart/lv_example_chart_4.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_4.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_4.c.i
+
+examples/widgets/chart/lv_example_chart_4.s: examples/widgets/chart/lv_example_chart_4.c.s
+
+.PHONY : examples/widgets/chart/lv_example_chart_4.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_4.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_4.c.s
+
+examples/widgets/chart/lv_example_chart_5.o: examples/widgets/chart/lv_example_chart_5.c.o
+
+.PHONY : examples/widgets/chart/lv_example_chart_5.o
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_5.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_5.c.o
+
+examples/widgets/chart/lv_example_chart_5.i: examples/widgets/chart/lv_example_chart_5.c.i
+
+.PHONY : examples/widgets/chart/lv_example_chart_5.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_5.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_5.c.i
+
+examples/widgets/chart/lv_example_chart_5.s: examples/widgets/chart/lv_example_chart_5.c.s
+
+.PHONY : examples/widgets/chart/lv_example_chart_5.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_5.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_5.c.s
+
+examples/widgets/chart/lv_example_chart_6.o: examples/widgets/chart/lv_example_chart_6.c.o
+
+.PHONY : examples/widgets/chart/lv_example_chart_6.o
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_6.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_6.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_6.c.o
+
+examples/widgets/chart/lv_example_chart_6.i: examples/widgets/chart/lv_example_chart_6.c.i
+
+.PHONY : examples/widgets/chart/lv_example_chart_6.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_6.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_6.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_6.c.i
+
+examples/widgets/chart/lv_example_chart_6.s: examples/widgets/chart/lv_example_chart_6.c.s
+
+.PHONY : examples/widgets/chart/lv_example_chart_6.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_6.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_6.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_6.c.s
+
+examples/widgets/chart/lv_example_chart_7.o: examples/widgets/chart/lv_example_chart_7.c.o
+
+.PHONY : examples/widgets/chart/lv_example_chart_7.o
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_7.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_7.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_7.c.o
+
+examples/widgets/chart/lv_example_chart_7.i: examples/widgets/chart/lv_example_chart_7.c.i
+
+.PHONY : examples/widgets/chart/lv_example_chart_7.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_7.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_7.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_7.c.i
+
+examples/widgets/chart/lv_example_chart_7.s: examples/widgets/chart/lv_example_chart_7.c.s
+
+.PHONY : examples/widgets/chart/lv_example_chart_7.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_7.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_7.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_7.c.s
+
+examples/widgets/chart/lv_example_chart_8.o: examples/widgets/chart/lv_example_chart_8.c.o
+
+.PHONY : examples/widgets/chart/lv_example_chart_8.o
+
+# target to build an object file
+examples/widgets/chart/lv_example_chart_8.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_8.c.o
+.PHONY : examples/widgets/chart/lv_example_chart_8.c.o
+
+examples/widgets/chart/lv_example_chart_8.i: examples/widgets/chart/lv_example_chart_8.c.i
+
+.PHONY : examples/widgets/chart/lv_example_chart_8.i
+
+# target to preprocess a source file
+examples/widgets/chart/lv_example_chart_8.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_8.c.i
+.PHONY : examples/widgets/chart/lv_example_chart_8.c.i
+
+examples/widgets/chart/lv_example_chart_8.s: examples/widgets/chart/lv_example_chart_8.c.s
+
+.PHONY : examples/widgets/chart/lv_example_chart_8.s
+
+# target to generate assembly for a file
+examples/widgets/chart/lv_example_chart_8.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/chart/lv_example_chart_8.c.s
+.PHONY : examples/widgets/chart/lv_example_chart_8.c.s
+
+examples/widgets/checkbox/lv_example_checkbox_1.o: examples/widgets/checkbox/lv_example_checkbox_1.c.o
+
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.o
+
+# target to build an object file
+examples/widgets/checkbox/lv_example_checkbox_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_1.c.o
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.c.o
+
+examples/widgets/checkbox/lv_example_checkbox_1.i: examples/widgets/checkbox/lv_example_checkbox_1.c.i
+
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.i
+
+# target to preprocess a source file
+examples/widgets/checkbox/lv_example_checkbox_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_1.c.i
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.c.i
+
+examples/widgets/checkbox/lv_example_checkbox_1.s: examples/widgets/checkbox/lv_example_checkbox_1.c.s
+
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.s
+
+# target to generate assembly for a file
+examples/widgets/checkbox/lv_example_checkbox_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_1.c.s
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_1.c.s
+
+examples/widgets/checkbox/lv_example_checkbox_2.o: examples/widgets/checkbox/lv_example_checkbox_2.c.o
+
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.o
+
+# target to build an object file
+examples/widgets/checkbox/lv_example_checkbox_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_2.c.o
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.c.o
+
+examples/widgets/checkbox/lv_example_checkbox_2.i: examples/widgets/checkbox/lv_example_checkbox_2.c.i
+
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.i
+
+# target to preprocess a source file
+examples/widgets/checkbox/lv_example_checkbox_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_2.c.i
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.c.i
+
+examples/widgets/checkbox/lv_example_checkbox_2.s: examples/widgets/checkbox/lv_example_checkbox_2.c.s
+
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.s
+
+# target to generate assembly for a file
+examples/widgets/checkbox/lv_example_checkbox_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/checkbox/lv_example_checkbox_2.c.s
+.PHONY : examples/widgets/checkbox/lv_example_checkbox_2.c.s
+
+examples/widgets/dropdown/lv_example_dropdown_1.o: examples/widgets/dropdown/lv_example_dropdown_1.c.o
+
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.o
+
+# target to build an object file
+examples/widgets/dropdown/lv_example_dropdown_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_1.c.o
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.c.o
+
+examples/widgets/dropdown/lv_example_dropdown_1.i: examples/widgets/dropdown/lv_example_dropdown_1.c.i
+
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.i
+
+# target to preprocess a source file
+examples/widgets/dropdown/lv_example_dropdown_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_1.c.i
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.c.i
+
+examples/widgets/dropdown/lv_example_dropdown_1.s: examples/widgets/dropdown/lv_example_dropdown_1.c.s
+
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.s
+
+# target to generate assembly for a file
+examples/widgets/dropdown/lv_example_dropdown_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_1.c.s
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_1.c.s
+
+examples/widgets/dropdown/lv_example_dropdown_2.o: examples/widgets/dropdown/lv_example_dropdown_2.c.o
+
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.o
+
+# target to build an object file
+examples/widgets/dropdown/lv_example_dropdown_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_2.c.o
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.c.o
+
+examples/widgets/dropdown/lv_example_dropdown_2.i: examples/widgets/dropdown/lv_example_dropdown_2.c.i
+
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.i
+
+# target to preprocess a source file
+examples/widgets/dropdown/lv_example_dropdown_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_2.c.i
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.c.i
+
+examples/widgets/dropdown/lv_example_dropdown_2.s: examples/widgets/dropdown/lv_example_dropdown_2.c.s
+
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.s
+
+# target to generate assembly for a file
+examples/widgets/dropdown/lv_example_dropdown_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_2.c.s
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_2.c.s
+
+examples/widgets/dropdown/lv_example_dropdown_3.o: examples/widgets/dropdown/lv_example_dropdown_3.c.o
+
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.o
+
+# target to build an object file
+examples/widgets/dropdown/lv_example_dropdown_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_3.c.o
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.c.o
+
+examples/widgets/dropdown/lv_example_dropdown_3.i: examples/widgets/dropdown/lv_example_dropdown_3.c.i
+
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.i
+
+# target to preprocess a source file
+examples/widgets/dropdown/lv_example_dropdown_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_3.c.i
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.c.i
+
+examples/widgets/dropdown/lv_example_dropdown_3.s: examples/widgets/dropdown/lv_example_dropdown_3.c.s
+
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.s
+
+# target to generate assembly for a file
+examples/widgets/dropdown/lv_example_dropdown_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/dropdown/lv_example_dropdown_3.c.s
+.PHONY : examples/widgets/dropdown/lv_example_dropdown_3.c.s
+
+examples/widgets/image/lv_example_image_1.o: examples/widgets/image/lv_example_image_1.c.o
+
+.PHONY : examples/widgets/image/lv_example_image_1.o
+
+# target to build an object file
+examples/widgets/image/lv_example_image_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_1.c.o
+.PHONY : examples/widgets/image/lv_example_image_1.c.o
+
+examples/widgets/image/lv_example_image_1.i: examples/widgets/image/lv_example_image_1.c.i
+
+.PHONY : examples/widgets/image/lv_example_image_1.i
+
+# target to preprocess a source file
+examples/widgets/image/lv_example_image_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_1.c.i
+.PHONY : examples/widgets/image/lv_example_image_1.c.i
+
+examples/widgets/image/lv_example_image_1.s: examples/widgets/image/lv_example_image_1.c.s
+
+.PHONY : examples/widgets/image/lv_example_image_1.s
+
+# target to generate assembly for a file
+examples/widgets/image/lv_example_image_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_1.c.s
+.PHONY : examples/widgets/image/lv_example_image_1.c.s
+
+examples/widgets/image/lv_example_image_2.o: examples/widgets/image/lv_example_image_2.c.o
+
+.PHONY : examples/widgets/image/lv_example_image_2.o
+
+# target to build an object file
+examples/widgets/image/lv_example_image_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_2.c.o
+.PHONY : examples/widgets/image/lv_example_image_2.c.o
+
+examples/widgets/image/lv_example_image_2.i: examples/widgets/image/lv_example_image_2.c.i
+
+.PHONY : examples/widgets/image/lv_example_image_2.i
+
+# target to preprocess a source file
+examples/widgets/image/lv_example_image_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_2.c.i
+.PHONY : examples/widgets/image/lv_example_image_2.c.i
+
+examples/widgets/image/lv_example_image_2.s: examples/widgets/image/lv_example_image_2.c.s
+
+.PHONY : examples/widgets/image/lv_example_image_2.s
+
+# target to generate assembly for a file
+examples/widgets/image/lv_example_image_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_2.c.s
+.PHONY : examples/widgets/image/lv_example_image_2.c.s
+
+examples/widgets/image/lv_example_image_3.o: examples/widgets/image/lv_example_image_3.c.o
+
+.PHONY : examples/widgets/image/lv_example_image_3.o
+
+# target to build an object file
+examples/widgets/image/lv_example_image_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_3.c.o
+.PHONY : examples/widgets/image/lv_example_image_3.c.o
+
+examples/widgets/image/lv_example_image_3.i: examples/widgets/image/lv_example_image_3.c.i
+
+.PHONY : examples/widgets/image/lv_example_image_3.i
+
+# target to preprocess a source file
+examples/widgets/image/lv_example_image_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_3.c.i
+.PHONY : examples/widgets/image/lv_example_image_3.c.i
+
+examples/widgets/image/lv_example_image_3.s: examples/widgets/image/lv_example_image_3.c.s
+
+.PHONY : examples/widgets/image/lv_example_image_3.s
+
+# target to generate assembly for a file
+examples/widgets/image/lv_example_image_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_3.c.s
+.PHONY : examples/widgets/image/lv_example_image_3.c.s
+
+examples/widgets/image/lv_example_image_4.o: examples/widgets/image/lv_example_image_4.c.o
+
+.PHONY : examples/widgets/image/lv_example_image_4.o
+
+# target to build an object file
+examples/widgets/image/lv_example_image_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_4.c.o
+.PHONY : examples/widgets/image/lv_example_image_4.c.o
+
+examples/widgets/image/lv_example_image_4.i: examples/widgets/image/lv_example_image_4.c.i
+
+.PHONY : examples/widgets/image/lv_example_image_4.i
+
+# target to preprocess a source file
+examples/widgets/image/lv_example_image_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_4.c.i
+.PHONY : examples/widgets/image/lv_example_image_4.c.i
+
+examples/widgets/image/lv_example_image_4.s: examples/widgets/image/lv_example_image_4.c.s
+
+.PHONY : examples/widgets/image/lv_example_image_4.s
+
+# target to generate assembly for a file
+examples/widgets/image/lv_example_image_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_4.c.s
+.PHONY : examples/widgets/image/lv_example_image_4.c.s
+
+examples/widgets/image/lv_example_image_5.o: examples/widgets/image/lv_example_image_5.c.o
+
+.PHONY : examples/widgets/image/lv_example_image_5.o
+
+# target to build an object file
+examples/widgets/image/lv_example_image_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_5.c.o
+.PHONY : examples/widgets/image/lv_example_image_5.c.o
+
+examples/widgets/image/lv_example_image_5.i: examples/widgets/image/lv_example_image_5.c.i
+
+.PHONY : examples/widgets/image/lv_example_image_5.i
+
+# target to preprocess a source file
+examples/widgets/image/lv_example_image_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_5.c.i
+.PHONY : examples/widgets/image/lv_example_image_5.c.i
+
+examples/widgets/image/lv_example_image_5.s: examples/widgets/image/lv_example_image_5.c.s
+
+.PHONY : examples/widgets/image/lv_example_image_5.s
+
+# target to generate assembly for a file
+examples/widgets/image/lv_example_image_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/image/lv_example_image_5.c.s
+.PHONY : examples/widgets/image/lv_example_image_5.c.s
+
+examples/widgets/imagebutton/lv_example_imagebutton_1.o: examples/widgets/imagebutton/lv_example_imagebutton_1.c.o
+
+.PHONY : examples/widgets/imagebutton/lv_example_imagebutton_1.o
+
+# target to build an object file
+examples/widgets/imagebutton/lv_example_imagebutton_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/imagebutton/lv_example_imagebutton_1.c.o
+.PHONY : examples/widgets/imagebutton/lv_example_imagebutton_1.c.o
+
+examples/widgets/imagebutton/lv_example_imagebutton_1.i: examples/widgets/imagebutton/lv_example_imagebutton_1.c.i
+
+.PHONY : examples/widgets/imagebutton/lv_example_imagebutton_1.i
+
+# target to preprocess a source file
+examples/widgets/imagebutton/lv_example_imagebutton_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/imagebutton/lv_example_imagebutton_1.c.i
+.PHONY : examples/widgets/imagebutton/lv_example_imagebutton_1.c.i
+
+examples/widgets/imagebutton/lv_example_imagebutton_1.s: examples/widgets/imagebutton/lv_example_imagebutton_1.c.s
+
+.PHONY : examples/widgets/imagebutton/lv_example_imagebutton_1.s
+
+# target to generate assembly for a file
+examples/widgets/imagebutton/lv_example_imagebutton_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/imagebutton/lv_example_imagebutton_1.c.s
+.PHONY : examples/widgets/imagebutton/lv_example_imagebutton_1.c.s
+
+examples/widgets/keyboard/lv_example_keyboard_1.o: examples/widgets/keyboard/lv_example_keyboard_1.c.o
+
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.o
+
+# target to build an object file
+examples/widgets/keyboard/lv_example_keyboard_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_1.c.o
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.c.o
+
+examples/widgets/keyboard/lv_example_keyboard_1.i: examples/widgets/keyboard/lv_example_keyboard_1.c.i
+
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.i
+
+# target to preprocess a source file
+examples/widgets/keyboard/lv_example_keyboard_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_1.c.i
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.c.i
+
+examples/widgets/keyboard/lv_example_keyboard_1.s: examples/widgets/keyboard/lv_example_keyboard_1.c.s
+
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.s
+
+# target to generate assembly for a file
+examples/widgets/keyboard/lv_example_keyboard_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_1.c.s
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_1.c.s
+
+examples/widgets/keyboard/lv_example_keyboard_2.o: examples/widgets/keyboard/lv_example_keyboard_2.c.o
+
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_2.o
+
+# target to build an object file
+examples/widgets/keyboard/lv_example_keyboard_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_2.c.o
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_2.c.o
+
+examples/widgets/keyboard/lv_example_keyboard_2.i: examples/widgets/keyboard/lv_example_keyboard_2.c.i
+
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_2.i
+
+# target to preprocess a source file
+examples/widgets/keyboard/lv_example_keyboard_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_2.c.i
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_2.c.i
+
+examples/widgets/keyboard/lv_example_keyboard_2.s: examples/widgets/keyboard/lv_example_keyboard_2.c.s
+
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_2.s
+
+# target to generate assembly for a file
+examples/widgets/keyboard/lv_example_keyboard_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_2.c.s
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_2.c.s
+
+examples/widgets/keyboard/lv_example_keyboard_3.o: examples/widgets/keyboard/lv_example_keyboard_3.c.o
+
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_3.o
+
+# target to build an object file
+examples/widgets/keyboard/lv_example_keyboard_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_3.c.o
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_3.c.o
+
+examples/widgets/keyboard/lv_example_keyboard_3.i: examples/widgets/keyboard/lv_example_keyboard_3.c.i
+
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_3.i
+
+# target to preprocess a source file
+examples/widgets/keyboard/lv_example_keyboard_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_3.c.i
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_3.c.i
+
+examples/widgets/keyboard/lv_example_keyboard_3.s: examples/widgets/keyboard/lv_example_keyboard_3.c.s
+
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_3.s
+
+# target to generate assembly for a file
+examples/widgets/keyboard/lv_example_keyboard_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/keyboard/lv_example_keyboard_3.c.s
+.PHONY : examples/widgets/keyboard/lv_example_keyboard_3.c.s
+
+examples/widgets/label/lv_example_label_1.o: examples/widgets/label/lv_example_label_1.c.o
+
+.PHONY : examples/widgets/label/lv_example_label_1.o
+
+# target to build an object file
+examples/widgets/label/lv_example_label_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_1.c.o
+.PHONY : examples/widgets/label/lv_example_label_1.c.o
+
+examples/widgets/label/lv_example_label_1.i: examples/widgets/label/lv_example_label_1.c.i
+
+.PHONY : examples/widgets/label/lv_example_label_1.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_1.c.i
+.PHONY : examples/widgets/label/lv_example_label_1.c.i
+
+examples/widgets/label/lv_example_label_1.s: examples/widgets/label/lv_example_label_1.c.s
+
+.PHONY : examples/widgets/label/lv_example_label_1.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_1.c.s
+.PHONY : examples/widgets/label/lv_example_label_1.c.s
+
+examples/widgets/label/lv_example_label_2.o: examples/widgets/label/lv_example_label_2.c.o
+
+.PHONY : examples/widgets/label/lv_example_label_2.o
+
+# target to build an object file
+examples/widgets/label/lv_example_label_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_2.c.o
+.PHONY : examples/widgets/label/lv_example_label_2.c.o
+
+examples/widgets/label/lv_example_label_2.i: examples/widgets/label/lv_example_label_2.c.i
+
+.PHONY : examples/widgets/label/lv_example_label_2.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_2.c.i
+.PHONY : examples/widgets/label/lv_example_label_2.c.i
+
+examples/widgets/label/lv_example_label_2.s: examples/widgets/label/lv_example_label_2.c.s
+
+.PHONY : examples/widgets/label/lv_example_label_2.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_2.c.s
+.PHONY : examples/widgets/label/lv_example_label_2.c.s
+
+examples/widgets/label/lv_example_label_3.o: examples/widgets/label/lv_example_label_3.c.o
+
+.PHONY : examples/widgets/label/lv_example_label_3.o
+
+# target to build an object file
+examples/widgets/label/lv_example_label_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_3.c.o
+.PHONY : examples/widgets/label/lv_example_label_3.c.o
+
+examples/widgets/label/lv_example_label_3.i: examples/widgets/label/lv_example_label_3.c.i
+
+.PHONY : examples/widgets/label/lv_example_label_3.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_3.c.i
+.PHONY : examples/widgets/label/lv_example_label_3.c.i
+
+examples/widgets/label/lv_example_label_3.s: examples/widgets/label/lv_example_label_3.c.s
+
+.PHONY : examples/widgets/label/lv_example_label_3.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_3.c.s
+.PHONY : examples/widgets/label/lv_example_label_3.c.s
+
+examples/widgets/label/lv_example_label_4.o: examples/widgets/label/lv_example_label_4.c.o
+
+.PHONY : examples/widgets/label/lv_example_label_4.o
+
+# target to build an object file
+examples/widgets/label/lv_example_label_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_4.c.o
+.PHONY : examples/widgets/label/lv_example_label_4.c.o
+
+examples/widgets/label/lv_example_label_4.i: examples/widgets/label/lv_example_label_4.c.i
+
+.PHONY : examples/widgets/label/lv_example_label_4.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_4.c.i
+.PHONY : examples/widgets/label/lv_example_label_4.c.i
+
+examples/widgets/label/lv_example_label_4.s: examples/widgets/label/lv_example_label_4.c.s
+
+.PHONY : examples/widgets/label/lv_example_label_4.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_4.c.s
+.PHONY : examples/widgets/label/lv_example_label_4.c.s
+
+examples/widgets/label/lv_example_label_5.o: examples/widgets/label/lv_example_label_5.c.o
+
+.PHONY : examples/widgets/label/lv_example_label_5.o
+
+# target to build an object file
+examples/widgets/label/lv_example_label_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_5.c.o
+.PHONY : examples/widgets/label/lv_example_label_5.c.o
+
+examples/widgets/label/lv_example_label_5.i: examples/widgets/label/lv_example_label_5.c.i
+
+.PHONY : examples/widgets/label/lv_example_label_5.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_5.c.i
+.PHONY : examples/widgets/label/lv_example_label_5.c.i
+
+examples/widgets/label/lv_example_label_5.s: examples/widgets/label/lv_example_label_5.c.s
+
+.PHONY : examples/widgets/label/lv_example_label_5.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_5.c.s
+.PHONY : examples/widgets/label/lv_example_label_5.c.s
+
+examples/widgets/label/lv_example_label_6.o: examples/widgets/label/lv_example_label_6.c.o
+
+.PHONY : examples/widgets/label/lv_example_label_6.o
+
+# target to build an object file
+examples/widgets/label/lv_example_label_6.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_6.c.o
+.PHONY : examples/widgets/label/lv_example_label_6.c.o
+
+examples/widgets/label/lv_example_label_6.i: examples/widgets/label/lv_example_label_6.c.i
+
+.PHONY : examples/widgets/label/lv_example_label_6.i
+
+# target to preprocess a source file
+examples/widgets/label/lv_example_label_6.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_6.c.i
+.PHONY : examples/widgets/label/lv_example_label_6.c.i
+
+examples/widgets/label/lv_example_label_6.s: examples/widgets/label/lv_example_label_6.c.s
+
+.PHONY : examples/widgets/label/lv_example_label_6.s
+
+# target to generate assembly for a file
+examples/widgets/label/lv_example_label_6.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/label/lv_example_label_6.c.s
+.PHONY : examples/widgets/label/lv_example_label_6.c.s
+
+examples/widgets/led/lv_example_led_1.o: examples/widgets/led/lv_example_led_1.c.o
+
+.PHONY : examples/widgets/led/lv_example_led_1.o
+
+# target to build an object file
+examples/widgets/led/lv_example_led_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/led/lv_example_led_1.c.o
+.PHONY : examples/widgets/led/lv_example_led_1.c.o
+
+examples/widgets/led/lv_example_led_1.i: examples/widgets/led/lv_example_led_1.c.i
+
+.PHONY : examples/widgets/led/lv_example_led_1.i
+
+# target to preprocess a source file
+examples/widgets/led/lv_example_led_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/led/lv_example_led_1.c.i
+.PHONY : examples/widgets/led/lv_example_led_1.c.i
+
+examples/widgets/led/lv_example_led_1.s: examples/widgets/led/lv_example_led_1.c.s
+
+.PHONY : examples/widgets/led/lv_example_led_1.s
+
+# target to generate assembly for a file
+examples/widgets/led/lv_example_led_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/led/lv_example_led_1.c.s
+.PHONY : examples/widgets/led/lv_example_led_1.c.s
+
+examples/widgets/line/lv_example_line_1.o: examples/widgets/line/lv_example_line_1.c.o
+
+.PHONY : examples/widgets/line/lv_example_line_1.o
+
+# target to build an object file
+examples/widgets/line/lv_example_line_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/line/lv_example_line_1.c.o
+.PHONY : examples/widgets/line/lv_example_line_1.c.o
+
+examples/widgets/line/lv_example_line_1.i: examples/widgets/line/lv_example_line_1.c.i
+
+.PHONY : examples/widgets/line/lv_example_line_1.i
+
+# target to preprocess a source file
+examples/widgets/line/lv_example_line_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/line/lv_example_line_1.c.i
+.PHONY : examples/widgets/line/lv_example_line_1.c.i
+
+examples/widgets/line/lv_example_line_1.s: examples/widgets/line/lv_example_line_1.c.s
+
+.PHONY : examples/widgets/line/lv_example_line_1.s
+
+# target to generate assembly for a file
+examples/widgets/line/lv_example_line_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/line/lv_example_line_1.c.s
+.PHONY : examples/widgets/line/lv_example_line_1.c.s
+
+examples/widgets/list/lv_example_list_1.o: examples/widgets/list/lv_example_list_1.c.o
+
+.PHONY : examples/widgets/list/lv_example_list_1.o
+
+# target to build an object file
+examples/widgets/list/lv_example_list_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_1.c.o
+.PHONY : examples/widgets/list/lv_example_list_1.c.o
+
+examples/widgets/list/lv_example_list_1.i: examples/widgets/list/lv_example_list_1.c.i
+
+.PHONY : examples/widgets/list/lv_example_list_1.i
+
+# target to preprocess a source file
+examples/widgets/list/lv_example_list_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_1.c.i
+.PHONY : examples/widgets/list/lv_example_list_1.c.i
+
+examples/widgets/list/lv_example_list_1.s: examples/widgets/list/lv_example_list_1.c.s
+
+.PHONY : examples/widgets/list/lv_example_list_1.s
+
+# target to generate assembly for a file
+examples/widgets/list/lv_example_list_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_1.c.s
+.PHONY : examples/widgets/list/lv_example_list_1.c.s
+
+examples/widgets/list/lv_example_list_2.o: examples/widgets/list/lv_example_list_2.c.o
+
+.PHONY : examples/widgets/list/lv_example_list_2.o
+
+# target to build an object file
+examples/widgets/list/lv_example_list_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_2.c.o
+.PHONY : examples/widgets/list/lv_example_list_2.c.o
+
+examples/widgets/list/lv_example_list_2.i: examples/widgets/list/lv_example_list_2.c.i
+
+.PHONY : examples/widgets/list/lv_example_list_2.i
+
+# target to preprocess a source file
+examples/widgets/list/lv_example_list_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_2.c.i
+.PHONY : examples/widgets/list/lv_example_list_2.c.i
+
+examples/widgets/list/lv_example_list_2.s: examples/widgets/list/lv_example_list_2.c.s
+
+.PHONY : examples/widgets/list/lv_example_list_2.s
+
+# target to generate assembly for a file
+examples/widgets/list/lv_example_list_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/list/lv_example_list_2.c.s
+.PHONY : examples/widgets/list/lv_example_list_2.c.s
+
+examples/widgets/lottie/lv_example_lottie_1.o: examples/widgets/lottie/lv_example_lottie_1.c.o
+
+.PHONY : examples/widgets/lottie/lv_example_lottie_1.o
+
+# target to build an object file
+examples/widgets/lottie/lv_example_lottie_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/lottie/lv_example_lottie_1.c.o
+.PHONY : examples/widgets/lottie/lv_example_lottie_1.c.o
+
+examples/widgets/lottie/lv_example_lottie_1.i: examples/widgets/lottie/lv_example_lottie_1.c.i
+
+.PHONY : examples/widgets/lottie/lv_example_lottie_1.i
+
+# target to preprocess a source file
+examples/widgets/lottie/lv_example_lottie_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/lottie/lv_example_lottie_1.c.i
+.PHONY : examples/widgets/lottie/lv_example_lottie_1.c.i
+
+examples/widgets/lottie/lv_example_lottie_1.s: examples/widgets/lottie/lv_example_lottie_1.c.s
+
+.PHONY : examples/widgets/lottie/lv_example_lottie_1.s
+
+# target to generate assembly for a file
+examples/widgets/lottie/lv_example_lottie_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/lottie/lv_example_lottie_1.c.s
+.PHONY : examples/widgets/lottie/lv_example_lottie_1.c.s
+
+examples/widgets/lottie/lv_example_lottie_2.o: examples/widgets/lottie/lv_example_lottie_2.c.o
+
+.PHONY : examples/widgets/lottie/lv_example_lottie_2.o
+
+# target to build an object file
+examples/widgets/lottie/lv_example_lottie_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/lottie/lv_example_lottie_2.c.o
+.PHONY : examples/widgets/lottie/lv_example_lottie_2.c.o
+
+examples/widgets/lottie/lv_example_lottie_2.i: examples/widgets/lottie/lv_example_lottie_2.c.i
+
+.PHONY : examples/widgets/lottie/lv_example_lottie_2.i
+
+# target to preprocess a source file
+examples/widgets/lottie/lv_example_lottie_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/lottie/lv_example_lottie_2.c.i
+.PHONY : examples/widgets/lottie/lv_example_lottie_2.c.i
+
+examples/widgets/lottie/lv_example_lottie_2.s: examples/widgets/lottie/lv_example_lottie_2.c.s
+
+.PHONY : examples/widgets/lottie/lv_example_lottie_2.s
+
+# target to generate assembly for a file
+examples/widgets/lottie/lv_example_lottie_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/lottie/lv_example_lottie_2.c.s
+.PHONY : examples/widgets/lottie/lv_example_lottie_2.c.s
+
+examples/widgets/lottie/lv_example_lottie_approve.o: examples/widgets/lottie/lv_example_lottie_approve.c.o
+
+.PHONY : examples/widgets/lottie/lv_example_lottie_approve.o
+
+# target to build an object file
+examples/widgets/lottie/lv_example_lottie_approve.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/lottie/lv_example_lottie_approve.c.o
+.PHONY : examples/widgets/lottie/lv_example_lottie_approve.c.o
+
+examples/widgets/lottie/lv_example_lottie_approve.i: examples/widgets/lottie/lv_example_lottie_approve.c.i
+
+.PHONY : examples/widgets/lottie/lv_example_lottie_approve.i
+
+# target to preprocess a source file
+examples/widgets/lottie/lv_example_lottie_approve.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/lottie/lv_example_lottie_approve.c.i
+.PHONY : examples/widgets/lottie/lv_example_lottie_approve.c.i
+
+examples/widgets/lottie/lv_example_lottie_approve.s: examples/widgets/lottie/lv_example_lottie_approve.c.s
+
+.PHONY : examples/widgets/lottie/lv_example_lottie_approve.s
+
+# target to generate assembly for a file
+examples/widgets/lottie/lv_example_lottie_approve.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/lottie/lv_example_lottie_approve.c.s
+.PHONY : examples/widgets/lottie/lv_example_lottie_approve.c.s
+
+examples/widgets/menu/lv_example_menu_1.o: examples/widgets/menu/lv_example_menu_1.c.o
+
+.PHONY : examples/widgets/menu/lv_example_menu_1.o
+
+# target to build an object file
+examples/widgets/menu/lv_example_menu_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_1.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_1.c.o
+
+examples/widgets/menu/lv_example_menu_1.i: examples/widgets/menu/lv_example_menu_1.c.i
+
+.PHONY : examples/widgets/menu/lv_example_menu_1.i
+
+# target to preprocess a source file
+examples/widgets/menu/lv_example_menu_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_1.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_1.c.i
+
+examples/widgets/menu/lv_example_menu_1.s: examples/widgets/menu/lv_example_menu_1.c.s
+
+.PHONY : examples/widgets/menu/lv_example_menu_1.s
+
+# target to generate assembly for a file
+examples/widgets/menu/lv_example_menu_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_1.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_1.c.s
+
+examples/widgets/menu/lv_example_menu_2.o: examples/widgets/menu/lv_example_menu_2.c.o
+
+.PHONY : examples/widgets/menu/lv_example_menu_2.o
+
+# target to build an object file
+examples/widgets/menu/lv_example_menu_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_2.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_2.c.o
+
+examples/widgets/menu/lv_example_menu_2.i: examples/widgets/menu/lv_example_menu_2.c.i
+
+.PHONY : examples/widgets/menu/lv_example_menu_2.i
+
+# target to preprocess a source file
+examples/widgets/menu/lv_example_menu_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_2.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_2.c.i
+
+examples/widgets/menu/lv_example_menu_2.s: examples/widgets/menu/lv_example_menu_2.c.s
+
+.PHONY : examples/widgets/menu/lv_example_menu_2.s
+
+# target to generate assembly for a file
+examples/widgets/menu/lv_example_menu_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_2.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_2.c.s
+
+examples/widgets/menu/lv_example_menu_3.o: examples/widgets/menu/lv_example_menu_3.c.o
+
+.PHONY : examples/widgets/menu/lv_example_menu_3.o
+
+# target to build an object file
+examples/widgets/menu/lv_example_menu_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_3.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_3.c.o
+
+examples/widgets/menu/lv_example_menu_3.i: examples/widgets/menu/lv_example_menu_3.c.i
+
+.PHONY : examples/widgets/menu/lv_example_menu_3.i
+
+# target to preprocess a source file
+examples/widgets/menu/lv_example_menu_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_3.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_3.c.i
+
+examples/widgets/menu/lv_example_menu_3.s: examples/widgets/menu/lv_example_menu_3.c.s
+
+.PHONY : examples/widgets/menu/lv_example_menu_3.s
+
+# target to generate assembly for a file
+examples/widgets/menu/lv_example_menu_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_3.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_3.c.s
+
+examples/widgets/menu/lv_example_menu_4.o: examples/widgets/menu/lv_example_menu_4.c.o
+
+.PHONY : examples/widgets/menu/lv_example_menu_4.o
+
+# target to build an object file
+examples/widgets/menu/lv_example_menu_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_4.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_4.c.o
+
+examples/widgets/menu/lv_example_menu_4.i: examples/widgets/menu/lv_example_menu_4.c.i
+
+.PHONY : examples/widgets/menu/lv_example_menu_4.i
+
+# target to preprocess a source file
+examples/widgets/menu/lv_example_menu_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_4.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_4.c.i
+
+examples/widgets/menu/lv_example_menu_4.s: examples/widgets/menu/lv_example_menu_4.c.s
+
+.PHONY : examples/widgets/menu/lv_example_menu_4.s
+
+# target to generate assembly for a file
+examples/widgets/menu/lv_example_menu_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_4.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_4.c.s
+
+examples/widgets/menu/lv_example_menu_5.o: examples/widgets/menu/lv_example_menu_5.c.o
+
+.PHONY : examples/widgets/menu/lv_example_menu_5.o
+
+# target to build an object file
+examples/widgets/menu/lv_example_menu_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_5.c.o
+.PHONY : examples/widgets/menu/lv_example_menu_5.c.o
+
+examples/widgets/menu/lv_example_menu_5.i: examples/widgets/menu/lv_example_menu_5.c.i
+
+.PHONY : examples/widgets/menu/lv_example_menu_5.i
+
+# target to preprocess a source file
+examples/widgets/menu/lv_example_menu_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_5.c.i
+.PHONY : examples/widgets/menu/lv_example_menu_5.c.i
+
+examples/widgets/menu/lv_example_menu_5.s: examples/widgets/menu/lv_example_menu_5.c.s
+
+.PHONY : examples/widgets/menu/lv_example_menu_5.s
+
+# target to generate assembly for a file
+examples/widgets/menu/lv_example_menu_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/menu/lv_example_menu_5.c.s
+.PHONY : examples/widgets/menu/lv_example_menu_5.c.s
+
+examples/widgets/msgbox/lv_example_msgbox_1.o: examples/widgets/msgbox/lv_example_msgbox_1.c.o
+
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.o
+
+# target to build an object file
+examples/widgets/msgbox/lv_example_msgbox_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/msgbox/lv_example_msgbox_1.c.o
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.c.o
+
+examples/widgets/msgbox/lv_example_msgbox_1.i: examples/widgets/msgbox/lv_example_msgbox_1.c.i
+
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.i
+
+# target to preprocess a source file
+examples/widgets/msgbox/lv_example_msgbox_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/msgbox/lv_example_msgbox_1.c.i
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.c.i
+
+examples/widgets/msgbox/lv_example_msgbox_1.s: examples/widgets/msgbox/lv_example_msgbox_1.c.s
+
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.s
+
+# target to generate assembly for a file
+examples/widgets/msgbox/lv_example_msgbox_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/msgbox/lv_example_msgbox_1.c.s
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_1.c.s
+
+examples/widgets/msgbox/lv_example_msgbox_2.o: examples/widgets/msgbox/lv_example_msgbox_2.c.o
+
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_2.o
+
+# target to build an object file
+examples/widgets/msgbox/lv_example_msgbox_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/msgbox/lv_example_msgbox_2.c.o
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_2.c.o
+
+examples/widgets/msgbox/lv_example_msgbox_2.i: examples/widgets/msgbox/lv_example_msgbox_2.c.i
+
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_2.i
+
+# target to preprocess a source file
+examples/widgets/msgbox/lv_example_msgbox_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/msgbox/lv_example_msgbox_2.c.i
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_2.c.i
+
+examples/widgets/msgbox/lv_example_msgbox_2.s: examples/widgets/msgbox/lv_example_msgbox_2.c.s
+
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_2.s
+
+# target to generate assembly for a file
+examples/widgets/msgbox/lv_example_msgbox_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/msgbox/lv_example_msgbox_2.c.s
+.PHONY : examples/widgets/msgbox/lv_example_msgbox_2.c.s
+
+examples/widgets/obj/lv_example_obj_1.o: examples/widgets/obj/lv_example_obj_1.c.o
+
+.PHONY : examples/widgets/obj/lv_example_obj_1.o
+
+# target to build an object file
+examples/widgets/obj/lv_example_obj_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_1.c.o
+.PHONY : examples/widgets/obj/lv_example_obj_1.c.o
+
+examples/widgets/obj/lv_example_obj_1.i: examples/widgets/obj/lv_example_obj_1.c.i
+
+.PHONY : examples/widgets/obj/lv_example_obj_1.i
+
+# target to preprocess a source file
+examples/widgets/obj/lv_example_obj_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_1.c.i
+.PHONY : examples/widgets/obj/lv_example_obj_1.c.i
+
+examples/widgets/obj/lv_example_obj_1.s: examples/widgets/obj/lv_example_obj_1.c.s
+
+.PHONY : examples/widgets/obj/lv_example_obj_1.s
+
+# target to generate assembly for a file
+examples/widgets/obj/lv_example_obj_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_1.c.s
+.PHONY : examples/widgets/obj/lv_example_obj_1.c.s
+
+examples/widgets/obj/lv_example_obj_2.o: examples/widgets/obj/lv_example_obj_2.c.o
+
+.PHONY : examples/widgets/obj/lv_example_obj_2.o
+
+# target to build an object file
+examples/widgets/obj/lv_example_obj_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_2.c.o
+.PHONY : examples/widgets/obj/lv_example_obj_2.c.o
+
+examples/widgets/obj/lv_example_obj_2.i: examples/widgets/obj/lv_example_obj_2.c.i
+
+.PHONY : examples/widgets/obj/lv_example_obj_2.i
+
+# target to preprocess a source file
+examples/widgets/obj/lv_example_obj_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_2.c.i
+.PHONY : examples/widgets/obj/lv_example_obj_2.c.i
+
+examples/widgets/obj/lv_example_obj_2.s: examples/widgets/obj/lv_example_obj_2.c.s
+
+.PHONY : examples/widgets/obj/lv_example_obj_2.s
+
+# target to generate assembly for a file
+examples/widgets/obj/lv_example_obj_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_2.c.s
+.PHONY : examples/widgets/obj/lv_example_obj_2.c.s
+
+examples/widgets/obj/lv_example_obj_3.o: examples/widgets/obj/lv_example_obj_3.c.o
+
+.PHONY : examples/widgets/obj/lv_example_obj_3.o
+
+# target to build an object file
+examples/widgets/obj/lv_example_obj_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_3.c.o
+.PHONY : examples/widgets/obj/lv_example_obj_3.c.o
+
+examples/widgets/obj/lv_example_obj_3.i: examples/widgets/obj/lv_example_obj_3.c.i
+
+.PHONY : examples/widgets/obj/lv_example_obj_3.i
+
+# target to preprocess a source file
+examples/widgets/obj/lv_example_obj_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_3.c.i
+.PHONY : examples/widgets/obj/lv_example_obj_3.c.i
+
+examples/widgets/obj/lv_example_obj_3.s: examples/widgets/obj/lv_example_obj_3.c.s
+
+.PHONY : examples/widgets/obj/lv_example_obj_3.s
+
+# target to generate assembly for a file
+examples/widgets/obj/lv_example_obj_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/obj/lv_example_obj_3.c.s
+.PHONY : examples/widgets/obj/lv_example_obj_3.c.s
+
+examples/widgets/roller/lv_example_roller_1.o: examples/widgets/roller/lv_example_roller_1.c.o
+
+.PHONY : examples/widgets/roller/lv_example_roller_1.o
+
+# target to build an object file
+examples/widgets/roller/lv_example_roller_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_1.c.o
+.PHONY : examples/widgets/roller/lv_example_roller_1.c.o
+
+examples/widgets/roller/lv_example_roller_1.i: examples/widgets/roller/lv_example_roller_1.c.i
+
+.PHONY : examples/widgets/roller/lv_example_roller_1.i
+
+# target to preprocess a source file
+examples/widgets/roller/lv_example_roller_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_1.c.i
+.PHONY : examples/widgets/roller/lv_example_roller_1.c.i
+
+examples/widgets/roller/lv_example_roller_1.s: examples/widgets/roller/lv_example_roller_1.c.s
+
+.PHONY : examples/widgets/roller/lv_example_roller_1.s
+
+# target to generate assembly for a file
+examples/widgets/roller/lv_example_roller_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_1.c.s
+.PHONY : examples/widgets/roller/lv_example_roller_1.c.s
+
+examples/widgets/roller/lv_example_roller_2.o: examples/widgets/roller/lv_example_roller_2.c.o
+
+.PHONY : examples/widgets/roller/lv_example_roller_2.o
+
+# target to build an object file
+examples/widgets/roller/lv_example_roller_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_2.c.o
+.PHONY : examples/widgets/roller/lv_example_roller_2.c.o
+
+examples/widgets/roller/lv_example_roller_2.i: examples/widgets/roller/lv_example_roller_2.c.i
+
+.PHONY : examples/widgets/roller/lv_example_roller_2.i
+
+# target to preprocess a source file
+examples/widgets/roller/lv_example_roller_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_2.c.i
+.PHONY : examples/widgets/roller/lv_example_roller_2.c.i
+
+examples/widgets/roller/lv_example_roller_2.s: examples/widgets/roller/lv_example_roller_2.c.s
+
+.PHONY : examples/widgets/roller/lv_example_roller_2.s
+
+# target to generate assembly for a file
+examples/widgets/roller/lv_example_roller_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_2.c.s
+.PHONY : examples/widgets/roller/lv_example_roller_2.c.s
+
+examples/widgets/roller/lv_example_roller_3.o: examples/widgets/roller/lv_example_roller_3.c.o
+
+.PHONY : examples/widgets/roller/lv_example_roller_3.o
+
+# target to build an object file
+examples/widgets/roller/lv_example_roller_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_3.c.o
+.PHONY : examples/widgets/roller/lv_example_roller_3.c.o
+
+examples/widgets/roller/lv_example_roller_3.i: examples/widgets/roller/lv_example_roller_3.c.i
+
+.PHONY : examples/widgets/roller/lv_example_roller_3.i
+
+# target to preprocess a source file
+examples/widgets/roller/lv_example_roller_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_3.c.i
+.PHONY : examples/widgets/roller/lv_example_roller_3.c.i
+
+examples/widgets/roller/lv_example_roller_3.s: examples/widgets/roller/lv_example_roller_3.c.s
+
+.PHONY : examples/widgets/roller/lv_example_roller_3.s
+
+# target to generate assembly for a file
+examples/widgets/roller/lv_example_roller_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/roller/lv_example_roller_3.c.s
+.PHONY : examples/widgets/roller/lv_example_roller_3.c.s
+
+examples/widgets/scale/lv_example_scale_1.o: examples/widgets/scale/lv_example_scale_1.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_1.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_1.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_1.c.o
+
+examples/widgets/scale/lv_example_scale_1.i: examples/widgets/scale/lv_example_scale_1.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_1.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_1.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_1.c.i
+
+examples/widgets/scale/lv_example_scale_1.s: examples/widgets/scale/lv_example_scale_1.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_1.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_1.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_1.c.s
+
+examples/widgets/scale/lv_example_scale_10.o: examples/widgets/scale/lv_example_scale_10.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_10.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_10.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_10.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_10.c.o
+
+examples/widgets/scale/lv_example_scale_10.i: examples/widgets/scale/lv_example_scale_10.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_10.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_10.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_10.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_10.c.i
+
+examples/widgets/scale/lv_example_scale_10.s: examples/widgets/scale/lv_example_scale_10.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_10.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_10.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_10.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_10.c.s
+
+examples/widgets/scale/lv_example_scale_11.o: examples/widgets/scale/lv_example_scale_11.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_11.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_11.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_11.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_11.c.o
+
+examples/widgets/scale/lv_example_scale_11.i: examples/widgets/scale/lv_example_scale_11.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_11.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_11.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_11.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_11.c.i
+
+examples/widgets/scale/lv_example_scale_11.s: examples/widgets/scale/lv_example_scale_11.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_11.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_11.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_11.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_11.c.s
+
+examples/widgets/scale/lv_example_scale_2.o: examples/widgets/scale/lv_example_scale_2.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_2.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_2.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_2.c.o
+
+examples/widgets/scale/lv_example_scale_2.i: examples/widgets/scale/lv_example_scale_2.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_2.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_2.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_2.c.i
+
+examples/widgets/scale/lv_example_scale_2.s: examples/widgets/scale/lv_example_scale_2.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_2.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_2.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_2.c.s
+
+examples/widgets/scale/lv_example_scale_3.o: examples/widgets/scale/lv_example_scale_3.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_3.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_3.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_3.c.o
+
+examples/widgets/scale/lv_example_scale_3.i: examples/widgets/scale/lv_example_scale_3.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_3.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_3.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_3.c.i
+
+examples/widgets/scale/lv_example_scale_3.s: examples/widgets/scale/lv_example_scale_3.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_3.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_3.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_3.c.s
+
+examples/widgets/scale/lv_example_scale_4.o: examples/widgets/scale/lv_example_scale_4.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_4.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_4.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_4.c.o
+
+examples/widgets/scale/lv_example_scale_4.i: examples/widgets/scale/lv_example_scale_4.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_4.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_4.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_4.c.i
+
+examples/widgets/scale/lv_example_scale_4.s: examples/widgets/scale/lv_example_scale_4.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_4.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_4.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_4.c.s
+
+examples/widgets/scale/lv_example_scale_5.o: examples/widgets/scale/lv_example_scale_5.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_5.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_5.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_5.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_5.c.o
+
+examples/widgets/scale/lv_example_scale_5.i: examples/widgets/scale/lv_example_scale_5.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_5.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_5.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_5.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_5.c.i
+
+examples/widgets/scale/lv_example_scale_5.s: examples/widgets/scale/lv_example_scale_5.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_5.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_5.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_5.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_5.c.s
+
+examples/widgets/scale/lv_example_scale_6.o: examples/widgets/scale/lv_example_scale_6.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_6.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_6.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_6.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_6.c.o
+
+examples/widgets/scale/lv_example_scale_6.i: examples/widgets/scale/lv_example_scale_6.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_6.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_6.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_6.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_6.c.i
+
+examples/widgets/scale/lv_example_scale_6.s: examples/widgets/scale/lv_example_scale_6.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_6.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_6.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_6.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_6.c.s
+
+examples/widgets/scale/lv_example_scale_7.o: examples/widgets/scale/lv_example_scale_7.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_7.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_7.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_7.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_7.c.o
+
+examples/widgets/scale/lv_example_scale_7.i: examples/widgets/scale/lv_example_scale_7.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_7.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_7.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_7.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_7.c.i
+
+examples/widgets/scale/lv_example_scale_7.s: examples/widgets/scale/lv_example_scale_7.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_7.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_7.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_7.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_7.c.s
+
+examples/widgets/scale/lv_example_scale_8.o: examples/widgets/scale/lv_example_scale_8.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_8.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_8.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_8.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_8.c.o
+
+examples/widgets/scale/lv_example_scale_8.i: examples/widgets/scale/lv_example_scale_8.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_8.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_8.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_8.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_8.c.i
+
+examples/widgets/scale/lv_example_scale_8.s: examples/widgets/scale/lv_example_scale_8.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_8.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_8.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_8.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_8.c.s
+
+examples/widgets/scale/lv_example_scale_9.o: examples/widgets/scale/lv_example_scale_9.c.o
+
+.PHONY : examples/widgets/scale/lv_example_scale_9.o
+
+# target to build an object file
+examples/widgets/scale/lv_example_scale_9.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_9.c.o
+.PHONY : examples/widgets/scale/lv_example_scale_9.c.o
+
+examples/widgets/scale/lv_example_scale_9.i: examples/widgets/scale/lv_example_scale_9.c.i
+
+.PHONY : examples/widgets/scale/lv_example_scale_9.i
+
+# target to preprocess a source file
+examples/widgets/scale/lv_example_scale_9.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_9.c.i
+.PHONY : examples/widgets/scale/lv_example_scale_9.c.i
+
+examples/widgets/scale/lv_example_scale_9.s: examples/widgets/scale/lv_example_scale_9.c.s
+
+.PHONY : examples/widgets/scale/lv_example_scale_9.s
+
+# target to generate assembly for a file
+examples/widgets/scale/lv_example_scale_9.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/scale/lv_example_scale_9.c.s
+.PHONY : examples/widgets/scale/lv_example_scale_9.c.s
+
+examples/widgets/slider/lv_example_slider_1.o: examples/widgets/slider/lv_example_slider_1.c.o
+
+.PHONY : examples/widgets/slider/lv_example_slider_1.o
+
+# target to build an object file
+examples/widgets/slider/lv_example_slider_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_1.c.o
+.PHONY : examples/widgets/slider/lv_example_slider_1.c.o
+
+examples/widgets/slider/lv_example_slider_1.i: examples/widgets/slider/lv_example_slider_1.c.i
+
+.PHONY : examples/widgets/slider/lv_example_slider_1.i
+
+# target to preprocess a source file
+examples/widgets/slider/lv_example_slider_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_1.c.i
+.PHONY : examples/widgets/slider/lv_example_slider_1.c.i
+
+examples/widgets/slider/lv_example_slider_1.s: examples/widgets/slider/lv_example_slider_1.c.s
+
+.PHONY : examples/widgets/slider/lv_example_slider_1.s
+
+# target to generate assembly for a file
+examples/widgets/slider/lv_example_slider_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_1.c.s
+.PHONY : examples/widgets/slider/lv_example_slider_1.c.s
+
+examples/widgets/slider/lv_example_slider_2.o: examples/widgets/slider/lv_example_slider_2.c.o
+
+.PHONY : examples/widgets/slider/lv_example_slider_2.o
+
+# target to build an object file
+examples/widgets/slider/lv_example_slider_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_2.c.o
+.PHONY : examples/widgets/slider/lv_example_slider_2.c.o
+
+examples/widgets/slider/lv_example_slider_2.i: examples/widgets/slider/lv_example_slider_2.c.i
+
+.PHONY : examples/widgets/slider/lv_example_slider_2.i
+
+# target to preprocess a source file
+examples/widgets/slider/lv_example_slider_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_2.c.i
+.PHONY : examples/widgets/slider/lv_example_slider_2.c.i
+
+examples/widgets/slider/lv_example_slider_2.s: examples/widgets/slider/lv_example_slider_2.c.s
+
+.PHONY : examples/widgets/slider/lv_example_slider_2.s
+
+# target to generate assembly for a file
+examples/widgets/slider/lv_example_slider_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_2.c.s
+.PHONY : examples/widgets/slider/lv_example_slider_2.c.s
+
+examples/widgets/slider/lv_example_slider_3.o: examples/widgets/slider/lv_example_slider_3.c.o
+
+.PHONY : examples/widgets/slider/lv_example_slider_3.o
+
+# target to build an object file
+examples/widgets/slider/lv_example_slider_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_3.c.o
+.PHONY : examples/widgets/slider/lv_example_slider_3.c.o
+
+examples/widgets/slider/lv_example_slider_3.i: examples/widgets/slider/lv_example_slider_3.c.i
+
+.PHONY : examples/widgets/slider/lv_example_slider_3.i
+
+# target to preprocess a source file
+examples/widgets/slider/lv_example_slider_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_3.c.i
+.PHONY : examples/widgets/slider/lv_example_slider_3.c.i
+
+examples/widgets/slider/lv_example_slider_3.s: examples/widgets/slider/lv_example_slider_3.c.s
+
+.PHONY : examples/widgets/slider/lv_example_slider_3.s
+
+# target to generate assembly for a file
+examples/widgets/slider/lv_example_slider_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_3.c.s
+.PHONY : examples/widgets/slider/lv_example_slider_3.c.s
+
+examples/widgets/slider/lv_example_slider_4.o: examples/widgets/slider/lv_example_slider_4.c.o
+
+.PHONY : examples/widgets/slider/lv_example_slider_4.o
+
+# target to build an object file
+examples/widgets/slider/lv_example_slider_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_4.c.o
+.PHONY : examples/widgets/slider/lv_example_slider_4.c.o
+
+examples/widgets/slider/lv_example_slider_4.i: examples/widgets/slider/lv_example_slider_4.c.i
+
+.PHONY : examples/widgets/slider/lv_example_slider_4.i
+
+# target to preprocess a source file
+examples/widgets/slider/lv_example_slider_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_4.c.i
+.PHONY : examples/widgets/slider/lv_example_slider_4.c.i
+
+examples/widgets/slider/lv_example_slider_4.s: examples/widgets/slider/lv_example_slider_4.c.s
+
+.PHONY : examples/widgets/slider/lv_example_slider_4.s
+
+# target to generate assembly for a file
+examples/widgets/slider/lv_example_slider_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/slider/lv_example_slider_4.c.s
+.PHONY : examples/widgets/slider/lv_example_slider_4.c.s
+
+examples/widgets/span/lv_example_span_1.o: examples/widgets/span/lv_example_span_1.c.o
+
+.PHONY : examples/widgets/span/lv_example_span_1.o
+
+# target to build an object file
+examples/widgets/span/lv_example_span_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/span/lv_example_span_1.c.o
+.PHONY : examples/widgets/span/lv_example_span_1.c.o
+
+examples/widgets/span/lv_example_span_1.i: examples/widgets/span/lv_example_span_1.c.i
+
+.PHONY : examples/widgets/span/lv_example_span_1.i
+
+# target to preprocess a source file
+examples/widgets/span/lv_example_span_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/span/lv_example_span_1.c.i
+.PHONY : examples/widgets/span/lv_example_span_1.c.i
+
+examples/widgets/span/lv_example_span_1.s: examples/widgets/span/lv_example_span_1.c.s
+
+.PHONY : examples/widgets/span/lv_example_span_1.s
+
+# target to generate assembly for a file
+examples/widgets/span/lv_example_span_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/span/lv_example_span_1.c.s
+.PHONY : examples/widgets/span/lv_example_span_1.c.s
+
+examples/widgets/spinbox/lv_example_spinbox_1.o: examples/widgets/spinbox/lv_example_spinbox_1.c.o
+
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.o
+
+# target to build an object file
+examples/widgets/spinbox/lv_example_spinbox_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinbox/lv_example_spinbox_1.c.o
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.c.o
+
+examples/widgets/spinbox/lv_example_spinbox_1.i: examples/widgets/spinbox/lv_example_spinbox_1.c.i
+
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.i
+
+# target to preprocess a source file
+examples/widgets/spinbox/lv_example_spinbox_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinbox/lv_example_spinbox_1.c.i
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.c.i
+
+examples/widgets/spinbox/lv_example_spinbox_1.s: examples/widgets/spinbox/lv_example_spinbox_1.c.s
+
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.s
+
+# target to generate assembly for a file
+examples/widgets/spinbox/lv_example_spinbox_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinbox/lv_example_spinbox_1.c.s
+.PHONY : examples/widgets/spinbox/lv_example_spinbox_1.c.s
+
+examples/widgets/spinner/lv_example_spinner_1.o: examples/widgets/spinner/lv_example_spinner_1.c.o
+
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.o
+
+# target to build an object file
+examples/widgets/spinner/lv_example_spinner_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinner/lv_example_spinner_1.c.o
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.c.o
+
+examples/widgets/spinner/lv_example_spinner_1.i: examples/widgets/spinner/lv_example_spinner_1.c.i
+
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.i
+
+# target to preprocess a source file
+examples/widgets/spinner/lv_example_spinner_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinner/lv_example_spinner_1.c.i
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.c.i
+
+examples/widgets/spinner/lv_example_spinner_1.s: examples/widgets/spinner/lv_example_spinner_1.c.s
+
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.s
+
+# target to generate assembly for a file
+examples/widgets/spinner/lv_example_spinner_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/spinner/lv_example_spinner_1.c.s
+.PHONY : examples/widgets/spinner/lv_example_spinner_1.c.s
+
+examples/widgets/switch/lv_example_switch_1.o: examples/widgets/switch/lv_example_switch_1.c.o
+
+.PHONY : examples/widgets/switch/lv_example_switch_1.o
+
+# target to build an object file
+examples/widgets/switch/lv_example_switch_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/switch/lv_example_switch_1.c.o
+.PHONY : examples/widgets/switch/lv_example_switch_1.c.o
+
+examples/widgets/switch/lv_example_switch_1.i: examples/widgets/switch/lv_example_switch_1.c.i
+
+.PHONY : examples/widgets/switch/lv_example_switch_1.i
+
+# target to preprocess a source file
+examples/widgets/switch/lv_example_switch_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/switch/lv_example_switch_1.c.i
+.PHONY : examples/widgets/switch/lv_example_switch_1.c.i
+
+examples/widgets/switch/lv_example_switch_1.s: examples/widgets/switch/lv_example_switch_1.c.s
+
+.PHONY : examples/widgets/switch/lv_example_switch_1.s
+
+# target to generate assembly for a file
+examples/widgets/switch/lv_example_switch_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/switch/lv_example_switch_1.c.s
+.PHONY : examples/widgets/switch/lv_example_switch_1.c.s
+
+examples/widgets/switch/lv_example_switch_2.o: examples/widgets/switch/lv_example_switch_2.c.o
+
+.PHONY : examples/widgets/switch/lv_example_switch_2.o
+
+# target to build an object file
+examples/widgets/switch/lv_example_switch_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/switch/lv_example_switch_2.c.o
+.PHONY : examples/widgets/switch/lv_example_switch_2.c.o
+
+examples/widgets/switch/lv_example_switch_2.i: examples/widgets/switch/lv_example_switch_2.c.i
+
+.PHONY : examples/widgets/switch/lv_example_switch_2.i
+
+# target to preprocess a source file
+examples/widgets/switch/lv_example_switch_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/switch/lv_example_switch_2.c.i
+.PHONY : examples/widgets/switch/lv_example_switch_2.c.i
+
+examples/widgets/switch/lv_example_switch_2.s: examples/widgets/switch/lv_example_switch_2.c.s
+
+.PHONY : examples/widgets/switch/lv_example_switch_2.s
+
+# target to generate assembly for a file
+examples/widgets/switch/lv_example_switch_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/switch/lv_example_switch_2.c.s
+.PHONY : examples/widgets/switch/lv_example_switch_2.c.s
+
+examples/widgets/table/lv_example_table_1.o: examples/widgets/table/lv_example_table_1.c.o
+
+.PHONY : examples/widgets/table/lv_example_table_1.o
+
+# target to build an object file
+examples/widgets/table/lv_example_table_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_1.c.o
+.PHONY : examples/widgets/table/lv_example_table_1.c.o
+
+examples/widgets/table/lv_example_table_1.i: examples/widgets/table/lv_example_table_1.c.i
+
+.PHONY : examples/widgets/table/lv_example_table_1.i
+
+# target to preprocess a source file
+examples/widgets/table/lv_example_table_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_1.c.i
+.PHONY : examples/widgets/table/lv_example_table_1.c.i
+
+examples/widgets/table/lv_example_table_1.s: examples/widgets/table/lv_example_table_1.c.s
+
+.PHONY : examples/widgets/table/lv_example_table_1.s
+
+# target to generate assembly for a file
+examples/widgets/table/lv_example_table_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_1.c.s
+.PHONY : examples/widgets/table/lv_example_table_1.c.s
+
+examples/widgets/table/lv_example_table_2.o: examples/widgets/table/lv_example_table_2.c.o
+
+.PHONY : examples/widgets/table/lv_example_table_2.o
+
+# target to build an object file
+examples/widgets/table/lv_example_table_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_2.c.o
+.PHONY : examples/widgets/table/lv_example_table_2.c.o
+
+examples/widgets/table/lv_example_table_2.i: examples/widgets/table/lv_example_table_2.c.i
+
+.PHONY : examples/widgets/table/lv_example_table_2.i
+
+# target to preprocess a source file
+examples/widgets/table/lv_example_table_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_2.c.i
+.PHONY : examples/widgets/table/lv_example_table_2.c.i
+
+examples/widgets/table/lv_example_table_2.s: examples/widgets/table/lv_example_table_2.c.s
+
+.PHONY : examples/widgets/table/lv_example_table_2.s
+
+# target to generate assembly for a file
+examples/widgets/table/lv_example_table_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/table/lv_example_table_2.c.s
+.PHONY : examples/widgets/table/lv_example_table_2.c.s
+
+examples/widgets/tabview/lv_example_tabview_1.o: examples/widgets/tabview/lv_example_tabview_1.c.o
+
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.o
+
+# target to build an object file
+examples/widgets/tabview/lv_example_tabview_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_1.c.o
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.c.o
+
+examples/widgets/tabview/lv_example_tabview_1.i: examples/widgets/tabview/lv_example_tabview_1.c.i
+
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.i
+
+# target to preprocess a source file
+examples/widgets/tabview/lv_example_tabview_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_1.c.i
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.c.i
+
+examples/widgets/tabview/lv_example_tabview_1.s: examples/widgets/tabview/lv_example_tabview_1.c.s
+
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.s
+
+# target to generate assembly for a file
+examples/widgets/tabview/lv_example_tabview_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_1.c.s
+.PHONY : examples/widgets/tabview/lv_example_tabview_1.c.s
+
+examples/widgets/tabview/lv_example_tabview_2.o: examples/widgets/tabview/lv_example_tabview_2.c.o
+
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.o
+
+# target to build an object file
+examples/widgets/tabview/lv_example_tabview_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_2.c.o
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.c.o
+
+examples/widgets/tabview/lv_example_tabview_2.i: examples/widgets/tabview/lv_example_tabview_2.c.i
+
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.i
+
+# target to preprocess a source file
+examples/widgets/tabview/lv_example_tabview_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_2.c.i
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.c.i
+
+examples/widgets/tabview/lv_example_tabview_2.s: examples/widgets/tabview/lv_example_tabview_2.c.s
+
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.s
+
+# target to generate assembly for a file
+examples/widgets/tabview/lv_example_tabview_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tabview/lv_example_tabview_2.c.s
+.PHONY : examples/widgets/tabview/lv_example_tabview_2.c.s
+
+examples/widgets/textarea/lv_example_textarea_1.o: examples/widgets/textarea/lv_example_textarea_1.c.o
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.o
+
+# target to build an object file
+examples/widgets/textarea/lv_example_textarea_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_1.c.o
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.c.o
+
+examples/widgets/textarea/lv_example_textarea_1.i: examples/widgets/textarea/lv_example_textarea_1.c.i
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.i
+
+# target to preprocess a source file
+examples/widgets/textarea/lv_example_textarea_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_1.c.i
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.c.i
+
+examples/widgets/textarea/lv_example_textarea_1.s: examples/widgets/textarea/lv_example_textarea_1.c.s
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.s
+
+# target to generate assembly for a file
+examples/widgets/textarea/lv_example_textarea_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_1.c.s
+.PHONY : examples/widgets/textarea/lv_example_textarea_1.c.s
+
+examples/widgets/textarea/lv_example_textarea_2.o: examples/widgets/textarea/lv_example_textarea_2.c.o
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.o
+
+# target to build an object file
+examples/widgets/textarea/lv_example_textarea_2.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_2.c.o
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.c.o
+
+examples/widgets/textarea/lv_example_textarea_2.i: examples/widgets/textarea/lv_example_textarea_2.c.i
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.i
+
+# target to preprocess a source file
+examples/widgets/textarea/lv_example_textarea_2.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_2.c.i
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.c.i
+
+examples/widgets/textarea/lv_example_textarea_2.s: examples/widgets/textarea/lv_example_textarea_2.c.s
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.s
+
+# target to generate assembly for a file
+examples/widgets/textarea/lv_example_textarea_2.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_2.c.s
+.PHONY : examples/widgets/textarea/lv_example_textarea_2.c.s
+
+examples/widgets/textarea/lv_example_textarea_3.o: examples/widgets/textarea/lv_example_textarea_3.c.o
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.o
+
+# target to build an object file
+examples/widgets/textarea/lv_example_textarea_3.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_3.c.o
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.c.o
+
+examples/widgets/textarea/lv_example_textarea_3.i: examples/widgets/textarea/lv_example_textarea_3.c.i
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.i
+
+# target to preprocess a source file
+examples/widgets/textarea/lv_example_textarea_3.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_3.c.i
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.c.i
+
+examples/widgets/textarea/lv_example_textarea_3.s: examples/widgets/textarea/lv_example_textarea_3.c.s
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.s
+
+# target to generate assembly for a file
+examples/widgets/textarea/lv_example_textarea_3.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_3.c.s
+.PHONY : examples/widgets/textarea/lv_example_textarea_3.c.s
+
+examples/widgets/textarea/lv_example_textarea_4.o: examples/widgets/textarea/lv_example_textarea_4.c.o
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_4.o
+
+# target to build an object file
+examples/widgets/textarea/lv_example_textarea_4.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_4.c.o
+.PHONY : examples/widgets/textarea/lv_example_textarea_4.c.o
+
+examples/widgets/textarea/lv_example_textarea_4.i: examples/widgets/textarea/lv_example_textarea_4.c.i
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_4.i
+
+# target to preprocess a source file
+examples/widgets/textarea/lv_example_textarea_4.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_4.c.i
+.PHONY : examples/widgets/textarea/lv_example_textarea_4.c.i
+
+examples/widgets/textarea/lv_example_textarea_4.s: examples/widgets/textarea/lv_example_textarea_4.c.s
+
+.PHONY : examples/widgets/textarea/lv_example_textarea_4.s
+
+# target to generate assembly for a file
+examples/widgets/textarea/lv_example_textarea_4.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/textarea/lv_example_textarea_4.c.s
+.PHONY : examples/widgets/textarea/lv_example_textarea_4.c.s
+
+examples/widgets/tileview/lv_example_tileview_1.o: examples/widgets/tileview/lv_example_tileview_1.c.o
+
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.o
+
+# target to build an object file
+examples/widgets/tileview/lv_example_tileview_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tileview/lv_example_tileview_1.c.o
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.c.o
+
+examples/widgets/tileview/lv_example_tileview_1.i: examples/widgets/tileview/lv_example_tileview_1.c.i
+
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.i
+
+# target to preprocess a source file
+examples/widgets/tileview/lv_example_tileview_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tileview/lv_example_tileview_1.c.i
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.c.i
+
+examples/widgets/tileview/lv_example_tileview_1.s: examples/widgets/tileview/lv_example_tileview_1.c.s
+
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.s
+
+# target to generate assembly for a file
+examples/widgets/tileview/lv_example_tileview_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/tileview/lv_example_tileview_1.c.s
+.PHONY : examples/widgets/tileview/lv_example_tileview_1.c.s
+
+examples/widgets/win/lv_example_win_1.o: examples/widgets/win/lv_example_win_1.c.o
+
+.PHONY : examples/widgets/win/lv_example_win_1.o
+
+# target to build an object file
+examples/widgets/win/lv_example_win_1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/win/lv_example_win_1.c.o
+.PHONY : examples/widgets/win/lv_example_win_1.c.o
+
+examples/widgets/win/lv_example_win_1.i: examples/widgets/win/lv_example_win_1.c.i
+
+.PHONY : examples/widgets/win/lv_example_win_1.i
+
+# target to preprocess a source file
+examples/widgets/win/lv_example_win_1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/win/lv_example_win_1.c.i
+.PHONY : examples/widgets/win/lv_example_win_1.c.i
+
+examples/widgets/win/lv_example_win_1.s: examples/widgets/win/lv_example_win_1.c.s
+
+.PHONY : examples/widgets/win/lv_example_win_1.s
+
+# target to generate assembly for a file
+examples/widgets/win/lv_example_win_1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl_examples.dir/build.make lvgl/CMakeFiles/lvgl_examples.dir/examples/widgets/win/lv_example_win_1.c.s
+.PHONY : examples/widgets/win/lv_example_win_1.c.s
 
 src/core/lv_group.o: src/core/lv_group.c.o
 
@@ -671,6 +9260,33 @@ src/draw/lv_draw.s: src/draw/lv_draw.c.s
 src/draw/lv_draw.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw.c.s
 .PHONY : src/draw/lv_draw.c.s
+
+src/draw/lv_draw_3d.o: src/draw/lv_draw_3d.c.o
+
+.PHONY : src/draw/lv_draw_3d.o
+
+# target to build an object file
+src/draw/lv_draw_3d.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.o
+.PHONY : src/draw/lv_draw_3d.c.o
+
+src/draw/lv_draw_3d.i: src/draw/lv_draw_3d.c.i
+
+.PHONY : src/draw/lv_draw_3d.i
+
+# target to preprocess a source file
+src/draw/lv_draw_3d.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.i
+.PHONY : src/draw/lv_draw_3d.c.i
+
+src/draw/lv_draw_3d.s: src/draw/lv_draw_3d.c.s
+
+.PHONY : src/draw/lv_draw_3d.s
+
+# target to generate assembly for a file
+src/draw/lv_draw_3d.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/lv_draw_3d.c.s
+.PHONY : src/draw/lv_draw_3d.c.s
 
 src/draw/lv_draw_arc.o: src/draw/lv_draw_arc.c.o
 
@@ -2436,6 +11052,33 @@ src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s
 .PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.c.s
 
+src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.o: src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.o
+
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.o
+
+# target to build an object file
+src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.o
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.o
+
+src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.i: src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.i
+
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.i
+
+# target to preprocess a source file
+src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.i
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.i
+
+src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.s: src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.s
+
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.s
+
+# target to generate assembly for a file
+src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.s
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.c.s
+
 src/draw/sw/blend/lv_draw_sw_blend_to_i1.o: src/draw/sw/blend/lv_draw_sw_blend_to_i1.c.o
 
 .PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_i1.o
@@ -2516,6 +11159,33 @@ src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.s: src/draw/sw/blend/lv_draw_sw_ble
 src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s
 .PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.c.s
+
+src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.o: src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.o
+
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.o
+
+# target to build an object file
+src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.o
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.o
+
+src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.i: src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.i
+
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.i
+
+# target to preprocess a source file
+src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.i
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.i
+
+src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.s: src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.s
+
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.s
+
+# target to generate assembly for a file
+src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.s
+.PHONY : src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.c.s
 
 src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.o: src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.c.o
 
@@ -3552,6 +12222,33 @@ src/drivers/display/fb/lv_linux_fbdev.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/display/fb/lv_linux_fbdev.c.s
 .PHONY : src/drivers/display/fb/lv_linux_fbdev.c.s
 
+src/drivers/display/ft81x/lv_ft81x.o: src/drivers/display/ft81x/lv_ft81x.c.o
+
+.PHONY : src/drivers/display/ft81x/lv_ft81x.o
+
+# target to build an object file
+src/drivers/display/ft81x/lv_ft81x.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.o
+.PHONY : src/drivers/display/ft81x/lv_ft81x.c.o
+
+src/drivers/display/ft81x/lv_ft81x.i: src/drivers/display/ft81x/lv_ft81x.c.i
+
+.PHONY : src/drivers/display/ft81x/lv_ft81x.i
+
+# target to preprocess a source file
+src/drivers/display/ft81x/lv_ft81x.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.i
+.PHONY : src/drivers/display/ft81x/lv_ft81x.c.i
+
+src/drivers/display/ft81x/lv_ft81x.s: src/drivers/display/ft81x/lv_ft81x.c.s
+
+.PHONY : src/drivers/display/ft81x/lv_ft81x.s
+
+# target to generate assembly for a file
+src/drivers/display/ft81x/lv_ft81x.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/display/ft81x/lv_ft81x.c.s
+.PHONY : src/drivers/display/ft81x/lv_ft81x.c.s
+
 src/drivers/display/ili9341/lv_ili9341.o: src/drivers/display/ili9341/lv_ili9341.c.o
 
 .PHONY : src/drivers/display/ili9341/lv_ili9341.o
@@ -4497,6 +13194,330 @@ src/drivers/wayland/lv_wayland_smm.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wayland_smm.c.s
 .PHONY : src/drivers/wayland/lv_wayland_smm.c.s
 
+src/drivers/wayland/lv_wl_cache.o: src/drivers/wayland/lv_wl_cache.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_cache.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_cache.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.o
+.PHONY : src/drivers/wayland/lv_wl_cache.c.o
+
+src/drivers/wayland/lv_wl_cache.i: src/drivers/wayland/lv_wl_cache.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_cache.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_cache.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.i
+.PHONY : src/drivers/wayland/lv_wl_cache.c.i
+
+src/drivers/wayland/lv_wl_cache.s: src/drivers/wayland/lv_wl_cache.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_cache.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_cache.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_cache.c.s
+.PHONY : src/drivers/wayland/lv_wl_cache.c.s
+
+src/drivers/wayland/lv_wl_dmabuf.o: src/drivers/wayland/lv_wl_dmabuf.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_dmabuf.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_dmabuf.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.o
+.PHONY : src/drivers/wayland/lv_wl_dmabuf.c.o
+
+src/drivers/wayland/lv_wl_dmabuf.i: src/drivers/wayland/lv_wl_dmabuf.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_dmabuf.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_dmabuf.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.i
+.PHONY : src/drivers/wayland/lv_wl_dmabuf.c.i
+
+src/drivers/wayland/lv_wl_dmabuf.s: src/drivers/wayland/lv_wl_dmabuf.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_dmabuf.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_dmabuf.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_dmabuf.c.s
+.PHONY : src/drivers/wayland/lv_wl_dmabuf.c.s
+
+src/drivers/wayland/lv_wl_keyboard.o: src/drivers/wayland/lv_wl_keyboard.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_keyboard.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_keyboard.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.o
+.PHONY : src/drivers/wayland/lv_wl_keyboard.c.o
+
+src/drivers/wayland/lv_wl_keyboard.i: src/drivers/wayland/lv_wl_keyboard.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_keyboard.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_keyboard.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.i
+.PHONY : src/drivers/wayland/lv_wl_keyboard.c.i
+
+src/drivers/wayland/lv_wl_keyboard.s: src/drivers/wayland/lv_wl_keyboard.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_keyboard.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_keyboard.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_keyboard.c.s
+.PHONY : src/drivers/wayland/lv_wl_keyboard.c.s
+
+src/drivers/wayland/lv_wl_pointer.o: src/drivers/wayland/lv_wl_pointer.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_pointer.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_pointer.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.o
+.PHONY : src/drivers/wayland/lv_wl_pointer.c.o
+
+src/drivers/wayland/lv_wl_pointer.i: src/drivers/wayland/lv_wl_pointer.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_pointer.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_pointer.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.i
+.PHONY : src/drivers/wayland/lv_wl_pointer.c.i
+
+src/drivers/wayland/lv_wl_pointer.s: src/drivers/wayland/lv_wl_pointer.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_pointer.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_pointer.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer.c.s
+.PHONY : src/drivers/wayland/lv_wl_pointer.c.s
+
+src/drivers/wayland/lv_wl_pointer_axis.o: src/drivers/wayland/lv_wl_pointer_axis.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_pointer_axis.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_pointer_axis.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.o
+.PHONY : src/drivers/wayland/lv_wl_pointer_axis.c.o
+
+src/drivers/wayland/lv_wl_pointer_axis.i: src/drivers/wayland/lv_wl_pointer_axis.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_pointer_axis.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_pointer_axis.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.i
+.PHONY : src/drivers/wayland/lv_wl_pointer_axis.c.i
+
+src/drivers/wayland/lv_wl_pointer_axis.s: src/drivers/wayland/lv_wl_pointer_axis.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_pointer_axis.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_pointer_axis.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_pointer_axis.c.s
+.PHONY : src/drivers/wayland/lv_wl_pointer_axis.c.s
+
+src/drivers/wayland/lv_wl_seat.o: src/drivers/wayland/lv_wl_seat.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_seat.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_seat.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.o
+.PHONY : src/drivers/wayland/lv_wl_seat.c.o
+
+src/drivers/wayland/lv_wl_seat.i: src/drivers/wayland/lv_wl_seat.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_seat.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_seat.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.i
+.PHONY : src/drivers/wayland/lv_wl_seat.c.i
+
+src/drivers/wayland/lv_wl_seat.s: src/drivers/wayland/lv_wl_seat.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_seat.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_seat.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_seat.c.s
+.PHONY : src/drivers/wayland/lv_wl_seat.c.s
+
+src/drivers/wayland/lv_wl_shell.o: src/drivers/wayland/lv_wl_shell.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_shell.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_shell.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.o
+.PHONY : src/drivers/wayland/lv_wl_shell.c.o
+
+src/drivers/wayland/lv_wl_shell.i: src/drivers/wayland/lv_wl_shell.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_shell.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_shell.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.i
+.PHONY : src/drivers/wayland/lv_wl_shell.c.i
+
+src/drivers/wayland/lv_wl_shell.s: src/drivers/wayland/lv_wl_shell.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_shell.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_shell.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shell.c.s
+.PHONY : src/drivers/wayland/lv_wl_shell.c.s
+
+src/drivers/wayland/lv_wl_shm.o: src/drivers/wayland/lv_wl_shm.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_shm.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_shm.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.o
+.PHONY : src/drivers/wayland/lv_wl_shm.c.o
+
+src/drivers/wayland/lv_wl_shm.i: src/drivers/wayland/lv_wl_shm.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_shm.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_shm.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.i
+.PHONY : src/drivers/wayland/lv_wl_shm.c.i
+
+src/drivers/wayland/lv_wl_shm.s: src/drivers/wayland/lv_wl_shm.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_shm.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_shm.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_shm.c.s
+.PHONY : src/drivers/wayland/lv_wl_shm.c.s
+
+src/drivers/wayland/lv_wl_touch.o: src/drivers/wayland/lv_wl_touch.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_touch.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_touch.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.o
+.PHONY : src/drivers/wayland/lv_wl_touch.c.o
+
+src/drivers/wayland/lv_wl_touch.i: src/drivers/wayland/lv_wl_touch.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_touch.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_touch.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.i
+.PHONY : src/drivers/wayland/lv_wl_touch.c.i
+
+src/drivers/wayland/lv_wl_touch.s: src/drivers/wayland/lv_wl_touch.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_touch.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_touch.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_touch.c.s
+.PHONY : src/drivers/wayland/lv_wl_touch.c.s
+
+src/drivers/wayland/lv_wl_window.o: src/drivers/wayland/lv_wl_window.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_window.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_window.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.o
+.PHONY : src/drivers/wayland/lv_wl_window.c.o
+
+src/drivers/wayland/lv_wl_window.i: src/drivers/wayland/lv_wl_window.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_window.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_window.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.i
+.PHONY : src/drivers/wayland/lv_wl_window.c.i
+
+src/drivers/wayland/lv_wl_window.s: src/drivers/wayland/lv_wl_window.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_window.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_window.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window.c.s
+.PHONY : src/drivers/wayland/lv_wl_window.c.s
+
+src/drivers/wayland/lv_wl_window_decorations.o: src/drivers/wayland/lv_wl_window_decorations.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_window_decorations.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_window_decorations.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.o
+.PHONY : src/drivers/wayland/lv_wl_window_decorations.c.o
+
+src/drivers/wayland/lv_wl_window_decorations.i: src/drivers/wayland/lv_wl_window_decorations.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_window_decorations.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_window_decorations.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.i
+.PHONY : src/drivers/wayland/lv_wl_window_decorations.c.i
+
+src/drivers/wayland/lv_wl_window_decorations.s: src/drivers/wayland/lv_wl_window_decorations.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_window_decorations.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_window_decorations.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_window_decorations.c.s
+.PHONY : src/drivers/wayland/lv_wl_window_decorations.c.s
+
+src/drivers/wayland/lv_wl_xdg_shell.o: src/drivers/wayland/lv_wl_xdg_shell.c.o
+
+.PHONY : src/drivers/wayland/lv_wl_xdg_shell.o
+
+# target to build an object file
+src/drivers/wayland/lv_wl_xdg_shell.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.o
+.PHONY : src/drivers/wayland/lv_wl_xdg_shell.c.o
+
+src/drivers/wayland/lv_wl_xdg_shell.i: src/drivers/wayland/lv_wl_xdg_shell.c.i
+
+.PHONY : src/drivers/wayland/lv_wl_xdg_shell.i
+
+# target to preprocess a source file
+src/drivers/wayland/lv_wl_xdg_shell.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.i
+.PHONY : src/drivers/wayland/lv_wl_xdg_shell.c.i
+
+src/drivers/wayland/lv_wl_xdg_shell.s: src/drivers/wayland/lv_wl_xdg_shell.c.s
+
+.PHONY : src/drivers/wayland/lv_wl_xdg_shell.s
+
+# target to generate assembly for a file
+src/drivers/wayland/lv_wl_xdg_shell.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/drivers/wayland/lv_wl_xdg_shell.c.s
+.PHONY : src/drivers/wayland/lv_wl_xdg_shell.c.s
+
 src/drivers/windows/lv_windows_context.o: src/drivers/windows/lv_windows_context.c.o
 
 .PHONY : src/drivers/windows/lv_windows_context.o
@@ -4820,6 +13841,33 @@ src/font/lv_font_montserrat_14.s: src/font/lv_font_montserrat_14.c.s
 src/font/lv_font_montserrat_14.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14.c.s
 .PHONY : src/font/lv_font_montserrat_14.c.s
+
+src/font/lv_font_montserrat_14_aligned.o: src/font/lv_font_montserrat_14_aligned.c.o
+
+.PHONY : src/font/lv_font_montserrat_14_aligned.o
+
+# target to build an object file
+src/font/lv_font_montserrat_14_aligned.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.o
+.PHONY : src/font/lv_font_montserrat_14_aligned.c.o
+
+src/font/lv_font_montserrat_14_aligned.i: src/font/lv_font_montserrat_14_aligned.c.i
+
+.PHONY : src/font/lv_font_montserrat_14_aligned.i
+
+# target to preprocess a source file
+src/font/lv_font_montserrat_14_aligned.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.i
+.PHONY : src/font/lv_font_montserrat_14_aligned.c.i
+
+src/font/lv_font_montserrat_14_aligned.s: src/font/lv_font_montserrat_14_aligned.c.s
+
+.PHONY : src/font/lv_font_montserrat_14_aligned.s
+
+# target to generate assembly for a file
+src/font/lv_font_montserrat_14_aligned.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_montserrat_14_aligned.c.s
+.PHONY : src/font/lv_font_montserrat_14_aligned.c.s
 
 src/font/lv_font_montserrat_16.o: src/font/lv_font_montserrat_16.c.o
 
@@ -5387,6 +14435,60 @@ src/font/lv_font_simsun_16_cjk.s: src/font/lv_font_simsun_16_cjk.c.s
 src/font/lv_font_simsun_16_cjk.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_simsun_16_cjk.c.s
 .PHONY : src/font/lv_font_simsun_16_cjk.c.s
+
+src/font/lv_font_source_han_sans_sc_14_cjk.o: src/font/lv_font_source_han_sans_sc_14_cjk.c.o
+
+.PHONY : src/font/lv_font_source_han_sans_sc_14_cjk.o
+
+# target to build an object file
+src/font/lv_font_source_han_sans_sc_14_cjk.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.o
+.PHONY : src/font/lv_font_source_han_sans_sc_14_cjk.c.o
+
+src/font/lv_font_source_han_sans_sc_14_cjk.i: src/font/lv_font_source_han_sans_sc_14_cjk.c.i
+
+.PHONY : src/font/lv_font_source_han_sans_sc_14_cjk.i
+
+# target to preprocess a source file
+src/font/lv_font_source_han_sans_sc_14_cjk.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.i
+.PHONY : src/font/lv_font_source_han_sans_sc_14_cjk.c.i
+
+src/font/lv_font_source_han_sans_sc_14_cjk.s: src/font/lv_font_source_han_sans_sc_14_cjk.c.s
+
+.PHONY : src/font/lv_font_source_han_sans_sc_14_cjk.s
+
+# target to generate assembly for a file
+src/font/lv_font_source_han_sans_sc_14_cjk.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_14_cjk.c.s
+.PHONY : src/font/lv_font_source_han_sans_sc_14_cjk.c.s
+
+src/font/lv_font_source_han_sans_sc_16_cjk.o: src/font/lv_font_source_han_sans_sc_16_cjk.c.o
+
+.PHONY : src/font/lv_font_source_han_sans_sc_16_cjk.o
+
+# target to build an object file
+src/font/lv_font_source_han_sans_sc_16_cjk.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.o
+.PHONY : src/font/lv_font_source_han_sans_sc_16_cjk.c.o
+
+src/font/lv_font_source_han_sans_sc_16_cjk.i: src/font/lv_font_source_han_sans_sc_16_cjk.c.i
+
+.PHONY : src/font/lv_font_source_han_sans_sc_16_cjk.i
+
+# target to preprocess a source file
+src/font/lv_font_source_han_sans_sc_16_cjk.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.i
+.PHONY : src/font/lv_font_source_han_sans_sc_16_cjk.c.i
+
+src/font/lv_font_source_han_sans_sc_16_cjk.s: src/font/lv_font_source_han_sans_sc_16_cjk.c.s
+
+.PHONY : src/font/lv_font_source_han_sans_sc_16_cjk.s
+
+# target to generate assembly for a file
+src/font/lv_font_source_han_sans_sc_16_cjk.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/font/lv_font_source_han_sans_sc_16_cjk.c.s
+.PHONY : src/font/lv_font_source_han_sans_sc_16_cjk.c.s
 
 src/font/lv_font_unscii_16.o: src/font/lv_font_unscii_16.c.o
 
@@ -5981,6 +15083,33 @@ src/libs/freetype/lv_freetype_outline.s: src/libs/freetype/lv_freetype_outline.c
 src/libs/freetype/lv_freetype_outline.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_freetype_outline.c.s
 .PHONY : src/libs/freetype/lv_freetype_outline.c.s
+
+src/libs/freetype/lv_ftsystem.o: src/libs/freetype/lv_ftsystem.c.o
+
+.PHONY : src/libs/freetype/lv_ftsystem.o
+
+# target to build an object file
+src/libs/freetype/lv_ftsystem.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.o
+.PHONY : src/libs/freetype/lv_ftsystem.c.o
+
+src/libs/freetype/lv_ftsystem.i: src/libs/freetype/lv_ftsystem.c.i
+
+.PHONY : src/libs/freetype/lv_ftsystem.i
+
+# target to preprocess a source file
+src/libs/freetype/lv_ftsystem.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.i
+.PHONY : src/libs/freetype/lv_ftsystem.c.i
+
+src/libs/freetype/lv_ftsystem.s: src/libs/freetype/lv_ftsystem.c.s
+
+.PHONY : src/libs/freetype/lv_ftsystem.s
+
+# target to generate assembly for a file
+src/libs/freetype/lv_ftsystem.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/libs/freetype/lv_ftsystem.c.s
+.PHONY : src/libs/freetype/lv_ftsystem.c.s
 
 src/libs/fsdrv/lv_fs_cbfs.o: src/libs/fsdrv/lv_fs_cbfs.c.o
 
@@ -8007,6 +17136,114 @@ src/lv_init.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/lv_init.c.s
 .PHONY : src/lv_init.c.s
 
+src/misc/cache/class/lv_cache_lru_ll.o: src/misc/cache/class/lv_cache_lru_ll.c.o
+
+.PHONY : src/misc/cache/class/lv_cache_lru_ll.o
+
+# target to build an object file
+src/misc/cache/class/lv_cache_lru_ll.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.o
+.PHONY : src/misc/cache/class/lv_cache_lru_ll.c.o
+
+src/misc/cache/class/lv_cache_lru_ll.i: src/misc/cache/class/lv_cache_lru_ll.c.i
+
+.PHONY : src/misc/cache/class/lv_cache_lru_ll.i
+
+# target to preprocess a source file
+src/misc/cache/class/lv_cache_lru_ll.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.i
+.PHONY : src/misc/cache/class/lv_cache_lru_ll.c.i
+
+src/misc/cache/class/lv_cache_lru_ll.s: src/misc/cache/class/lv_cache_lru_ll.c.s
+
+.PHONY : src/misc/cache/class/lv_cache_lru_ll.s
+
+# target to generate assembly for a file
+src/misc/cache/class/lv_cache_lru_ll.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_ll.c.s
+.PHONY : src/misc/cache/class/lv_cache_lru_ll.c.s
+
+src/misc/cache/class/lv_cache_lru_rb.o: src/misc/cache/class/lv_cache_lru_rb.c.o
+
+.PHONY : src/misc/cache/class/lv_cache_lru_rb.o
+
+# target to build an object file
+src/misc/cache/class/lv_cache_lru_rb.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.o
+.PHONY : src/misc/cache/class/lv_cache_lru_rb.c.o
+
+src/misc/cache/class/lv_cache_lru_rb.i: src/misc/cache/class/lv_cache_lru_rb.c.i
+
+.PHONY : src/misc/cache/class/lv_cache_lru_rb.i
+
+# target to preprocess a source file
+src/misc/cache/class/lv_cache_lru_rb.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.i
+.PHONY : src/misc/cache/class/lv_cache_lru_rb.c.i
+
+src/misc/cache/class/lv_cache_lru_rb.s: src/misc/cache/class/lv_cache_lru_rb.c.s
+
+.PHONY : src/misc/cache/class/lv_cache_lru_rb.s
+
+# target to generate assembly for a file
+src/misc/cache/class/lv_cache_lru_rb.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/class/lv_cache_lru_rb.c.s
+.PHONY : src/misc/cache/class/lv_cache_lru_rb.c.s
+
+src/misc/cache/instance/lv_image_cache.o: src/misc/cache/instance/lv_image_cache.c.o
+
+.PHONY : src/misc/cache/instance/lv_image_cache.o
+
+# target to build an object file
+src/misc/cache/instance/lv_image_cache.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.o
+.PHONY : src/misc/cache/instance/lv_image_cache.c.o
+
+src/misc/cache/instance/lv_image_cache.i: src/misc/cache/instance/lv_image_cache.c.i
+
+.PHONY : src/misc/cache/instance/lv_image_cache.i
+
+# target to preprocess a source file
+src/misc/cache/instance/lv_image_cache.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.i
+.PHONY : src/misc/cache/instance/lv_image_cache.c.i
+
+src/misc/cache/instance/lv_image_cache.s: src/misc/cache/instance/lv_image_cache.c.s
+
+.PHONY : src/misc/cache/instance/lv_image_cache.s
+
+# target to generate assembly for a file
+src/misc/cache/instance/lv_image_cache.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_cache.c.s
+.PHONY : src/misc/cache/instance/lv_image_cache.c.s
+
+src/misc/cache/instance/lv_image_header_cache.o: src/misc/cache/instance/lv_image_header_cache.c.o
+
+.PHONY : src/misc/cache/instance/lv_image_header_cache.o
+
+# target to build an object file
+src/misc/cache/instance/lv_image_header_cache.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.o
+.PHONY : src/misc/cache/instance/lv_image_header_cache.c.o
+
+src/misc/cache/instance/lv_image_header_cache.i: src/misc/cache/instance/lv_image_header_cache.c.i
+
+.PHONY : src/misc/cache/instance/lv_image_header_cache.i
+
+# target to preprocess a source file
+src/misc/cache/instance/lv_image_header_cache.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.i
+.PHONY : src/misc/cache/instance/lv_image_header_cache.c.i
+
+src/misc/cache/instance/lv_image_header_cache.s: src/misc/cache/instance/lv_image_header_cache.c.s
+
+.PHONY : src/misc/cache/instance/lv_image_header_cache.s
+
+# target to generate assembly for a file
+src/misc/cache/instance/lv_image_header_cache.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/instance/lv_image_header_cache.c.s
+.PHONY : src/misc/cache/instance/lv_image_header_cache.c.s
+
 src/misc/cache/lv_cache.o: src/misc/cache/lv_cache.c.o
 
 .PHONY : src/misc/cache/lv_cache.o
@@ -8060,87 +17297,6 @@ src/misc/cache/lv_cache_entry.s: src/misc/cache/lv_cache_entry.c.s
 src/misc/cache/lv_cache_entry.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_entry.c.s
 .PHONY : src/misc/cache/lv_cache_entry.c.s
-
-src/misc/cache/lv_cache_lru_rb.o: src/misc/cache/lv_cache_lru_rb.c.o
-
-.PHONY : src/misc/cache/lv_cache_lru_rb.o
-
-# target to build an object file
-src/misc/cache/lv_cache_lru_rb.c.o:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.o
-.PHONY : src/misc/cache/lv_cache_lru_rb.c.o
-
-src/misc/cache/lv_cache_lru_rb.i: src/misc/cache/lv_cache_lru_rb.c.i
-
-.PHONY : src/misc/cache/lv_cache_lru_rb.i
-
-# target to preprocess a source file
-src/misc/cache/lv_cache_lru_rb.c.i:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.i
-.PHONY : src/misc/cache/lv_cache_lru_rb.c.i
-
-src/misc/cache/lv_cache_lru_rb.s: src/misc/cache/lv_cache_lru_rb.c.s
-
-.PHONY : src/misc/cache/lv_cache_lru_rb.s
-
-# target to generate assembly for a file
-src/misc/cache/lv_cache_lru_rb.c.s:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_cache_lru_rb.c.s
-.PHONY : src/misc/cache/lv_cache_lru_rb.c.s
-
-src/misc/cache/lv_image_cache.o: src/misc/cache/lv_image_cache.c.o
-
-.PHONY : src/misc/cache/lv_image_cache.o
-
-# target to build an object file
-src/misc/cache/lv_image_cache.c.o:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.o
-.PHONY : src/misc/cache/lv_image_cache.c.o
-
-src/misc/cache/lv_image_cache.i: src/misc/cache/lv_image_cache.c.i
-
-.PHONY : src/misc/cache/lv_image_cache.i
-
-# target to preprocess a source file
-src/misc/cache/lv_image_cache.c.i:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.i
-.PHONY : src/misc/cache/lv_image_cache.c.i
-
-src/misc/cache/lv_image_cache.s: src/misc/cache/lv_image_cache.c.s
-
-.PHONY : src/misc/cache/lv_image_cache.s
-
-# target to generate assembly for a file
-src/misc/cache/lv_image_cache.c.s:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_cache.c.s
-.PHONY : src/misc/cache/lv_image_cache.c.s
-
-src/misc/cache/lv_image_header_cache.o: src/misc/cache/lv_image_header_cache.c.o
-
-.PHONY : src/misc/cache/lv_image_header_cache.o
-
-# target to build an object file
-src/misc/cache/lv_image_header_cache.c.o:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.o
-.PHONY : src/misc/cache/lv_image_header_cache.c.o
-
-src/misc/cache/lv_image_header_cache.i: src/misc/cache/lv_image_header_cache.c.i
-
-.PHONY : src/misc/cache/lv_image_header_cache.i
-
-# target to preprocess a source file
-src/misc/cache/lv_image_header_cache.c.i:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.i
-.PHONY : src/misc/cache/lv_image_header_cache.c.i
-
-src/misc/cache/lv_image_header_cache.s: src/misc/cache/lv_image_header_cache.c.s
-
-.PHONY : src/misc/cache/lv_image_header_cache.s
-
-# target to generate assembly for a file
-src/misc/cache/lv_image_header_cache.c.s:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/misc/cache/lv_image_header_cache.c.s
-.PHONY : src/misc/cache/lv_image_header_cache.c.s
 
 src/misc/lv_anim.o: src/misc/lv_anim.c.o
 
@@ -9276,33 +18432,6 @@ src/others/font_manager/lv_font_manager_recycle.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_recycle.c.s
 .PHONY : src/others/font_manager/lv_font_manager_recycle.c.s
 
-src/others/font_manager/lv_font_manager_utils.o: src/others/font_manager/lv_font_manager_utils.c.o
-
-.PHONY : src/others/font_manager/lv_font_manager_utils.o
-
-# target to build an object file
-src/others/font_manager/lv_font_manager_utils.c.o:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.o
-.PHONY : src/others/font_manager/lv_font_manager_utils.c.o
-
-src/others/font_manager/lv_font_manager_utils.i: src/others/font_manager/lv_font_manager_utils.c.i
-
-.PHONY : src/others/font_manager/lv_font_manager_utils.i
-
-# target to preprocess a source file
-src/others/font_manager/lv_font_manager_utils.c.i:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.i
-.PHONY : src/others/font_manager/lv_font_manager_utils.c.i
-
-src/others/font_manager/lv_font_manager_utils.s: src/others/font_manager/lv_font_manager_utils.c.s
-
-.PHONY : src/others/font_manager/lv_font_manager_utils.s
-
-# target to generate assembly for a file
-src/others/font_manager/lv_font_manager_utils.c.s:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/font_manager/lv_font_manager_utils.c.s
-.PHONY : src/others/font_manager/lv_font_manager_utils.c.s
-
 src/others/fragment/lv_fragment.o: src/others/fragment/lv_fragment.c.o
 
 .PHONY : src/others/fragment/lv_fragment.o
@@ -9870,6 +18999,33 @@ src/others/xml/lv_xml_style.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_style.c.s
 .PHONY : src/others/xml/lv_xml_style.c.s
 
+src/others/xml/lv_xml_update.o: src/others/xml/lv_xml_update.c.o
+
+.PHONY : src/others/xml/lv_xml_update.o
+
+# target to build an object file
+src/others/xml/lv_xml_update.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.o
+.PHONY : src/others/xml/lv_xml_update.c.o
+
+src/others/xml/lv_xml_update.i: src/others/xml/lv_xml_update.c.i
+
+.PHONY : src/others/xml/lv_xml_update.i
+
+# target to preprocess a source file
+src/others/xml/lv_xml_update.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.i
+.PHONY : src/others/xml/lv_xml_update.c.i
+
+src/others/xml/lv_xml_update.s: src/others/xml/lv_xml_update.c.s
+
+.PHONY : src/others/xml/lv_xml_update.s
+
+# target to generate assembly for a file
+src/others/xml/lv_xml_update.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_update.c.s
+.PHONY : src/others/xml/lv_xml_update.c.s
+
 src/others/xml/lv_xml_utils.o: src/others/xml/lv_xml_utils.c.o
 
 .PHONY : src/others/xml/lv_xml_utils.o
@@ -9923,6 +19079,33 @@ src/others/xml/lv_xml_widget.s: src/others/xml/lv_xml_widget.c.s
 src/others/xml/lv_xml_widget.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/lv_xml_widget.c.s
 .PHONY : src/others/xml/lv_xml_widget.c.s
+
+src/others/xml/parsers/lv_xml_arc_parser.o: src/others/xml/parsers/lv_xml_arc_parser.c.o
+
+.PHONY : src/others/xml/parsers/lv_xml_arc_parser.o
+
+# target to build an object file
+src/others/xml/parsers/lv_xml_arc_parser.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.o
+.PHONY : src/others/xml/parsers/lv_xml_arc_parser.c.o
+
+src/others/xml/parsers/lv_xml_arc_parser.i: src/others/xml/parsers/lv_xml_arc_parser.c.i
+
+.PHONY : src/others/xml/parsers/lv_xml_arc_parser.i
+
+# target to preprocess a source file
+src/others/xml/parsers/lv_xml_arc_parser.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.i
+.PHONY : src/others/xml/parsers/lv_xml_arc_parser.c.i
+
+src/others/xml/parsers/lv_xml_arc_parser.s: src/others/xml/parsers/lv_xml_arc_parser.c.s
+
+.PHONY : src/others/xml/parsers/lv_xml_arc_parser.s
+
+# target to generate assembly for a file
+src/others/xml/parsers/lv_xml_arc_parser.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_arc_parser.c.s
+.PHONY : src/others/xml/parsers/lv_xml_arc_parser.c.s
 
 src/others/xml/parsers/lv_xml_bar_parser.o: src/others/xml/parsers/lv_xml_bar_parser.c.o
 
@@ -10005,6 +19188,60 @@ src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.s
 .PHONY : src/others/xml/parsers/lv_xml_buttonmatrix_parser.c.s
 
+src/others/xml/parsers/lv_xml_calendar_parser.o: src/others/xml/parsers/lv_xml_calendar_parser.c.o
+
+.PHONY : src/others/xml/parsers/lv_xml_calendar_parser.o
+
+# target to build an object file
+src/others/xml/parsers/lv_xml_calendar_parser.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.o
+.PHONY : src/others/xml/parsers/lv_xml_calendar_parser.c.o
+
+src/others/xml/parsers/lv_xml_calendar_parser.i: src/others/xml/parsers/lv_xml_calendar_parser.c.i
+
+.PHONY : src/others/xml/parsers/lv_xml_calendar_parser.i
+
+# target to preprocess a source file
+src/others/xml/parsers/lv_xml_calendar_parser.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.i
+.PHONY : src/others/xml/parsers/lv_xml_calendar_parser.c.i
+
+src/others/xml/parsers/lv_xml_calendar_parser.s: src/others/xml/parsers/lv_xml_calendar_parser.c.s
+
+.PHONY : src/others/xml/parsers/lv_xml_calendar_parser.s
+
+# target to generate assembly for a file
+src/others/xml/parsers/lv_xml_calendar_parser.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_calendar_parser.c.s
+.PHONY : src/others/xml/parsers/lv_xml_calendar_parser.c.s
+
+src/others/xml/parsers/lv_xml_canvas_parser.o: src/others/xml/parsers/lv_xml_canvas_parser.c.o
+
+.PHONY : src/others/xml/parsers/lv_xml_canvas_parser.o
+
+# target to build an object file
+src/others/xml/parsers/lv_xml_canvas_parser.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.o
+.PHONY : src/others/xml/parsers/lv_xml_canvas_parser.c.o
+
+src/others/xml/parsers/lv_xml_canvas_parser.i: src/others/xml/parsers/lv_xml_canvas_parser.c.i
+
+.PHONY : src/others/xml/parsers/lv_xml_canvas_parser.i
+
+# target to preprocess a source file
+src/others/xml/parsers/lv_xml_canvas_parser.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.i
+.PHONY : src/others/xml/parsers/lv_xml_canvas_parser.c.i
+
+src/others/xml/parsers/lv_xml_canvas_parser.s: src/others/xml/parsers/lv_xml_canvas_parser.c.s
+
+.PHONY : src/others/xml/parsers/lv_xml_canvas_parser.s
+
+# target to generate assembly for a file
+src/others/xml/parsers/lv_xml_canvas_parser.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_canvas_parser.c.s
+.PHONY : src/others/xml/parsers/lv_xml_canvas_parser.c.s
+
 src/others/xml/parsers/lv_xml_chart_parser.o: src/others/xml/parsers/lv_xml_chart_parser.c.o
 
 .PHONY : src/others/xml/parsers/lv_xml_chart_parser.o
@@ -10031,6 +19268,33 @@ src/others/xml/parsers/lv_xml_chart_parser.s: src/others/xml/parsers/lv_xml_char
 src/others/xml/parsers/lv_xml_chart_parser.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_chart_parser.c.s
 .PHONY : src/others/xml/parsers/lv_xml_chart_parser.c.s
+
+src/others/xml/parsers/lv_xml_checkbox_parser.o: src/others/xml/parsers/lv_xml_checkbox_parser.c.o
+
+.PHONY : src/others/xml/parsers/lv_xml_checkbox_parser.o
+
+# target to build an object file
+src/others/xml/parsers/lv_xml_checkbox_parser.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.o
+.PHONY : src/others/xml/parsers/lv_xml_checkbox_parser.c.o
+
+src/others/xml/parsers/lv_xml_checkbox_parser.i: src/others/xml/parsers/lv_xml_checkbox_parser.c.i
+
+.PHONY : src/others/xml/parsers/lv_xml_checkbox_parser.i
+
+# target to preprocess a source file
+src/others/xml/parsers/lv_xml_checkbox_parser.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.i
+.PHONY : src/others/xml/parsers/lv_xml_checkbox_parser.c.i
+
+src/others/xml/parsers/lv_xml_checkbox_parser.s: src/others/xml/parsers/lv_xml_checkbox_parser.c.s
+
+.PHONY : src/others/xml/parsers/lv_xml_checkbox_parser.s
+
+# target to generate assembly for a file
+src/others/xml/parsers/lv_xml_checkbox_parser.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/others/xml/parsers/lv_xml_checkbox_parser.c.s
+.PHONY : src/others/xml/parsers/lv_xml_checkbox_parser.c.s
 
 src/others/xml/parsers/lv_xml_dropdown_parser.o: src/others/xml/parsers/lv_xml_dropdown_parser.c.o
 
@@ -10868,6 +20132,33 @@ src/tick/lv_tick.s: src/tick/lv_tick.c.s
 src/tick/lv_tick.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/tick/lv_tick.c.s
 .PHONY : src/tick/lv_tick.c.s
+
+src/widgets/3dtexture/lv_3dtexture.o: src/widgets/3dtexture/lv_3dtexture.c.o
+
+.PHONY : src/widgets/3dtexture/lv_3dtexture.o
+
+# target to build an object file
+src/widgets/3dtexture/lv_3dtexture.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.o
+.PHONY : src/widgets/3dtexture/lv_3dtexture.c.o
+
+src/widgets/3dtexture/lv_3dtexture.i: src/widgets/3dtexture/lv_3dtexture.c.i
+
+.PHONY : src/widgets/3dtexture/lv_3dtexture.i
+
+# target to preprocess a source file
+src/widgets/3dtexture/lv_3dtexture.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.i
+.PHONY : src/widgets/3dtexture/lv_3dtexture.c.i
+
+src/widgets/3dtexture/lv_3dtexture.s: src/widgets/3dtexture/lv_3dtexture.c.s
+
+.PHONY : src/widgets/3dtexture/lv_3dtexture.s
+
+# target to generate assembly for a file
+src/widgets/3dtexture/lv_3dtexture.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f lvgl/CMakeFiles/lvgl.dir/build.make lvgl/CMakeFiles/lvgl.dir/src/widgets/3dtexture/lv_3dtexture.c.s
+.PHONY : src/widgets/3dtexture/lv_3dtexture.c.s
 
 src/widgets/animimage/lv_animimage.o: src/widgets/animimage/lv_animimage.c.o
 
@@ -12122,9 +21413,962 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... lvgl_demos"
 	@echo "... edit_cache"
+	@echo "... lvgl_examples"
 	@echo "... lvgl_thorvg"
 	@echo "... lvgl"
+	@echo "... demos/benchmark/assets/img_benchmark_avatar.o"
+	@echo "... demos/benchmark/assets/img_benchmark_avatar.i"
+	@echo "... demos/benchmark/assets/img_benchmark_avatar.s"
+	@echo "... demos/benchmark/assets/img_benchmark_lvgl_logo_argb.o"
+	@echo "... demos/benchmark/assets/img_benchmark_lvgl_logo_argb.i"
+	@echo "... demos/benchmark/assets/img_benchmark_lvgl_logo_argb.s"
+	@echo "... demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.o"
+	@echo "... demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.i"
+	@echo "... demos/benchmark/assets/img_benchmark_lvgl_logo_rgb.s"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.o"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.i"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_12_aligned.s"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.o"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.i"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_14_aligned.s"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.o"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.i"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_16_aligned.s"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.o"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.i"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_18_aligned.s"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.o"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.i"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_20_aligned.s"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.o"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.i"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_24_aligned.s"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.o"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.i"
+	@echo "... demos/benchmark/assets/lv_font_benchmark_montserrat_26_aligned.s"
+	@echo "... demos/benchmark/lv_demo_benchmark.o"
+	@echo "... demos/benchmark/lv_demo_benchmark.i"
+	@echo "... demos/benchmark/lv_demo_benchmark.s"
+	@echo "... demos/keypad_encoder/lv_demo_keypad_encoder.o"
+	@echo "... demos/keypad_encoder/lv_demo_keypad_encoder.i"
+	@echo "... demos/keypad_encoder/lv_demo_keypad_encoder.s"
+	@echo "... demos/lv_demos.o"
+	@echo "... demos/lv_demos.i"
+	@echo "... demos/lv_demos.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_corner_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_corner_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_corner_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_pause_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_list_play_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_loop.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_loop.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_loop.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_loop_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_loop_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_loop_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_next.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_next.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_next.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_next_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_next_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_next_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_pause.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_pause.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_pause.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_pause_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_pause_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_pause_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_play.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_play.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_play.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_play_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_play_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_play_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_prev.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_prev.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_prev.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_prev_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_prev_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_prev_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd.s"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_btn_rnd_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_left.o"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_left.i"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_left.s"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_left_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_left_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_left_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_right.o"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_right.i"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_right.s"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_right_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_right_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_corner_right_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_1.o"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_1.i"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_1.s"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_1_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_1_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_1_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_2.o"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_2.i"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_2.s"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_2_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_2_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_2_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_3.o"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_3.i"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_3.s"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_3_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_3_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_cover_3_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_1.o"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_1.i"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_1.s"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_1_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_1_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_1_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_2.o"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_2.i"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_2.s"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_2_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_2_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_2_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_3.o"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_3.i"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_3.s"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_3_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_3_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_3_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_4.o"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_4.i"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_4.s"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_4_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_4_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_icon_4_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_list_border.o"
+	@echo "... demos/music/assets/img_lv_demo_music_list_border.i"
+	@echo "... demos/music/assets/img_lv_demo_music_list_border.s"
+	@echo "... demos/music/assets/img_lv_demo_music_list_border_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_list_border_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_list_border_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_logo.o"
+	@echo "... demos/music/assets/img_lv_demo_music_logo.i"
+	@echo "... demos/music/assets/img_lv_demo_music_logo.s"
+	@echo "... demos/music/assets/img_lv_demo_music_slider_knob.o"
+	@echo "... demos/music/assets/img_lv_demo_music_slider_knob.i"
+	@echo "... demos/music/assets/img_lv_demo_music_slider_knob.s"
+	@echo "... demos/music/assets/img_lv_demo_music_slider_knob_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_slider_knob_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_slider_knob_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom.o"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom.i"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom.s"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_bottom_large.s"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_top.o"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_top.i"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_top.s"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_top_large.o"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_top_large.i"
+	@echo "... demos/music/assets/img_lv_demo_music_wave_top_large.s"
+	@echo "... demos/music/lv_demo_music.o"
+	@echo "... demos/music/lv_demo_music.i"
+	@echo "... demos/music/lv_demo_music.s"
+	@echo "... demos/music/lv_demo_music_list.o"
+	@echo "... demos/music/lv_demo_music_list.i"
+	@echo "... demos/music/lv_demo_music_list.s"
+	@echo "... demos/music/lv_demo_music_main.o"
+	@echo "... demos/music/lv_demo_music_main.i"
+	@echo "... demos/music/lv_demo_music_main.s"
+	@echo "... demos/render/assets/img_render_arc_bg.o"
+	@echo "... demos/render/assets/img_render_arc_bg.i"
+	@echo "... demos/render/assets/img_render_arc_bg.s"
+	@echo "... demos/render/assets/img_render_lvgl_logo_argb8888.o"
+	@echo "... demos/render/assets/img_render_lvgl_logo_argb8888.i"
+	@echo "... demos/render/assets/img_render_lvgl_logo_argb8888.s"
+	@echo "... demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.o"
+	@echo "... demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.i"
+	@echo "... demos/render/assets/img_render_lvgl_logo_argb8888_premultiplied.s"
+	@echo "... demos/render/assets/img_render_lvgl_logo_i1.o"
+	@echo "... demos/render/assets/img_render_lvgl_logo_i1.i"
+	@echo "... demos/render/assets/img_render_lvgl_logo_i1.s"
+	@echo "... demos/render/assets/img_render_lvgl_logo_l8.o"
+	@echo "... demos/render/assets/img_render_lvgl_logo_l8.i"
+	@echo "... demos/render/assets/img_render_lvgl_logo_l8.s"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb565.o"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb565.i"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb565.s"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb565_swapped.o"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb565_swapped.i"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb565_swapped.s"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb565a8.o"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb565a8.i"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb565a8.s"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb888.o"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb888.i"
+	@echo "... demos/render/assets/img_render_lvgl_logo_rgb888.s"
+	@echo "... demos/render/assets/img_render_lvgl_logo_xrgb8888.o"
+	@echo "... demos/render/assets/img_render_lvgl_logo_xrgb8888.i"
+	@echo "... demos/render/assets/img_render_lvgl_logo_xrgb8888.s"
+	@echo "... demos/render/lv_demo_render.o"
+	@echo "... demos/render/lv_demo_render.i"
+	@echo "... demos/render/lv_demo_render.s"
+	@echo "... demos/stress/lv_demo_stress.o"
+	@echo "... demos/stress/lv_demo_stress.i"
+	@echo "... demos/stress/lv_demo_stress.s"
+	@echo "... demos/vector_graphic/assets/img_demo_vector_avatar.o"
+	@echo "... demos/vector_graphic/assets/img_demo_vector_avatar.i"
+	@echo "... demos/vector_graphic/assets/img_demo_vector_avatar.s"
+	@echo "... demos/vector_graphic/lv_demo_vector_graphic.o"
+	@echo "... demos/vector_graphic/lv_demo_vector_graphic.i"
+	@echo "... demos/vector_graphic/lv_demo_vector_graphic.s"
+	@echo "... demos/widgets/assets/img_clothes.o"
+	@echo "... demos/widgets/assets/img_clothes.i"
+	@echo "... demos/widgets/assets/img_clothes.s"
+	@echo "... demos/widgets/assets/img_demo_widgets_avatar.o"
+	@echo "... demos/widgets/assets/img_demo_widgets_avatar.i"
+	@echo "... demos/widgets/assets/img_demo_widgets_avatar.s"
+	@echo "... demos/widgets/assets/img_demo_widgets_needle.o"
+	@echo "... demos/widgets/assets/img_demo_widgets_needle.i"
+	@echo "... demos/widgets/assets/img_demo_widgets_needle.s"
+	@echo "... demos/widgets/assets/img_lvgl_logo.o"
+	@echo "... demos/widgets/assets/img_lvgl_logo.i"
+	@echo "... demos/widgets/assets/img_lvgl_logo.s"
+	@echo "... demos/widgets/lv_demo_widgets.o"
+	@echo "... demos/widgets/lv_demo_widgets.i"
+	@echo "... demos/widgets/lv_demo_widgets.s"
+	@echo "... examples/anim/lv_example_anim_1.o"
+	@echo "... examples/anim/lv_example_anim_1.i"
+	@echo "... examples/anim/lv_example_anim_1.s"
+	@echo "... examples/anim/lv_example_anim_2.o"
+	@echo "... examples/anim/lv_example_anim_2.i"
+	@echo "... examples/anim/lv_example_anim_2.s"
+	@echo "... examples/anim/lv_example_anim_3.o"
+	@echo "... examples/anim/lv_example_anim_3.i"
+	@echo "... examples/anim/lv_example_anim_3.s"
+	@echo "... examples/anim/lv_example_anim_4.o"
+	@echo "... examples/anim/lv_example_anim_4.i"
+	@echo "... examples/anim/lv_example_anim_4.s"
+	@echo "... examples/anim/lv_example_anim_timeline_1.o"
+	@echo "... examples/anim/lv_example_anim_timeline_1.i"
+	@echo "... examples/anim/lv_example_anim_timeline_1.s"
+	@echo "... examples/assets/animimg001.o"
+	@echo "... examples/assets/animimg001.i"
+	@echo "... examples/assets/animimg001.s"
+	@echo "... examples/assets/animimg002.o"
+	@echo "... examples/assets/animimg002.i"
+	@echo "... examples/assets/animimg002.s"
+	@echo "... examples/assets/animimg003.o"
+	@echo "... examples/assets/animimg003.i"
+	@echo "... examples/assets/animimg003.s"
+	@echo "... examples/assets/emoji/img_emoji_F617.o"
+	@echo "... examples/assets/emoji/img_emoji_F617.i"
+	@echo "... examples/assets/emoji/img_emoji_F617.s"
+	@echo "... examples/assets/img_caret_down.o"
+	@echo "... examples/assets/img_caret_down.i"
+	@echo "... examples/assets/img_caret_down.s"
+	@echo "... examples/assets/img_cogwheel_argb.o"
+	@echo "... examples/assets/img_cogwheel_argb.i"
+	@echo "... examples/assets/img_cogwheel_argb.s"
+	@echo "... examples/assets/img_cogwheel_indexed16.o"
+	@echo "... examples/assets/img_cogwheel_indexed16.i"
+	@echo "... examples/assets/img_cogwheel_indexed16.s"
+	@echo "... examples/assets/img_cogwheel_rgb.o"
+	@echo "... examples/assets/img_cogwheel_rgb.i"
+	@echo "... examples/assets/img_cogwheel_rgb.s"
+	@echo "... examples/assets/img_hand.o"
+	@echo "... examples/assets/img_hand.i"
+	@echo "... examples/assets/img_hand.s"
+	@echo "... examples/assets/img_skew_strip.o"
+	@echo "... examples/assets/img_skew_strip.i"
+	@echo "... examples/assets/img_skew_strip.s"
+	@echo "... examples/assets/img_star.o"
+	@echo "... examples/assets/img_star.i"
+	@echo "... examples/assets/img_star.s"
+	@echo "... examples/assets/img_svg_img.o"
+	@echo "... examples/assets/img_svg_img.i"
+	@echo "... examples/assets/img_svg_img.s"
+	@echo "... examples/assets/imgbtn_left.o"
+	@echo "... examples/assets/imgbtn_left.i"
+	@echo "... examples/assets/imgbtn_left.s"
+	@echo "... examples/assets/imgbtn_mid.o"
+	@echo "... examples/assets/imgbtn_mid.i"
+	@echo "... examples/assets/imgbtn_mid.s"
+	@echo "... examples/assets/imgbtn_right.o"
+	@echo "... examples/assets/imgbtn_right.i"
+	@echo "... examples/assets/imgbtn_right.s"
+	@echo "... examples/event/lv_example_event_bubble.o"
+	@echo "... examples/event/lv_example_event_bubble.i"
+	@echo "... examples/event/lv_example_event_bubble.s"
+	@echo "... examples/event/lv_example_event_button.o"
+	@echo "... examples/event/lv_example_event_button.i"
+	@echo "... examples/event/lv_example_event_button.s"
+	@echo "... examples/event/lv_example_event_click.o"
+	@echo "... examples/event/lv_example_event_click.i"
+	@echo "... examples/event/lv_example_event_click.s"
+	@echo "... examples/event/lv_example_event_draw.o"
+	@echo "... examples/event/lv_example_event_draw.i"
+	@echo "... examples/event/lv_example_event_draw.s"
+	@echo "... examples/event/lv_example_event_streak.o"
+	@echo "... examples/event/lv_example_event_streak.i"
+	@echo "... examples/event/lv_example_event_streak.s"
+	@echo "... examples/get_started/lv_example_get_started_1.o"
+	@echo "... examples/get_started/lv_example_get_started_1.i"
+	@echo "... examples/get_started/lv_example_get_started_1.s"
+	@echo "... examples/get_started/lv_example_get_started_2.o"
+	@echo "... examples/get_started/lv_example_get_started_2.i"
+	@echo "... examples/get_started/lv_example_get_started_2.s"
+	@echo "... examples/get_started/lv_example_get_started_3.o"
+	@echo "... examples/get_started/lv_example_get_started_3.i"
+	@echo "... examples/get_started/lv_example_get_started_3.s"
+	@echo "... examples/get_started/lv_example_get_started_4.o"
+	@echo "... examples/get_started/lv_example_get_started_4.i"
+	@echo "... examples/get_started/lv_example_get_started_4.s"
+	@echo "... examples/grad/lv_example_grad_1.o"
+	@echo "... examples/grad/lv_example_grad_1.i"
+	@echo "... examples/grad/lv_example_grad_1.s"
+	@echo "... examples/grad/lv_example_grad_2.o"
+	@echo "... examples/grad/lv_example_grad_2.i"
+	@echo "... examples/grad/lv_example_grad_2.s"
+	@echo "... examples/grad/lv_example_grad_3.o"
+	@echo "... examples/grad/lv_example_grad_3.i"
+	@echo "... examples/grad/lv_example_grad_3.s"
+	@echo "... examples/grad/lv_example_grad_4.o"
+	@echo "... examples/grad/lv_example_grad_4.i"
+	@echo "... examples/grad/lv_example_grad_4.s"
+	@echo "... examples/layouts/flex/lv_example_flex_1.o"
+	@echo "... examples/layouts/flex/lv_example_flex_1.i"
+	@echo "... examples/layouts/flex/lv_example_flex_1.s"
+	@echo "... examples/layouts/flex/lv_example_flex_2.o"
+	@echo "... examples/layouts/flex/lv_example_flex_2.i"
+	@echo "... examples/layouts/flex/lv_example_flex_2.s"
+	@echo "... examples/layouts/flex/lv_example_flex_3.o"
+	@echo "... examples/layouts/flex/lv_example_flex_3.i"
+	@echo "... examples/layouts/flex/lv_example_flex_3.s"
+	@echo "... examples/layouts/flex/lv_example_flex_4.o"
+	@echo "... examples/layouts/flex/lv_example_flex_4.i"
+	@echo "... examples/layouts/flex/lv_example_flex_4.s"
+	@echo "... examples/layouts/flex/lv_example_flex_5.o"
+	@echo "... examples/layouts/flex/lv_example_flex_5.i"
+	@echo "... examples/layouts/flex/lv_example_flex_5.s"
+	@echo "... examples/layouts/flex/lv_example_flex_6.o"
+	@echo "... examples/layouts/flex/lv_example_flex_6.i"
+	@echo "... examples/layouts/flex/lv_example_flex_6.s"
+	@echo "... examples/layouts/grid/lv_example_grid_1.o"
+	@echo "... examples/layouts/grid/lv_example_grid_1.i"
+	@echo "... examples/layouts/grid/lv_example_grid_1.s"
+	@echo "... examples/layouts/grid/lv_example_grid_2.o"
+	@echo "... examples/layouts/grid/lv_example_grid_2.i"
+	@echo "... examples/layouts/grid/lv_example_grid_2.s"
+	@echo "... examples/layouts/grid/lv_example_grid_3.o"
+	@echo "... examples/layouts/grid/lv_example_grid_3.i"
+	@echo "... examples/layouts/grid/lv_example_grid_3.s"
+	@echo "... examples/layouts/grid/lv_example_grid_4.o"
+	@echo "... examples/layouts/grid/lv_example_grid_4.i"
+	@echo "... examples/layouts/grid/lv_example_grid_4.s"
+	@echo "... examples/layouts/grid/lv_example_grid_5.o"
+	@echo "... examples/layouts/grid/lv_example_grid_5.i"
+	@echo "... examples/layouts/grid/lv_example_grid_5.s"
+	@echo "... examples/layouts/grid/lv_example_grid_6.o"
+	@echo "... examples/layouts/grid/lv_example_grid_6.i"
+	@echo "... examples/layouts/grid/lv_example_grid_6.s"
+	@echo "... examples/libs/barcode/lv_example_barcode_1.o"
+	@echo "... examples/libs/barcode/lv_example_barcode_1.i"
+	@echo "... examples/libs/barcode/lv_example_barcode_1.s"
+	@echo "... examples/libs/bmp/lv_example_bmp_1.o"
+	@echo "... examples/libs/bmp/lv_example_bmp_1.i"
+	@echo "... examples/libs/bmp/lv_example_bmp_1.s"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_1.o"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_1.i"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_1.s"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_2.o"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_2.i"
+	@echo "... examples/libs/ffmpeg/lv_example_ffmpeg_2.s"
+	@echo "... examples/libs/freetype/lv_example_freetype_1.o"
+	@echo "... examples/libs/freetype/lv_example_freetype_1.i"
+	@echo "... examples/libs/freetype/lv_example_freetype_1.s"
+	@echo "... examples/libs/freetype/lv_example_freetype_2.o"
+	@echo "... examples/libs/freetype/lv_example_freetype_2.i"
+	@echo "... examples/libs/freetype/lv_example_freetype_2.s"
+	@echo "... examples/libs/freetype/lv_example_freetype_3.o"
+	@echo "... examples/libs/freetype/lv_example_freetype_3.i"
+	@echo "... examples/libs/freetype/lv_example_freetype_3.s"
+	@echo "... examples/libs/gif/img_bulb_gif.o"
+	@echo "... examples/libs/gif/img_bulb_gif.i"
+	@echo "... examples/libs/gif/img_bulb_gif.s"
+	@echo "... examples/libs/gif/lv_example_gif_1.o"
+	@echo "... examples/libs/gif/lv_example_gif_1.i"
+	@echo "... examples/libs/gif/lv_example_gif_1.s"
+	@echo "... examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.o"
+	@echo "... examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.i"
+	@echo "... examples/libs/libjpeg_turbo/lv_example_libjpeg_turbo_1.s"
+	@echo "... examples/libs/libpng/img_png_demo.o"
+	@echo "... examples/libs/libpng/img_png_demo.i"
+	@echo "... examples/libs/libpng/img_png_demo.s"
+	@echo "... examples/libs/libpng/lv_example_libpng_1.o"
+	@echo "... examples/libs/libpng/lv_example_libpng_1.i"
+	@echo "... examples/libs/libpng/lv_example_libpng_1.s"
+	@echo "... examples/libs/lodepng/img_wink_png.o"
+	@echo "... examples/libs/lodepng/img_wink_png.i"
+	@echo "... examples/libs/lodepng/img_wink_png.s"
+	@echo "... examples/libs/lodepng/lv_example_lodepng_1.o"
+	@echo "... examples/libs/lodepng/lv_example_lodepng_1.i"
+	@echo "... examples/libs/lodepng/lv_example_lodepng_1.s"
+	@echo "... examples/libs/qrcode/lv_example_qrcode_1.o"
+	@echo "... examples/libs/qrcode/lv_example_qrcode_1.i"
+	@echo "... examples/libs/qrcode/lv_example_qrcode_1.s"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_1.o"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_1.i"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_1.s"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_2.o"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_2.i"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_2.s"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_approve.o"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_approve.i"
+	@echo "... examples/libs/rlottie/lv_example_rlottie_approve.s"
+	@echo "... examples/libs/svg/lv_example_svg_1.o"
+	@echo "... examples/libs/svg/lv_example_svg_1.i"
+	@echo "... examples/libs/svg/lv_example_svg_1.s"
+	@echo "... examples/libs/tiny_ttf/lv_example_tiny_ttf_1.o"
+	@echo "... examples/libs/tiny_ttf/lv_example_tiny_ttf_1.i"
+	@echo "... examples/libs/tiny_ttf/lv_example_tiny_ttf_1.s"
+	@echo "... examples/libs/tiny_ttf/lv_example_tiny_ttf_2.o"
+	@echo "... examples/libs/tiny_ttf/lv_example_tiny_ttf_2.i"
+	@echo "... examples/libs/tiny_ttf/lv_example_tiny_ttf_2.s"
+	@echo "... examples/libs/tiny_ttf/lv_example_tiny_ttf_3.o"
+	@echo "... examples/libs/tiny_ttf/lv_example_tiny_ttf_3.i"
+	@echo "... examples/libs/tiny_ttf/lv_example_tiny_ttf_3.s"
+	@echo "... examples/libs/tiny_ttf/ubuntu_font.o"
+	@echo "... examples/libs/tiny_ttf/ubuntu_font.i"
+	@echo "... examples/libs/tiny_ttf/ubuntu_font.s"
+	@echo "... examples/libs/tjpgd/lv_example_tjpgd_1.o"
+	@echo "... examples/libs/tjpgd/lv_example_tjpgd_1.i"
+	@echo "... examples/libs/tjpgd/lv_example_tjpgd_1.s"
+	@echo "... examples/others/file_explorer/lv_example_file_explorer_1.o"
+	@echo "... examples/others/file_explorer/lv_example_file_explorer_1.i"
+	@echo "... examples/others/file_explorer/lv_example_file_explorer_1.s"
+	@echo "... examples/others/file_explorer/lv_example_file_explorer_2.o"
+	@echo "... examples/others/file_explorer/lv_example_file_explorer_2.i"
+	@echo "... examples/others/file_explorer/lv_example_file_explorer_2.s"
+	@echo "... examples/others/file_explorer/lv_example_file_explorer_3.o"
+	@echo "... examples/others/file_explorer/lv_example_file_explorer_3.i"
+	@echo "... examples/others/file_explorer/lv_example_file_explorer_3.s"
+	@echo "... examples/others/font_manager/lv_example_font_manager_1.o"
+	@echo "... examples/others/font_manager/lv_example_font_manager_1.i"
+	@echo "... examples/others/font_manager/lv_example_font_manager_1.s"
+	@echo "... examples/others/font_manager/lv_example_font_manager_2.o"
+	@echo "... examples/others/font_manager/lv_example_font_manager_2.i"
+	@echo "... examples/others/font_manager/lv_example_font_manager_2.s"
+	@echo "... examples/others/font_manager/lv_example_font_manager_3.o"
+	@echo "... examples/others/font_manager/lv_example_font_manager_3.i"
+	@echo "... examples/others/font_manager/lv_example_font_manager_3.s"
+	@echo "... examples/others/fragment/lv_example_fragment_1.o"
+	@echo "... examples/others/fragment/lv_example_fragment_1.i"
+	@echo "... examples/others/fragment/lv_example_fragment_1.s"
+	@echo "... examples/others/fragment/lv_example_fragment_2.o"
+	@echo "... examples/others/fragment/lv_example_fragment_2.i"
+	@echo "... examples/others/fragment/lv_example_fragment_2.s"
+	@echo "... examples/others/gestures/lv_example_gestures.o"
+	@echo "... examples/others/gestures/lv_example_gestures.i"
+	@echo "... examples/others/gestures/lv_example_gestures.s"
+	@echo "... examples/others/gridnav/lv_example_gridnav_1.o"
+	@echo "... examples/others/gridnav/lv_example_gridnav_1.i"
+	@echo "... examples/others/gridnav/lv_example_gridnav_1.s"
+	@echo "... examples/others/gridnav/lv_example_gridnav_2.o"
+	@echo "... examples/others/gridnav/lv_example_gridnav_2.i"
+	@echo "... examples/others/gridnav/lv_example_gridnav_2.s"
+	@echo "... examples/others/gridnav/lv_example_gridnav_3.o"
+	@echo "... examples/others/gridnav/lv_example_gridnav_3.i"
+	@echo "... examples/others/gridnav/lv_example_gridnav_3.s"
+	@echo "... examples/others/gridnav/lv_example_gridnav_4.o"
+	@echo "... examples/others/gridnav/lv_example_gridnav_4.i"
+	@echo "... examples/others/gridnav/lv_example_gridnav_4.s"
+	@echo "... examples/others/gridnav/lv_example_gridnav_5.o"
+	@echo "... examples/others/gridnav/lv_example_gridnav_5.i"
+	@echo "... examples/others/gridnav/lv_example_gridnav_5.s"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_1.o"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_1.i"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_1.s"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_2.o"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_2.i"
+	@echo "... examples/others/ime/lv_example_ime_pinyin_2.s"
+	@echo "... examples/others/imgfont/lv_example_imgfont_1.o"
+	@echo "... examples/others/imgfont/lv_example_imgfont_1.i"
+	@echo "... examples/others/imgfont/lv_example_imgfont_1.s"
+	@echo "... examples/others/monkey/lv_example_monkey_1.o"
+	@echo "... examples/others/monkey/lv_example_monkey_1.i"
+	@echo "... examples/others/monkey/lv_example_monkey_1.s"
+	@echo "... examples/others/monkey/lv_example_monkey_2.o"
+	@echo "... examples/others/monkey/lv_example_monkey_2.i"
+	@echo "... examples/others/monkey/lv_example_monkey_2.s"
+	@echo "... examples/others/monkey/lv_example_monkey_3.o"
+	@echo "... examples/others/monkey/lv_example_monkey_3.i"
+	@echo "... examples/others/monkey/lv_example_monkey_3.s"
+	@echo "... examples/others/observer/lv_example_observer_1.o"
+	@echo "... examples/others/observer/lv_example_observer_1.i"
+	@echo "... examples/others/observer/lv_example_observer_1.s"
+	@echo "... examples/others/observer/lv_example_observer_2.o"
+	@echo "... examples/others/observer/lv_example_observer_2.i"
+	@echo "... examples/others/observer/lv_example_observer_2.s"
+	@echo "... examples/others/observer/lv_example_observer_3.o"
+	@echo "... examples/others/observer/lv_example_observer_3.i"
+	@echo "... examples/others/observer/lv_example_observer_3.s"
+	@echo "... examples/others/observer/lv_example_observer_4.o"
+	@echo "... examples/others/observer/lv_example_observer_4.i"
+	@echo "... examples/others/observer/lv_example_observer_4.s"
+	@echo "... examples/others/observer/lv_example_observer_5.o"
+	@echo "... examples/others/observer/lv_example_observer_5.i"
+	@echo "... examples/others/observer/lv_example_observer_5.s"
+	@echo "... examples/others/observer/lv_example_observer_6.o"
+	@echo "... examples/others/observer/lv_example_observer_6.i"
+	@echo "... examples/others/observer/lv_example_observer_6.s"
+	@echo "... examples/others/snapshot/lv_example_snapshot_1.o"
+	@echo "... examples/others/snapshot/lv_example_snapshot_1.i"
+	@echo "... examples/others/snapshot/lv_example_snapshot_1.s"
+	@echo "... examples/others/xml/lv_example_xml_1.o"
+	@echo "... examples/others/xml/lv_example_xml_1.i"
+	@echo "... examples/others/xml/lv_example_xml_1.s"
+	@echo "... examples/others/xml/lv_example_xml_2.o"
+	@echo "... examples/others/xml/lv_example_xml_2.i"
+	@echo "... examples/others/xml/lv_example_xml_2.s"
+	@echo "... examples/porting/lv_port_disp_template.o"
+	@echo "... examples/porting/lv_port_disp_template.i"
+	@echo "... examples/porting/lv_port_disp_template.s"
+	@echo "... examples/porting/lv_port_fs_template.o"
+	@echo "... examples/porting/lv_port_fs_template.i"
+	@echo "... examples/porting/lv_port_fs_template.s"
+	@echo "... examples/porting/lv_port_indev_template.o"
+	@echo "... examples/porting/lv_port_indev_template.i"
+	@echo "... examples/porting/lv_port_indev_template.s"
+	@echo "... examples/porting/lv_port_lcd_stm32_template.o"
+	@echo "... examples/porting/lv_port_lcd_stm32_template.i"
+	@echo "... examples/porting/lv_port_lcd_stm32_template.s"
+	@echo "... examples/porting/osal/lv_example_osal.o"
+	@echo "... examples/porting/osal/lv_example_osal.i"
+	@echo "... examples/porting/osal/lv_example_osal.s"
+	@echo "... examples/scroll/lv_example_scroll_1.o"
+	@echo "... examples/scroll/lv_example_scroll_1.i"
+	@echo "... examples/scroll/lv_example_scroll_1.s"
+	@echo "... examples/scroll/lv_example_scroll_2.o"
+	@echo "... examples/scroll/lv_example_scroll_2.i"
+	@echo "... examples/scroll/lv_example_scroll_2.s"
+	@echo "... examples/scroll/lv_example_scroll_3.o"
+	@echo "... examples/scroll/lv_example_scroll_3.i"
+	@echo "... examples/scroll/lv_example_scroll_3.s"
+	@echo "... examples/scroll/lv_example_scroll_4.o"
+	@echo "... examples/scroll/lv_example_scroll_4.i"
+	@echo "... examples/scroll/lv_example_scroll_4.s"
+	@echo "... examples/scroll/lv_example_scroll_5.o"
+	@echo "... examples/scroll/lv_example_scroll_5.i"
+	@echo "... examples/scroll/lv_example_scroll_5.s"
+	@echo "... examples/scroll/lv_example_scroll_6.o"
+	@echo "... examples/scroll/lv_example_scroll_6.i"
+	@echo "... examples/scroll/lv_example_scroll_6.s"
+	@echo "... examples/scroll/lv_example_scroll_7.o"
+	@echo "... examples/scroll/lv_example_scroll_7.i"
+	@echo "... examples/scroll/lv_example_scroll_7.s"
+	@echo "... examples/scroll/lv_example_scroll_8.o"
+	@echo "... examples/scroll/lv_example_scroll_8.i"
+	@echo "... examples/scroll/lv_example_scroll_8.s"
+	@echo "... examples/styles/lv_example_style_1.o"
+	@echo "... examples/styles/lv_example_style_1.i"
+	@echo "... examples/styles/lv_example_style_1.s"
+	@echo "... examples/styles/lv_example_style_10.o"
+	@echo "... examples/styles/lv_example_style_10.i"
+	@echo "... examples/styles/lv_example_style_10.s"
+	@echo "... examples/styles/lv_example_style_11.o"
+	@echo "... examples/styles/lv_example_style_11.i"
+	@echo "... examples/styles/lv_example_style_11.s"
+	@echo "... examples/styles/lv_example_style_12.o"
+	@echo "... examples/styles/lv_example_style_12.i"
+	@echo "... examples/styles/lv_example_style_12.s"
+	@echo "... examples/styles/lv_example_style_13.o"
+	@echo "... examples/styles/lv_example_style_13.i"
+	@echo "... examples/styles/lv_example_style_13.s"
+	@echo "... examples/styles/lv_example_style_14.o"
+	@echo "... examples/styles/lv_example_style_14.i"
+	@echo "... examples/styles/lv_example_style_14.s"
+	@echo "... examples/styles/lv_example_style_15.o"
+	@echo "... examples/styles/lv_example_style_15.i"
+	@echo "... examples/styles/lv_example_style_15.s"
+	@echo "... examples/styles/lv_example_style_16.o"
+	@echo "... examples/styles/lv_example_style_16.i"
+	@echo "... examples/styles/lv_example_style_16.s"
+	@echo "... examples/styles/lv_example_style_17.o"
+	@echo "... examples/styles/lv_example_style_17.i"
+	@echo "... examples/styles/lv_example_style_17.s"
+	@echo "... examples/styles/lv_example_style_18.o"
+	@echo "... examples/styles/lv_example_style_18.i"
+	@echo "... examples/styles/lv_example_style_18.s"
+	@echo "... examples/styles/lv_example_style_19.o"
+	@echo "... examples/styles/lv_example_style_19.i"
+	@echo "... examples/styles/lv_example_style_19.s"
+	@echo "... examples/styles/lv_example_style_2.o"
+	@echo "... examples/styles/lv_example_style_2.i"
+	@echo "... examples/styles/lv_example_style_2.s"
+	@echo "... examples/styles/lv_example_style_3.o"
+	@echo "... examples/styles/lv_example_style_3.i"
+	@echo "... examples/styles/lv_example_style_3.s"
+	@echo "... examples/styles/lv_example_style_4.o"
+	@echo "... examples/styles/lv_example_style_4.i"
+	@echo "... examples/styles/lv_example_style_4.s"
+	@echo "... examples/styles/lv_example_style_5.o"
+	@echo "... examples/styles/lv_example_style_5.i"
+	@echo "... examples/styles/lv_example_style_5.s"
+	@echo "... examples/styles/lv_example_style_6.o"
+	@echo "... examples/styles/lv_example_style_6.i"
+	@echo "... examples/styles/lv_example_style_6.s"
+	@echo "... examples/styles/lv_example_style_7.o"
+	@echo "... examples/styles/lv_example_style_7.i"
+	@echo "... examples/styles/lv_example_style_7.s"
+	@echo "... examples/styles/lv_example_style_8.o"
+	@echo "... examples/styles/lv_example_style_8.i"
+	@echo "... examples/styles/lv_example_style_8.s"
+	@echo "... examples/styles/lv_example_style_9.o"
+	@echo "... examples/styles/lv_example_style_9.i"
+	@echo "... examples/styles/lv_example_style_9.s"
+	@echo "... examples/widgets/animimg/lv_example_animimg_1.o"
+	@echo "... examples/widgets/animimg/lv_example_animimg_1.i"
+	@echo "... examples/widgets/animimg/lv_example_animimg_1.s"
+	@echo "... examples/widgets/arc/lv_example_arc_1.o"
+	@echo "... examples/widgets/arc/lv_example_arc_1.i"
+	@echo "... examples/widgets/arc/lv_example_arc_1.s"
+	@echo "... examples/widgets/arc/lv_example_arc_2.o"
+	@echo "... examples/widgets/arc/lv_example_arc_2.i"
+	@echo "... examples/widgets/arc/lv_example_arc_2.s"
+	@echo "... examples/widgets/arc/lv_example_arc_3.o"
+	@echo "... examples/widgets/arc/lv_example_arc_3.i"
+	@echo "... examples/widgets/arc/lv_example_arc_3.s"
+	@echo "... examples/widgets/bar/lv_example_bar_1.o"
+	@echo "... examples/widgets/bar/lv_example_bar_1.i"
+	@echo "... examples/widgets/bar/lv_example_bar_1.s"
+	@echo "... examples/widgets/bar/lv_example_bar_2.o"
+	@echo "... examples/widgets/bar/lv_example_bar_2.i"
+	@echo "... examples/widgets/bar/lv_example_bar_2.s"
+	@echo "... examples/widgets/bar/lv_example_bar_3.o"
+	@echo "... examples/widgets/bar/lv_example_bar_3.i"
+	@echo "... examples/widgets/bar/lv_example_bar_3.s"
+	@echo "... examples/widgets/bar/lv_example_bar_4.o"
+	@echo "... examples/widgets/bar/lv_example_bar_4.i"
+	@echo "... examples/widgets/bar/lv_example_bar_4.s"
+	@echo "... examples/widgets/bar/lv_example_bar_5.o"
+	@echo "... examples/widgets/bar/lv_example_bar_5.i"
+	@echo "... examples/widgets/bar/lv_example_bar_5.s"
+	@echo "... examples/widgets/bar/lv_example_bar_6.o"
+	@echo "... examples/widgets/bar/lv_example_bar_6.i"
+	@echo "... examples/widgets/bar/lv_example_bar_6.s"
+	@echo "... examples/widgets/bar/lv_example_bar_7.o"
+	@echo "... examples/widgets/bar/lv_example_bar_7.i"
+	@echo "... examples/widgets/bar/lv_example_bar_7.s"
+	@echo "... examples/widgets/button/lv_example_button_1.o"
+	@echo "... examples/widgets/button/lv_example_button_1.i"
+	@echo "... examples/widgets/button/lv_example_button_1.s"
+	@echo "... examples/widgets/button/lv_example_button_2.o"
+	@echo "... examples/widgets/button/lv_example_button_2.i"
+	@echo "... examples/widgets/button/lv_example_button_2.s"
+	@echo "... examples/widgets/button/lv_example_button_3.o"
+	@echo "... examples/widgets/button/lv_example_button_3.i"
+	@echo "... examples/widgets/button/lv_example_button_3.s"
+	@echo "... examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.o"
+	@echo "... examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.i"
+	@echo "... examples/widgets/buttonmatrix/lv_example_buttonmatrix_1.s"
+	@echo "... examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.o"
+	@echo "... examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.i"
+	@echo "... examples/widgets/buttonmatrix/lv_example_buttonmatrix_2.s"
+	@echo "... examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.o"
+	@echo "... examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.i"
+	@echo "... examples/widgets/buttonmatrix/lv_example_buttonmatrix_3.s"
+	@echo "... examples/widgets/calendar/lv_example_calendar_1.o"
+	@echo "... examples/widgets/calendar/lv_example_calendar_1.i"
+	@echo "... examples/widgets/calendar/lv_example_calendar_1.s"
+	@echo "... examples/widgets/calendar/lv_example_calendar_2.o"
+	@echo "... examples/widgets/calendar/lv_example_calendar_2.i"
+	@echo "... examples/widgets/calendar/lv_example_calendar_2.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_1.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_1.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_1.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_10.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_10.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_10.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_11.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_11.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_11.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_2.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_2.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_2.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_3.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_3.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_3.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_4.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_4.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_4.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_5.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_5.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_5.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_6.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_6.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_6.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_7.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_7.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_7.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_8.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_8.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_8.s"
+	@echo "... examples/widgets/canvas/lv_example_canvas_9.o"
+	@echo "... examples/widgets/canvas/lv_example_canvas_9.i"
+	@echo "... examples/widgets/canvas/lv_example_canvas_9.s"
+	@echo "... examples/widgets/chart/lv_example_chart_1.o"
+	@echo "... examples/widgets/chart/lv_example_chart_1.i"
+	@echo "... examples/widgets/chart/lv_example_chart_1.s"
+	@echo "... examples/widgets/chart/lv_example_chart_2.o"
+	@echo "... examples/widgets/chart/lv_example_chart_2.i"
+	@echo "... examples/widgets/chart/lv_example_chart_2.s"
+	@echo "... examples/widgets/chart/lv_example_chart_3.o"
+	@echo "... examples/widgets/chart/lv_example_chart_3.i"
+	@echo "... examples/widgets/chart/lv_example_chart_3.s"
+	@echo "... examples/widgets/chart/lv_example_chart_4.o"
+	@echo "... examples/widgets/chart/lv_example_chart_4.i"
+	@echo "... examples/widgets/chart/lv_example_chart_4.s"
+	@echo "... examples/widgets/chart/lv_example_chart_5.o"
+	@echo "... examples/widgets/chart/lv_example_chart_5.i"
+	@echo "... examples/widgets/chart/lv_example_chart_5.s"
+	@echo "... examples/widgets/chart/lv_example_chart_6.o"
+	@echo "... examples/widgets/chart/lv_example_chart_6.i"
+	@echo "... examples/widgets/chart/lv_example_chart_6.s"
+	@echo "... examples/widgets/chart/lv_example_chart_7.o"
+	@echo "... examples/widgets/chart/lv_example_chart_7.i"
+	@echo "... examples/widgets/chart/lv_example_chart_7.s"
+	@echo "... examples/widgets/chart/lv_example_chart_8.o"
+	@echo "... examples/widgets/chart/lv_example_chart_8.i"
+	@echo "... examples/widgets/chart/lv_example_chart_8.s"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_1.o"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_1.i"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_1.s"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_2.o"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_2.i"
+	@echo "... examples/widgets/checkbox/lv_example_checkbox_2.s"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_1.o"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_1.i"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_1.s"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_2.o"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_2.i"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_2.s"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_3.o"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_3.i"
+	@echo "... examples/widgets/dropdown/lv_example_dropdown_3.s"
+	@echo "... examples/widgets/image/lv_example_image_1.o"
+	@echo "... examples/widgets/image/lv_example_image_1.i"
+	@echo "... examples/widgets/image/lv_example_image_1.s"
+	@echo "... examples/widgets/image/lv_example_image_2.o"
+	@echo "... examples/widgets/image/lv_example_image_2.i"
+	@echo "... examples/widgets/image/lv_example_image_2.s"
+	@echo "... examples/widgets/image/lv_example_image_3.o"
+	@echo "... examples/widgets/image/lv_example_image_3.i"
+	@echo "... examples/widgets/image/lv_example_image_3.s"
+	@echo "... examples/widgets/image/lv_example_image_4.o"
+	@echo "... examples/widgets/image/lv_example_image_4.i"
+	@echo "... examples/widgets/image/lv_example_image_4.s"
+	@echo "... examples/widgets/image/lv_example_image_5.o"
+	@echo "... examples/widgets/image/lv_example_image_5.i"
+	@echo "... examples/widgets/image/lv_example_image_5.s"
+	@echo "... examples/widgets/imagebutton/lv_example_imagebutton_1.o"
+	@echo "... examples/widgets/imagebutton/lv_example_imagebutton_1.i"
+	@echo "... examples/widgets/imagebutton/lv_example_imagebutton_1.s"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_1.o"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_1.i"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_1.s"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_2.o"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_2.i"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_2.s"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_3.o"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_3.i"
+	@echo "... examples/widgets/keyboard/lv_example_keyboard_3.s"
+	@echo "... examples/widgets/label/lv_example_label_1.o"
+	@echo "... examples/widgets/label/lv_example_label_1.i"
+	@echo "... examples/widgets/label/lv_example_label_1.s"
+	@echo "... examples/widgets/label/lv_example_label_2.o"
+	@echo "... examples/widgets/label/lv_example_label_2.i"
+	@echo "... examples/widgets/label/lv_example_label_2.s"
+	@echo "... examples/widgets/label/lv_example_label_3.o"
+	@echo "... examples/widgets/label/lv_example_label_3.i"
+	@echo "... examples/widgets/label/lv_example_label_3.s"
+	@echo "... examples/widgets/label/lv_example_label_4.o"
+	@echo "... examples/widgets/label/lv_example_label_4.i"
+	@echo "... examples/widgets/label/lv_example_label_4.s"
+	@echo "... examples/widgets/label/lv_example_label_5.o"
+	@echo "... examples/widgets/label/lv_example_label_5.i"
+	@echo "... examples/widgets/label/lv_example_label_5.s"
+	@echo "... examples/widgets/label/lv_example_label_6.o"
+	@echo "... examples/widgets/label/lv_example_label_6.i"
+	@echo "... examples/widgets/label/lv_example_label_6.s"
+	@echo "... examples/widgets/led/lv_example_led_1.o"
+	@echo "... examples/widgets/led/lv_example_led_1.i"
+	@echo "... examples/widgets/led/lv_example_led_1.s"
+	@echo "... examples/widgets/line/lv_example_line_1.o"
+	@echo "... examples/widgets/line/lv_example_line_1.i"
+	@echo "... examples/widgets/line/lv_example_line_1.s"
+	@echo "... examples/widgets/list/lv_example_list_1.o"
+	@echo "... examples/widgets/list/lv_example_list_1.i"
+	@echo "... examples/widgets/list/lv_example_list_1.s"
+	@echo "... examples/widgets/list/lv_example_list_2.o"
+	@echo "... examples/widgets/list/lv_example_list_2.i"
+	@echo "... examples/widgets/list/lv_example_list_2.s"
+	@echo "... examples/widgets/lottie/lv_example_lottie_1.o"
+	@echo "... examples/widgets/lottie/lv_example_lottie_1.i"
+	@echo "... examples/widgets/lottie/lv_example_lottie_1.s"
+	@echo "... examples/widgets/lottie/lv_example_lottie_2.o"
+	@echo "... examples/widgets/lottie/lv_example_lottie_2.i"
+	@echo "... examples/widgets/lottie/lv_example_lottie_2.s"
+	@echo "... examples/widgets/lottie/lv_example_lottie_approve.o"
+	@echo "... examples/widgets/lottie/lv_example_lottie_approve.i"
+	@echo "... examples/widgets/lottie/lv_example_lottie_approve.s"
+	@echo "... examples/widgets/menu/lv_example_menu_1.o"
+	@echo "... examples/widgets/menu/lv_example_menu_1.i"
+	@echo "... examples/widgets/menu/lv_example_menu_1.s"
+	@echo "... examples/widgets/menu/lv_example_menu_2.o"
+	@echo "... examples/widgets/menu/lv_example_menu_2.i"
+	@echo "... examples/widgets/menu/lv_example_menu_2.s"
+	@echo "... examples/widgets/menu/lv_example_menu_3.o"
+	@echo "... examples/widgets/menu/lv_example_menu_3.i"
+	@echo "... examples/widgets/menu/lv_example_menu_3.s"
+	@echo "... examples/widgets/menu/lv_example_menu_4.o"
+	@echo "... examples/widgets/menu/lv_example_menu_4.i"
+	@echo "... examples/widgets/menu/lv_example_menu_4.s"
+	@echo "... examples/widgets/menu/lv_example_menu_5.o"
+	@echo "... examples/widgets/menu/lv_example_menu_5.i"
+	@echo "... examples/widgets/menu/lv_example_menu_5.s"
+	@echo "... examples/widgets/msgbox/lv_example_msgbox_1.o"
+	@echo "... examples/widgets/msgbox/lv_example_msgbox_1.i"
+	@echo "... examples/widgets/msgbox/lv_example_msgbox_1.s"
+	@echo "... examples/widgets/msgbox/lv_example_msgbox_2.o"
+	@echo "... examples/widgets/msgbox/lv_example_msgbox_2.i"
+	@echo "... examples/widgets/msgbox/lv_example_msgbox_2.s"
+	@echo "... examples/widgets/obj/lv_example_obj_1.o"
+	@echo "... examples/widgets/obj/lv_example_obj_1.i"
+	@echo "... examples/widgets/obj/lv_example_obj_1.s"
+	@echo "... examples/widgets/obj/lv_example_obj_2.o"
+	@echo "... examples/widgets/obj/lv_example_obj_2.i"
+	@echo "... examples/widgets/obj/lv_example_obj_2.s"
+	@echo "... examples/widgets/obj/lv_example_obj_3.o"
+	@echo "... examples/widgets/obj/lv_example_obj_3.i"
+	@echo "... examples/widgets/obj/lv_example_obj_3.s"
+	@echo "... examples/widgets/roller/lv_example_roller_1.o"
+	@echo "... examples/widgets/roller/lv_example_roller_1.i"
+	@echo "... examples/widgets/roller/lv_example_roller_1.s"
+	@echo "... examples/widgets/roller/lv_example_roller_2.o"
+	@echo "... examples/widgets/roller/lv_example_roller_2.i"
+	@echo "... examples/widgets/roller/lv_example_roller_2.s"
+	@echo "... examples/widgets/roller/lv_example_roller_3.o"
+	@echo "... examples/widgets/roller/lv_example_roller_3.i"
+	@echo "... examples/widgets/roller/lv_example_roller_3.s"
+	@echo "... examples/widgets/scale/lv_example_scale_1.o"
+	@echo "... examples/widgets/scale/lv_example_scale_1.i"
+	@echo "... examples/widgets/scale/lv_example_scale_1.s"
+	@echo "... examples/widgets/scale/lv_example_scale_10.o"
+	@echo "... examples/widgets/scale/lv_example_scale_10.i"
+	@echo "... examples/widgets/scale/lv_example_scale_10.s"
+	@echo "... examples/widgets/scale/lv_example_scale_11.o"
+	@echo "... examples/widgets/scale/lv_example_scale_11.i"
+	@echo "... examples/widgets/scale/lv_example_scale_11.s"
+	@echo "... examples/widgets/scale/lv_example_scale_2.o"
+	@echo "... examples/widgets/scale/lv_example_scale_2.i"
+	@echo "... examples/widgets/scale/lv_example_scale_2.s"
+	@echo "... examples/widgets/scale/lv_example_scale_3.o"
+	@echo "... examples/widgets/scale/lv_example_scale_3.i"
+	@echo "... examples/widgets/scale/lv_example_scale_3.s"
+	@echo "... examples/widgets/scale/lv_example_scale_4.o"
+	@echo "... examples/widgets/scale/lv_example_scale_4.i"
+	@echo "... examples/widgets/scale/lv_example_scale_4.s"
+	@echo "... examples/widgets/scale/lv_example_scale_5.o"
+	@echo "... examples/widgets/scale/lv_example_scale_5.i"
+	@echo "... examples/widgets/scale/lv_example_scale_5.s"
+	@echo "... examples/widgets/scale/lv_example_scale_6.o"
+	@echo "... examples/widgets/scale/lv_example_scale_6.i"
+	@echo "... examples/widgets/scale/lv_example_scale_6.s"
+	@echo "... examples/widgets/scale/lv_example_scale_7.o"
+	@echo "... examples/widgets/scale/lv_example_scale_7.i"
+	@echo "... examples/widgets/scale/lv_example_scale_7.s"
+	@echo "... examples/widgets/scale/lv_example_scale_8.o"
+	@echo "... examples/widgets/scale/lv_example_scale_8.i"
+	@echo "... examples/widgets/scale/lv_example_scale_8.s"
+	@echo "... examples/widgets/scale/lv_example_scale_9.o"
+	@echo "... examples/widgets/scale/lv_example_scale_9.i"
+	@echo "... examples/widgets/scale/lv_example_scale_9.s"
+	@echo "... examples/widgets/slider/lv_example_slider_1.o"
+	@echo "... examples/widgets/slider/lv_example_slider_1.i"
+	@echo "... examples/widgets/slider/lv_example_slider_1.s"
+	@echo "... examples/widgets/slider/lv_example_slider_2.o"
+	@echo "... examples/widgets/slider/lv_example_slider_2.i"
+	@echo "... examples/widgets/slider/lv_example_slider_2.s"
+	@echo "... examples/widgets/slider/lv_example_slider_3.o"
+	@echo "... examples/widgets/slider/lv_example_slider_3.i"
+	@echo "... examples/widgets/slider/lv_example_slider_3.s"
+	@echo "... examples/widgets/slider/lv_example_slider_4.o"
+	@echo "... examples/widgets/slider/lv_example_slider_4.i"
+	@echo "... examples/widgets/slider/lv_example_slider_4.s"
+	@echo "... examples/widgets/span/lv_example_span_1.o"
+	@echo "... examples/widgets/span/lv_example_span_1.i"
+	@echo "... examples/widgets/span/lv_example_span_1.s"
+	@echo "... examples/widgets/spinbox/lv_example_spinbox_1.o"
+	@echo "... examples/widgets/spinbox/lv_example_spinbox_1.i"
+	@echo "... examples/widgets/spinbox/lv_example_spinbox_1.s"
+	@echo "... examples/widgets/spinner/lv_example_spinner_1.o"
+	@echo "... examples/widgets/spinner/lv_example_spinner_1.i"
+	@echo "... examples/widgets/spinner/lv_example_spinner_1.s"
+	@echo "... examples/widgets/switch/lv_example_switch_1.o"
+	@echo "... examples/widgets/switch/lv_example_switch_1.i"
+	@echo "... examples/widgets/switch/lv_example_switch_1.s"
+	@echo "... examples/widgets/switch/lv_example_switch_2.o"
+	@echo "... examples/widgets/switch/lv_example_switch_2.i"
+	@echo "... examples/widgets/switch/lv_example_switch_2.s"
+	@echo "... examples/widgets/table/lv_example_table_1.o"
+	@echo "... examples/widgets/table/lv_example_table_1.i"
+	@echo "... examples/widgets/table/lv_example_table_1.s"
+	@echo "... examples/widgets/table/lv_example_table_2.o"
+	@echo "... examples/widgets/table/lv_example_table_2.i"
+	@echo "... examples/widgets/table/lv_example_table_2.s"
+	@echo "... examples/widgets/tabview/lv_example_tabview_1.o"
+	@echo "... examples/widgets/tabview/lv_example_tabview_1.i"
+	@echo "... examples/widgets/tabview/lv_example_tabview_1.s"
+	@echo "... examples/widgets/tabview/lv_example_tabview_2.o"
+	@echo "... examples/widgets/tabview/lv_example_tabview_2.i"
+	@echo "... examples/widgets/tabview/lv_example_tabview_2.s"
+	@echo "... examples/widgets/textarea/lv_example_textarea_1.o"
+	@echo "... examples/widgets/textarea/lv_example_textarea_1.i"
+	@echo "... examples/widgets/textarea/lv_example_textarea_1.s"
+	@echo "... examples/widgets/textarea/lv_example_textarea_2.o"
+	@echo "... examples/widgets/textarea/lv_example_textarea_2.i"
+	@echo "... examples/widgets/textarea/lv_example_textarea_2.s"
+	@echo "... examples/widgets/textarea/lv_example_textarea_3.o"
+	@echo "... examples/widgets/textarea/lv_example_textarea_3.i"
+	@echo "... examples/widgets/textarea/lv_example_textarea_3.s"
+	@echo "... examples/widgets/textarea/lv_example_textarea_4.o"
+	@echo "... examples/widgets/textarea/lv_example_textarea_4.i"
+	@echo "... examples/widgets/textarea/lv_example_textarea_4.s"
+	@echo "... examples/widgets/tileview/lv_example_tileview_1.o"
+	@echo "... examples/widgets/tileview/lv_example_tileview_1.i"
+	@echo "... examples/widgets/tileview/lv_example_tileview_1.s"
+	@echo "... examples/widgets/win/lv_example_win_1.o"
+	@echo "... examples/widgets/win/lv_example_win_1.i"
+	@echo "... examples/widgets/win/lv_example_win_1.s"
 	@echo "... src/core/lv_group.o"
 	@echo "... src/core/lv_group.i"
 	@echo "... src/core/lv_group.s"
@@ -12179,6 +22423,9 @@ help:
 	@echo "... src/draw/lv_draw.o"
 	@echo "... src/draw/lv_draw.i"
 	@echo "... src/draw/lv_draw.s"
+	@echo "... src/draw/lv_draw_3d.o"
+	@echo "... src/draw/lv_draw_3d.i"
+	@echo "... src/draw/lv_draw_3d.s"
 	@echo "... src/draw/lv_draw_arc.o"
 	@echo "... src/draw/lv_draw_arc.i"
 	@echo "... src/draw/lv_draw_arc.s"
@@ -12375,6 +22622,9 @@ help:
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.o"
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.i"
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_argb8888.s"
+	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.o"
+	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.i"
+	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_argb8888_premultiplied.s"
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_i1.o"
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_i1.i"
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_i1.s"
@@ -12384,6 +22634,9 @@ help:
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.o"
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.i"
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_rgb565.s"
+	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.o"
+	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.i"
+	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_rgb565_swapped.s"
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.o"
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.i"
 	@echo "... src/draw/sw/blend/lv_draw_sw_blend_to_rgb888.s"
@@ -12499,6 +22752,9 @@ help:
 	@echo "... src/drivers/display/fb/lv_linux_fbdev.o"
 	@echo "... src/drivers/display/fb/lv_linux_fbdev.i"
 	@echo "... src/drivers/display/fb/lv_linux_fbdev.s"
+	@echo "... src/drivers/display/ft81x/lv_ft81x.o"
+	@echo "... src/drivers/display/ft81x/lv_ft81x.i"
+	@echo "... src/drivers/display/ft81x/lv_ft81x.s"
 	@echo "... src/drivers/display/ili9341/lv_ili9341.o"
 	@echo "... src/drivers/display/ili9341/lv_ili9341.i"
 	@echo "... src/drivers/display/ili9341/lv_ili9341.s"
@@ -12604,6 +22860,42 @@ help:
 	@echo "... src/drivers/wayland/lv_wayland_smm.o"
 	@echo "... src/drivers/wayland/lv_wayland_smm.i"
 	@echo "... src/drivers/wayland/lv_wayland_smm.s"
+	@echo "... src/drivers/wayland/lv_wl_cache.o"
+	@echo "... src/drivers/wayland/lv_wl_cache.i"
+	@echo "... src/drivers/wayland/lv_wl_cache.s"
+	@echo "... src/drivers/wayland/lv_wl_dmabuf.o"
+	@echo "... src/drivers/wayland/lv_wl_dmabuf.i"
+	@echo "... src/drivers/wayland/lv_wl_dmabuf.s"
+	@echo "... src/drivers/wayland/lv_wl_keyboard.o"
+	@echo "... src/drivers/wayland/lv_wl_keyboard.i"
+	@echo "... src/drivers/wayland/lv_wl_keyboard.s"
+	@echo "... src/drivers/wayland/lv_wl_pointer.o"
+	@echo "... src/drivers/wayland/lv_wl_pointer.i"
+	@echo "... src/drivers/wayland/lv_wl_pointer.s"
+	@echo "... src/drivers/wayland/lv_wl_pointer_axis.o"
+	@echo "... src/drivers/wayland/lv_wl_pointer_axis.i"
+	@echo "... src/drivers/wayland/lv_wl_pointer_axis.s"
+	@echo "... src/drivers/wayland/lv_wl_seat.o"
+	@echo "... src/drivers/wayland/lv_wl_seat.i"
+	@echo "... src/drivers/wayland/lv_wl_seat.s"
+	@echo "... src/drivers/wayland/lv_wl_shell.o"
+	@echo "... src/drivers/wayland/lv_wl_shell.i"
+	@echo "... src/drivers/wayland/lv_wl_shell.s"
+	@echo "... src/drivers/wayland/lv_wl_shm.o"
+	@echo "... src/drivers/wayland/lv_wl_shm.i"
+	@echo "... src/drivers/wayland/lv_wl_shm.s"
+	@echo "... src/drivers/wayland/lv_wl_touch.o"
+	@echo "... src/drivers/wayland/lv_wl_touch.i"
+	@echo "... src/drivers/wayland/lv_wl_touch.s"
+	@echo "... src/drivers/wayland/lv_wl_window.o"
+	@echo "... src/drivers/wayland/lv_wl_window.i"
+	@echo "... src/drivers/wayland/lv_wl_window.s"
+	@echo "... src/drivers/wayland/lv_wl_window_decorations.o"
+	@echo "... src/drivers/wayland/lv_wl_window_decorations.i"
+	@echo "... src/drivers/wayland/lv_wl_window_decorations.s"
+	@echo "... src/drivers/wayland/lv_wl_xdg_shell.o"
+	@echo "... src/drivers/wayland/lv_wl_xdg_shell.i"
+	@echo "... src/drivers/wayland/lv_wl_xdg_shell.s"
 	@echo "... src/drivers/windows/lv_windows_context.o"
 	@echo "... src/drivers/windows/lv_windows_context.i"
 	@echo "... src/drivers/windows/lv_windows_context.s"
@@ -12640,6 +22932,9 @@ help:
 	@echo "... src/font/lv_font_montserrat_14.o"
 	@echo "... src/font/lv_font_montserrat_14.i"
 	@echo "... src/font/lv_font_montserrat_14.s"
+	@echo "... src/font/lv_font_montserrat_14_aligned.o"
+	@echo "... src/font/lv_font_montserrat_14_aligned.i"
+	@echo "... src/font/lv_font_montserrat_14_aligned.s"
 	@echo "... src/font/lv_font_montserrat_16.o"
 	@echo "... src/font/lv_font_montserrat_16.i"
 	@echo "... src/font/lv_font_montserrat_16.s"
@@ -12703,6 +22998,12 @@ help:
 	@echo "... src/font/lv_font_simsun_16_cjk.o"
 	@echo "... src/font/lv_font_simsun_16_cjk.i"
 	@echo "... src/font/lv_font_simsun_16_cjk.s"
+	@echo "... src/font/lv_font_source_han_sans_sc_14_cjk.o"
+	@echo "... src/font/lv_font_source_han_sans_sc_14_cjk.i"
+	@echo "... src/font/lv_font_source_han_sans_sc_14_cjk.s"
+	@echo "... src/font/lv_font_source_han_sans_sc_16_cjk.o"
+	@echo "... src/font/lv_font_source_han_sans_sc_16_cjk.i"
+	@echo "... src/font/lv_font_source_han_sans_sc_16_cjk.s"
 	@echo "... src/font/lv_font_unscii_16.o"
 	@echo "... src/font/lv_font_unscii_16.i"
 	@echo "... src/font/lv_font_unscii_16.s"
@@ -12769,6 +23070,9 @@ help:
 	@echo "... src/libs/freetype/lv_freetype_outline.o"
 	@echo "... src/libs/freetype/lv_freetype_outline.i"
 	@echo "... src/libs/freetype/lv_freetype_outline.s"
+	@echo "... src/libs/freetype/lv_ftsystem.o"
+	@echo "... src/libs/freetype/lv_ftsystem.i"
+	@echo "... src/libs/freetype/lv_ftsystem.s"
 	@echo "... src/libs/fsdrv/lv_fs_cbfs.o"
 	@echo "... src/libs/fsdrv/lv_fs_cbfs.i"
 	@echo "... src/libs/fsdrv/lv_fs_cbfs.s"
@@ -12994,21 +23298,24 @@ help:
 	@echo "... src/lv_init.o"
 	@echo "... src/lv_init.i"
 	@echo "... src/lv_init.s"
+	@echo "... src/misc/cache/class/lv_cache_lru_ll.o"
+	@echo "... src/misc/cache/class/lv_cache_lru_ll.i"
+	@echo "... src/misc/cache/class/lv_cache_lru_ll.s"
+	@echo "... src/misc/cache/class/lv_cache_lru_rb.o"
+	@echo "... src/misc/cache/class/lv_cache_lru_rb.i"
+	@echo "... src/misc/cache/class/lv_cache_lru_rb.s"
+	@echo "... src/misc/cache/instance/lv_image_cache.o"
+	@echo "... src/misc/cache/instance/lv_image_cache.i"
+	@echo "... src/misc/cache/instance/lv_image_cache.s"
+	@echo "... src/misc/cache/instance/lv_image_header_cache.o"
+	@echo "... src/misc/cache/instance/lv_image_header_cache.i"
+	@echo "... src/misc/cache/instance/lv_image_header_cache.s"
 	@echo "... src/misc/cache/lv_cache.o"
 	@echo "... src/misc/cache/lv_cache.i"
 	@echo "... src/misc/cache/lv_cache.s"
 	@echo "... src/misc/cache/lv_cache_entry.o"
 	@echo "... src/misc/cache/lv_cache_entry.i"
 	@echo "... src/misc/cache/lv_cache_entry.s"
-	@echo "... src/misc/cache/lv_cache_lru_rb.o"
-	@echo "... src/misc/cache/lv_cache_lru_rb.i"
-	@echo "... src/misc/cache/lv_cache_lru_rb.s"
-	@echo "... src/misc/cache/lv_image_cache.o"
-	@echo "... src/misc/cache/lv_image_cache.i"
-	@echo "... src/misc/cache/lv_image_cache.s"
-	@echo "... src/misc/cache/lv_image_header_cache.o"
-	@echo "... src/misc/cache/lv_image_header_cache.i"
-	@echo "... src/misc/cache/lv_image_header_cache.s"
 	@echo "... src/misc/lv_anim.o"
 	@echo "... src/misc/lv_anim.i"
 	@echo "... src/misc/lv_anim.s"
@@ -13135,9 +23442,6 @@ help:
 	@echo "... src/others/font_manager/lv_font_manager_recycle.o"
 	@echo "... src/others/font_manager/lv_font_manager_recycle.i"
 	@echo "... src/others/font_manager/lv_font_manager_recycle.s"
-	@echo "... src/others/font_manager/lv_font_manager_utils.o"
-	@echo "... src/others/font_manager/lv_font_manager_utils.i"
-	@echo "... src/others/font_manager/lv_font_manager_utils.s"
 	@echo "... src/others/fragment/lv_fragment.o"
 	@echo "... src/others/fragment/lv_fragment.i"
 	@echo "... src/others/fragment/lv_fragment.s"
@@ -13201,12 +23505,18 @@ help:
 	@echo "... src/others/xml/lv_xml_style.o"
 	@echo "... src/others/xml/lv_xml_style.i"
 	@echo "... src/others/xml/lv_xml_style.s"
+	@echo "... src/others/xml/lv_xml_update.o"
+	@echo "... src/others/xml/lv_xml_update.i"
+	@echo "... src/others/xml/lv_xml_update.s"
 	@echo "... src/others/xml/lv_xml_utils.o"
 	@echo "... src/others/xml/lv_xml_utils.i"
 	@echo "... src/others/xml/lv_xml_utils.s"
 	@echo "... src/others/xml/lv_xml_widget.o"
 	@echo "... src/others/xml/lv_xml_widget.i"
 	@echo "... src/others/xml/lv_xml_widget.s"
+	@echo "... src/others/xml/parsers/lv_xml_arc_parser.o"
+	@echo "... src/others/xml/parsers/lv_xml_arc_parser.i"
+	@echo "... src/others/xml/parsers/lv_xml_arc_parser.s"
 	@echo "... src/others/xml/parsers/lv_xml_bar_parser.o"
 	@echo "... src/others/xml/parsers/lv_xml_bar_parser.i"
 	@echo "... src/others/xml/parsers/lv_xml_bar_parser.s"
@@ -13216,9 +23526,18 @@ help:
 	@echo "... src/others/xml/parsers/lv_xml_buttonmatrix_parser.o"
 	@echo "... src/others/xml/parsers/lv_xml_buttonmatrix_parser.i"
 	@echo "... src/others/xml/parsers/lv_xml_buttonmatrix_parser.s"
+	@echo "... src/others/xml/parsers/lv_xml_calendar_parser.o"
+	@echo "... src/others/xml/parsers/lv_xml_calendar_parser.i"
+	@echo "... src/others/xml/parsers/lv_xml_calendar_parser.s"
+	@echo "... src/others/xml/parsers/lv_xml_canvas_parser.o"
+	@echo "... src/others/xml/parsers/lv_xml_canvas_parser.i"
+	@echo "... src/others/xml/parsers/lv_xml_canvas_parser.s"
 	@echo "... src/others/xml/parsers/lv_xml_chart_parser.o"
 	@echo "... src/others/xml/parsers/lv_xml_chart_parser.i"
 	@echo "... src/others/xml/parsers/lv_xml_chart_parser.s"
+	@echo "... src/others/xml/parsers/lv_xml_checkbox_parser.o"
+	@echo "... src/others/xml/parsers/lv_xml_checkbox_parser.i"
+	@echo "... src/others/xml/parsers/lv_xml_checkbox_parser.s"
 	@echo "... src/others/xml/parsers/lv_xml_dropdown_parser.o"
 	@echo "... src/others/xml/parsers/lv_xml_dropdown_parser.i"
 	@echo "... src/others/xml/parsers/lv_xml_dropdown_parser.s"
@@ -13312,6 +23631,9 @@ help:
 	@echo "... src/tick/lv_tick.o"
 	@echo "... src/tick/lv_tick.i"
 	@echo "... src/tick/lv_tick.s"
+	@echo "... src/widgets/3dtexture/lv_3dtexture.o"
+	@echo "... src/widgets/3dtexture/lv_3dtexture.i"
+	@echo "... src/widgets/3dtexture/lv_3dtexture.s"
 	@echo "... src/widgets/animimage/lv_animimage.o"
 	@echo "... src/widgets/animimage/lv_animimage.i"
 	@echo "... src/widgets/animimage/lv_animimage.s"
