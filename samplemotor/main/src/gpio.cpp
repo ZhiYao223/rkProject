@@ -6,7 +6,7 @@
 namespace ACES{
     GPIO::GPIO() : _inProgress(false)
     {
-
+        
     }
 
     GPIO::~GPIO()
