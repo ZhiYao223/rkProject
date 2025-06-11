@@ -122,7 +122,6 @@ CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lv_api_map_v8.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lv_api_map_v9_0.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lv_api_map_v9_1.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lv_conf_internal.h
-CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lv_conf_kconfig.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lv_init.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lvgl_private.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/misc/cache/lv_cache.h
@@ -277,6 +276,14 @@ CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/eez-flow.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/screens.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/ui.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/vars.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lv_conf.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/lv_version.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/libs/freetype/lv_freetype.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lv_conf_internal.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lv_conf_kconfig.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/misc/lv_array.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/misc/lv_event.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/misc/lv_types.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../main/src/gpio.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../main/src/main.cpp
 

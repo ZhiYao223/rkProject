@@ -123,7 +123,6 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  ../lvgl/src/lv_api_map_v9_0.h
  ../lvgl/src/lv_api_map_v9_1.h
  ../lvgl/src/lv_conf_internal.h
- ../lvgl/src/lv_conf_kconfig.h
  ../lvgl/src/lv_init.h
  ../lvgl/src/lvgl_private.h
  ../lvgl/src/misc/cache/lv_cache.h
@@ -278,5 +277,13 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/screens.h
  /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui.h
  /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/vars.h
+ /home/zhiyao/rkProject/samplemotor/lv_conf.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/lv_version.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_freetype.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_array.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_event.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
  /home/zhiyao/rkProject/samplemotor/main/src/gpio.h
  /home/zhiyao/rkProject/samplemotor/main/src/main.cpp

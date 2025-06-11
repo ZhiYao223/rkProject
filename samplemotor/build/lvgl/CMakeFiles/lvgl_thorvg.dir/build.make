@@ -161,9 +161,22 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInitializer.cpp -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.s
 
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o: ../lvgl/src/libs/thorvg/tvgLines.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.cpp
+
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.cpp > CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.i
+
+lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.cpp -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.s
+
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLoader.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.i: cmake_force
@@ -176,7 +189,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.s: cmake_force
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieAnimation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.i: cmake_force
@@ -189,7 +202,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.s: cmake_
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.i: cmake_force
@@ -202,7 +215,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.s: cmake_fo
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieExpressions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieExpressions.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.i: cmake_force
@@ -215,7 +228,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.s: cmak
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.i: cmake_force
@@ -228,7 +241,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.s: cma
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieLoader.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.i: cmake_force
@@ -241,7 +254,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.s: cmake_for
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModel.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.i: cmake_force
@@ -251,19 +264,6 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.i: cmake_forc
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModel.cpp -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.s
-
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieModifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.cpp
-
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.i"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.cpp > CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.i
-
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.s"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.cpp -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.s
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o: ../lvgl/src/libs/thorvg/tvgLottieParser.cpp
@@ -538,22 +538,9 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwMemPool.cpp -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.s
 
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o: ../lvgl/src/libs/thorvg/tvgSwPostEffect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwPostEffect.cpp
-
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.i"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwPostEffect.cpp > CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.i
-
-lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.s"
-	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwPostEffect.cpp -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.s
-
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o: ../lvgl/src/libs/thorvg/tvgSwRaster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRaster.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.i: cmake_force
@@ -566,7 +553,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.s: cmake_force
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o: ../lvgl/src/libs/thorvg/tvgSwRenderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRenderer.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.i: cmake_force
@@ -579,7 +566,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.s: cmake_force
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o: ../lvgl/src/libs/thorvg/tvgSwRle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRle.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.i: cmake_force
@@ -592,7 +579,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.s: cmake_force
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o: ../lvgl/src/libs/thorvg/tvgSwShape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwShape.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.i: cmake_force
@@ -605,7 +592,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.s: cmake_force
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o: ../lvgl/src/libs/thorvg/tvgSwStroke.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwStroke.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.i: cmake_force
@@ -618,7 +605,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.s: cmake_force
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o: ../lvgl/src/libs/thorvg/tvgTaskScheduler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgTaskScheduler.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.i: cmake_force
@@ -631,7 +618,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.s: cmake_fo
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o: ../lvgl/src/libs/thorvg/tvgText.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgText.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.i: cmake_force
@@ -644,7 +631,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.s: cmake_force
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o: ../lvgl/src/libs/thorvg/tvgWgCanvas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgWgCanvas.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.i: cmake_force
@@ -657,7 +644,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.s: cmake_force
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o: ../lvgl/src/libs/thorvg/tvgXmlParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgXmlParser.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.i: cmake_force
@@ -670,7 +657,7 @@ lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.s: cmake_force
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: lvgl/CMakeFiles/lvgl_thorvg.dir/flags.make
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o: ../lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -Wunused-parameter -o CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o -c /home/zhiyao/rkProject/samplemotor/lvgl/src/others/vg_lite_tvg/vg_lite_tvg.cpp
 
 lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.i: cmake_force
@@ -691,6 +678,7 @@ lvgl_thorvg_OBJECTS = \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o" \
+"CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o" \
@@ -698,7 +686,6 @@ lvgl_thorvg_OBJECTS = \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o" \
-"CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o" \
@@ -720,7 +707,6 @@ lvgl_thorvg_OBJECTS = \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o" \
-"CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o" \
 "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o" \
@@ -735,62 +721,61 @@ lvgl_thorvg_OBJECTS = \
 # External object files for target lvgl_thorvg
 lvgl_thorvg_EXTERNAL_OBJECTS =
 
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/build.make
-lvgl/lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Linking CXX static library lib/liblvgl_thorvg.a"
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCapi.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCompressor.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieExpressions.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPaint.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgPicture.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRawLoader.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgRender.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSaver.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgScene.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgShape.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgStr.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgCssStyle.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgLoader.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgPath.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgSceneBuilder.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSvgUtil.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwCanvas.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwFill.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwShape.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwStroke.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgTaskScheduler.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgText.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/build.make
+lib/liblvgl_thorvg.a: lvgl/CMakeFiles/lvgl_thorvg.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX static library ../lib/liblvgl_thorvg.a"
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && $(CMAKE_COMMAND) -P CMakeFiles/lvgl_thorvg.dir/cmake_clean_target.cmake
 	cd /home/zhiyao/rkProject/samplemotor/build/lvgl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lvgl_thorvg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-lvgl/CMakeFiles/lvgl_thorvg.dir/build: lvgl/lib/liblvgl_thorvg.a
+lvgl/CMakeFiles/lvgl_thorvg.dir/build: lib/liblvgl_thorvg.a
 
 .PHONY : lvgl/CMakeFiles/lvgl_thorvg.dir/build
 

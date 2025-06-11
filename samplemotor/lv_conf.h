@@ -11,8 +11,11 @@
  *    - add the path as include path
  */
 
+//准备：
 // LV_USE_FREETYPE
-// 
+// LV_USE_SDL
+// LV_COLOR_DEPTH 32
+
 /* clang-format off */
 #if 1 /*Set it to "1" to enable content*/
 
@@ -55,8 +58,8 @@
 
 #if LV_USE_STDLIB_MALLOC == LV_STDLIB_BUILTIN
     /*Size of the memory available for `lv_malloc()` in bytes (>= 2kB)*/
-    #define LV_MEM_SIZE (64 * 1024U)          /*[bytes]*/
-
+    // #define LV_MEM_SIZE (64 * 1024U)          /*[bytes]*/
+    #define LV_MEM_SIZE (2U * 1024U * 1024U)  // 2MB
     /*Size of the memory expand for `lv_malloc()` in bytes*/
     #define LV_MEM_POOL_EXPAND_SIZE 0
 
@@ -965,7 +968,7 @@
  *==================*/
 
 /*Use SDL to open window on PC and handle mouse and keyboard*/
-#define LV_USE_SDL              0
+#define LV_USE_SDL              1
 #if LV_USE_SDL
     #define LV_SDL_INCLUDE_PATH     <SDL2/SDL.h>
     #define LV_SDL_RENDER_MODE      LV_DISPLAY_RENDER_MODE_DIRECT   /*LV_DISPLAY_RENDER_MODE_DIRECT is recommended for best performance*/

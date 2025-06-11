@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgFill.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgGlCanvas.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgInitializer.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o"
+  "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLines.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLoader.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieAnimation.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieBuilder.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o"
@@ -19,7 +20,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieInterpolator.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieLoader.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModel.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o"
-  "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieModifier.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieParser.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgLottieParserHandler.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgMath.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o"
@@ -41,7 +41,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwImage.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwMath.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwMemPool.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o"
-  "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwPostEffect.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRaster.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRenderer.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o"
   "/home/zhiyao/rkProject/samplemotor/lvgl/src/libs/thorvg/tvgSwRle.cpp" "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o"
@@ -58,7 +57,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "LV_CONF_INCLUDE_SIMPLE"
-  "LV_KCONFIG_IGNORE"
   "LV_LVGL_H_INCLUDE_SIMPLE"
   "LV_USE_LIBPNG=1"
   )
@@ -67,21 +65,17 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../main/inc"
   "../eez_rk3566/ui"
-  "../lvgl/src/libs/thorvg"
+  "../"
   "/usr/include/SDL2"
   "/usr/include/freetype2"
   "../lvgl"
-  "../"
+  "../lvgl/src/libs/thorvg"
   "lvgl"
-  "../lvgl/examples"
-  "../lvgl/demos"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl.dir/DependInfo.cmake"
-  "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_examples.dir/DependInfo.cmake"
-  "/home/zhiyao/rkProject/samplemotor/build/lvgl/CMakeFiles/lvgl_demos.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

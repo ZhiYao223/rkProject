@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "lib/liblvgl.a"
+  "../lib/liblvgl.a"
 )

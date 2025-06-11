@@ -12,7 +12,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <pthread.h>
-
 #include "lvgl/lvgl.h"
 // #include "lvgl/examples/lv_examples.h"
 // #include "lvgl/demos/lv_demos.h"
@@ -23,7 +22,8 @@
 #include <thread>
 #include <chrono>
 #include <SDL2/SDL.h>
-
+#include "../../lvgl/src/libs/freetype/lv_freetype.h"
+#include "../../lvgl/src/drivers/sdl/lv_sdl_window.h"
 #include "../../eez_rk3566/ui/ui.h"
 #include "../../eez_rk3566/ui/screens.h"
 #include "../../eez_rk3566/ui/vars.h"
@@ -87,10 +87,7 @@ static std::list<lv_style_t*> _g_styles;
 #endif
 // 要使用该函数，必须在项目中启用 LV_USE_FREETYPE = 1，并配置好 lv_freetype.h
 static lv_font_t* load_chinese_font(const char* path, uint32_t font_size){
-  lv_font_t* font = lv_freetype_font_create(path,
-      LV_FREETYPE_FONT_RENDER_MODE_BITMAP,
-      font_size,
-      LV_FREETYPE_FONT_STYLE_NORMAL);
+  lv_font_t* font = lv_freetype_font_create(path,LV_FREETYPE_FONT_RENDER_MODE_BITMAP,font_size,LV_FREETYPE_FONT_STYLE_NORMAL);
   if (font){
     printf("load font %s success\n", path);
   } else {
@@ -150,7 +147,6 @@ int main(int argc, char **argv)
 
   /*Initialize LVGL*/
   lv_init();
-
   lv_font_t* font28 = load_chinese_font("/opt/sample/font/SourceHanSerifSC-VF.ttf", 28);
   if (font28) _g_fonts.push_back(font28);
 

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "../lib/liblvgl_thorvg.a"
+  "../lib/liblvgl_thorvg.pdb"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAccessor.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgAnimation.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgCanvas.cpp.o"
@@ -7,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgFill.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgGlCanvas.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgInitializer.cpp.o"
+  "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLines.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLoader.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieAnimation.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieBuilder.cpp.o"
@@ -14,7 +17,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieInterpolator.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieLoader.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModel.cpp.o"
-  "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieModifier.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParser.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgLottieParserHandler.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgMath.cpp.o"
@@ -36,7 +38,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwImage.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMath.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwMemPool.cpp.o"
-  "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwPostEffect.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRaster.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRenderer.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgSwRle.cpp.o"
@@ -47,8 +48,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgWgCanvas.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/libs/thorvg/tvgXmlParser.cpp.o"
   "CMakeFiles/lvgl_thorvg.dir/src/others/vg_lite_tvg/vg_lite_tvg.cpp.o"
-  "lib/liblvgl_thorvg.a"
-  "lib/liblvgl_thorvg.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
