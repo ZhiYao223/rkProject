@@ -304,31 +304,31 @@ main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_b5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_b5.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_b5.c -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_b5.c.s
 
-main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.o: main/CMakeFiles/uilib.dir/flags.make
-main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.o: ../eez_rk3566/ui/ui_image_backgraound.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.o"
-	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_backgraound.c
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.o: ../eez_rk3566/ui/ui_image_background.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_background.c
 
-main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.i"
-	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_backgraound.c > CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.i
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_background.c > CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.i
 
-main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.s"
-	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_backgraound.c -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.s
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_background.c -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.s
 
-main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.o: main/CMakeFiles/uilib.dir/flags.make
-main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.o: ../eez_rk3566/ui/ui_image_backgraound1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.o"
-	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_backgraound1.c
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.o: ../eez_rk3566/ui/ui_image_background1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_background1.c
 
-main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.i"
-	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_backgraound1.c > CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.i
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_background1.c > CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.i
 
-main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.s"
-	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_backgraound1.c -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.s
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_background1.c -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.s
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background2.c.o: main/CMakeFiles/uilib.dir/flags.make
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background2.c.o: ../eez_rk3566/ui/ui_image_background2.c
@@ -408,9 +408,22 @@ main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_calendar_symbol.c.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_calendar_symbol.c.s"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_calendar_symbol.c -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_calendar_symbol.c.s
 
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.o: main/CMakeFiles/uilib.dir/flags.make
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.o: ../eez_rk3566/ui/ui_image_coal_ash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.o"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_coal_ash.c
+
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.i"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_coal_ash.c > CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.i
+
+main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.s"
+	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_coal_ash.c -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.s
+
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_home.c.o: main/CMakeFiles/uilib.dir/flags.make
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_home.c.o: ../eez_rk3566/ui/ui_image_home.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_home.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_home.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_home.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_home.c
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_home.c.i: cmake_force
@@ -423,7 +436,7 @@ main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_home.c.s: cmake_force
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_net.c.o: main/CMakeFiles/uilib.dir/flags.make
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_net.c.o: ../eez_rk3566/ui/ui_image_net.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_net.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_net.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_net.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_net.c
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_net.c.i: cmake_force
@@ -436,7 +449,7 @@ main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_net.c.s: cmake_force
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting1.c.o: main/CMakeFiles/uilib.dir/flags.make
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting1.c.o: ../eez_rk3566/ui/ui_image_setting1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting1.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting1.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting1.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_setting1.c
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting1.c.i: cmake_force
@@ -449,7 +462,7 @@ main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting1.c.s: cmake_force
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting7.c.o: main/CMakeFiles/uilib.dir/flags.make
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting7.c.o: ../eez_rk3566/ui/ui_image_setting7.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting7.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting7.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting7.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_setting7.c
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting7.c.i: cmake_force
@@ -462,7 +475,7 @@ main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting7.c.s: cmake_force
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_background.c.o: main/CMakeFiles/uilib.dir/flags.make
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_background.c.o: ../eez_rk3566/ui/ui_image_warning_background.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_background.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_background.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_background.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_warning_background.c
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_background.c.i: cmake_force
@@ -475,7 +488,7 @@ main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_background.c.s: cmak
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_icon.c.o: main/CMakeFiles/uilib.dir/flags.make
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_icon.c.o: ../eez_rk3566/ui/ui_image_warning_icon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_icon.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_icon.c.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_icon.c.o   -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui_image_warning_icon.c
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_icon.c.i: cmake_force
@@ -488,7 +501,7 @@ main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_icon.c.s: cmake_forc
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/vars.cpp.o: main/CMakeFiles/uilib.dir/flags.make
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/vars.cpp.o: ../eez_rk3566/ui/vars.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/vars.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/vars.cpp.o"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uilib.dir/__/eez_rk3566/ui/vars.cpp.o -c /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/vars.cpp
 
 main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/vars.cpp.i: cmake_force
@@ -520,14 +533,15 @@ uilib_OBJECTS = \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_font_34.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_font_36.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_b5.c.o" \
-"CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.o" \
-"CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.o" \
+"CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.o" \
+"CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background2.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_bar.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_barrel.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_barrel_empty.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_barrel_full.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_calendar_symbol.c.o" \
+"CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_home.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_net.c.o" \
 "CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting1.c.o" \
@@ -558,14 +572,15 @@ main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_font_32.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_font_34.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_font_36.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_b5.c.o
-main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.o
-main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background2.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_bar.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_barrel.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_barrel_empty.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_barrel_full.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_calendar_symbol.c.o
+main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_home.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_net.c.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_setting1.c.o
@@ -575,7 +590,7 @@ main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_warning_ico
 main/libuilib.a: main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/vars.cpp.o
 main/libuilib.a: main/CMakeFiles/uilib.dir/build.make
 main/libuilib.a: main/CMakeFiles/uilib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX static library libuilib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zhiyao/rkProject/samplemotor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking CXX static library libuilib.a"
 	cd /home/zhiyao/rkProject/samplemotor/build/main && $(CMAKE_COMMAND) -P CMakeFiles/uilib.dir/cmake_clean_target.cmake
 	cd /home/zhiyao/rkProject/samplemotor/build/main && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uilib.dir/link.txt --verbose=$(VERBOSE)
 

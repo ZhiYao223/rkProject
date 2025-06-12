@@ -58,7 +58,8 @@ static lv_display_t * hal_init(int32_t w, int32_t h);
 extern void freertos_main(void);
 extern void load_configs();
 extern void init_main_label();
-
+static void lv_font_style_init();
+static void screen_communicate_init();
 /*********************
  *      DEFINES
  *********************/
@@ -139,42 +140,7 @@ static lv_font_t* load_chinese_font(const char* path, uint32_t font_size){
 //     std::this_thread::sleep_for(std::chrono::minutes(interval_mintues));
 //   }
 // }
-
-int main(int argc, char **argv)
-{
-  (void)argc; /*Unused*/
-  (void)argv; /*Unused*/
-
-  /*Initialize LVGL*/
-  lv_init();
-  lv_font_t* font28 = load_chinese_font("/opt/sample/font/SourceHanSerifSC-VF.ttf", 28);
-  if (font28) _g_fonts.push_back(font28);
-
-  lv_font_t* font56 = load_chinese_font("/opt/sample/font/SourceHanSerifSC-VF.ttf", 56);
-  if (font56) _g_fonts.push_back(font56);
-
-  // 创建一个自定义字体样式并保存到全局样式列表 _g_styles 中
-  lv_style_t* style28 = (lv_style_t*)malloc(sizeof(lv_style_t));
-  lv_style_init(style28);
-  lv_style_set_text_font(style28, font28);
-  lv_style_set_text_align(style28, LV_TEXT_ALIGN_LEFT);
-  _g_styles.push_back(style28);
-
-  // 创建一个自定义字体样式并保存到全局样式列表 _g_styles 中
-  lv_style_t* style56 = (lv_style_t*)malloc(sizeof(lv_style_t));
-  lv_style_init(style56);
-  lv_style_set_text_font(style56, font56);
-  lv_style_set_text_align(style56, LV_TEXT_ALIGN_LEFT);
-  _g_styles.push_back(style56);
-
-  /*Initialize the HAL (display, input devices, tick) for LVGL*/
-  hal_init(1024, 768); //1024 和 768 是屏幕的宽度和高度，单位是像素。
-
-  // 只有当 LVGL 配置为不使用操作系统（裸机环境）时，下面的代码才会被编译进来。
-  #if LV_USE_OS == LV_OS_NONE
-
-  // lv_demo_widgets();
-  ui_init();
+void Label_text_setting(){
 #if 0
   lv_obj_add_style(objects.label_btn_left1, style28, 0);
   lv_label_set_text(objects.label_btn_left1, "环境");
@@ -196,9 +162,6 @@ int main(int argc, char **argv)
 
   lv_obj_add_style(objects.label_btn_save_setting, style28, 0);
   lv_label_set_text(objects.label_btn_save_setting, "保存配置");
-
-#endif
-#if 0
   lv_obj_add_style(objects.main_label, style56, 0);
   lv_label_set_text(objects.main_label, "电机停止状态(RK3566控制)");
 
@@ -260,15 +223,30 @@ int main(int argc, char **argv)
   init_main_label();
   action_save_setting_func(NULL);
 #endif
-  ACES::GPIO::GetInstance().Init();
-  ACES::GPIO::GetInstance().SetMotorPower(ACES::MotoPowerState::OFF);
+}
+
+int main(int argc, char **argv)
+{
+  (void)argc; /*Unused*/
+  (void)argv; /*Unused*/
+
+  /*Initialize LVGL*/
+  lv_init();                 // 初始化 LVGL 库
+  lv_font_style_init();      // 初始化字体样式
+  load_configs();            // 加载配置文件，设置界面上的默认值为最近一次设置的参数
+  hal_init(1024, 768);  // 初始化硬件抽象层HAL,设置显示器和输入设备等，1024 和 768 是屏幕的宽度和高度，单位是像素。
+  // 只有当 LVGL 配置为不使用操作系统（裸机环境）时，下面的代码才会被编译进来。
+  #if LV_USE_OS == LV_OS_NONE
+  // lv_demo_widgets();
+  ui_init();
+  //screen_communicate_init(); // 初始化通信设置页面
+
+  ACES::GPIO::GetInstance().Init(); // 初始化GPIO功能
+  ACES::GPIO::GetInstance().SetMotorPower(ACES::MotoPowerState::OFF); //初始化关闭电机电源
 
   // std::thread t1(sample_thread);
   // t1.detach();
-
   while(1) {
-    /* Periodically call the lv_task handler.
-     * It could be done in a timer interrupt or an OS task too.*/
     lv_timer_handler();
     ui_tick();
     usleep(5 * 1000);
@@ -278,19 +256,16 @@ int main(int argc, char **argv)
     lv_style_reset(*i);
     //delete *i;
   }
-
   for(auto i = _g_fonts.begin(); i != _g_fonts.end(); i++){
     lv_freetype_font_delete(*i);
   }
 
   // lv_freetype_uninit();
 
-  #elif LV_USE_OS == LV_OS_FREERTOS
-
-  /* Run FreeRTOS and create lvgl task */
-  freertos_main();
-
-  #endif
+#elif LV_USE_OS == LV_OS_FREERTOS
+/* Run FreeRTOS and create lvgl task */
+freertos_main();
+#endif
 
   return 0;
 }
@@ -341,4 +316,31 @@ static lv_display_t * hal_init(int32_t w, int32_t h)
   // 返回显示器对象
 
   return disp;
+}
+
+void lv_font_style_init(){
+  lv_font_t* font28 = load_chinese_font("/opt/sample/font/SourceHanSerifSC-VF.ttf", 28);
+  if (font28) _g_fonts.push_back(font28);
+  lv_font_t* font56 = load_chinese_font("/opt/sample/font/SourceHanSerifSC-VF.ttf", 56);
+  if (font56) _g_fonts.push_back(font56);
+
+  // 创建一个自定义字体样式并保存到全局样式列表 _g_styles 中
+  lv_style_t* style28 = (lv_style_t*)malloc(sizeof(lv_style_t));
+  lv_style_init(style28);
+  lv_style_set_text_font(style28, font28);
+  lv_style_set_text_align(style28, LV_TEXT_ALIGN_LEFT);
+  _g_styles.push_back(style28);
+
+  // 创建一个自定义字体样式并保存到全局样式列表 _g_styles 中
+  lv_style_t* style56 = (lv_style_t*)malloc(sizeof(lv_style_t));
+  lv_style_init(style56);
+  lv_style_set_text_font(style56, font56);
+  lv_style_set_text_align(style56, LV_TEXT_ALIGN_LEFT);
+  _g_styles.push_back(style56);
+}
+
+void screen_communicate_init(){
+    lv_textarea_set_text(objects.input_address, get_var_address()); // 设置输入框的默认值为最近一次的ip地址
+    lv_textarea_set_text(objects.input_gateway, get_var_gateway()); // 设置输入框的默认值为最近一次的网关地址
+    lv_textarea_set_text(objects.input_dns,     get_var_dns());     // 设置输入框的默认值为最近一次的DNS服务器地址
 }

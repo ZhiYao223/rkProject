@@ -2286,6 +2286,34 @@ my_include.h
 
 /home/zhiyao/rkProject/samplemotor/lvgl/lv_version.h
 
+/home/zhiyao/rkProject/samplemotor/lvgl/src/display/lv_display.h
+../misc/lv_types.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_types.h
+../misc/lv_timer.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_timer.h
+../misc/lv_event.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_event.h
+../misc/lv_color.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_color.h
+../draw/lv_draw.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/draw/lv_draw.h
+
+/home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/sdl/lv_sdl_window.h
+../../display/lv_display.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/display/lv_display.h
+../../indev/lv_indev.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/indev/lv_indev.h
+
+/home/zhiyao/rkProject/samplemotor/lvgl/src/indev/lv_indev.h
+../core/lv_group.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/core/lv_group.h
+../misc/lv_area.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_area.h
+../misc/lv_timer.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_timer.h
+../misc/lv_event.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/misc/lv_event.h
+
 /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_freetype.h
 ../../lv_conf_internal.h
 /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
@@ -2371,6 +2399,8 @@ SDL2/SDL.h
 -
 ../../lvgl/src/libs/freetype/lv_freetype.h
 /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_freetype.h
+../../lvgl/src/drivers/sdl/lv_sdl_window.h
+/home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/sdl/lv_sdl_window.h
 ../../eez_rk3566/ui/ui.h
 /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/ui.h
 ../../eez_rk3566/ui/screens.h

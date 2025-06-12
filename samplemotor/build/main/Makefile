@@ -684,59 +684,59 @@ __/eez_rk3566/ui/ui_image_b5.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_b5.c.s
 .PHONY : __/eez_rk3566/ui/ui_image_b5.c.s
 
-__/eez_rk3566/ui/ui_image_backgraound.o: __/eez_rk3566/ui/ui_image_backgraound.c.o
+__/eez_rk3566/ui/ui_image_background.o: __/eez_rk3566/ui/ui_image_background.c.o
 
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound.o
-
-# target to build an object file
-__/eez_rk3566/ui/ui_image_backgraound.c.o:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.o
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound.c.o
-
-__/eez_rk3566/ui/ui_image_backgraound.i: __/eez_rk3566/ui/ui_image_backgraound.c.i
-
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound.i
-
-# target to preprocess a source file
-__/eez_rk3566/ui/ui_image_backgraound.c.i:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.i
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound.c.i
-
-__/eez_rk3566/ui/ui_image_backgraound.s: __/eez_rk3566/ui/ui_image_backgraound.c.s
-
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound.s
-
-# target to generate assembly for a file
-__/eez_rk3566/ui/ui_image_backgraound.c.s:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound.c.s
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound.c.s
-
-__/eez_rk3566/ui/ui_image_backgraound1.o: __/eez_rk3566/ui/ui_image_backgraound1.c.o
-
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound1.o
+.PHONY : __/eez_rk3566/ui/ui_image_background.o
 
 # target to build an object file
-__/eez_rk3566/ui/ui_image_backgraound1.c.o:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.o
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound1.c.o
+__/eez_rk3566/ui/ui_image_background.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.o
+.PHONY : __/eez_rk3566/ui/ui_image_background.c.o
 
-__/eez_rk3566/ui/ui_image_backgraound1.i: __/eez_rk3566/ui/ui_image_backgraound1.c.i
+__/eez_rk3566/ui/ui_image_background.i: __/eez_rk3566/ui/ui_image_background.c.i
 
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound1.i
+.PHONY : __/eez_rk3566/ui/ui_image_background.i
 
 # target to preprocess a source file
-__/eez_rk3566/ui/ui_image_backgraound1.c.i:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.i
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound1.c.i
+__/eez_rk3566/ui/ui_image_background.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.i
+.PHONY : __/eez_rk3566/ui/ui_image_background.c.i
 
-__/eez_rk3566/ui/ui_image_backgraound1.s: __/eez_rk3566/ui/ui_image_backgraound1.c.s
+__/eez_rk3566/ui/ui_image_background.s: __/eez_rk3566/ui/ui_image_background.c.s
 
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound1.s
+.PHONY : __/eez_rk3566/ui/ui_image_background.s
 
 # target to generate assembly for a file
-__/eez_rk3566/ui/ui_image_backgraound1.c.s:
-	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_backgraound1.c.s
-.PHONY : __/eez_rk3566/ui/ui_image_backgraound1.c.s
+__/eez_rk3566/ui/ui_image_background.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background.c.s
+.PHONY : __/eez_rk3566/ui/ui_image_background.c.s
+
+__/eez_rk3566/ui/ui_image_background1.o: __/eez_rk3566/ui/ui_image_background1.c.o
+
+.PHONY : __/eez_rk3566/ui/ui_image_background1.o
+
+# target to build an object file
+__/eez_rk3566/ui/ui_image_background1.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.o
+.PHONY : __/eez_rk3566/ui/ui_image_background1.c.o
+
+__/eez_rk3566/ui/ui_image_background1.i: __/eez_rk3566/ui/ui_image_background1.c.i
+
+.PHONY : __/eez_rk3566/ui/ui_image_background1.i
+
+# target to preprocess a source file
+__/eez_rk3566/ui/ui_image_background1.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.i
+.PHONY : __/eez_rk3566/ui/ui_image_background1.c.i
+
+__/eez_rk3566/ui/ui_image_background1.s: __/eez_rk3566/ui/ui_image_background1.c.s
+
+.PHONY : __/eez_rk3566/ui/ui_image_background1.s
+
+# target to generate assembly for a file
+__/eez_rk3566/ui/ui_image_background1.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_background1.c.s
+.PHONY : __/eez_rk3566/ui/ui_image_background1.c.s
 
 __/eez_rk3566/ui/ui_image_background2.o: __/eez_rk3566/ui/ui_image_background2.c.o
 
@@ -899,6 +899,33 @@ __/eez_rk3566/ui/ui_image_calendar_symbol.s: __/eez_rk3566/ui/ui_image_calendar_
 __/eez_rk3566/ui/ui_image_calendar_symbol.c.s:
 	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_calendar_symbol.c.s
 .PHONY : __/eez_rk3566/ui/ui_image_calendar_symbol.c.s
+
+__/eez_rk3566/ui/ui_image_coal_ash.o: __/eez_rk3566/ui/ui_image_coal_ash.c.o
+
+.PHONY : __/eez_rk3566/ui/ui_image_coal_ash.o
+
+# target to build an object file
+__/eez_rk3566/ui/ui_image_coal_ash.c.o:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.o
+.PHONY : __/eez_rk3566/ui/ui_image_coal_ash.c.o
+
+__/eez_rk3566/ui/ui_image_coal_ash.i: __/eez_rk3566/ui/ui_image_coal_ash.c.i
+
+.PHONY : __/eez_rk3566/ui/ui_image_coal_ash.i
+
+# target to preprocess a source file
+__/eez_rk3566/ui/ui_image_coal_ash.c.i:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.i
+.PHONY : __/eez_rk3566/ui/ui_image_coal_ash.c.i
+
+__/eez_rk3566/ui/ui_image_coal_ash.s: __/eez_rk3566/ui/ui_image_coal_ash.c.s
+
+.PHONY : __/eez_rk3566/ui/ui_image_coal_ash.s
+
+# target to generate assembly for a file
+__/eez_rk3566/ui/ui_image_coal_ash.c.s:
+	cd /home/zhiyao/rkProject/samplemotor/build && $(MAKE) -f main/CMakeFiles/uilib.dir/build.make main/CMakeFiles/uilib.dir/__/eez_rk3566/ui/ui_image_coal_ash.c.s
+.PHONY : __/eez_rk3566/ui/ui_image_coal_ash.c.s
 
 __/eez_rk3566/ui/ui_image_home.o: __/eez_rk3566/ui/ui_image_home.c.o
 
@@ -1159,12 +1186,12 @@ help:
 	@echo "... __/eez_rk3566/ui/ui_image_b5.o"
 	@echo "... __/eez_rk3566/ui/ui_image_b5.i"
 	@echo "... __/eez_rk3566/ui/ui_image_b5.s"
-	@echo "... __/eez_rk3566/ui/ui_image_backgraound.o"
-	@echo "... __/eez_rk3566/ui/ui_image_backgraound.i"
-	@echo "... __/eez_rk3566/ui/ui_image_backgraound.s"
-	@echo "... __/eez_rk3566/ui/ui_image_backgraound1.o"
-	@echo "... __/eez_rk3566/ui/ui_image_backgraound1.i"
-	@echo "... __/eez_rk3566/ui/ui_image_backgraound1.s"
+	@echo "... __/eez_rk3566/ui/ui_image_background.o"
+	@echo "... __/eez_rk3566/ui/ui_image_background.i"
+	@echo "... __/eez_rk3566/ui/ui_image_background.s"
+	@echo "... __/eez_rk3566/ui/ui_image_background1.o"
+	@echo "... __/eez_rk3566/ui/ui_image_background1.i"
+	@echo "... __/eez_rk3566/ui/ui_image_background1.s"
 	@echo "... __/eez_rk3566/ui/ui_image_background2.o"
 	@echo "... __/eez_rk3566/ui/ui_image_background2.i"
 	@echo "... __/eez_rk3566/ui/ui_image_background2.s"
@@ -1183,6 +1210,9 @@ help:
 	@echo "... __/eez_rk3566/ui/ui_image_calendar_symbol.o"
 	@echo "... __/eez_rk3566/ui/ui_image_calendar_symbol.i"
 	@echo "... __/eez_rk3566/ui/ui_image_calendar_symbol.s"
+	@echo "... __/eez_rk3566/ui/ui_image_coal_ash.o"
+	@echo "... __/eez_rk3566/ui/ui_image_coal_ash.i"
+	@echo "... __/eez_rk3566/ui/ui_image_coal_ash.s"
 	@echo "... __/eez_rk3566/ui/ui_image_home.o"
 	@echo "... __/eez_rk3566/ui/ui_image_home.i"
 	@echo "... __/eez_rk3566/ui/ui_image_home.s"

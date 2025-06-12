@@ -1,8 +1,0 @@
-{
-    "sample_interval_minutes":100,
-    "cw_rotate_seconds":35,
-    "ccw_rotate_seconds":25,
-    "input_motor_stop":12,
-    "input_cw_manual_time":10,
-    "input_ccw_manual_time":30
-}

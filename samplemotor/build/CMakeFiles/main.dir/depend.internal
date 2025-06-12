@@ -279,6 +279,9 @@ CMakeFiles/main.dir/main/src/main.cpp.o
  /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/vars.h
  /home/zhiyao/rkProject/samplemotor/lv_conf.h
  /home/zhiyao/rkProject/samplemotor/lvgl/lv_version.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/display/lv_display.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/drivers/sdl/lv_sdl_window.h
+ /home/zhiyao/rkProject/samplemotor/lvgl/src/indev/lv_indev.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/libs/freetype/lv_freetype.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_internal.h
  /home/zhiyao/rkProject/samplemotor/lvgl/src/lv_conf_kconfig.h

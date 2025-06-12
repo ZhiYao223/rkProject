@@ -278,6 +278,9 @@ CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/ui.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../eez_rk3566/ui/vars.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lv_conf.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/lv_version.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/display/lv_display.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/drivers/sdl/lv_sdl_window.h
+CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/indev/lv_indev.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/libs/freetype/lv_freetype.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lv_conf_internal.h
 CMakeFiles/main.dir/main/src/main.cpp.o: ../lvgl/src/lv_conf_kconfig.h
