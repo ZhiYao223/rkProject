@@ -2205,6 +2205,8 @@ string.h
 -
 thread
 -
+atomic
+-
 actions.h
 /home/zhiyao/rkProject/samplemotor/eez_rk3566/ui/actions.h
 ../ui/vars.h
